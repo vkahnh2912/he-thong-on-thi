@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Làm bài thi - Hệ thống ôn tập & thi trắc nghiệm</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="card quiz-card">
+    <!-- Header: số câu hiện tại / tổng số câu -->
+    <div class="quiz-header">
+      <div class="quiz-counter">
+        <i class="fa-solid fa-pen"></i>
+        Câu <span id="currentNum">1</span> / <span id="totalNum">0</span>
+      </div>
+      <div class="timer"><i class="fa-regular fa-clock"></i> <span id="answeredCount">0</span> câu đã trả lời</div>
+    </div>
+
+    <!-- Thanh tiến độ -->
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill" id="progressBar"></div>
+    </div>
+
+    <!-- Nội dung câu hỏi -->
+    <div class="question-text" id="questionText">Đang tải câu hỏi...</div>
+
+    <!-- 4 đáp án -->
+    <div class="options" id="optionsContainer"></div>
+
+    <!-- Điều hướng câu trước / câu sau -->
+    <div class="nav-row">
+      <button class="btn secondary" id="prevBtn">
+        <i class="fa-solid fa-arrow-left"></i> Câu trước
+      </button>
+      <button class="btn secondary" id="nextBtn">
+        Câu tiếp theo <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+
+    <!-- Danh sách số câu để chuyển nhanh -->
+    <div class="question-list" id="questionList"></div>
+
+    <!-- Nộp bài -->
+    <button class="btn success" id="submitBtn">
+      <i class="fa-solid fa-paper-plane"></i> Nộp bài
+    </button>
+  </div>
+
+  <script>
+    // ===== Kiểm tra đăng nhập & dữ liệu đề thi =====
+    const user = localStorage.getItem('quizUser');
+    if (!user) window.location.href = 'index.html';
+
+    const quizDataRaw = localStorage.getItem('quizData');
+    if (!quizDataRaw) window.location.href = 'select.html';
+
+    const questions = JSON.parse(quizDataRaw);
+    const totalQuestions = questions.length;
+
+    // ===== Lưu trạng thái trả lời (đáp án người dùng đã chọn cho từng câu) =====
+    // userAnswers[i] = "A" | "B" | "C" | "D" | null
+    let userAnswers = JSON.parse(localStorage.getItem('quizAnswers')) || new Array(totalQuestions).fill(null);
+    let currentIndex = 0;
+
+    // ===== DOM elements =====
+    const currentNumEl = document.getElementById('currentNum');
+    const totalNumEl = document.getElementById('totalNum');
+    const answeredCountEl = document.getElementById('answeredCount');
+    const progressBar = document.getElementById('progressBar');
+    const questionText = document.getElementById('questionText');
+    const optionsContainer = document.getElementById('optionsContainer');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const questionList = document.getElementById('questionList');
+    const submitBtn = document.getElementById('submitBtn');
+
+    totalNumEl.textContent = totalQuestions;
+
+    // ===== Hiển thị câu hỏi theo index =====
+    function renderQuestion(index) {
+      currentIndex = index;
+      const q = questions[index];
+
+      currentNumEl.textContent = index + 1;
+      questionText.textContent = q.question;
+
+      // Cập nhật thanh tiến độ
+      const answeredTotal = userAnswers.filter(a => a !== null).length;
+      answeredCountEl.textContent = answeredTotal;
+      progressBar.style.width = ((index + 1) / totalQuestions * 100) + '%';
+
+      // Render 4 đáp án
+      optionsContainer.innerHTML = '';
+      const letters = ['A', 'B', 'C', 'D'];
+      const userAnswer = userAnswers[index];
+
+      letters.forEach(letter => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerHTML = `<span class="opt-label">${letter}</span><span>${q[letter]}</span>`;
+
+        // Nếu câu này đã được trả lời -> tô màu kết quả & disable
+        if (userAnswer) {
+          btn.disabled = true;
+          if (letter === q.correct) {
+            btn.classList.add('correct');
+          } else if (letter === userAnswer) {
+            btn.classList.add('wrong');
+          }
+        } else {
+          // Chưa trả lời -> cho phép chọn
+          btn.addEventListener('click', () => selectAnswer(letter));
+        }
+
+        optionsContainer.appendChild(btn);
+      });
+
+      renderQuestionList();
+      prevBtn.disabled = (index === 0);
+      nextBtn.disabled = (index === totalQuestions - 1);
+    }
+
+    // ===== Xử lý khi người dùng chọn đáp án =====
+    function selectAnswer(letter) {
+      userAnswers[currentIndex] = letter;
+      localStorage.setItem('quizAnswers', JSON.stringify(userAnswers));
+      renderQuestion(currentIndex); // render lại để tô màu đúng/sai và khóa lựa chọn
+    }
+
+    // ===== Render danh sách số câu để chuyển nhanh =====
+    function renderQuestionList() {
+      questionList.innerHTML = '';
+      for (let i = 0; i < totalQuestions; i++) {
+        const div = document.createElement('div');
+        div.className = 'q-num';
+        div.textContent = i + 1;
+        if (i === currentIndex) div.classList.add('current');
+        if (userAnswers[i] !== null) {
+          div.classList.add('answered');
+          if (userAnswers[i] !== questions[i].correct) {
+            div.classList.add('wrong-answer');
+          }
+        }
+        div.addEventListener('click', () => renderQuestion(i));
+        questionList.appendChild(div);
+      }
+    }
+
+    // ===== Nút điều hướng =====
+    prevBtn.addEventListener('click', () => {
+      if (currentIndex > 0) renderQuestion(currentIndex - 1);
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (currentIndex < totalQuestions - 1) renderQuestion(currentIndex + 1);
+    });
+
+    // ===== Nộp bài =====
+    submitBtn.addEventListener('click', () => {
+      const unanswered = userAnswers.filter(a => a === null).length;
+      if (unanswered > 0) {
+        const confirmSubmit = confirm(`Bạn còn ${unanswered} câu chưa trả lời. Bạn có chắc muốn nộp bài?`);
+        if (!confirmSubmit) return;
+      }
+
+      // Tính điểm
+      let correctCount = 0;
+      questions.forEach((q, i) => {
+        if (userAnswers[i] === q.correct) correctCount++;
+      });
+
+      const wrongCount = totalQuestions - correctCount;
+      const score = (correctCount / totalQuestions * 10).toFixed(2);
+      const percent = (correctCount / totalQuestions * 100).toFixed(1);
+
+      const result = {
+        total: totalQuestions,
+        correct: correctCount,
+        wrong: wrongCount,
+        score: score,
+        percent: percent
+      };
+
+      localStorage.setItem('quizResult', JSON.stringify(result));
+      window.location.href = 'result.html';
+    });
+
+    // ===== Khởi chạy =====
+    renderQuestion(0);
+  </script>
+</body>
+</html>

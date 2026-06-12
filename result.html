@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kết quả bài thi - Hệ thống ôn tập & thi trắc nghiệm</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="card">
+    <h2><i class="fa-solid fa-award"></i>Kết quả bài thi</h2>
+
+    <!-- Điểm số tổng (thang 10) -->
+    <div class="score-big">
+      <span id="scoreValue">0</span><span>/10</span>
+    </div>
+
+    <!-- Thống kê chi tiết -->
+    <div class="result-summary">
+      <div class="result-item correct">
+        <i class="fa-solid fa-circle-check"></i>
+        <div class="value" id="correctValue">0</div>
+        <div class="label">Câu đúng</div>
+      </div>
+
+      <div class="result-item wrong">
+        <i class="fa-solid fa-circle-xmark"></i>
+        <div class="value" id="wrongValue">0</div>
+        <div class="label">Câu sai</div>
+      </div>
+
+      <div class="result-item score">
+        <i class="fa-solid fa-star"></i>
+        <div class="value" id="totalValue">0</div>
+        <div class="label">Tổng số câu</div>
+      </div>
+
+      <div class="result-item percent">
+        <i class="fa-solid fa-percent"></i>
+        <div class="value" id="percentValue">0%</div>
+        <div class="label">Tỷ lệ chính xác</div>
+      </div>
+    </div>
+
+    <!-- Hành động -->
+    <button class="btn" id="retryBtn">
+      <i class="fa-solid fa-rotate-right"></i> Làm lại bài
+    </button>
+
+    <div class="btn-row">
+      <button class="btn secondary" id="homeBtn">
+        <i class="fa-solid fa-house"></i> Về trang chủ
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // ===== Kiểm tra đăng nhập & dữ liệu kết quả =====
+    const user = localStorage.getItem('quizUser');
+    if (!user) window.location.href = 'index.html';
+
+    const resultRaw = localStorage.getItem('quizResult');
+    if (!resultRaw) window.location.href = 'select.html';
+
+    const result = JSON.parse(resultRaw);
+
+    // ===== Hiển thị kết quả =====
+    document.getElementById('scoreValue').textContent = result.score;
+    document.getElementById('correctValue').textContent = result.correct;
+    document.getElementById('wrongValue').textContent = result.wrong;
+    document.getElementById('totalValue').textContent = result.total;
+    document.getElementById('percentValue').textContent = result.percent + '%';
+
+    // ===== Làm lại bài (giữ nguyên đề thi, xóa đáp án & kết quả cũ) =====
+    document.getElementById('retryBtn').addEventListener('click', () => {
+      localStorage.removeItem('quizAnswers');
+      localStorage.removeItem('quizResult');
+      window.location.href = 'quiz.html';
+    });
+
+    // ===== Về trang chủ (trang chọn đề thi) =====
+    document.getElementById('homeBtn').addEventListener('click', () => {
+      localStorage.removeItem('quizAnswers');
+      localStorage.removeItem('quizResult');
+      window.location.href = 'select.html';
+    });
+  </script>
+</body>
+</html>

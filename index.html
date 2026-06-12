@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập - Hệ thống ôn tập & thi trắc nghiệm</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="card">
+    <h1><i class="fa-solid fa-graduation-cap"></i>Đăng nhập</h1>
+
+    <form id="loginForm">
+      <!-- Tên đăng nhập -->
+      <div class="input-group">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" id="username" placeholder="Tên đăng nhập" required>
+      </div>
+
+      <!-- Mật khẩu -->
+      <div class="input-group">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" id="password" placeholder="Mật khẩu" required>
+      </div>
+
+      <button type="submit" class="btn">
+        <i class="fa-solid fa-right-to-bracket"></i> Đăng nhập
+      </button>
+
+      <!-- Thông báo lỗi -->
+      <div class="error-msg" id="errorMsg"></div>
+    </form>
+
+    <p class="note">Demo: dùng bất kỳ tên đăng nhập & mật khẩu (≥ 3 ký tự) để vào hệ thống.</p>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // ===== Xử lý đăng nhập =====
+    const loginForm = document.getElementById('loginForm');
+    const errorMsg = document.getElementById('errorMsg');
+
+    loginForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value.trim();
+
+      // Kiểm tra đơn giản (demo, có thể thay bằng xác thực thật)
+      if (username.length < 3 || password.length < 3) {
+        errorMsg.textContent = 'Tên đăng nhập và mật khẩu phải có ít nhất 3 ký tự!';
+        return;
+      }
+
+      // Lưu thông tin đăng nhập vào localStorage
+      localStorage.setItem('quizUser', username);
+
+      // Chuyển sang trang chọn đề thi
+      window.location.href = 'select.html';
+    });
+
+    // Nếu đã đăng nhập rồi thì chuyển luôn sang trang chọn đề
+    if (localStorage.getItem('quizUser')) {
+      window.location.href = 'select.html';
+    }
+  </script>
+</body>
+</html>

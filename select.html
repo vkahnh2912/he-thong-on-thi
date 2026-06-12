@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chọn đề thi - Hệ thống ôn tập & thi trắc nghiệm</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Thư viện đọc PDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <!-- Thư viện đọc Word (.docx) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+</head>
+<body>
+  <div class="card wide">
+    <!-- Thông tin người dùng -->
+    <div class="user-info">
+      <i class="fa-solid fa-circle-user"></i> Xin chào, <span id="userName">--</span> |
+      <a href="#" id="logoutBtn" style="color:var(--primary); text-decoration:none;">Đăng xuất</a>
+    </div>
+
+    <h2><i class="fa-solid fa-file-circle-question"></i>Chọn đề thi</h2>
+
+    <!-- Khu vực tải đề thi -->
+    <div class="file-input-wrapper">
+      <label for="fileInput" class="btn" style="display:inline-flex; width:auto; padding:12px 24px;">
+        <i class="fa-solid fa-upload"></i> Tải đề thi (file JSON)
+      </label>
+      <input type="file" id="fileInput" accept=".json,application/json">
+
+      <br><br>
+
+      <label for="docInput" class="btn secondary" style="display:inline-flex; width:auto; padding:12px 24px;">
+        <i class="fa-solid fa-file-word"></i> Tải đề thi (PDF / Word)
+      </label>
+      <input type="file" id="docInput" accept=".pdf,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+
+      <div class="upload-status" id="uploadStatus"></div>
+    </div>
+
+    <!-- Nút dùng đề mẫu có sẵn -->
+    <div style="text-align:center; margin-bottom: 10px;">
+      <button class="btn secondary" id="sampleBtn" style="width:auto; padding:10px 20px;">
+        <i class="fa-solid fa-file-import"></i> Dùng đề mẫu (questions.json)
+      </button>
+    </div>
+
+    <!-- Thông tin đề đã tải -->
+    <div id="quizInfo" style="display:none; margin-top:20px;">
+      <div class="result-item score" style="margin-bottom:20px;">
+        <i class="fa-solid fa-list-check"></i>
+        <div class="value" id="totalQuestions">0</div>
+        <div class="label">câu hỏi trong đề thi</div>
+      </div>
+
+      <button class="btn success" id="startBtn">
+        <i class="fa-solid fa-play"></i> Bắt đầu làm bài
+      </button>
+
+      <!-- Tùy chọn đảo câu hỏi / đáp án -->
+      <div style="display:flex; justify-content:center; gap:25px; margin-top:15px; flex-wrap:wrap;">
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer; font-size:14px;">
+          <input type="checkbox" id="shuffleQuestions">
+          <i class="fa-solid fa-shuffle"></i> Đảo thứ tự câu hỏi
+        </label>
+        <label style="display:flex; align-items:center; gap:6px; cursor:pointer; font-size:14px;">
+          <input type="checkbox" id="shuffleAnswers">
+          <i class="fa-solid fa-shuffle"></i> Đảo thứ tự đáp án
+        </label>
+      </div>
+    </div>
+
+    <p class="note">
+      <b>File JSON</b>: question, A, B, C, D, correct (A/B/C/D).<br>
+      <b>File PDF/Word</b>: mỗi câu theo định dạng:<br>
+      <code style="display:block; margin-top:6px; text-align:left; background:#f3f4f6; padding:10px; border-radius:8px; white-space:pre;">Câu 1: Nội dung câu hỏi?
+A. Đáp án A
+B. Đáp án B
+C. Đáp án C
+D. Đáp án D
+Đáp án: B</code>
+    </p>
+  </div>
+
+  <script>
+    // ===== Kiểm tra đăng nhập =====
+    const user = localStorage.getItem('quizUser');
+    if (!user) {
+      window.location.href = 'index.html';
+    }
+    document.getElementById('userName').textContent = user;
+
+    // Đăng xuất
+    document.getElementById('logoutBtn').addEventListener('click', function (e) {
+      e.preventDefault();
+      localStorage.removeItem('quizUser');
+      window.location.href = 'index.html';
+    });
+
+    const fileInput = document.getElementById('fileInput');
+    const docInput = document.getElementById('docInput');
+    const uploadStatus = document.getElementById('uploadStatus');
+    const quizInfo = document.getElementById('quizInfo');
+    const totalQuestions = document.getElementById('totalQuestions');
+    const startBtn = document.getElementById('startBtn');
+    const sampleBtn = document.getElementById('sampleBtn');
+
+    // ===== Hàm xử lý dữ liệu câu hỏi sau khi đọc được =====
+    function processQuestions(data, sourceName) {
+      try {
+        if (!Array.isArray(data) || data.length === 0) {
+          throw new Error('File không chứa danh sách câu hỏi hợp lệ!');
+        }
+        // Kiểm tra cấu trúc cơ bản của câu hỏi đầu tiên
+        const q = data[0];
+        if (!q.question || !q.A || !q.B || !q.C || !q.D || !q.correct) {
+          throw new Error('Cấu trúc câu hỏi không đúng định dạng!');
+        }
+
+        // Lưu đề thi vào localStorage để dùng ở trang quiz
+        localStorage.setItem('quizData', JSON.stringify(data));
+
+        uploadStatus.style.color = 'var(--success)';
+        uploadStatus.innerHTML = `<i class="fa-solid fa-circle-check"></i> Tải thành công: ${sourceName} (${data.length} câu)`;
+
+        totalQuestions.textContent = data.length;
+        quizInfo.style.display = 'block';
+      } catch (err) {
+        uploadStatus.style.color = 'var(--danger)';
+        uploadStatus.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Lỗi: ${err.message}`;
+        quizInfo.style.display = 'none';
+      }
+    }
+
+    // ===== Tải file JSON từ máy người dùng =====
+    fileInput.addEventListener('change', function (e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function (event) {
+        try {
+          const data = JSON.parse(event.target.result);
+          processQuestions(data, file.name);
+        } catch (err) {
+          uploadStatus.style.color = 'var(--danger)';
+          uploadStatus.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> File JSON không hợp lệ!`;
+          quizInfo.style.display = 'none';
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    // ===== Dùng đề mẫu có sẵn (questions.json cùng thư mục) =====
+    sampleBtn.addEventListener('click', function () {
+      fetch('questions.json')
+        .then(res => {
+          if (!res.ok) throw new Error('Không tìm thấy file questions.json');
+          return res.json();
+        })
+        .then(data => processQuestions(data, 'questions.json (đề mẫu)'))
+        .catch(err => {
+          uploadStatus.style.color = 'var(--danger)';
+          uploadStatus.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> ${err.message}. Hãy mở trang bằng Live Server.`;
+        });
+    });
+
+    // ===== Phân tích văn bản thô (từ PDF/Word) thành danh sách câu hỏi =====
+    // Định dạng yêu cầu:
+    // Câu 1: Nội dung câu hỏi?
+    // A. Đáp án A
+    // B. Đáp án B
+    // C. Đáp án C
+    // D. Đáp án D
+    // Đáp án: B
+    function parseQuestionsFromText(text) {
+      const result = [];
+
+      // Chuẩn hóa: tách dòng, loại bỏ dòng trống thừa
+      const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+
+      let current = null;
+
+      // Regex cho từng loại dòng
+      const reQuestion = /^(?:Câu|Cau|Question)\s*\d+\s*[:.)]\s*(.+)$/i;
+      const reOption = /^([A-D])\s*[.):]\s*(.+)$/i;
+      const reAnswer = /^(?:Đáp án|Dap an|Answer|ĐA)\s*[:.)]\s*([A-D])/i;
+
+      for (const line of lines) {
+        let m;
+
+        if ((m = line.match(reQuestion))) {
+          // Bắt đầu câu hỏi mới -> lưu câu trước (nếu hợp lệ)
+          if (current && current.question && current.A && current.B && current.C && current.D && current.correct) {
+            result.push(current);
+          }
+          current = { question: m[1].trim(), A: '', B: '', C: '', D: '', correct: '' };
+        } else if (current && (m = line.match(reOption))) {
+          const letter = m[1].toUpperCase();
+          current[letter] = m[2].trim();
+        } else if (current && (m = line.match(reAnswer))) {
+          current.correct = m[1].toUpperCase();
+        } else if (current && !current.A) {
+          // Nối thêm nếu câu hỏi dài bị xuống dòng (chưa gặp đáp án A)
+          current.question += ' ' + line;
+        }
+      }
+
+      // Lưu câu hỏi cuối cùng
+      if (current && current.question && current.A && current.B && current.C && current.D && current.correct) {
+        result.push(current);
+      }
+
+      return result;
+    }
+
+    // ===== Tải đề thi từ file PDF / Word =====
+    docInput.addEventListener('change', function (e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const ext = file.name.split('.').pop().toLowerCase();
+      uploadStatus.style.color = 'var(--muted)';
+      uploadStatus.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Đang xử lý file ${file.name}...`;
+
+      const reader = new FileReader();
+
+      reader.onload = async function (event) {
+        try {
+          let text = '';
+
+          if (ext === 'pdf') {
+            // Đọc PDF bằng pdf.js
+            pdfjsLib.GlobalWorkerOptions.workerSrc =
+              'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+            const typedArray = new Uint8Array(event.target.result);
+            const pdf = await pdfjsLib.getDocument({ data: typedArray }).promise;
+
+            for (let i = 1; i <= pdf.numPages; i++) {
+              const page = await pdf.getPage(i);
+              const content = await page.getTextContent();
+
+              // Ghép text theo từng item, giữ ngắt dòng giữa các block
+              let lastY = null;
+              content.items.forEach(item => {
+                if (lastY !== null && Math.abs(item.transform[5] - lastY) > 2) {
+                  text += '\n';
+                }
+                text += item.str;
+                lastY = item.transform[5];
+              });
+              text += '\n';
+            }
+          } else if (ext === 'docx') {
+            // Đọc Word bằng mammoth.js
+            const result = await mammoth.extractRawText({ arrayBuffer: event.target.result });
+            text = result.value;
+          } else {
+            throw new Error('Chỉ hỗ trợ file .pdf hoặc .docx!');
+          }
+
+          const data = parseQuestionsFromText(text);
+          if (data.length === 0) {
+            throw new Error('Không nhận diện được câu hỏi nào. Vui lòng kiểm tra lại định dạng file.');
+          }
+
+          processQuestions(data, file.name);
+        } catch (err) {
+          uploadStatus.style.color = 'var(--danger)';
+          uploadStatus.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Lỗi: ${err.message}`;
+          quizInfo.style.display = 'none';
+        }
+      };
+
+      reader.readAsArrayBuffer(file);
+    });
+
+    // ===== Hàm xáo trộn mảng (Fisher-Yates) =====
+    function shuffleArray(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    // ===== Đảo thứ tự đáp án A/B/C/D cho một câu hỏi, giữ đúng đáp án đúng =====
+    function shuffleQuestionOptions(q) {
+      const letters = ['A', 'B', 'C', 'D'];
+      const entries = letters.map(l => ({ text: q[l], isCorrect: l === q.correct }));
+      const shuffled = shuffleArray(entries);
+
+      const newQ = { question: q.question };
+      let newCorrect = '';
+      letters.forEach((letter, idx) => {
+        newQ[letter] = shuffled[idx].text;
+        if (shuffled[idx].isCorrect) newCorrect = letter;
+      });
+      newQ.correct = newCorrect;
+      return newQ;
+    }
+
+    // ===== Bắt đầu làm bài =====
+    startBtn.addEventListener('click', function () {
+      // Xóa kết quả/đáp án cũ nếu có
+      localStorage.removeItem('quizAnswers');
+      localStorage.removeItem('quizResult');
+
+      // Lấy dữ liệu đề thi gốc đã lưu
+      let data = JSON.parse(localStorage.getItem('quizData'));
+
+      // Đảo thứ tự câu hỏi nếu được chọn
+      if (document.getElementById('shuffleQuestions').checked) {
+        data = shuffleArray(data);
+      }
+
+      // Đảo thứ tự đáp án A/B/C/D từng câu nếu được chọn
+      if (document.getElementById('shuffleAnswers').checked) {
+        data = data.map(q => shuffleQuestionOptions(q));
+      }
+
+      // Lưu lại dữ liệu (đã xáo trộn nếu có) để quiz.html sử dụng
+      localStorage.setItem('quizData', JSON.stringify(data));
+
+      window.location.href = 'quiz.html';
+    });
+  </script>
+</body>
+</html>
