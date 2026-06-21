@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xem đáp án chi tiết - Hệ thống ôn tập & thi trắc nghiệm</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="card review-card">
+    <h2><i class="fa-solid fa-list-check"></i> Xem đáp án chi tiết</h2>
+
+    <p id="reviewSummary" class="note"></p>
+
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">Tất cả</button>
+      <button class="filter-btn" data-filter="wrong">Câu sai</button>
+      <button class="filter-btn" data-filter="correct">Câu đúng</button>
+      <button class="filter-btn" data-filter="skipped">Chưa trả lời</button>
+    </div>
+
+    <div id="reviewList"></div>
+
+    <div class="btn-row" style="margin-top:20px;">
+      <button class="btn secondary" id="backBtn">
+        <i class="fa-solid fa-arrow-left"></i> Quay lại kết quả
+      </button>
+      <button class="btn" id="homeBtn">
+        <i class="fa-solid fa-house"></i> Về trang chủ
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    requireLogin();
+
+    const quizData = JSON.parse(localStorage.getItem('quizData') || 'null');
+    const userAnswers = JSON.parse(localStorage.getItem('quizAnswers') || 'null');
+    const result = JSON.parse(localStorage.getItem('quizResult') || 'null');
+
+    if (!quizData || !userAnswers || !result) {
+      window.location.href = 'select.html';
+    }
+
+    const examName = localStorage.getItem('quizExamName') || 'Đề thi';
+    document.getElementById('reviewSummary').textContent =
+      `${examName} — ${result.correct}/${result.total} câu đúng (${result.percent}%)`;
+
+    let currentFilter = 'all';
+    const reviewList = document.getElementById('reviewList');
+
+    function getItemStatus(index) {
+      const ans = userAnswers[index];
+      const q = quizData[index];
+      if (ans === null) return 'skipped';
+      return ans === q.correct ? 'correct' : 'wrong';
+    }
+
+    function renderReview() {
+      reviewList.innerHTML = '';
+
+      quizData.forEach((q, i) => {
+        const status = getItemStatus(i);
+        if (currentFilter !== 'all' && currentFilter !== status) return;
+
+        const userAns = userAnswers[i];
+        const div = document.createElement('div');
+        div.className = `review-item ${status}-item`;
+
+        let userLine = '';
+        if (userAns === null) {
+          userLine = `<div class="review-answer-line user-wrong">Bạn chưa trả lời</div>`;
+        } else if (userAns === q.correct) {
+          userLine = `<div class="review-answer-line user-correct">
+            <i class="fa-solid fa-check"></i> Bạn chọn: <b>${userAns}</b>. ${q[userAns]}
+          </div>`;
+        } else {
+          userLine = `<div class="review-answer-line user-wrong">
+            <i class="fa-solid fa-xmark"></i> Bạn chọn: <b>${userAns}</b>. ${q[userAns]}
+          </div>`;
+        }
+
+        const correctLine = userAns !== q.correct
+          ? `<div class="review-answer-line correct-ans">
+              <i class="fa-solid fa-lightbulb"></i> Đáp án đúng: <b>${q.correct}</b>. ${q[q.correct]}
+            </div>`
+          : '';
+
+        div.innerHTML = `
+          <div class="review-q-num">Câu ${i + 1}</div>
+          <div class="question-text" style="font-size:16px; margin-bottom:10px;">${q.question}</div>
+          ${userLine}
+          ${correctLine}
+        `;
+        reviewList.appendChild(div);
+      });
+
+      if (reviewList.children.length === 0) {
+        reviewList.innerHTML = '<p class="note">Không có câu nào trong bộ lọc này.</p>';
+      }
+    }
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentFilter = btn.dataset.filter;
+        document.querySelectorAll('.filter-btn').forEach(b =>
+          b.classList.toggle('active', b === btn)
+        );
+        renderReview();
+      });
+    });
+
+    document.getElementById('backBtn').addEventListener('click', () => {
+      window.location.href = 'result.html';
+    });
+
+    document.getElementById('homeBtn').addEventListener('click', () => {
+      window.location.href = 'select.html';
+    });
+
+    renderReview();
+  </script>
+</body>
+</html>

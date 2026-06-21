@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kết quả bài thi - Hệ thống ôn tập & thi trắc nghiệm</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="card">
+    <h2><i class="fa-solid fa-award"></i>Kết quả bài thi</h2>
+
+    <p id="examNameResult" class="note" style="margin-bottom:0;"></p>
+
+    <div class="score-big">
+      <span id="scoreValue">0</span><span>/10</span>
+    </div>
+
+    <div class="result-summary">
+      <div class="result-item correct">
+        <i class="fa-solid fa-circle-check"></i>
+        <div class="value" id="correctValue">0</div>
+        <div class="label">Câu đúng</div>
+      </div>
+
+      <div class="result-item wrong">
+        <i class="fa-solid fa-circle-xmark"></i>
+        <div class="value" id="wrongValue">0</div>
+        <div class="label">Câu sai</div>
+      </div>
+
+      <div class="result-item score">
+        <i class="fa-solid fa-star"></i>
+        <div class="value" id="totalValue">0</div>
+        <div class="label">Tổng số câu</div>
+      </div>
+
+      <div class="result-item percent">
+        <i class="fa-solid fa-percent"></i>
+        <div class="value" id="percentValue">0%</div>
+        <div class="label">Tỷ lệ chính xác</div>
+      </div>
+    </div>
+
+    <p id="durationInfo" class="note" style="display:none;"></p>
+
+    <div class="btn-row">
+      <button class="btn" id="reviewBtn">
+        <i class="fa-solid fa-list-check"></i> Xem đáp án chi tiết
+      </button>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn" id="retryBtn">
+        <i class="fa-solid fa-rotate-right"></i> Làm lại bài
+      </button>
+      <button class="btn" id="retryWrongBtn">
+        <i class="fa-solid fa-rotate-left"></i> Làm lại câu sai
+      </button>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn secondary" id="homeBtn">
+        <i class="fa-solid fa-house"></i> Về trang chủ
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    requireLogin();
+
+    const resultRaw = localStorage.getItem('quizResult');
+    if (!resultRaw) window.location.href = 'select.html';
+
+    const result = JSON.parse(resultRaw);
+    const examName = localStorage.getItem('quizExamName');
+
+    document.getElementById('scoreValue').textContent = result.score;
+    document.getElementById('correctValue').textContent = result.correct;
+    document.getElementById('wrongValue').textContent = result.wrong;
+    document.getElementById('totalValue').textContent = result.total;
+    document.getElementById('percentValue').textContent = result.percent + '%';
+
+    if (examName) {
+      document.getElementById('examNameResult').textContent = examName;
+    }
+
+    if (result.duration != null) {
+      const el = document.getElementById('durationInfo');
+      el.style.display = 'block';
+      el.innerHTML = `<i class="fa-regular fa-clock"></i> Thời gian làm bài: <b>${formatDuration(result.duration)}</b>`;
+    }
+
+    document.getElementById('reviewBtn').addEventListener('click', () => {
+      window.location.href = 'review.html';
+    });
+
+    document.getElementById('retryBtn').addEventListener('click', () => {
+      localStorage.removeItem('quizAnswers');
+      localStorage.removeItem('quizResult');
+      localStorage.removeItem('quizStartTime');
+      localStorage.setItem('quizStartTime', Date.now().toString());
+      window.location.href = 'quiz.html';
+    });
+
+    const retryWrongBtn = document.getElementById('retryWrongBtn');
+    const quizData = JSON.parse(localStorage.getItem('quizData') || 'null');
+    const userAnswers = JSON.parse(localStorage.getItem('quizAnswers') || 'null');
+
+    let wrongQuestions = [];
+    if (quizData && userAnswers) {
+      wrongQuestions = quizData.filter((q, i) => userAnswers[i] !== q.correct);
+    }
+
+    if (wrongQuestions.length === 0) {
+      retryWrongBtn.style.display = 'none';
+    } else {
+      retryWrongBtn.addEventListener('click', () => {
+        localStorage.setItem('quizData', JSON.stringify(wrongQuestions));
+        localStorage.setItem('quizExamName',
+          (examName || 'Đề thi') + ` (Ôn lại ${wrongQuestions.length} câu sai)`);
+        localStorage.removeItem('quizAnswers');
+        localStorage.removeItem('quizResult');
+        localStorage.removeItem('quizStartTime');
+        localStorage.setItem('quizStartTime', Date.now().toString());
+        window.location.href = 'quiz.html';
+      });
+    }
+
+    document.getElementById('homeBtn').addEventListener('click', () => {
+      localStorage.removeItem('quizAnswers');
+      localStorage.removeItem('quizResult');
+      window.location.href = 'select.html';
+    });
+  </script>
+</body>
+</html>

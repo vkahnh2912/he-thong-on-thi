@@ -1,0 +1,3740 @@
+[
+  {
+    "question": "Mô hình tường lửa ISA là viết tắt của?",
+    "A": "Microsoft International Security and Acceleration",
+    "B": "Manager Internet Security and Association",
+    "C": "Microsoft Internet Security and Acceleration",
+    "D": "Microsoft Internet System and Acknowledgement",
+    "correct": "C"
+  },
+  {
+    "question": "Khi cấu hình cho dịch vụ DNS mục Reverse Lookup Zone là?",
+    "A": "Chứa toàn bộ zone của DNS",
+    "B": "Vùng ánh xạ từ địa chỉ tên miền thành địa chỉ IP",
+    "C": "Vùng ánh xạ từ địa chỉ IP thành địa chỉ tên miền",
+    "D": "Chứa các zone không sử dụng",
+    "correct": "C"
+  },
+  {
+    "question": "Thông tin về DNS được ghi ở đâu?",
+    "A": "Unix/etc/bin",
+    "B": "system32\\etc\\DNS",
+    "C": "Win/bin/etc/DNS",
+    "D": "Window\\system32\\DNS",
+    "correct": "D"
+  },
+  {
+    "question": "DNS chủ yếu hoạt động trên mô hình mạng nào?",
+    "A": "Peer to peer",
+    "B": "Tất cả đều đúng",
+    "C": "Client/Server",
+    "D": "Server-based",
+    "correct": "C"
+  },
+  {
+    "question": "Hệ thống phân giải tên miền DNS ra đời năm nào?",
+    "A": "1995",
+    "B": "1984",
+    "C": "1985",
+    "D": "1981",
+    "correct": "B"
+  },
+  {
+    "question": "Trường hợp nào sau đây là sai đối với DNS Root Server?",
+    "A": "Root DNS database được duy trì bởi người có thẩm quyền",
+    "B": "Các Root Server cung cấp các địa chỉ để các server domain kết hợp với Root đó",
+    "C": "Root Server được sử dụng để định tuyến các yêu cầu tới các server tiếp theo",
+    "D": "Không nhất thiết phải có DNS Root Server",
+    "correct": "D"
+  },
+  {
+    "question": "DNS Name Root được quản lý bởi tổ chức nào?",
+    "A": "ISO",
+    "B": "ICANC",
+    "C": "ICANN",
+    "D": "INIC",
+    "correct": "C"
+  },
+  {
+    "question": "Ký hiệu mặc định của Root Name là gì?",
+    "A": "(*)",
+    "B": "(.)",
+    "C": "()",
+    "D": "Không có",
+    "correct": "B"
+  },
+  {
+    "question": "Chọn phát biểu đúng?",
+    "A": "Địa chỉ IP của máy trạm do người dùng tự cài đặt",
+    "B": "Địa chỉ IP của máy trạm do máy chủ tự động cấp phát",
+    "C": "Các phương án trên đều đúng",
+    "D": "Không có phương án nào đúng",
+    "correct": "C"
+  },
+  {
+    "question": "Truy vấn đệ quy là gì?",
+    "A": "Truy vấn giữa DNS Server và DNS Server",
+    "B": "Không được sử dụng trong DNS",
+    "C": "Là một truy vấn trong quá trình cấp phát IP động",
+    "D": "Truy vấn giữa Resolver và DNS Server",
+    "correct": "D"
+  },
+  {
+    "question": "Thành phần của DNS gồm?",
+    "A": "DNS Server, các Resolver, Client và các Resource Record",
+    "B": "DNS Server, các Zone và các Resource Record",
+    "C": "DNS Server, các Zone, các Resolver và các Resource Record",
+    "D": "DNS Server, các Zone, các Resolver, Client và các Resource Record",
+    "correct": "C"
+  },
+  {
+    "question": "Khi bạn dùng lệnh nslookup, nếu thấy báo có địa chỉ IP nhưng tên Server là Unknow có nghĩa là?",
+    "A": "Máy của bạn không kết nối mạng",
+    "B": "Chưa tìm được DNS Server",
+    "C": "Dùng lệnh sai",
+    "D": "DNS Server đã cài đặt chưa thành công",
+    "correct": "D"
+  },
+  {
+    "question": "Khi cấu hình cho dịch vụ DNS mục Forward Lookup Zone là?",
+    "A": "Chứa toàn bộ Zone của DNS",
+    "B": "Vùng ánh xạ từ địa chỉ tên miền thành địa chỉ IP",
+    "C": "Chứa các Zone không sử dụng",
+    "D": "Vùng ánh xạ từ địa chỉ IP thành địa chỉ tên miền",
+    "correct": "B",
+    "image": "images/Phan1_Cau13.png"
+  },
+  {
+    "question": "Hệ thống tên miền DNS được cài đặt nhằm để làm gì?",
+    "A": "Giúp Server cấp phát địa chỉ IP cho Client",
+    "B": "Định danh một máy tính trên mạng cục bộ",
+    "C": "Dễ nhớ địa chỉ máy tính hơn",
+    "D": "Để thay thế địa chỉ IP, máy tính sẽ không cần dùng địa chỉ IP nữa",
+    "correct": "C"
+  },
+  {
+    "question": "Khi dùng lệnh Ping www.google.com bạn không thấy reply. Nguyên nhân là gì?",
+    "A": "Trong cơ sở dữ liệu của DNS Server không có tên máy này",
+    "B": "Tất cả đều sai",
+    "C": "Do bạn chưa khai báo địa chỉ Server DNS cho máy bạn",
+    "D": "Do máy có tên miền này không cùng NetID với máy bạn",
+    "correct": "C"
+  },
+  {
+    "question": "Truy vấn tương tác là?",
+    "A": "Không được sử dụng trong DNS",
+    "B": "Tất cả đều sai",
+    "C": "Truy vấn giữa DNS Server và DNS Server",
+    "D": "Truy vấn giữa Resolver và DNS Server",
+    "correct": "C"
+  },
+  {
+    "question": "Nếu một DNS Server không phân giải được tên miền trong cơ sở dữ liệu cục bộ nó sẽ làm gì?",
+    "A": "Dừng phân giải ngay lập tức",
+    "B": "Gửi trả thông báo không tồn tại tên miền đó cho Resolver",
+    "C": "DNS Server sẽ tiếp tục gửi truy vấn tới các DNS Server khác ở mức cao hơn, để Name Server này sẽ tự gửi trả địa chỉ cho các Resolver",
+    "D": "DNS Server sẽ tiếp tục gửi truy vấn tới các DNS Server khác ở mức cao hơn",
+    "correct": "D"
+  },
+  {
+    "question": "Resource Records là gì?",
+    "A": "Bản ghi nhật ký của các DNS Client khi tham gia vào truy vấn đệ quy",
+    "B": "Là danh sách cơ sở dữ liệu được sử dụng để trả lời các truy vấn từ DNS Client",
+    "C": "Nơi lưu giữ các Top Level Name",
+    "D": "Là các Root Server",
+    "correct": "B"
+  },
+  {
+    "question": "Theo bạn nếu không có DNS thì sẽ ra sao?",
+    "A": "Không thể truy cập Internet",
+    "B": "Phải nhớ địa chỉ IP khi gõ vào một trình duyệt",
+    "C": "Chỉ sử dụng mạng LAN",
+    "D": "Phải ghi tên miền ra danh bạ như sử dụng danh bạ điện thoại",
+    "correct": "B"
+  },
+  {
+    "question": "Một DNS Domain Namespace gồm?",
+    "A": "Root Name, Top-Level Domain, Zone, Subdomain, Host",
+    "B": "Root Name, Top-Level Domain, Second-Level-Domain, Subdomain",
+    "C": "Root Name, Top-Level Domain, Second-Level-Domain, Subdomain, Host",
+    "D": "Root Name, Top-Level Domain, Second-Level-Domain, Zone, Subdomain, Host",
+    "correct": "C"
+  },
+  {
+    "question": "Bạn có thể tạo ra mấy loại DNS Zone?",
+    "A": "4",
+    "B": "2",
+    "C": "3",
+    "D": "1",
+    "correct": "C"
+  },
+  {
+    "question": "Truy vấn tới một Name Server là công việc của?",
+    "A": "DHCP Server",
+    "B": "Root Hint",
+    "C": "Zone",
+    "D": "Resolver",
+    "correct": "D"
+  },
+  {
+    "question": "ISA là sản phẩm của hãng nào?",
+    "A": "Apple",
+    "B": "Novell",
+    "C": "Microsoft",
+    "D": "Bekerly",
+    "correct": "C"
+  },
+  {
+    "question": "ISA Server 2006 có mấy phiên bản?",
+    "A": "3",
+    "B": "1",
+    "C": "4",
+    "D": "2",
+    "correct": "D"
+  },
+  {
+    "question": "Microsoft ISA Server 2006 có khả năng bảo vệ như thế nào?",
+    "A": "Bảo vệ một máy duy nhất có cài đặt ISA",
+    "B": "Tùy vào người quản trị cấu hình ISA",
+    "C": "Bảo vệ toàn hệ thống mạng",
+    "D": "Bảo vệ Web Server và Mail Server",
+    "correct": "C"
+  },
+  {
+    "question": "ISA Server tối thiểu cần bao nhiêu card mạng?",
+    "A": "4",
+    "B": "2",
+    "C": "3",
+    "D": "1",
+    "correct": "B"
+  },
+  {
+    "question": "ISA Client nào không thể chứng thực được User?",
+    "A": "Firewall Client",
+    "B": "Web Proxy Client",
+    "C": "Tất cả các ý trên đều sai",
+    "D": "SecureNAT Client",
+    "correct": "D"
+  },
+  {
+    "question": "ISA Client nào phải sử dụng cài Software?",
+    "A": "Web Proxy Client",
+    "B": "Firewall Client",
+    "C": "Tất cả các ý trên",
+    "D": "SecureNAT Client",
+    "correct": "B"
+  },
+  {
+    "question": "Firewall Client có thể cài được trên môi trường nào?",
+    "A": "MSDOS",
+    "B": "Unix",
+    "C": "Window",
+    "D": "Tất cả các hệ điều hành",
+    "correct": "C"
+  },
+  {
+    "question": "Web Proxy trên ISA chạy port là bao nhiêu?",
+    "A": "25",
+    "B": "80",
+    "C": "8098",
+    "D": "8080",
+    "correct": "D"
+  },
+  {
+    "question": "Mô hình ISA nào cho phép ta có thể cài đặt nhiều ISA Server trong mạng?",
+    "A": "3-Leg Perimeter",
+    "B": "Front/Back Firewall",
+    "C": "Tất cả đều đúng",
+    "D": "Edge Firewall",
+    "correct": "B"
+  },
+  {
+    "question": "Khi muốn xin lại IP Address, DHCP Client sẽ gửi lại gói tin DHCP REQUEST trực tiếp cho DHCP Server mà nó đã xin ban đầu với dạng truyền gói tin nào?",
+    "A": "Broadcast",
+    "B": "Multicast",
+    "C": "Unicast",
+    "D": "Tất cả đều sai",
+    "correct": "C"
+  },
+  {
+    "question": "ISA Client chỉ có thể cài trên hệ điều hành Window?",
+    "A": "SecureNAT Client",
+    "B": "Tất cả các ý trên",
+    "C": "Firewall Client",
+    "D": "Web Proxy Client",
+    "correct": "C"
+  },
+  {
+    "question": "Theo thời gian mặc định của DHCP Server thì mỗi IP Lease chỉ được 8 ngày. Sau khoảng thời gian bao lâu thì DHCP Client phải tự động gửi một DHCP Request trực tiếp tới DHCP Server mà nó xin ban đầu để xin lại IP Address?",
+    "A": "8 ngày (sau khi hết thời gian xin cấp phát IP)",
+    "B": "4 ngày (sau 50% thời gian xin cấp phát IP)",
+    "C": "Không phải gửi lại gói tin xin cấp lại, vẫn hoạt động bình thường với IP đã được cấp",
+    "D": "Không thể xin cấp lại, DHCP Server chỉ cấp phát 1 lần duy nhất",
+    "correct": "B"
+  },
+  {
+    "question": "Cổng mặc định của Remote Desktop là?",
+    "A": "2120",
+    "B": "3389",
+    "C": "8080",
+    "D": "8098",
+    "correct": "B"
+  },
+  {
+    "question": "Cổng mặc định của Remote Web Browser là?",
+    "A": "3389",
+    "B": "2120",
+    "C": "8098",
+    "D": "8080",
+    "correct": "C"
+  },
+  {
+    "question": "Nếu sau 50% thời gian hoạt động DHCP Client gửi DHCP Request tới DHCP Server đã cấp phát cho nó địa chỉ IP, nhưng DHCP đó đã ngưng hoạt động, thì sẽ xảy ra vấn đề gì?",
+    "A": "DHCP Client đó không thể kết nối vào mạng nữa",
+    "B": "DHCP vẫn hoạt động bình thường đến hết thời gian Lease mặc định thì xin DHCP khác cấp phát địa chỉ IP cho mình",
+    "C": "DHCP Client vẫn hoạt động bình thường cho đến hết thời gian Lease mặc định ban đầu thì ngừng hoạt động, không thể xin cấp phát IP một lần nữa",
+    "D": "DHCP vẫn hoạt động bình thường đến hết 87,5% thời gian Lease mặc định thì xin DHCP khác cấp phát địa chỉ IP cho mình",
+    "correct": "D"
+  },
+  {
+    "question": "Thông tin người dùng được lưu trong tệp nào tại Domain Controller Server khi sử dụng dịch vụ Active Directory?",
+    "A": "SYSTEM32",
+    "B": "NTDS.DIT",
+    "correct": "B"
+  },
+  {
+    "question": "Tệp SAM viết tắt của?",
+    "A": "Security Access Manager",
+    "B": "Set Accounts Manager",
+    "C": "Security Accounts Manager",
+    "D": "Security Accounts Management",
+    "correct": "C"
+  },
+  {
+    "question": "Bạn quản trị mạng trong công ty A, tất cả các máy kiểm soát miền là Window Server 2003, bạn sẽ phải cài đặt dịch vụ gì để có thể cấu hình một máy thành Web Server?",
+    "A": "Active Directory",
+    "B": "DNS",
+    "C": "IIS",
+    "D": "DHCP",
+    "correct": "C"
+  },
+  {
+    "question": "Chọn phát biểu đúng về tài khoản cục bộ được tạo trên máy trạm?",
+    "A": "Đăng nhập được trên máy cục bộ và máy chủ",
+    "B": "Quản lý việc đăng nhập",
+    "C": "Không thể truy nhập tài nguyên miền",
+    "D": "Có trên Domain Controller",
+    "correct": "C"
+  },
+  {
+    "question": "Muốn cài đặt dịch vụ AD (Active Directory) ta sử dụng lệnh nào sau đây?",
+    "A": "Start Run gpedit.msc",
+    "B": "Khởi động tệp ActiveDirectory.exe",
+    "C": "Không cần cài đặt vì đã tự động chạy khi cài Window",
+    "D": "Start Run dcpromo",
+    "correct": "D"
+  },
+  {
+    "question": "Chọn phát biểu đúng nhất về Domain Controller là gì?",
+    "A": "Một máy trạm được quyền truy xuất tài nguyên miền",
+    "B": "Được sử dụng để quản lý miền",
+    "C": "Chỉ lưu thông tin DNS",
+    "D": "Được dùng để lưu thông tin Account cục bộ",
+    "correct": "B"
+  },
+  {
+    "question": "Chọn phát biểu đúng về OU (Organizational Unit)?",
+    "A": "Là đối tượng để làm tăng số miền (Domain)",
+    "B": "OU không thể thay thế cho Subdomain",
+    "C": "Là một thành phần trong cấu trúc AD",
+    "D": "Một nhóm địa chỉ IP để cấp phát động",
+    "correct": "C"
+  },
+  {
+    "question": "Thế nào được gọi là một Domain?",
+    "A": "Chỉ gồm các Server được cài đặt hệ điều hành Window Server",
+    "B": "Một vùng làm việc với hạn chế về tài nguyên",
+    "C": "Một vùng dùng chung cơ sở dữ liệu",
+    "D": "Gồm các máy hoạt động riêng lẻ",
+    "correct": "C"
+  },
+  {
+    "question": "Exchange là sản phẩm của hãng nào?",
+    "A": "Novell",
+    "B": "Apple",
+    "C": "Microsoft",
+    "D": "Bekerly",
+    "correct": "C"
+  },
+  {
+    "question": "Khi cài đặt xong DNS, có mấy thành phần trong DNS?",
+    "A": "2",
+    "B": "3",
+    "C": "5",
+    "D": "4",
+    "correct": "B"
+  },
+  {
+    "question": "Khi cài đặt xong DNS, những thành phần nào có trong DNS?",
+    "A": "Forward Lookup Server, Reverse Lookup Server, Event Lookup Server",
+    "B": "Forward Lookup Zones, Reverse Lookup Zones, Event Lookup Zones",
+    "C": "Forward Lookup Zones, Reverse Lookup Zones, Event Viewer",
+    "D": "Forward Lookup Server, Reverse Lookup Server, Event Viewer",
+    "correct": "C"
+  },
+  {
+    "question": "Chức năng của Event Viewer trong DNS là?",
+    "A": "Chứa tất cả các Zone nghịch của dịch vụ DNS, Zone này được lưu tại máy DNS Server",
+    "B": "Đây là trình theo dõi sự kiện nhật ký dịch vụ DNS, nó sẽ lưu trữ các thông tin về cảnh giác Alert, cảnh báo Warnings, lỗi Errors",
+    "C": "Tất cả đều sai",
+    "D": "Chứa tất cả các Zone thuận của dịch vụ DNS, Zone này được lưu tại máy DNS Server",
+    "correct": "B"
+  },
+  {
+    "question": "Chức năng của Forward Lookup Zones trong DNS là?",
+    "A": "Đây là trình theo dõi sự kiện nhật ký dịch vụ DNS, nó sẽ lưu trữ các thông tin về cảnh giác Alert, cảnh báo Warnings, lỗi Errors",
+    "B": "Chứa tất cả các Zone nghịch của dịch vụ DNS, Zone này được lưu tại máy DNS Server",
+    "C": "Chứa tất cả các Zone thuận của dịch vụ DNS, Zone này được lưu tại máy DNS Server",
+    "D": "Tất cả đều sai",
+    "correct": "C"
+  },
+  {
+    "question": "Lấy thông tin cấu hình TCP/IP từ DHCP Server ta dùng lệnh nào trên máy Client?",
+    "A": "Ipconfig/all",
+    "B": "Ping",
+    "C": "Ipconfig/release",
+    "D": "Ipconfig/renew",
+    "correct": "D"
+  },
+  {
+    "question": "Một Client phải gửi một gói tin Broadcast nào để yêu cầu DHCP Server cấp phát IP cho mình?",
+    "A": "DHCP ACK",
+    "B": "Không cần gửi",
+    "C": "DHCP DISCOVER",
+    "D": "DHCP OFFER",
+    "correct": "C"
+  },
+  {
+    "question": "Khi nào Client phải gửi gói tin DHCP Request tới DHCP Server?",
+    "A": "Khi Client yêu cầu cấp phát IP từ một DHCP Server",
+    "B": "Khi Client chấp nhận lời đề nghị cấp phát IP DHCP OFFER từ một DHCP Server",
+    "C": "Tất cả đều đúng",
+    "D": "Khi Client chấp nhận lời đề nghị cấp phát IP DHCP ACK từ một DHCP Server",
+    "correct": "B"
+  },
+  {
+    "question": "Lệnh Ipconfig/release dùng để làm gì?",
+    "A": "Tất cả đều sai",
+    "B": "Khi muốn xem cấu hình trên máy Client",
+    "C": "Trả thông tin TCP/IP cho DHCP Server",
+    "D": "Lấy thông tin TCP/IP cho DHCP Server",
+    "correct": "C"
+  },
+  {
+    "question": "Giao thức DHCP được phát triển bởi tổ chức nào?",
+    "A": "IETT",
+    "B": "IEEE",
+    "C": "IETF",
+    "D": "INIC",
+    "correct": "C"
+  },
+  {
+    "question": "Chức năng của Reverse Lookup Zones trong DNS là?",
+    "A": "Đây là trình theo dõi sự kiện nhật ký dịch vụ DNS, nó sẽ lưu trữ các thông tin về cảnh giác alert, cảnh báo warnings, lỗi errors",
+    "B": "Chứa tất cả các Zone thuận của dịch vụ DNS, zone này được lưu tại máy DNS Server",
+    "C": "Chứa tất cả các Zone nghịch của dịch vụ DNS, zone này được lưu tại máy DNS Server",
+    "D": "Tất cả đều sai",
+    "correct": "C"
+  },
+  {
+    "question": "Chính sách mật khẩu Password Policies, chính sách này?",
+    "A": "Cho phép bạn qui định chiều dài ngắn nhất của mật khẩu, độ phức tạp của mật khẩu…",
+    "B": "Cho phép bạn hạn chế tấn công thông qua hình thức logon từ xa",
+    "C": "Cho phép bạn giám sát và ghi nhận các sự kiện xảy ra trong hệ thống, trên các đối tượng cũng như đối với các người dùng.",
+    "D": "Tất cả đều đúng",
+    "correct": "A"
+  },
+  {
+    "question": "Chính sách khóa tài khoản Account Lockout Policy, chính sách này?",
+    "A": "Cho phép bạn qui định chiều dài ngắn nhất của mật khẩu, độ phức tạp của mật khẩu…",
+    "B": "Cho phép bạn hạn chế tấn công thông qua hình thức logon từ xa",
+    "C": "Cho phép bạn giám sát và ghi nhận các sự kiện xảy ra trong hệ thống, trên các đối tượng cũng như đối với các người dùng.",
+    "D": "Tất cả đều đúng",
+    "correct": "B"
+  },
+  {
+    "question": "Chính sách kiểm tra Audit Policies, chính sách này?",
+    "A": "Cho phép bạn qui định chiều dài ngắn nhất của mật khẩu, độ phức tạp của mật khẩu…",
+    "B": "Cho phép bạn hạn chế tấn công thông qua hình thức logon từ xa",
+    "C": "Cho phép bạn giám sát và ghi nhận các sự kiện xảy ra trong hệ thống, trên các đối tượng cũng như đối với các người dùng.",
+    "D": "Tất cả đều đúng",
+    "correct": "C"
+  },
+  {
+    "question": "Chọn phát biểu đúng?",
+    "A": "Chính sách nhóm chỉ xuất hiện trên miền Active Directory. Chính sách nhóm làm được nhiều điều hơn chính sách hệ thống.",
+    "B": "Chính sách nhóm tự động hủy bỏ tác dụng khi được gỡ bỏ. Chính sách nhóm được áp dụng thường xuyên hơn chính sách hệ thống.",
+    "C": "Có nhiều mức độ để gán chính sách nhóm này cho người từng nhóm hoặc từng nhóm từng đối tượng.",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Có mấy loại tài khoản người dùng?",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "correct": "A"
+  },
+  {
+    "question": "Có mấy loại tài khoản nhóm?",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "correct": "A"
+  },
+  {
+    "question": "Tài khoản người dùng cục bộ được quản lý bằng công cụ?",
+    "A": "Computer Management COMPMGMT.MSC",
+    "B": "Active Directory Users and Computer DSA.MSC",
+    "C": "Security Accounts Manager SAM",
+    "D": "Domain Controller",
+    "correct": "A"
+  },
+  {
+    "question": "Tài khoản người dùng miền được quản lý bằng công cụ?",
+    "A": "Computer Management COMPMGMT.MSC",
+    "B": "Active Directory Users and Computer DSA.MSC",
+    "C": "Security Accounts Manager SAM",
+    "D": "Domain Controller",
+    "correct": "B"
+  },
+  {
+    "question": "Mail Server là?",
+    "A": "Chứa mailbox của người dùng.",
+    "B": "Những chương trình hỗ trợ chức năng đọc và soạn thảo thư",
+    "C": "Máy giữ vai trò máy chủ mail chính trong hệ thống mạng",
+    "D": "Máy kết nối giữa các mạng dùng các giao thức truyền thông khác nhau hoặc kết nối các mạng khác nhau dùng chung giao thức.",
+    "correct": "A"
+  },
+  {
+    "question": "Group policy trên Hệ điều hành Window là gì?",
+    "A": "Lưu giữ thông tin về tài khoản và mật khẩu đã tạo trên máy cục bộ",
+    "B": "Lưu giữ thông tin về quyền chia sẻ và bảo mật dữ liệu",
+    "C": "Dùng để tạo chính sách nhóm và là tệp ứng dụng được tạo ra bởi công cụ MMC",
+    "D": "Thông tin về tài khoản người dùng quản lý trên máy chủ",
+    "correct": "C"
+  },
+  {
+    "question": "Microsoft Exchange Server 2003 tồn tại mấy phiên bản chính?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "correct": "C"
+  },
+  {
+    "question": "Muốn cài đặt thêm một máy chủ Mail Exchange Server trong hệ thống mạng mà bạn đang quản trị, bạn chọn tuỳ chọn nào khi cài đặt Microsoft Exchange Server 2003?",
+    "A": "Install Exchange 2003 on additions Server",
+    "B": "Deploy the First Exchange 2003 Server",
+    "C": "Additions mail Server",
+    "D": "Deploy the additions Exchange 2003 Server",
+    "correct": "A"
+  },
+  {
+    "question": "Giao thức nào cho phép Web Server và Web Client có thể giao tiếp với nhau qua dịch vụ WWW?",
+    "A": "POP3",
+    "B": "HTML",
+    "C": "SMTP",
+    "D": "HTTP",
+    "correct": "D"
+  },
+  {
+    "question": "Ứng dụng máy khách loại nào được hỗ trợ bởi Exchange Server 2003?",
+    "A": "SMTP",
+    "B": "Microsoft Word 2003",
+    "C": "Các ứng dụng Internet E-mail",
+    "D": "Microsoft",
+    "correct": "C"
+  },
+  {
+    "question": "Cổng hoạt động TCP của dịch vụ Web là?",
+    "A": "21",
+    "B": "80",
+    "C": "81",
+    "D": "8080",
+    "correct": "B"
+  },
+  {
+    "question": "Một máy chủ Domain Controller phải được cài đặt?",
+    "A": "Active Directory",
+    "B": "DHCP",
+    "C": "DNS",
+    "D": "WINS",
+    "correct": "A"
+  },
+  {
+    "question": "Để hệ thống AD (Active Directory) hoạt động được thì trong Domain phải có?",
+    "A": "Một máy làm DNS Server",
+    "B": "Một máy làm DHCP Server",
+    "C": "Hoạt động bình thường không cần phụ thuộc vào dịch vụ nào khác",
+    "D": "Chỉ cần cài đặt dịch vụ AD trên máy Domain Controller",
+    "correct": "A"
+  },
+  {
+    "question": "Công việc quản trị chính của DC (Domain Controller) là?",
+    "A": "Account người dùng",
+    "B": "DNS",
+    "C": "Quản lý địa chỉ cấp phát IP động",
+    "D": "Tất cả đáp án trên",
+    "correct": "A"
+  },
+  {
+    "question": "Một Domain có thể có bao nhiêu DC (Domain Controller)?",
+    "A": "Chỉ được một DC",
+    "B": "Tối đa là hai DC",
+    "C": "Có thể cài đặt nhiều DC",
+    "D": "Không thể cài đặt DC",
+    "correct": "C"
+  },
+  {
+    "question": "Active Directory được xây dựng dựa trên?",
+    "A": "DNS và LDAP",
+    "B": "DHCP và DNS",
+    "C": "MMC",
+    "D": "LDAP",
+    "correct": "A"
+  },
+  {
+    "question": "Công cụ nào có chức năng tạo và quản lý các đối tượng cơ bản của hệ thống Active Directory?",
+    "A": "Active Directory User and Computer",
+    "B": "Computer Management",
+    "C": "Active Directory Domains and Trusts",
+    "D": "Active Directory Sites and Services",
+    "correct": "A"
+  },
+  {
+    "question": "Cấu trúc vật lý của AD gồm?",
+    "A": "Domain Controller và Site",
+    "B": "Object, Organization Unit, Domain, Domain Tree, Forest",
+    "C": "Domain Controller, Domain Tree, Forest, Object, Organization Unit",
+    "D": "Domain Controller, Domain Tree, Forest và Site",
+    "correct": "A"
+  },
+  {
+    "question": "Cấu trúc logic của AD gồm?",
+    "A": "Domain Controller và Site",
+    "B": "Domain Controller, Domain Tree, Forest, Object, Organization Unit",
+    "C": "Object, Organization Unit, Domain, Domain Tree, Forest",
+    "D": "Domain Controller, Domain Tree, Forest và Site",
+    "correct": "C"
+  },
+  {
+    "question": "Một nút trong DNS Name Space quy định tối đa bao nhiêu ký tự?",
+    "A": "255",
+    "B": "63",
+    "C": "256",
+    "D": "60",
+    "correct": "B"
+  },
+  {
+    "question": "Bạn tạo tài khoản trên máy trạm, thì thông tin tài khoản cục bộ sẽ tồn tại ở đâu?",
+    "A": "Máy chủ",
+    "B": "Máy trạm",
+    "C": "Máy chủ và máy trạm",
+    "correct": "B"
+  },
+  {
+    "question": "Lợi ích khi sử dụng dịch vụ Active Directory?",
+    "A": "Quản trị tài khoản và tài nguyên tập trung, cần ít người quản trị",
+    "B": "Cho phép người sử dụng tự log on",
+    "C": "Cung cấp một Server chứng thực",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Tệp NTDS.DIT là viết tắt của?",
+    "A": "New Technology Directory Service. Directory Information Tree",
+    "B": "Network Technology Directory Service. Directory Information Tree",
+    "C": "New Technology Domain Service. Directory Internet Tree",
+    "D": "New Technology Directory Service. Directory Information Training",
+    "correct": "A"
+  },
+  {
+    "question": "Firewall phần mềm hoạt động trên tầng nào trong mô hình TCP/IP?",
+    "A": "Tầng ứng dụng và Tầng mạng",
+    "B": "Tầng mạng và Tầng vận chuyển",
+    "C": "Tầng vật lý",
+    "D": "Tầng vận chuyển",
+    "correct": "B"
+  },
+  {
+    "question": "Nếu sau 50% thời gian hoạt động DHCP Client gửi DHCP Request tới DHCP Server đã cấp phát cho nó địa chỉ IP, nhưng DHCP Server đó đã ngưng hoạt động, thì sẽ xảy ra vấn đề gì?",
+    "A": "DHCP Client đó không thể kết nối vào mạng nữa",
+    "B": "DHCP Client vẫn hoạt động bình thường cho đến hết thời gian Lease mặc định ban đầu thì ngừng hoạt động, không thể xin cấp phát IP một lần nữa",
+    "C": "DHCP vẫn hoạt động bình thường đến hết khoảng 87,5% thời gian Lease mặc định thì xin DHCP Server khác cấp phát địa chỉ IP cho mình",
+    "D": "DHCP vẫn hoạt động bình thường đến hết khoảng 60% thời gian Lease mặc định thì xin DHCP Server khác cấp phát địa chỉ IP cho mình",
+    "correct": "C"
+  },
+  {
+    "question": "Firewall phần cứng hoạt động trên tầng nào trong mô hình TCP/IP?",
+    "A": "Tầng ứng dụng",
+    "B": "Tầng mạng",
+    "C": "Tầng vận chuyển",
+    "D": "Tầng vật lý",
+    "correct": "A"
+  },
+  {
+    "question": "Bạn đang muốn ngưng dịch vụ DNS trên máy chủ, bạn sẽ chọn lệnh nào sau đây?",
+    "A": "Net stop dns",
+    "B": "Net start dns",
+    "C": "Stop dns",
+    "D": "Start dns",
+    "correct": "A"
+  },
+  {
+    "question": "Bạn đang muốn khởi động dịch vụ DNS trên máy chủ, bạn sẽ chọn lệnh nào sau đây?",
+    "A": "Net stop dns",
+    "B": "Net start dns",
+    "C": "Stop dns",
+    "D": "Start dns",
+    "correct": "B"
+  },
+  {
+    "question": "Có mấy loại ISA Client?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "correct": "C"
+  },
+  {
+    "question": "DHCP Server phụ trách công việc gì?",
+    "A": "Cấp phát và thu hồi IP động cho, từ các máy DHCP Client",
+    "B": "Quản lý tệp tin trong mạng",
+    "C": "Cấp phát địa chỉ gửi Email",
+    "D": "Quản lý và chia sẻ tài nguyên trên mạng",
+    "correct": "A"
+  },
+  {
+    "question": "SMTP viết tắt của cụm từ nào sau đây?",
+    "A": "Simple Mail Transfer Protocol",
+    "B": "Simplex Mail Transfer Protocol",
+    "C": "Source Mail Transfer Protocol",
+    "D": "Simple Message Transfer Protocol",
+    "correct": "A"
+  },
+  {
+    "question": "Tường lửa là gì?",
+    "A": "Một hệ thống được xây dựng để đảm bảo an ninh cho công ty",
+    "B": "Một hệ thống có mục đích chống lại sự xâm nhập trái phép từ Internet",
+    "C": "Một hệ thống báo cháy",
+    "D": "Một hệ thống bảo vệ thông tin",
+    "correct": "B"
+  },
+  {
+    "question": "Trong các mô hình hoạt động của thư điện tử, mô hình Internet cho phép các máy chủ phục vụ thư kết nối Internet và chuyển thư cho nhau qua giao thức?",
+    "A": "SMTP",
+    "B": "POP3",
+    "C": "FTP",
+    "D": "HTTP",
+    "correct": "A"
+  },
+  {
+    "question": "Những biện pháp gì để bảo vệ an toàn thông tin trên mạng?",
+    "A": "Tường lửa",
+    "B": "Phần mềm virus",
+    "C": "Mã hoá dữ liệu",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Tại sao phải duy trì an ninh mạng?",
+    "A": "Bảo vệ tài nguyên máy tính",
+    "B": "Đảm bảo danh tiếng",
+    "C": "An toàn dữ liệu",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Mô hình ISA nào có độ bảo mật cao nhưng chi phí đầu tư ban đầu rất lớn?",
+    "A": "Edge Firewall",
+    "B": "3-Leg Perimeter",
+    "C": "Front/Back Firewall",
+    "D": "Tất cả các phương án trên",
+    "correct": "C"
+  },
+  {
+    "question": "Bạn là một quản trị viên, trên Server bạn đã bật chức năng Remote Desktop, vậy tại máy trạm bạn phải gõ lệnh gì tiếp theo khi đã chọn Start - Run để thực hiện điều khiển Server?",
+    "A": "MSTSC",
+    "B": "GPEDIT.MSC",
+    "C": "NSLOOKUP",
+    "D": "CMD",
+    "correct": "A"
+  },
+  {
+    "question": "IIS 6.0 cung cấp những công cụ gì để hỗ trợ và quản lý Website?",
+    "A": "IIS Manager",
+    "B": "Remote Administration (HTML) Tool",
+    "C": "Command-line Administration Scripts",
+    "D": "Tất cả các đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "HTTP viết tắt của cụm từ nào sau đây?",
+    "A": "Hexa Transfer Protocol",
+    "B": "Hypertext Transfer Program",
+    "C": "Hypertext Transfer Protocol",
+    "D": "Header Transfer Protocol",
+    "correct": "C"
+  },
+  {
+    "question": "DNS Name Space quy định tối đa bao nhiêu ký tự?",
+    "A": "255",
+    "B": "63",
+    "C": "256",
+    "D": "60",
+    "correct": "A"
+  },
+  {
+    "question": "Bạn đang làm việc tại một công ty, công ty bạn đang thiết lập một hệ thống tường lửa ISA, công ty đã đăng ký dịch vụ Internet có băng thông là 25Mbps, yêu cầu cho bộ nhớ máy chủ để cài đặt được ISA Server là bao nhiêu?",
+    "A": "512Mb",
+    "B": "1Gb",
+    "C": "2Gb",
+    "D": "4Gb",
+    "correct": "A"
+  },
+  {
+    "question": "Bạn đang làm việc tại một công ty, công ty bạn đang thiết lập một hệ thống tường lửa ISA, công ty đã đăng ký dịch vụ Internet có băng thông là 7.5Mbps, yêu cầu cho bộ nhớ máy chủ để cài đặt được ISA Server là bao nhiêu?",
+    "A": "512Mb",
+    "B": "1Gb",
+    "C": "2Gb",
+    "D": "4Gb",
+    "correct": "A"
+  },
+  {
+    "question": "Bạn đang làm việc tại một công ty, công ty bạn đang thiết lập một hệ thống tường lửa ISA, công ty đã đăng ký dịch vụ Internet có băng thông là 90Mbps, cho phép số VPN đồng thời kết nối là bao nhiêu?",
+    "A": "850",
+    "B": "2000",
+    "C": "150",
+    "D": "700",
+    "correct": "B"
+  },
+  {
+    "question": "Những thông số có thể lọc được của một Packet, khi bạn áp dụng tường lửa có chức năng Packet Filtering?",
+    "A": "Địa chỉ IP nguồn",
+    "B": "Địa chỉ IP đích",
+    "C": "Cổng TCP nguồn và đích",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Bạn đang làm việc tại một công ty, công ty bạn đang thiết lập một hệ thống tường lửa ISA, công ty đã đăng ký dịch vụ Internet có băng thông là 45Mbps, yêu cầu cho bộ nhớ máy chủ để cài đặt được ISA Server là bao nhiêu?",
+    "A": "512Mb",
+    "B": "1Gb",
+    "C": "2Gb",
+    "D": "4Gb",
+    "correct": "B"
+  },
+  {
+    "question": "Bạn đang làm việc tại một công ty, công ty bạn đang thiết lập một hệ thống tường lửa ISA, công ty đã đăng ký dịch vụ Internet có băng thông là 45Mbps, cho phép số VPN đồng thời kết nối là bao nhiêu?",
+    "A": "2000",
+    "B": "700",
+    "C": "850",
+    "D": "150",
+    "correct": "C"
+  },
+  {
+    "question": "Hệ điều hành Windows Server 2003 gồm mấy phiên bản?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "correct": "D"
+  },
+  {
+    "question": "Khi bạn sử dụng công cụ quản trị MMC, bạn sẽ cài đặt chế độ làm việc nào để cho phép người sử dụng có quyền truy cập đầy đủ tới các chức năng trong MMC nhưng không thể thêm bớt các Snap-in?",
+    "A": "Author Mode",
+    "B": "User Mode - Limited Access Multiple Window",
+    "C": "User Mode - Limited Access Single Window",
+    "D": "User Mode - Full Access",
+    "correct": "D"
+  },
+  {
+    "question": "Khi bạn sử dụng công cụ quản trị MMC, bạn sẽ cài đặt chế độ làm việc nào để cho phép người sử dụng chỉ có quyền truy cập các chức năng trong MMC đã được lưu, có thể tạo cửa sổ mới nhưng không thể đóng cửa sổ hiện tại?",
+    "A": "Author Mode",
+    "B": "User Mode - Full Access",
+    "C": "User Mode - Limited Access Multiple Window",
+    "D": "User Mode - Limited Access Single Window",
+    "correct": "C"
+  },
+  {
+    "question": "Khi bạn sử dụng công cụ quản trị MMC, bạn sẽ cài đặt chế độ làm việc nào để cho phép người sử dụng chỉ có quyền truy cập các chức năng trong MMC đã được lưu nhưng không thể mở cửa sổ mới?",
+    "A": "Author Mode",
+    "B": "User Mode - Full Access",
+    "C": "User Mode - Limited Access Multiple Window",
+    "D": "User Mode - Limited Access Single Window",
+    "correct": "D"
+  },
+  {
+    "question": "Công cụ quản trị MMC viết tắt của?",
+    "A": "Microsoft Management Console",
+    "B": "Microsoft Management Control",
+    "C": "Management Module Control",
+    "D": "Microsoft Manager Console",
+    "correct": "A"
+  },
+  {
+    "question": "Bạn đang làm việc tại một công ty, công ty bạn đang thiết lập một hệ thống tường lửa ISA, công ty đã đăng ký dịch vụ Internet có băng thông là 90Mbps, yêu cầu cho bộ nhớ máy chủ để cài đặt được ISA Server là bao nhiêu?",
+    "A": "1Gb",
+    "B": "2Gb",
+    "C": "4Gb",
+    "D": "512Mb",
+    "correct": "B"
+  },
+  {
+    "question": "Trước khi cài đặt dịch vụ DHCP trên Windows 2003 Server, cần thiết lập các thành phần nào sau?",
+    "A": "Địa chỉ IP tĩnh, Subnet Mask và Default Gateway",
+    "B": "Subnet Mask và DNS",
+    "C": "Địa chỉ IP tĩnh và DNS",
+    "D": "Subnet Mask và Default Gateway",
+    "correct": "A"
+  },
+  {
+    "question": "Thiết lập địa chỉ IP tĩnh chỉ dùng khi nào?",
+    "A": "Quy mô hoạt động mạng nhỏ",
+    "B": "Khó thiết lập IP động",
+    "C": "Tất cả đều đúng",
+    "D": "Không có DHCP Server",
+    "correct": "C"
+  },
+  {
+    "question": "Sau khi tạo Scope trong việc cấu hình dịch vụ DHCP, làm thế nào để hiệu chỉnh địa chỉ mạng?",
+    "A": "Hiệu chỉnh bình thường bằng cách nhập địa chỉ mạng mới",
+    "B": "Xóa và tạo lại Scope",
+    "C": "Hiệu chỉnh Subnet Mask",
+    "D": "Không thể thay đổi được",
+    "correct": "B"
+  },
+  {
+    "question": "Lấy thông tin cấu hình TCP/IP từ DHCP Server ta dùng lệnh nào trên máy Client?",
+    "A": "Ipconfig /renew",
+    "B": "Ipconfig /all",
+    "C": "Ipconfig /release",
+    "D": "Ping",
+    "correct": "A"
+  },
+  {
+    "question": "Một Client phải gửi một gói tin Broadcast nào để yêu cầu DHCP Server cấp phát IP cho mình?",
+    "A": "DHCP OFFER",
+    "B": "DHCP ACK",
+    "C": "DHCP DISCOVER",
+    "D": "Không cần gửi",
+    "correct": "C"
+  },
+  {
+    "question": "Khi nào Client phải gửi gói tin DHCP Request tới DHCP Server?",
+    "A": "Khi Client chấp nhận lời đề nghị cấp phát IP DHCP OFFER từ một DHCP Server",
+    "B": "Khi Client yêu cầu cấp phát IP từ một DHCP Server",
+    "C": "Khi Client chấp nhận lời đề nghị cấp phát IP DHCP ACK từ một DHCP Server",
+    "D": "Tất cả đều đúng",
+    "correct": "A"
+  },
+  {
+    "question": "Lệnh Ipconfig /release dùng để làm gì?",
+    "A": "Lấy thông tin TCP/IP cho DHCP Server",
+    "B": "Trả thông tin TCP/IP cho DHCP Server",
+    "C": "Khi muốn xem cấu hình trên máy Client",
+    "D": "Tất cả đều sai",
+    "correct": "B"
+  },
+  {
+    "question": "Giao thức DHCP được phát triển bởi tổ chức nào?",
+    "A": "IETF",
+    "B": "IEEE",
+    "C": "INIC",
+    "D": "IETT",
+    "correct": "A"
+  },
+  {
+    "question": "DHCP Server gửi gói tin DHCP ACK cho Client để làm gì?",
+    "A": "Không chấp nhận cấp phát địa chỉ IP cho Client đó",
+    "B": "Chấp nhận lời đề nghị cấp phát IP cho Client",
+    "C": "Tất cả đều sai",
+    "D": "Xác nhận lời đề nghị cấp phát địa chỉ IP của Client từ DHCP Server đó",
+    "correct": "D"
+  },
+  {
+    "question": "Khi cài đặt cấu hình DHCP thì mục IP Address Range là?",
+    "A": "Khoảng địa chỉ cấp cho Client",
+    "B": "Khoảng địa chỉ không cấp cho Client",
+    "C": "Địa chỉ riêng",
+    "D": "Để nhập địa chỉ mạng",
+    "correct": "A"
+  },
+  {
+    "question": "Khi cài đặt cấu hình DHCP thì mục Add Exclusion là?",
+    "A": "Khoảng địa chỉ cấp cho Client",
+    "B": "Khoảng địa chỉ để dành",
+    "C": "Địa chỉ riêng",
+    "D": "Để nhập địa chỉ mạng",
+    "correct": "B"
+  },
+  {
+    "question": "Trong gói tin DHCP OFFER được gửi từ DHCP Server tới Client gồm những nội dung gì?",
+    "A": "Địa chỉ IP của DHCP Server đó",
+    "B": "Địa chỉ IP sẽ cấp phát cho Client",
+    "C": "Default Gateway",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Tên miền nào là thuộc các trung tâm hỗ trợ về mạng?",
+    "A": ".NET",
+    "B": ".MIL",
+    "C": ".EDU",
+    "D": ".COM",
+    "E": ".INT",
+    "correct": "A"
+  },
+  {
+    "question": "Tên miền nào là thuộc các tổ chức quân sự?",
+    "A": ".NET",
+    "B": ".MIL",
+    "C": ".EDU",
+    "D": ".COM",
+    "E": ".INT",
+    "correct": "B"
+  },
+  {
+    "question": "Tên miền nào là thuộc các tổ chức giáo dục?",
+    "A": ".NET",
+    "B": ".MIL",
+    "C": ".EDU",
+    "D": ".COM",
+    "E": ".INT",
+    "correct": "C"
+  },
+  {
+    "question": "Tên miền nào là thuộc các tổ chức thương mại?",
+    "A": ".NET",
+    "B": ".MIL",
+    "C": ".EDU",
+    "D": ".COM",
+    "E": ".INT",
+    "correct": "D"
+  },
+  {
+    "question": "Tên miền nào thuộc các tổ chức được thành lập bởi các hiệp ước quốc tế?",
+    "A": ".NET",
+    "B": ".MIL",
+    "C": ".EDU",
+    "D": ".COM",
+    "E": ".INT",
+    "correct": "E"
+  },
+  {
+    "question": "LDAP là viết tắt của?",
+    "A": "Lightweight Directory Access Protocol",
+    "B": "Light Directory Access Program",
+    "C": "Light Directory Access Protocol",
+    "D": "Lightweight Directory Access Program",
+    "correct": "A"
+  },
+  {
+    "question": "Giao thức nào được hỗ trợ bởi Exchange 2003 để các ứng dụng nhận Mail có thể truy xuất Mail trên máy chủ Exchange và tải các thư điện tử này về?",
+    "A": "POP3",
+    "B": "PPTP",
+    "C": "BITS",
+    "D": "SMTP",
+    "correct": "D"
+  },
+  {
+    "question": "Trên máy Client, bạn không thể kết nối vào mạng Internet. Bạn dùng lệnh PING vẫn có thể kết nối tới địa chỉ 172.28.220.1, đây là địa chỉ của một máy chủ ở trong mạng của bạn. Bạn thử PING tên một Website và nhận được thông báo lỗi sau: \"PING REQUEST COULD NOT FIND HOST\". Bạn nên kiểm tra gì trước?",
+    "A": "Máy chủ DNS",
+    "B": "Card mạng",
+    "C": "Máy chủ Web",
+    "D": "Máy chủ DHCP",
+    "correct": "A"
+  },
+  {
+    "question": "Khi cài đặt cấu hình cho DHCP thì thời gian mặc định để cấp phát 1 địa chỉ IP là bao nhiêu?",
+    "A": "Trong 8 ngày",
+    "B": "Vô thời gian đến khi nào Client tắt kết nối",
+    "C": "Cấp phát đến khi DHCP Server thu hồi địa chỉ IP",
+    "D": "Trong 4 ngày",
+    "correct": "A"
+  },
+  {
+    "question": "Một máy chủ được gọi là một DHCP Server khi nào?",
+    "A": "Được cài đặt dịch vụ DHCP, được cấu hình bằng địa chỉ IP tĩnh",
+    "B": "Được cài đặt dịch vụ DHCP, được cấu hình bằng địa chỉ IP động",
+    "C": "Được cài đặt dịch vụ DNS",
+    "D": "Tự động mặc định khi cài đặt hệ điều hành Windows Server",
+    "correct": "A"
+  },
+  {
+    "question": "DHCP viết tắt của cụm từ nào?",
+    "A": "Dynamic Home Configuration Protocol",
+    "B": "Driver Host Configuration Protocol",
+    "C": "Dynamic Host Configuration Program",
+    "D": "Dynamic Host Configuration Protocol",
+    "correct": "D"
+  },
+  {
+    "question": "Hãy chọn phát biểu đúng?",
+    "A": "Một mô hình mạng chỉ cài đặt được duy nhất một DHCP Server",
+    "B": "Một mô hình mạng có thể tồn tại nhiều DHCP Server",
+    "C": "Một mô hình mạng hoạt động không thể cài đặt được DHCP Server",
+    "D": "DHCP Server chỉ hoạt động trên những mô hình mạng nhỏ",
+    "correct": "B"
+  },
+  {
+    "question": "Công ty A đang dự kiến triển khai hệ thống thư điện tử Exchange 2003. Để đảm bảo kiến trúc AD (Active Directory) được chuẩn bị hỗ trợ cho việc cài đặt, công ty đó cần phải làm gì?",
+    "A": "Thực hiện cài đặt DHCP",
+    "B": "Thực hiện cài đặt IIS",
+    "C": "Thực hiện lệnh chuẩn bị về rừng setup/forestprep",
+    "D": "Thực hiện tạo nhóm người dùng cho Exchange",
+    "correct": "C"
+  },
+  {
+    "question": "Trong Group Policy có 3 từ khoá quan trọng là:",
+    "A": "Not Config, Enable và Disable",
+    "B": "Not Config, Enable và Config",
+    "C": "Not Config, Enable",
+    "D": "Tất cả đều sai",
+    "correct": "A"
+  },
+  {
+    "question": "Trong Group Policy, ý nghĩa của từ khoá Not Config là:",
+    "A": "Registry sẽ giữ nguyên trạng thái ban đầu của nó",
+    "B": "Thực thi hành động trong gpedit và Registry sẽ phát sinh 1 khoá mới để thực thi",
+    "C": "Cấm không cho phép thực thi hành động đó",
+    "D": "Tất cả đều sai",
+    "correct": "A"
+  },
+  {
+    "question": "Trong Group Policy, ý nghĩa của từ khoá Enable là:",
+    "A": "Thực thi hành động trong gpedit và Registry sẽ phát sinh 1 khoá mới để thực thi",
+    "B": "Registry sẽ giữ nguyên trạng thái ban đầu của nó",
+    "C": "Cấm không cho phép thực thi hành động đó",
+    "D": "Tất cả đều sai",
+    "correct": "A"
+  },
+  {
+    "question": "Trong Group Policy, ý nghĩa của từ khoá Disable là:",
+    "A": "Cấm không cho phép thực thi hành động đó",
+    "B": "Thực thi hành động trong gpedit và Registry sẽ phát sinh 1 khoá mới để thực thi",
+    "C": "Registry sẽ giữ nguyên trạng thái ban đầu của nó",
+    "D": "Cho phép thực thi hành động đó",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện cấm truy cập vào ổ D là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Windows Component",
+    "B": "Start Menu và TaskBar",
+    "C": "Desktop",
+    "D": "System",
+    "E": "Control Panel",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện ẩn ổ D là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Windows Component",
+    "B": "Start Menu và TaskBar",
+    "C": "Desktop",
+    "D": "System",
+    "E": "Control Panel",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện ẩn Folder Option của Menu Tools là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Windows Component",
+    "B": "Start Menu và TaskBar",
+    "C": "Desktop",
+    "D": "System",
+    "E": "Control Panel",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện tắt chức năng All Programs là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Start Menu và TaskBar",
+    "B": "Windows Component",
+    "C": "Desktop",
+    "D": "System",
+    "E": "Control Panel",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện loại bỏ nút Logoff là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Start Menu và TaskBar",
+    "B": "Windows Component",
+    "C": "Desktop",
+    "D": "System",
+    "E": "Control Panel",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện bỏ thuộc tính (Properties) của Recycle Bin là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Desktop",
+    "B": "Windows Component",
+    "C": "Start Menu và TaskBar",
+    "D": "System",
+    "E": "Control Panel",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện loại bỏ thuộc tính (Properties) của My Computer là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Desktop",
+    "B": "Windows Component",
+    "C": "Start Menu và TaskBar",
+    "D": "System",
+    "E": "Control Panel",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện vô hiệu hóa chức năng Add/Remove Programs là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Control Panel",
+    "B": "Windows Component",
+    "C": "Start Menu và TaskBar",
+    "D": "System",
+    "E": "Desktop",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện ẩn danh sách các chương trình ứng dụng trong danh mục Add/Remove Programs là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "Control Panel",
+    "B": "Windows Component",
+    "C": "Start Menu và TaskBar",
+    "D": "System",
+    "E": "Desktop",
+    "correct": "A"
+  },
+  {
+    "question": "Thao tác thực hiện không cho phép dùng trình ứng dụng Command Prompt (CMD) là thao tác thuộc thành phần xử lý nào trong Group Policy?",
+    "A": "System",
+    "B": "Windows Component",
+    "C": "Start Menu và TaskBar",
+    "D": "Control Panel",
+    "E": "Desktop",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy chọn phát biểu đúng về Recursive Query (truy vấn đệ quy) trong quá trình hoạt động của dịch vụ DNS?",
+    "A": "Khi Name Server nhận được truy vấn đệ quy, nó không nhất thiết phải trả về kết quả tìm được hoặc thông báo lỗi nếu như truy vấn này không phân giải được",
+    "B": "Khi Name Server nhận được truy vấn đệ quy, nó trả lời cho DNS Client với thông tin tốt nhất mà nó có được vào thời điểm đó",
+    "C": "Khi Name Server nhận được truy vấn đệ quy, nó không cần trả lời ngay cho DNS Client với thông tin tốt nhất mà nó có được vào thời điểm đó",
+    "D": "Khi Name Server nhận được truy vấn đệ quy thông báo lỗi nếu như truy vấn này phân giải được",
+    "correct": "B"
+  },
+  {
+    "question": "Hãy chọn phát biểu đúng về Interactive Query (truy vấn tương tác) trong quá trình hoạt động của dịch vụ DNS?",
+    "A": "Khi Name Server nhận được truy vấn tương tác, nó không nhất thiết phải trả về kết quả tìm được hoặc thông báo lỗi nếu như truy vấn này không phân giải được",
+    "B": "Khi Name Server nhận được truy vấn tương tác, nó trả lời cho DNS Client với thông tin tốt nhất mà nó có được vào thời điểm đó",
+    "C": "Khi Name Server nhận được truy vấn tương tác, nó không cần trả lời ngay cho DNS Client với thông tin tốt nhất mà nó có được vào thời điểm đó",
+    "D": "Khi Name Server nhận được truy vấn tương tác, nó bắt buộc phải trả về kết quả tìm được hoặc thông báo lỗi nếu như truy vấn này không phân giải được",
+    "correct": "D"
+  },
+  {
+    "question": "Sau khi cài đặt và cấu hình dịch vụ DHCP Server, một số máy tính đặt địa chỉ IP tĩnh rơi vào trong vùng địa chỉ cần cấp phát của DHCP. Như vậy, hệ thống mạng hiện tại có ảnh hưởng gì không? Nếu có thì cách khắc phục thế nào?",
+    "A": "Các máy tính đặt địa chỉ IP tĩnh có thể bị đụng địa chỉ IP với các máy nhận IP động. Do đó chúng ta cần phải khai báo vùng loại trừ để loại bỏ các địa chỉ IP đã khai báo",
+    "B": "Các máy tính đặt địa chỉ IP tĩnh sẽ không ảnh hưởng gì",
+    "C": "Các máy tính đặt địa chỉ IP tĩnh không bị đụng địa chỉ IP với các máy nhận IP động. Do đó chúng ta không cần phải khai báo vùng loại trừ để loại bỏ các địa chỉ IP đã khai báo",
+    "D": "Các phương án trên đều sai",
+    "correct": "A"
+  },
+  {
+    "question": "Tài khoản tạo sẵn nào trên Windows cho phép người dùng truy cập vào các máy tính nếu họ không có mật mã riêng. Mặc định là tài khoản này không được sử dụng, nếu được sử dụng thì nó bị giới hạn về quyền?",
+    "A": "Administrator",
+    "B": "User",
+    "C": "Remote Local User",
+    "D": "Guest",
+    "correct": "D"
+  },
+  {
+    "question": "Khi một người dùng nào đó đăng nhập vào mạng, Domain Controller (DC) sẽ kiểm tra tính hợp lệ của Username và Password họ nhập vào có chính xác và khớp với dữ liệu lưu trong máy chủ hay không. Vậy DC đã cung cấp dịch vụ gì?",
+    "A": "Dịch vụ thẩm định",
+    "B": "Dịch vụ cấp phép",
+    "C": "Dịch vụ DNS",
+    "D": "Dịch vụ bảo mật",
+    "correct": "A"
+  },
+  {
+    "question": "Cùng một công ty nhưng đó là công ty cực lớn và cần nhiều người quản lý các vùng khác nhau để đảm bảo việc quản lý DNS một cách dễ dàng. Khi một hệ thống tên miền được chia nhỏ ra để dễ quản lý được gọi là gì?",
+    "A": "Các Domain",
+    "B": "Các Domain Tree",
+    "C": "Các Zone",
+    "D": "Không thể chia nhỏ",
+    "correct": "C"
+  },
+  {
+    "question": "Một DNS Name Space như Servertt.hubt.edu.vn còn được gọi là gì?",
+    "A": "FQND",
+    "B": "QDFN",
+    "C": "FFQD",
+    "D": "FQDN",
+    "correct": "D"
+  },
+  {
+    "question": "Bạn có dự tính sử dụng hệ thống thư điện tử Exchange 2003 và sẽ sử dụng HTTP, SMTP/POP3 để kết nối tới Exchange Server. Hãy lựa chọn các thành phần chỉ định của Windows Server 2003 được yêu cầu?",
+    "A": "SMTP Service",
+    "B": "World Wide Web Service",
+    "C": "NNTP Service",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Tài khoản thực hiện cài đặt Exchange Server 2003 trên một máy Windows Server 2003 phải thuộc nhóm tài khoản nào dưới đây?",
+    "A": "Domain Users",
+    "B": "Domain Name",
+    "C": "Administrators",
+    "D": "Local Administrators",
+    "correct": "D"
+  },
+  {
+    "question": "Một công ty A đang lập kế hoạch cài đặt MS ISA Server 2006 và muốn có một vài chọn lọc để giới hạn sự truy cập của người dùng tới Internet. Bước đầu tiên nên làm gì khi cài đặt ISA Server 2006?",
+    "A": "Cài đặt ISA Server 2006",
+    "B": "Thiết kế các quy tắc truy cập sẽ cho phép truy cập Internet",
+    "C": "Tạo dựng một chính sách sử dụng Internet định nghĩa các đòi hỏi an toàn của tổ chức",
+    "D": "Thiết kế một chiến lược xuất bản máy chủ (Server Publishing)",
+    "correct": "C"
+  },
+  {
+    "question": "Hình ảnh mô tả mô hình ISA nào?",
+    "A": "Edge Firewall",
+    "B": "3-Leg Perimeter",
+    "C": "Front/Back Firewall",
+    "D": "Tất cả đều đúng",
+    "correct": "A",
+    "image": "images/Phan3_Cau97.png"
+  },
+  {
+    "question": "Hình ảnh trên mô tả mô hình ISA nào?",
+    "A": "Edge Firewall",
+    "B": "3-Leg Perimeter",
+    "C": "Front/Back Firewall",
+    "D": "Tất cả đều đúng",
+    "correct": "B",
+    "image": "images/Phan3_Cau98.png"
+  },
+  {
+    "question": "Hình ảnh trên thể hiện mô hình ISA nào?",
+    "A": "Edge Firewall",
+    "B": "3-Leg Perimeter",
+    "C": "Front/Back Firewall",
+    "D": "Tất cả đều đúng",
+    "correct": "C",
+    "image": "images/Phan3_Cau99.png"
+  },
+  {
+    "question": "Hãy cho biết ý nghĩa của hình ảnh trên?",
+    "A": "Máy ABC luôn nhận địa chỉ 192.168.0.19 từ Server DHCP",
+    "B": "Máy ABC có địa chỉ tĩnh là 192.168.0.19",
+    "C": "Máy ABC luôn nhận địa chỉ IP động trừ địa chỉ 192.168.0.19",
+    "D": "Máy ABC không thể đặt địa chỉ tĩnh là 192.168.0.19 trong mọi trường hợp",
+    "correct": "A",
+    "image": "images/Phan3_Cau100.png"
+  },
+  {
+    "question": "Bạn hãy cho biết Domain mới được tạo ra dưới dạng nào sau đây khi chọn tùy chọn 1 trong hình?",
+    "A": "Tạo Domain đầu tiên trong một rừng mới",
+    "B": "Tạo Domain dựa trên cây đã có sẵn",
+    "C": "Tạo ra một cây Domain mới trong một rừng có sẵn",
+    "D": "Không tạo được cây Domain",
+    "correct": "A",
+    "image": "images/Phan3_Cau101.png"
+  },
+  {
+    "question": "Bạn hãy cho biết Domain mới được tạo ra dưới dạng nào sau đây khi chọn tùy chọn 2 trong hình?",
+    "A": "Tạo Domain đầu tiên trong một rừng mới",
+    "B": "Tạo Domain dựa trên cây đã có sẵn",
+    "C": "Tạo ra một cây Domain mới trong một rừng có sẵn",
+    "D": "Không tạo được cây Domain",
+    "correct": "B",
+    "image": "images/Phan3_Cau102.png"
+  },
+  {
+    "question": "Bạn hãy cho biết Domain mới được tạo ra dưới dạng nào sau đây khi chọn tùy chọn 3 trong hình?",
+    "A": "Tạo Domain đầu tiên trong một rừng mới",
+    "B": "Tạo Domain dựa trên cây đã có sẵn",
+    "C": "Tạo ra một cây Domain mới trong một rừng có sẵn",
+    "D": "Không tạo được cây Domain",
+    "correct": "C",
+    "image": "images/Phan3_Cau103.png"
+  },
+  {
+    "question": "Hãy cho biết biểu tượng máy tính bị chéo đỏ cho biết Card mạng đang ở trạng thái nào sau đây?",
+    "A": "Card mạng đang nhận IP",
+    "B": "Card mạng không nhận được IP",
+    "C": "Card mạng bị trùng IP với một Card mạng khác",
+    "D": "Card mạng không được gắn cáp",
+    "correct": "D",
+    "image": "images/Phan3_Cau104.png"
+  },
+  {
+    "question": "Khi cài đặt dịch vụ AD, ta chọn tùy chọn 1 trong hình, thì hệ điều hành nào được sử dụng?",
+    "A": "Windows 2000 Server và Windows 2003 Server",
+    "B": "Windows XP và Windows 2003 Server",
+    "C": "Những hệ điều hành trước Windows 2000 Server",
+    "D": "Windows NT",
+    "correct": "C",
+    "image": "images/Phan3_Cau105.png"
+  },
+  {
+    "question": "Khi cài đặt dịch vụ AD, ta chọn tùy chọn 2 trong hình, thì hệ điều hành nào được sử dụng?",
+    "A": "Windows 2000 Server và Windows 2003 Server",
+    "B": "Windows XP và Windows 2003 Server",
+    "C": "Những hệ điều hành trước Windows 2000 Server",
+    "D": "Windows NT",
+    "correct": "A",
+    "image": "images/Phan3_Cau106.png"
+  },
+  {
+    "question": "Hãy cho biết ý nghĩa của hình ảnh trên trong quá trình cấu hình dịch vụ DHCP?",
+    "A": "Client nhận được IP và Subnet Mask",
+    "B": "Client nhận được Default Gateway",
+    "C": "DHCP không được cấu hình",
+    "D": "Client nhận được địa chỉ DNS",
+    "correct": "C",
+    "image": "images/Phan3_Cau107.png"
+  },
+  {
+    "question": "Mô hình ISA nào có độ bảo mật kém nhất trong các mô hình dưới đây?",
+    "A": "Edge Firewall",
+    "B": "Front/Back Firewall",
+    "C": "3-Leg Perimeter",
+    "D": "Tất cả đều sai",
+    "correct": "A"
+  },
+  {
+    "question": "Thông số 1 trong hình có ý nghĩa là gì trong quá trình cấu hình dịch vụ DHCP?",
+    "A": "Tên máy tính được phép sử dụng 1 địa chỉ IP cố định trên mạng",
+    "B": "Tên máy chủ DHCP cấp địa chỉ IP động cho toàn mạng",
+    "C": "Tên Client đã được cấu hình địa chỉ IP tĩnh từ trước do người quản trị cài đặt",
+    "D": "Các phương án đều sai",
+    "correct": "A",
+    "image": "images/Phan3_Cau109.png"
+  },
+  {
+    "question": "Thông số 3 trong hình có ý nghĩa gì trong quá trình cấu hình dịch vụ DHCP?",
+    "A": "Địa chỉ vật lý của một máy tính",
+    "B": "Tên máy tính cho người dùng đặt ngẫu nhiên",
+    "C": "Số ký tự của thông số trong chip của máy tính",
+    "D": "Các phương án đều sai",
+    "correct": "A",
+    "image": "images/Phan3_Cau110.png"
+  },
+  {
+    "question": "Thông số 2 trong hình có ý nghĩa gì trong quá trình cấu hình dịch vụ DHCP?",
+    "A": "Địa chỉ IP chỉ dành riêng cho máy ABC",
+    "B": "Địa chỉ IP của máy chủ DHCP",
+    "C": "Địa chỉ IP tĩnh của máy ABC đã được cài đặt, không thể cấp phát cho máy khác",
+    "D": "Địa chỉ IP có thể cấp phát cho các máy trong mạng trừ máy ABC",
+    "correct": "A",
+    "image": "images/Phan3_Cau111.png"
+  },
+  {
+    "question": "Hãy cho biết trong quá trình cấu hình dịch vụ DHCP ta chọn tùy chọn \"Yes, I want to configure these options now\" có tác dụng gì?",
+    "A": "Đồng ý lưu toàn bộ thông tin cấu hình vào máy tính và thoát khỏi quá trình cài đặt",
+    "B": "Đồng ý tiếp tục khai báo các lựa chọn cơ bản trong quá trình cấu hình DHCP",
+    "C": "DHCP không được cấu hình",
+    "D": "Đồng ý xóa hoàn toàn các cài đặt trong quá trình cấu hình DHCP",
+    "correct": "B",
+    "image": "images/Phan3_Cau112.png"
+  },
+  {
+    "question": "Để xem địa chỉ MAC của một PC, chúng ta dùng lệnh nào?",
+    "A": "Ipconfig /renew",
+    "B": "Ipconfig /all",
+    "C": "Ipconfig /release",
+    "D": "Ping",
+    "correct": "B"
+  },
+  {
+    "question": "Chức năng của Group Policy?",
+    "A": "Triển khai phần mềm ứng dụng. Gán các quyền hệ thống cho người dùng. Giới hạn những ứng dụng mà người dùng được phép thi hành. Kiểm soát các thiết lập hệ thống. Thiết lập các kịch bản đăng nhập, thoát, khởi động và tắt máy. Đơn giản hóa và hạn chế các chương trình. Hạn chế tổng quát màn hình của người dùng.",
+    "B": "Triển khai phần mềm ứng dụng. Gán các quyền hệ thống cho người dùng. Giới hạn những ứng dụng mà người dùng được phép thi hành. Kiểm soát các thiết lập hệ thống.",
+    "C": "Triển khai phần mềm ứng dụng. Gán các quyền hệ thống cho người dùng. Giới hạn những ứng dụng mà người dùng được phép thi hành. Kiểm soát các thiết lập hệ thống. Thiết lập các kịch bản đăng nhập, thoát, khởi động và tắt máy. Đơn giản hóa và hạn chế các chương trình.",
+    "D": "Triển khai phần mềm ứng dụng. Gán các quyền hệ thống cho người dùng. Giới hạn những ứng dụng mà người dùng được phép thi hành. Kiểm soát các thiết lập hệ thống. Thiết lập các kịch bản đăng nhập, thoát, khởi động và tắt máy. Đơn giản hóa và hạn chế các chương trình. Hạn chế tổng quát màn hình của người dùng. Hạn chế hệ thống.",
+    "correct": "A"
+  },
+  {
+    "question": "Chọn câu sai, phân loại Domain Name Server gồm có?",
+    "A": "Primary Name Server",
+    "B": "Secondary Name Server",
+    "C": "Caching Name Server",
+    "D": "Address Name Server",
+    "correct": "D"
+  },
+  {
+    "question": "Có mấy loại tài khoản người dùng?",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "correct": "A"
+  },
+  {
+    "question": "Có mấy loại tài khoản nhóm?",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "correct": "A"
+  },
+  {
+    "question": "Tài khoản người dùng cục bộ được quản lý bằng công cụ?",
+    "A": "Computer Management (COMPMGMT.MSC)",
+    "B": "Active Directory Users and Computer (DSA.MSC)",
+    "C": "Security Accounts Manager (SAM)",
+    "D": "Domain Controller",
+    "correct": "A"
+  },
+  {
+    "question": "Tài khoản người dùng miền được quản lý bằng công cụ?",
+    "A": "Computer Management (COMPMGMT.MSC)",
+    "B": "Active Directory Users and Computer (DSA.MSC)",
+    "C": "Security Accounts Manager (SAM)",
+    "D": "Domain Controller",
+    "correct": "B"
+  },
+  {
+    "question": "Mail Server là?",
+    "A": "Chứa Mailbox của người dùng.",
+    "B": "Những chương trình hỗ trợ chức năng đọc và soạn thảo thư.",
+    "C": "Máy giữ vai trò máy chủ Mail chính trong hệ thống mạng.",
+    "D": "Máy kết nối giữa các mạng dùng các giao thức truyền thông khác nhau hoặc kết nối các mạng khác nhau dùng chung giao thức.",
+    "correct": "A"
+  },
+  {
+    "question": "Để nâng cao bảo mật trong mạng bạn thực hiện chính sách Maximum Password Age là 7 ngày. Chính sách này sẽ yêu cầu người sử dụng phải đổi mật khẩu hàng tuần. Tuy nhiên sau một thời gian bạn nhận thấy có một vài người sử dụng sau khi đổi sang mật khẩu mới lại đổi ngay về mật khẩu cũ. Bạn sẽ dùng chính sách nào dưới đây để tránh tình trạng này?",
+    "A": "Minimum Password Age",
+    "B": "Store Passwords Using Reversible Encryption",
+    "C": "Enforce Password History",
+    "D": "Maximum Password Age",
+    "correct": "C"
+  },
+  {
+    "question": "Địa chỉ IPv4 được hiểu thế nào?",
+    "A": "Là một dãy gồm 4 nhóm số, mỗi nhóm có giá trị 1 bit dùng để định danh địa chỉ máy tính trong một mạng nào đó",
+    "B": "Là một dãy gồm 6 nhóm số, mỗi nhóm có giá trị 2 byte dùng để định danh địa chỉ máy tính trong một mạng nào đó",
+    "C": "Là một dãy gồm 4 nhóm số, mỗi nhóm có giá trị 1 byte dùng để định danh địa chỉ máy tính trong một mạng nào đó",
+    "D": "Là một dãy gồm 6 nhóm số, mỗi nhóm có giá trị 1 byte dùng để định danh địa chỉ máy tính trong một mạng nào đó",
+    "correct": "C"
+  },
+  {
+    "question": "Địa chỉ IP được cấp phát thế nào?",
+    "A": "Do người dùng tự cài đặt",
+    "B": "Do máy chủ tự động cấp phát",
+    "C": "Các phương án trên đều đúng",
+    "correct": "C"
+  },
+  {
+    "question": "IIS 6.0 cung cấp những công cụ gì để hỗ trợ và quản lý Website?",
+    "A": "IIS Manager",
+    "B": "Remote Administration (HTML) Tool",
+    "C": "Command-line Administration Scripts",
+    "D": "Tất cả các đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Server (máy chủ) là gì?",
+    "A": "Là một máy tính dùng để cung cấp dịch vụ Web",
+    "B": "Là một máy tính dùng để cung cấp dịch vụ tên miền",
+    "C": "Là một máy tính dùng để cung cấp các thông tin dịch vụ mà người quản trị cài đặt trên đó",
+    "D": "Là một máy tính dùng để quản trị mạng",
+    "correct": "C"
+  },
+  {
+    "question": "HTTP viết tắt của cụm từ nào sau đây?",
+    "A": "Hexa Transfer Protocol",
+    "B": "Hypertext Transfer Program",
+    "C": "Hypertext Transfer Protocol",
+    "D": "Header Transfer Protocol",
+    "correct": "C"
+  },
+  {
+    "question": "Hệ điều hành máy chủ là gì?",
+    "A": "Là phần mềm đóng vai trò như là một môi trường trên đó người quản trị có thể cài đặt thêm các phần mềm ứng dụng theo yêu cầu",
+    "B": "Là một phần mềm quản trị nội dung Web và các tài nguyên như Email hay chia sẻ ứng dụng",
+    "C": "Là phần cứng đóng vai trò như là một môi trường trên đó người quản trị có thể cài đặt thêm các phần mềm ứng dụng theo yêu cầu",
+    "D": "Là một chương trình ứng dụng hỗ trợ soạn thảo văn bản và in ấn",
+    "correct": "A"
+  },
+  {
+    "question": "DNS Name Space quy định tối đa bao nhiêu ký tự?",
+    "A": "255",
+    "B": "63",
+    "C": "256",
+    "D": "60",
+    "correct": "A"
+  },
+  {
+    "question": "Subdomain (tên miền con) là gì?",
+    "A": "Không có tên miền con",
+    "B": "Là tên một máy tính trong Workgroup",
+    "C": "Là tên đặt theo tên miền chính nhằm chia nhỏ tên miền chính",
+    "D": "Tên miền con được xem như là một tên miền chính",
+    "correct": "C"
+  },
+  {
+    "question": "ICANN viết tắt là gì?",
+    "A": "International Corporation for Assigned Names and Numbers",
+    "B": "Internet Corporate for Assigned Names and Nations",
+    "C": "Internet Corporation for Assigned Names and Numbers",
+    "D": "Internet Corporate for Assigned Names and Numbers",
+    "correct": "C"
+  },
+  {
+    "question": "Máy chủ Web là gì?",
+    "A": "Là một máy tính trong đó cài các hệ điều hành dòng Server và được cài đặt các phần mềm xử lý yêu cầu truy cập dịch vụ Web",
+    "B": "Là một máy tính trong đó cài các hệ điều hành Windows XP và được cài đặt các phần mềm xử lý yêu cầu truy cập dịch vụ Web",
+    "C": "Là một máy tính trong đó cài các hệ điều hành Windows và được cài đặt các phần mềm xử lý yêu cầu truy cập dịch vụ Web",
+    "D": "Là một máy tính trong đó cài các hệ điều hành Unix được cài đặt các phần mềm xử lý yêu cầu truy cập dịch vụ Web",
+    "correct": "A"
+  },
+  {
+    "question": "Các đối tượng (Object) lưu trữ trong Active Directory gồm?",
+    "A": "User, Printers",
+    "B": "Server, Computer",
+    "C": "Tất cả đều đúng",
+    "D": "Database, Groups",
+    "correct": "C"
+  },
+  {
+    "question": "Chọn phát biểu đúng về Forest trong cấu trúc AD (Active Directory)?",
+    "A": "Forest gồm một nhóm hay tổ chức phân cấp của nhiều cây Domain độc lập hoàn toàn",
+    "B": "Forest tồn tại trong cấu trúc vật lý của AD",
+    "C": "Forest là một đối tượng trong OU",
+    "D": "Tất cả đều đúng",
+    "correct": "A"
+  },
+  {
+    "question": "Domain Name (tên miền) là gì?",
+    "A": "Là một tên định danh trên mạng Internet dùng để thay thế cho một địa chỉ IP của một máy chủ nào đó",
+    "B": "Là một tên định danh trên mạng Internet dùng để phân chia thành nhiều lớp mạng con",
+    "C": "Là tên một máy trạm",
+    "D": "Là tên máy tính do người dùng đặt tùy ý",
+    "correct": "A"
+  },
+  {
+    "question": "Phiên bản Web Edition thuộc hệ điều hành nào sau đây?",
+    "A": "Windows XP",
+    "B": "Unix",
+    "C": "Windows Server 2003",
+    "D": "Tất cả các phương án trên",
+    "correct": "C"
+  },
+  {
+    "question": "Mục đích chính của việc đăng nhập (Logging) vào AD (Active Directory) của một User Account?",
+    "A": "Để truy nhập Domain Controller",
+    "B": "Để truy nhập các dịch vụ mạng",
+    "C": "Để truy nhập file trong máy tính cục bộ",
+    "D": "Để duy trì bảo mật cục bộ",
+    "correct": "A"
+  },
+  {
+    "question": "Bạn phải hoàn thành những tác vụ gì trước khi nâng cấp một máy chủ Domain Controller?",
+    "A": "Cấu hình địa chỉ IP động và cài đặt DNS",
+    "B": "Cấu hình địa chỉ IP tĩnh và cài đặt DNS",
+    "C": "Cài đặt dịch vụ DHCP và DNS",
+    "D": "Cấu hình địa chỉ IP tĩnh và cài đặt DHCP",
+    "correct": "B"
+  },
+  {
+    "question": "OU trong cấu trúc của AD (Active Directory) là viết tắt của?",
+    "A": "Organizational Unit",
+    "B": "Object Unknown",
+    "C": "Object Unit",
+    "D": "Organizational Unique",
+    "correct": "A"
+  },
+  {
+    "question": "Chọn một phát biểu sai về AD (Active Directory)?",
+    "A": "AD có thể lưu trữ phân bố trên nhiều máy",
+    "B": "Thông tin trong AD được sử dụng cho việc quản lý và xử lý các tài nguyên trên mạng",
+    "C": "Cấu trúc logic của AD gồm nhiều Site nối với nhau",
+    "D": "Cấu trúc logic hoàn toàn khác với cấu trúc vật lý của AD",
+    "correct": "C"
+  },
+  {
+    "question": "Phần mềm Web Server là gì?",
+    "A": "Là một phần mềm chia sẻ ứng dụng Web",
+    "B": "Là một hệ điều hành quản lý quá trình duyệt Web và dịch vụ Email",
+    "C": "Là một phần mềm đóng vai trò xử lý các yêu cầu duyệt Web và các dịch vụ trên Internet từ phía người dùng",
+    "D": "Tất cả đều đúng",
+    "correct": "C"
+  },
+  {
+    "question": "Với hình vẽ sau bạn hãy cho biết máy tính của bạn đang hoạt động trong môi trường nào?",
+    "A": "Môi trường Domain",
+    "B": "Môi trường Workgroup",
+    "C": "Môi trường là một Domain Controller",
+    "D": "Môi trường là một máy cấp phát địa chỉ IP",
+    "correct": "B",
+    "image": "images/Phan4_Cau21.png"
+  },
+  {
+    "question": "Bạn hãy cho biết 24 dưới đây có ý nghĩa như thế nào?",
+    "A": "Số máy tối đa trong mạng có thể nhận được địa chỉ IP",
+    "B": "Địa chỉ cuối cùng trong vùng cấp IP động",
+    "C": "Số Bit thuộc vùng mạng",
+    "D": "Số Bit thuộc vùng Host",
+    "correct": "C",
+    "image": "images/Phan4_Cau22.png"
+  },
+  {
+    "question": "Chọn đáp án đúng cho ý nghĩa của hình ảnh trên trong các bước cấu hình DHCP?",
+    "A": "Server sẽ cấp địa chỉ từ 172.29.1.100 đến 172.29.1.200",
+    "B": "Server sẽ không cấp địa chỉ từ 172.29.1.100 đến 172.29.1.200",
+    "C": "Server sẽ cấp địa chỉ theo lớp địa chỉ 172.29.1.0",
+    "D": "Server không được cài đặt dịch vụ DHCP",
+    "correct": "A",
+    "image": "images/Phan4_Cau23.png"
+  },
+  {
+    "question": "Để đăng nhập một máy con vào một máy Domain Controller bạn phải đảm bảo những yêu cầu nào sau đây?",
+    "A": "Khai báo IP DNS",
+    "B": "Tất cả các đáp án đều đúng",
+    "C": "Thay đổi môi trường Workgroup thành Domain",
+    "D": "Tất cả các đáp án đều sai",
+    "correct": "B"
+  },
+  {
+    "question": "Dịch vụ mạng nào sau đây có thể đảm bảo cho máy tính của bạn nhận được IP, Default Gateway, Subnet Mask, DNS...?",
+    "A": "DHCP",
+    "B": "DNS",
+    "C": "IIS",
+    "D": "FTP",
+    "correct": "A"
+  },
+  {
+    "question": "Khi cài đặt AD, Password được đặt trong trường hợp nào sau đây?",
+    "A": "Password đặt cho User Administrator",
+    "B": "Password đặt cho hệ thống khởi động ở chế độ Safe Mode",
+    "C": "Password đặt cho hệ thống khởi động ở chế độ Directory Service Restore Mode",
+    "D": "Tất cả các đáp án trên đều sai",
+    "correct": "C",
+    "image": "images/Phan4_Cau26.png"
+  },
+  {
+    "question": "Để đảm bảo cho việc quản lý một cách dễ dàng và thuận tiện thì người quản trị mạng phải tạo ra các User như thế nào?",
+    "A": "Tạo ra một Organizational Unit và tạo các User trong đó",
+    "B": "Tạo ra một Group riêng và tạo các User vào Group đó",
+    "C": "Tạo ra các User và phân quyền đặc trưng cho các User đó",
+    "D": "Tạo ra các User và gán cho các User vào nhóm Administrator",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy cho biết ý nghĩa của hình ảnh trên?",
+    "A": "Vùng địa chỉ không được cấp phát bởi DHCP Server",
+    "B": "Vùng địa chỉ được ưu tiên khi cấp phát",
+    "C": "Vùng địa chỉ từ 172.29.14.100 đến 172.29.14.110 không có trong danh sách địa chỉ IP của DHCP Server",
+    "correct": "A",
+    "image": "images/Phan4_Cau28.png"
+  },
+  {
+    "question": "Tại công ty A, có hệ thống mạng Workgroup với 60 máy, dữ liệu hiện tại của công ty được lưu trữ phân tán tại mỗi PC. Nhu cầu của công ty muốn quản lý hệ thống mạng tập trung với mọi thông tin, dữ liệu, tài nguyên... Công ty sẽ phải làm gì để có thể triển khai hệ thống mạng theo yêu cầu trên?",
+    "A": "Chọn một Server chuyên dụng và cài đặt Windows Server 2003",
+    "B": "Cài đặt dịch vụ Active Directory cho Server",
+    "C": "Gia nhập hệ thống Client vào Domain",
+    "D": "Các đáp án đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Các phiên bản Windows Server sau đây, phiên bản nào không có dịch vụ Active Directory?",
+    "A": "MS Windows Server 2003 Web Edition",
+    "B": "MS Windows Server 2003 Standard",
+    "C": "MS Windows Server 2003 Enterprise",
+    "D": "MS Windows Server 2003 Data Center",
+    "correct": "A"
+  },
+  {
+    "question": "Cấu hình mặc định khi chúng ta thực hiện các Policy là?",
+    "A": "Not Configured",
+    "B": "Disabled",
+    "C": "Default Configured",
+    "D": "Enabled",
+    "correct": "A"
+  },
+  {
+    "question": "Trên máy tính sử dụng Windows 2000 Pro, bạn tạo ra phân vùng D: sử dụng file hệ thống FAT32, sau một thời gian sử dụng để tăng tính bảo mật, bạn quyết định chuyển phân vùng này thành NTFS. Bạn sẽ dùng lệnh nào?",
+    "A": "Convert D: /FS:NTFS",
+    "B": "Convert D: /FS-NTFS",
+    "C": "Convert D: /FS/NTFS",
+    "D": "Convert D: /NTFS",
+    "correct": "A"
+  },
+  {
+    "question": "Bạn là quản trị mạng cho một công ty A, công ty bạn muốn triển khai 2 NetID khác nhau cho hai phòng ban, bạn làm thế nào để trên mạng không bị trùng IP và tiết kiệm công sức nhất cho người quản trị?",
+    "A": "Sử dụng IP tĩnh trên mỗi nhánh mạng",
+    "B": "Cài đặt và cấu hình DHCP Server trên mỗi nhánh mạng",
+    "C": "Một nhánh mạng dùng DHCP Server, nhánh còn lại sử dụng IP tĩnh",
+    "D": "Cấu hình DHCP Server và DNS Server",
+    "correct": "B"
+  },
+  {
+    "question": "Tại hệ thống mạng của công ty A đã cài đặt và cấu hình DHCP Server. Công ty hiện triển khai thêm một vài Server và muốn dành riêng một số địa chỉ IP cho các Server này, bạn sẽ làm gì để thực hiện việc cấp IP cho các Server mới như yêu cầu?",
+    "A": "Xóa và tạo lại Scope",
+    "B": "Trong DHCP Server không cho phép bổ sung",
+    "C": "Trong DHCP Server chọn Address Pool",
+    "D": "Trong DHCP Server chọn DHCP Reservation",
+    "correct": "D"
+  },
+  {
+    "question": "Dịch vụ nào sau đây cần phải cài đặt khi cài đặt Mail Exchange Server 2003 trên các Mail Server?",
+    "A": "ASP.NET, IIS",
+    "B": "ASP.NET, IIS, SMTP, NNTP",
+    "C": "ASP.NET, IIS, SMTP, NNTP, FTP",
+    "D": "Không yêu cầu dịch vụ nào",
+    "correct": "B"
+  },
+  {
+    "question": "Tổ chức IETF viết tắt là?",
+    "A": "Internet Engineering Task Force",
+    "B": "International Engineering Task Force",
+    "C": "Internet Engineering Task Form",
+    "D": "Internet Electric Task Force",
+    "correct": "A"
+  },
+  {
+    "question": "Trước khi cài đặt DNS hay DHCP cần phải đảm bảo vấn đề nào sau đây?",
+    "A": "Máy được cài đặt phải đảm bảo là một máy điều khiển vùng",
+    "B": "Máy được cài đặt phải đảm bảo nằm trong Domain của một máy điều khiển vùng",
+    "C": "Máy được cài đặt phải đảm bảo cấu hình IP",
+    "D": "Máy được cài đặt phải đảm bảo không cài dịch vụ khác trên máy DNS hay máy DHCP",
+    "correct": "C"
+  },
+  {
+    "question": "Phần nào dưới đây không phải là một dịch vụ mạng?",
+    "A": "File",
+    "B": "In ấn",
+    "C": "Remote Desktop",
+    "D": "Cơ sở dữ liệu",
+    "correct": "A"
+  },
+  {
+    "question": "Giao thức truyền Mail trên Windows 2003 Server?",
+    "A": "SMTP và POP3",
+    "B": "SMTP",
+    "C": "FTP",
+    "D": "HTTP và SMTP",
+    "correct": "A"
+  },
+  {
+    "question": "Sau bao nhiêu thời gian thuê thì Client gửi tín hiệu DHCP Request?",
+    "A": "87.5%",
+    "B": "100%",
+    "C": "80%",
+    "D": "50%",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ IP 172.28.146.2 là địa chỉ của Server nào?",
+    "A": "Server DNS",
+    "B": "Mail Server",
+    "C": "Server FTP",
+    "D": "Server DHCP",
+    "correct": "A",
+    "image": "images/Phan4_Cau41.png"
+  },
+  {
+    "question": "Để cấu hình cho Client nhận địa chỉ IP động ta chọn tùy chọn nào trong hình trên?",
+    "A": "1",
+    "B": "3",
+    "C": "2",
+    "D": "Không thể cấu hình IP động",
+    "correct": "A",
+    "image": "images/Phan4_Cau42.png"
+  },
+  {
+    "question": "Để cấu hình cho Client nhận địa chỉ IP tĩnh ta chọn tùy chọn nào trong hình trên?",
+    "A": "1",
+    "B": "3",
+    "C": "2",
+    "D": "Không thể cấu hình IP tĩnh",
+    "correct": "C",
+    "image": "images/Phan4_Cau43.png"
+  },
+  {
+    "question": "Để cấu hình địa chỉ DNS Server trên Client ta chọn tùy chọn nào trong hình trên?",
+    "A": "1",
+    "B": "3",
+    "C": "2",
+    "D": "Tất cả đều sai",
+    "correct": "B",
+    "image": "images/Phan4_Cau44.png"
+  },
+  {
+    "question": "Khi cài đặt cấu hình Web Server để chỉ định địa chỉ sử dụng cho Website trong mục 1, nếu ta nhập 172.18.100.2 có nghĩa là gì?",
+    "A": "HTTP không thể hoạt động trên địa chỉ 172.18.100.2 của Server mà bạn đang cấu hình",
+    "B": "HTTP được hoạt động trên địa chỉ IP của Server là 172.18.100.2",
+    "C": "Chưa khai báo địa chỉ Server",
+    "D": "Địa chỉ của Client khi tham gia truy cập tới Web Server",
+    "correct": "B",
+    "image": "images/Phan4_Cau45.png"
+  },
+  {
+    "question": "Khi cài đặt cấu hình Web Server, mục 2 trong hình có tác dụng làm gì?",
+    "A": "Chỉ định cổng hoạt động cho dịch vụ",
+    "B": "Chỉ định số máy Client có thể truy cập tới Web Server",
+    "C": "Chỉ định số Web Server có trong mạng",
+    "D": "Các phương án đều sai",
+    "correct": "A",
+    "image": "images/Phan4_Cau46.png"
+  },
+  {
+    "question": "Khi cài đặt cấu hình Web Server, khi nào thì ta không cần cài đặt thông số cho mục 3 trong hình?",
+    "A": "Khi ta tổ chức 1 Website tương ứng với 1 địa chỉ IP",
+    "B": "Khi ta tổ chức nhiều Website tương ứng với 1 địa chỉ IP",
+    "C": "Khi ta tổ chức 1 Website tương ứng với nhiều địa chỉ IP",
+    "D": "Các phương án đều đúng",
+    "correct": "A",
+    "image": "images/Phan4_Cau47.png"
+  },
+  {
+    "question": "Khi cài đặt cấu hình Web Server, khi nào thì ta cần cài đặt thông số (Ví dụ: www.hubt.edu.vn) cho mục 3 trong hình?",
+    "A": "Khi ta tổ chức 1 Website tương ứng với 1 địa chỉ IP",
+    "B": "Khi ta tổ chức nhiều Website cùng dùng chung 1 địa chỉ IP",
+    "C": "Khi ta tổ chức 1 Website tương ứng với nhiều địa chỉ IP",
+    "D": "Các phương án đều đúng",
+    "correct": "B",
+    "image": "images/Phan4_Cau48.png"
+  },
+  {
+    "question": "Hình ảnh trên là?",
+    "A": "Cấu trúc logic của Active Directory",
+    "B": "Cấu trúc vật lý của Active Directory",
+    "C": "Mô hình dịch vụ DNS",
+    "D": "Mô hình dịch vụ DHCP",
+    "correct": "A",
+    "image": "images/Phan4_Cau49.png"
+  },
+  {
+    "question": "Tạo tài khoản đăng nhập trên Windows Server 2003 có thể tối đa bao nhiêu ký tự?",
+    "A": "104",
+    "B": "20",
+    "C": "100",
+    "D": "255",
+    "correct": "A"
+  },
+  {
+    "question": "Giao thức HTTP sử dụng Port bao nhiêu?",
+    "A": "443",
+    "B": "80",
+    "C": "8080",
+    "D": "21",
+    "correct": "B"
+  },
+  {
+    "question": "DNS nhận nhiệm vụ gì?",
+    "A": "Phân giải IP thành tên miền và tên miền thành IP",
+    "B": "Phân giải IP thành tên miền",
+    "C": "Phân giải tên miền thành IP",
+    "D": "Là máy điều khiển vùng",
+    "correct": "A"
+  },
+  {
+    "question": "Trên Domain, bạn cấu hình Password Policy đặt thông số Minimum Password Age là 1 ngày. Hãy chọn đáp án đúng đối với người sử dụng thông thường trong Domain này?",
+    "A": "Người sử dụng sau khi thay đổi mật khẩu phải đợi một ngày sau mới thay đổi mật khẩu lần nữa",
+    "B": "Người sử dụng có thể thay đổi mật khẩu ngay tức khắc",
+    "C": "Sau một ngày người sử dụng này sẽ nhận được thông báo mật khẩu của bạn đã hết hạn",
+    "D": "Các đáp án đều sai",
+    "correct": "A"
+  },
+  {
+    "question": "Có thể áp dụng chính sách nhóm (Group Policy) trực tiếp cho những đối tượng nào sau đây?",
+    "A": "OU",
+    "B": "Domain",
+    "C": "Group",
+    "D": "Các đáp án đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "ISP viết tắt của?",
+    "A": "Internet Service Providers",
+    "B": "Internet Service Promotion",
+    "C": "Internet Service Protocol",
+    "D": "International Service Providers",
+    "correct": "A"
+  },
+  {
+    "question": "Windows Server 2003 hỗ trợ bộ giao thức nào?",
+    "A": "Các đáp án đều đúng",
+    "B": "Apple Talk",
+    "C": "IPX/SPX",
+    "D": "TCP/IP",
+    "correct": "A"
+  },
+  {
+    "question": "Windows Server 2003 có thêm những chức năng nào so với các hệ điều hành Windows thông thường?",
+    "A": "Web Server",
+    "B": "Application Server",
+    "C": "File Server",
+    "D": "Các đáp án đều đúng",
+    "correct": "A"
+  },
+  {
+    "question": "Sử dụng công cụ MMC trong Windows 2003 Server có tác dụng lớn là gì?",
+    "A": "Quản trị tập trung từ máy tính",
+    "B": "Cấu hình dịch vụ Web",
+    "C": "Quản lý phân tán tài nguyên các máy Client",
+    "D": "Cấu hình dịch vụ DNS",
+    "correct": "A"
+  },
+  {
+    "question": "Công cụ nào được sử dụng để kích hoạt Remote Desktop trên một máy chủ?",
+    "A": "System Properties",
+    "B": "Terminal Services Licensing",
+    "C": "Services Manager",
+    "D": "Terminal Services Configuration",
+    "correct": "A"
+  },
+  {
+    "question": "Một máy tính khi bắt đầu tham gia vào mạng thì đã tồn tại địa chỉ gì?",
+    "A": "Địa chỉ vật lý",
+    "B": "Địa chỉ IP",
+    "C": "Địa chỉ IP và vật lý",
+    "D": "Không có địa chỉ nào",
+    "correct": "A"
+  },
+  {
+    "question": "Công ty của bạn kết nối Internet. Bạn mở cửa sổ trình duyệt trên máy để truy nhập vào một Web trên Internet nhưng thông báo lỗi. Bạn chạy lệnh Ipconfig và nhận được thông báo Media Disconnected và cũng không thể thực hiện được lệnh Ping tới bất kỳ một địa chỉ nào khác. Nguyên nhân nào gây ra trục trặc này?",
+    "A": "Máy chủ DHCP",
+    "B": "Card mạng",
+    "C": "Máy chủ Web",
+    "D": "Máy chủ DNS",
+    "correct": "B"
+  },
+  {
+    "question": "Bạn đang quản trị mạng tại một công ty. Công ty này đang sử dụng một Server với dịch vụ Proxy để chia sẻ quyền truy cập Internet cho các máy trong công ty. Bạn cần triển khai một tường lửa nào để cung cấp một kết nối an toàn giữa mạng bên trong và Internet?",
+    "A": "Packet Filtering",
+    "B": "Stateful Filtering",
+    "C": "Intrusion Detection",
+    "D": "Application Gateway",
+    "correct": "D"
+  },
+  {
+    "question": "Khi cài đặt cấu hình Web Server để chỉ định địa chỉ sử dụng cho Website trong mục Enter the IP Address to use for this Website, nếu ta chỉ định All Unassigned có nghĩa là gì?",
+    "A": "HTTP không thể hoạt động trên địa chỉ của Server mà bạn đang cấu hình",
+    "B": "HTTP được hoạt động trên tất cả các địa chỉ của Server",
+    "C": "Chưa khai báo địa chỉ Server",
+    "D": "Mặc định không cần chỉ định",
+    "correct": "B"
+  },
+  {
+    "question": "Khi tiến hành cài đặt dịch vụ Active Directory, muốn nâng cấp thành Domain Controller để quản lý một miền con của một Domain đã có sẵn thì sẽ chọn mục nào?",
+    "A": "Domain in a new forest",
+    "B": "Domain tree in an existing forest",
+    "C": "Tất cả đều đúng",
+    "D": "Child domain in an existing domain tree",
+    "correct": "D"
+  },
+  {
+    "question": "Để xây dựng thêm một Server đảm nhiệm cùng nhiệm vụ với Domain Controller Server đã có trong hệ thống mạng, về việc quản lý tài nguyên, tài khoản và chính sách hệ thống. Bạn cần xây dựng Server nào cho hệ thống mạng của mình?",
+    "A": "Child Domain Controller Server",
+    "B": "Sub Domain Controller Server",
+    "C": "Backup Domain Controller Server",
+    "D": "Domain Controller Server",
+    "correct": "D"
+  },
+  {
+    "question": "Cấu hình DHCP như trong hình. Hãy cho biết máy nhận IP động sẽ nhận địa chỉ nào sau đây?",
+    "A": "Default Gateway",
+    "B": "IP Address",
+    "C": "Subnet Mask",
+    "D": "Preferred DNS Server",
+    "correct": "A",
+    "image": "images/Phan4_Cau66.png"
+  },
+  {
+    "question": "Hãy chọn phát biểu đúng khi nói về quá trình cài đặt Windows Server 2003?",
+    "A": "Trình cài đặt có thể được nạp bằng cách khởi động từ đĩa CD",
+    "B": "Trình cài đặt yêu cầu mật khẩu của tài khoản Administrator không là trống để đáp ứng các yêu cầu về tính phức tạp",
+    "C": "Trình cài đặt yêu cầu bạn phải kích hoạt bản quyền sản phẩm trước khi cài đặt hệ điều hành",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "question": "Tạo tên tài khoản đăng nhập trên Windows 2000/XP có thể tối đa bao nhiêu ký tự?",
+    "A": "104",
+    "B": "20",
+    "C": "105",
+    "D": "255",
+    "correct": "B"
+  },
+  {
+    "question": "Mail Client là?",
+    "A": "Máy kết nối giữa các mạng dùng các giao thức truyền thông khác nhau hoặc kết nối các mạng khác nhau dùng chung giao thức",
+    "B": "Máy giữ vai trò máy chủ Mail chính trong hệ thống mạng",
+    "C": "Chứa Mailbox của người dùng",
+    "D": "Chương trình hỗ trợ chức năng đọc và soạn thảo thư",
+    "correct": "D"
+  },
+  {
+    "question": "Mail Gateway là?",
+    "A": "Máy kết nối giữa các mạng dùng các giao thức truyền thông khác nhau hoặc kết nối các mạng khác nhau dùng chung giao thức",
+    "B": "Máy giữ vai trò máy chủ Mail chính trong hệ thống mạng",
+    "C": "Chứa Mailbox của người dùng",
+    "D": "Chương trình hỗ trợ chức năng đọc và soạn thảo thư",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy cho biết mục ‘Reverse lookup Zone’ trong DNS Manager là gì?",
+    "A": "Là vùng ánh xạ từ địa chỉ IP thành địa chỉ tên miền.",
+    "B": "Là vùng ánh xạ từ địa chỉ tên miền thành địa chỉ IP.",
+    "C": "Là vùng chứa các zone không sử dụng.",
+    "D": "Là vùng chứa toàn bộ zone của DNS.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy cho biết thông tin về DNS được lưu ở đâu trong Window Server?",
+    "A": "Win/bin/etc/DNS",
+    "B": "Window\\system32\\DNS",
+    "C": "Unix/etc/bin",
+    "D": "system32\\etc\\DNS",
+    "correct": "B"
+  },
+  {
+    "question": "Hãy cho biết, DNS gồm những thành phần nào sau đây?",
+    "A": "DNS Server, các Zone, các Resolver, Client và các Resource Record.",
+    "B": "DNS Server, các Zone, các Resolver và các Resource Record.",
+    "C": "DNS Server, các Zone và các Resource Record.",
+    "D": "DNS Server, các Resolver, Client và các Resource Record.",
+    "correct": "B"
+  },
+  {
+    "question": "Hãy cho biết, mục ‘Forward Lookup Zone’ trong DNS Manager là gì trong các phương án sau đây?",
+    "A": "Vùng ánh xạ từ địa chỉ IP thành địa chỉ tên miền.",
+    "B": "Vùng ánh xạ từ địa chỉ tên miền thành địa chỉ IP.",
+    "C": "Chứa các zone không sử dụng.",
+    "D": "Chứa toàn bộ zone của DNS.",
+    "correct": "B",
+    "image": "images/Phan5_Cau4.png"
+  },
+  {
+    "question": "Chức năng chính của hệ thống tên miền DNS là gì trong các phương án sau?",
+    "A": "Dễ dàng nhớ địa chỉ Host hơn.",
+    "B": "Định danh một máy tính trên mạng cục bộ.",
+    "C": "Để thay thế địa chỉ IP, máy tính sẽ không cần dùng địa chỉ IP nữa.",
+    "D": "Giúp Server cấp phát địa chỉ IP cho Client.",
+    "correct": "A"
+  },
+  {
+    "question": "Trong cơ chế phân giải tên miền của dịch vụ DNS thì truy vấn tương tác là gì trong các phương án sau?",
+    "A": "Truy vấn giữa Resolver và DNS Server.",
+    "B": "Không được sử dụng trong DNS.",
+    "C": "Truy vấn giữa DNS Server và DNS Server.",
+    "D": "Truy vấn giữa Resolver và Resolver.",
+    "correct": "C"
+  },
+  {
+    "question": "Trong dịch vụ DNS, hãy cho biết Resource Records là gì sau đây?",
+    "A": "Là nơi lưu giữ các Top Level Name.",
+    "B": "Là bản ghi nhật ký của các DNS Client khi tham gia vào truy vấn đệ quy.",
+    "C": "Là các Root Server.",
+    "D": "Là danh sách cơ sở dữ liệu được sử dụng để trả lời các truy vấn từ DNS Client.",
+    "correct": "D"
+  },
+  {
+    "question": "Sau khi hiệu chỉnh Group Policy cho máy tính, để có hiệu lực ngay lập tức thì ta gõ lệnh nào sau đây?",
+    "A": "Gpupdate /force",
+    "B": "Gpupdate.force",
+    "C": "Gpupdate /msc",
+    "D": "UpdateGP",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy cho biết dịch vụ nào sau đây là dịch vụ truyền tệp tin trên mạng?",
+    "A": "DHCP",
+    "B": "DNS",
+    "C": "IIS",
+    "D": "FTP",
+    "correct": "D"
+  },
+  {
+    "question": "Hãy cho biết cổng mặc định của Remote Desktop là gì?",
+    "A": "8098",
+    "B": "3389",
+    "C": "8080",
+    "D": "2120",
+    "correct": "B"
+  },
+  {
+    "question": "Hãy cho biết cổng mặc định của Remote Web Browser là gì?",
+    "A": "8098",
+    "B": "8080",
+    "C": "3389",
+    "D": "2120",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy cho biết máy chủ Web là gì trong các phương án sau đây?",
+    "A": "Là một máy tính trong đó cài các hệ điều hành dòng Server và được cài đặt các phần mềm xử lý yêu cầu truy cập dịch vụ Web.",
+    "B": "Là một máy tính trong đó cài các hệ điều hành Window 7 và được cài đặt các phần mềm xử lý yêu cầu truy cập dịch vụ Web.",
+    "C": "Là một máy tính trong đó cài các hệ điều hành Window và được cài đặt các phần mềm xử lý yêu cầu truy cập dịch vụ Web.",
+    "D": "Là một máy tính trong đó cài các hệ điều hành Unix được cài đặt các phần mềm xử lý yêu cầu truy cập dịch vụ Web.",
+    "correct": "A"
+  },
+  {
+    "question": "Để đăng nhập một máy con vào một máy DC (Domain Controller) bạn phải đảm bảo yêu cầu nào sau đây?",
+    "A": "Nhận địa chỉ IP động từ máy chủ và phải có User đã tạo trên Domain Controller.",
+    "B": "Khai báo địa chỉ máy chủ làm Domain Controller.",
+    "C": "Khai báo IP DNS và thay đổi môi trường Workgroup thành Domain.",
+    "D": "Tất cả các đáp án đều sai.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy chọn phát biểu đúng nhất về Domain Controller là gì trong các phương án sau đây?",
+    "A": "Thiết bị lưu thông tin DNS.",
+    "B": "Được sử dụng để quản lý miền.",
+    "C": "Một máy trạm được quyền truy xuất tài nguyên miền.",
+    "D": "Được dùng để lưu thông tin Account cục bộ.",
+    "correct": "B"
+  },
+  {
+    "question": "Hãy chọn phát biểu đúng về OU (Organizational Unit) là gì trong các phương án sau đây?",
+    "A": "Là một thành phần trong cấu trúc AD.",
+    "B": "Là một nhóm địa chỉ IP để cấp phát động.",
+    "C": "Là đối tượng để làm tăng số miền (Domain).",
+    "D": "Là đối tượng không thể thay thế cho Subdomain.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy cho biết, một Domain là gì trong các phương án sau đây?",
+    "A": "Gồm các máy hoạt động riêng lẻ.",
+    "B": "Một vùng dùng chung cơ sở dữ liệu.",
+    "C": "Một vùng làm việc với hạn chế về tài nguyên.",
+    "D": "Chỉ gồm các Server được cài đặt hệ điều hành Window Server.",
+    "correct": "B"
+  },
+  {
+    "question": "Để nâng cấp một máy chủ thành Domain Controller thì phải được cài đặt dịch vụ gì sau đây?",
+    "A": "Active Directory",
+    "B": "DHCP",
+    "C": "DNS",
+    "D": "WINS",
+    "correct": "A"
+  },
+  {
+    "question": "Để hệ thống AD (Active Directory) hoạt động được thì trong Domain phải có yêu cầu nào sau đây?",
+    "A": "Một máy làm DNS Server.",
+    "B": "Một máy làm DHCP Server.",
+    "C": "Hoạt động bình thường không cần phụ thuộc vào dịch vụ nào khác.",
+    "D": "Chỉ cần cài đặt dịch vụ AD trên máy Domain Controller.",
+    "correct": "A"
+  },
+  {
+    "question": "Công việc quản trị chính của DC (Domain Controller) là gì trong các phương án sau?",
+    "A": "Account người dùng.",
+    "B": "DNS.",
+    "C": "Quản lý địa chỉ cấp phát IP động.",
+    "D": "Tất cả đáp án trên.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy chọn đáp án đúng cho biết một Domain có thể có bao nhiêu DC (Domain Controller)?",
+    "A": "Chỉ được một DC.",
+    "B": "Tối đa là hai DC.",
+    "C": "Có thể cài đặt nhiều DC.",
+    "D": "Không thể cài đặt DC.",
+    "correct": "C"
+  },
+  {
+    "question": "Cấu trúc vật lý của AD (Active Directory) gồm những thành phần nào sau đây?",
+    "A": "Domain Controller và Site.",
+    "B": "Object, Organizational Unit, Domain, Domain Tree, Forest.",
+    "C": "Domain Controller, Domain Tree, Forest, Object, Organizational Unit.",
+    "D": "Domain Controller, Domain Tree, Forest và Site.",
+    "correct": "A"
+  },
+  {
+    "question": "Cấu trúc logic của AD (Active Directory) gồm những thành phần nào sau đây?",
+    "A": "Domain Controller và Site.",
+    "B": "Domain Controller, Domain Tree, Forest, Object, Organizational Unit.",
+    "C": "Object, Organizational Unit, Domain, Domain Tree, Forest.",
+    "D": "Domain Controller, Domain Tree, Forest và Site.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy chọn đáp án đúng cho biết lợi ích khi sử dụng dịch vụ Active Directory là gì?",
+    "A": "Quản trị tài khoản và tài nguyên tập trung, cần ít người quản trị.",
+    "B": "Cho phép người sử dụng tự Log On.",
+    "C": "Cung cấp một Server chứng thực.",
+    "D": "Tất cả đều đúng.",
+    "correct": "D"
+  },
+  {
+    "question": "Hãy cho biết tệp NTDS.DIT là viết tắt của cụm từ nào sau đây?",
+    "A": "New Technology Directory Service. Directory Information Tree.",
+    "B": "Network Technology Directory Service. Directory Information Tree.",
+    "C": "New Technology Domain Service. Directory Internet Tree.",
+    "D": "New Technology Directory Service. Directory Information Training.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy chọn biết OU trong cấu trúc của AD (Active Directory) là viết tắt của cụm từ nào sau đây?",
+    "A": "Organizational Unit.",
+    "B": "Object Unkhown.",
+    "C": "Object Unit.",
+    "D": "Organizational Unique.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy cho biết HTTP viết tắt của cụm từ nào sau đây?",
+    "A": "Hexa Transfer Protocol.",
+    "B": "Hypertext Transfer Program.",
+    "C": "Hypertext Transfer Protocol.",
+    "D": "Header Transfer Protocol.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy cho biết MMC viết tắt của cụm từ nào sau đây?",
+    "A": "Microsoft Management Console.",
+    "B": "Microsoft Management Control.",
+    "C": "Management Module Control.",
+    "D": "Microsoft Manager Console.",
+    "correct": "A"
+  },
+  {
+    "question": "Để đảm bảo cho việc quản lý một cách dễ dàng và thuận tiện trên Domain Controller thì người quản trị mạng phải tạo ra các User như thế nào?",
+    "A": "Tạo ra một Organizational Unit và tạo các User trong đó.",
+    "B": "Tạo ra một Group riêng và tạo các User vào Group đó.",
+    "C": "Tạo ra các User và phân quyền đặc trưng cho các User đó.",
+    "D": "Tạo ra các User và gán cho các User vào nhóm Administrator.",
+    "correct": "A"
+  },
+  {
+    "question": "Trong Group Policy, hãy cho biết ý nghĩa của từ khóa Not Configured là gì?",
+    "A": "Registry sẽ giữ nguyên trạng thái ban đầu của nó.",
+    "B": "Thực thi hành động trong gpedit và Registry sẽ phát sinh một khóa mới để thực thi.",
+    "C": "Cấm không cho phép thực thi hành động đó.",
+    "D": "Không thể lựa chọn cấu hình cho hành động.",
+    "correct": "A"
+  },
+  {
+    "question": "Trong Group Policy, hãy cho biết ý nghĩa của từ khóa Enable là gì?",
+    "A": "Registry sẽ giữ nguyên trạng thái ban đầu của nó.",
+    "B": "Thực thi hành động trong gpedit.",
+    "C": "Cấm không cho phép thực thi hành động đó.",
+    "D": "Không thể lựa chọn cấu hình cho hành động.",
+    "correct": "B"
+  },
+  {
+    "question": "Trong Group Policy, hãy cho biết ý nghĩa của từ khóa Disable là gì?",
+    "A": "Thực thi hành động trong gpedit.",
+    "B": "Registry sẽ giữ nguyên trạng thái ban đầu của nó.",
+    "C": "Cấm không cho phép thực thi hành động đó.",
+    "D": "Cho phép thực thi hành động đó.",
+    "correct": "C"
+  },
+  {
+    "question": "Khi cài đặt cấu hình Web Server để chỉ định địa chỉ sử dụng cho Website trong mục IP Address nếu ta nhập 192.168.1.1 có nghĩa là gì?",
+    "A": "HTTP không thể hoạt động trên địa chỉ 192.168.1.1 của Server mà bạn đang cấu hình.",
+    "B": "HTTP được hoạt động trên địa chỉ IP của Server là 192.168.1.1.",
+    "C": "Địa chỉ của Router trong kết nối Internet để truy cập Web.",
+    "D": "Địa chỉ của Client khi tham gia truy cập tới Web Server.",
+    "correct": "B",
+    "image": "images/Phan5_Cau32.png"
+  },
+  {
+    "question": "Khi cài đặt cấu hình Web Server mục Port trong hình có tác dụng làm gì?",
+    "A": "Chỉ định cổng hoạt động cho dịch vụ.",
+    "B": "Chỉ định số máy Client có thể truy cập tới Web Server.",
+    "C": "Chỉ định số Web Server có trong mạng.",
+    "D": "Các phương án đều sai.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy cho biết ý nghĩa của hình ảnh trên trong quá trình nâng cấp DC?",
+    "A": "Mật khẩu đặt cho User Administrator.",
+    "B": "Mật khẩu đặt cho hệ thống khởi động ở chế độ Safe Mode.",
+    "C": "Mật khẩu đặt cho hệ thống khởi động ở chế độ Directory Service Restore Mode.",
+    "D": "Mật khẩu để truy cập máy trạm.",
+    "correct": "C",
+    "image": "images/Phan5_Cau34.png"
+  },
+  {
+    "question": "Hãy chọn đáp án đúng cho biết địa chỉ IPv4 được hiểu như thế nào?",
+    "A": "Là một dãy gồm 4 nhóm số, mỗi nhóm có giá trị 1 bit dùng để định danh địa chỉ máy tính trong một mạng nào đó.",
+    "B": "Là một dãy gồm 6 nhóm số, mỗi nhóm có giá trị 2 byte dùng để định danh địa chỉ máy tính trong một mạng nào đó.",
+    "C": "Là một dãy gồm 4 nhóm số, mỗi nhóm có giá trị 1 byte dùng để định danh địa chỉ máy tính trong một mạng nào đó.",
+    "D": "Là một dãy gồm 6 nhóm số, mỗi nhóm có giá trị 1 byte dùng để định danh địa chỉ máy tính trong một mạng nào đó.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy chọn đáp án đúng cho biết Server (máy chủ) là gì?",
+    "A": "Là một máy tính dùng để cung cấp dịch vụ Web.",
+    "B": "Là một máy tính dùng để cung cấp dịch vụ tên miền.",
+    "C": "Là một máy tính dùng để cung cấp các thông tin dịch vụ mà người quản trị cài đặt trên đó.",
+    "D": "Là một máy tính dùng để quản trị mạng.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy cho biết HTTP viết tắt của cụm từ nào sau đây?",
+    "A": "Hexa Transfer Protocol.",
+    "B": "Hypertext Transfer Program.",
+    "C": "Hypertext Transfer Protocol.",
+    "D": "Header Transfer Protocol.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy cho biết hệ điều hành máy chủ là gì trong các phương án sau đây?",
+    "A": "Là phần mềm đóng vai trò như là một môi trường trên đó người quản trị có thể cài đặt thêm các phần mềm ứng dụng theo yêu cầu.",
+    "B": "Là một phần mềm quản trị nội dung Web và các tài nguyên như Email hay chia sẻ ứng dụng.",
+    "C": "Là phần cứng đóng vai trò như là một môi trường trên đó người quản trị có thể cài đặt thêm các phần mềm ứng dụng theo yêu cầu.",
+    "D": "Là một chương trình ứng dụng hỗ trợ soạn thảo văn bản và in ấn.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy chọn đáp án đúng cho biết Subdomain (tên miền con) là gì?",
+    "A": "Không có tên miền con.",
+    "B": "Là tên một máy tính trong Workgroup.",
+    "C": "Là tên đặt theo tên miền chính nhằm chia nhỏ tên miền chính.",
+    "D": "Tên miền con được xem như là một tên miền chính.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy cho biết ICANN là viết tắt của cụm từ nào sau đây?",
+    "A": "International Corporation for Assigned Names and Numbers.",
+    "B": "Internet Corporate for Assigned Names and Nations.",
+    "C": "Internet Corporation for Assigned Names and Numbers.",
+    "D": "Internet Corporate for Assigned Names and Numbers.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy chọn phương án đúng cho biết thứ tự các tầng của mô hình OSI là thế nào?",
+    "A": "Physical, Data-Link, Network, Transport, Session, Presentation, Application.",
+    "B": "Physical, Data-Link, Transport, Network, Session, Presentation, Application.",
+    "C": "Physical, Data-Link, Network, Session, Transport, Presentation, Application.",
+    "D": "Physical, Data-Link, Network, Transport, Presentation, Session, Application.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy xác định độ dài của địa chỉ IPv6 là bao nhiêu trong các phương án sau đây?",
+    "A": "256 bits.",
+    "B": "128 bits.",
+    "C": "8 bits.",
+    "D": "32 bits.",
+    "correct": "B"
+  },
+  {
+    "question": "Thiết bị nào sau đây có chức năng quyết định đường đi của các gói tin tới đích?",
+    "A": "Switch",
+    "B": "Repeater",
+    "C": "Router",
+    "D": "Bridge",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy chọn mục tiêu chính nào để kết nối các máy tính thành một mạng trong các phương án sau đây?",
+    "A": "Để cung cấp các dịch vụ mạng đa dạng và chia sẻ tài nguyên chung.",
+    "B": "Để cung cấp tài nguyên trên mạng và sử dụng các thiết bị giá thành rẻ.",
+    "C": "Để hạn chế sử dụng nhiều thiết bị cùng lúc.",
+    "D": "Để cung cấp được nhiều thông tin cho nhiều người biết.",
+    "correct": "A"
+  },
+  {
+    "question": "POF là loại cáp gì?",
+    "A": "Cáp quang làm bằng Plastic.",
+    "B": "Cáp quang làm bằng thuỷ tinh.",
+    "C": "Cáp đồng trục Thinnet.",
+    "D": "Cáp đồng trục Thicknet.",
+    "correct": "A"
+  },
+  {
+    "question": "Xác định Mask default của địa chỉ 200.50.2.4 là?",
+    "A": "255.255.255.4",
+    "B": "255.0.0.0",
+    "C": "255.255.0.0",
+    "D": "255.255.255.0",
+    "correct": "D"
+  },
+  {
+    "question": "Hãy chọn khái niệm nào đúng về giao thức (Protocol) trong phương án sau đây?",
+    "A": "Giao thức là một tập các quy ước mà các thiết bị trên mạng phải tuân theo để có thể liên lạc được với nhau.",
+    "B": "Giao thức là các tín hiệu nhị phân truyền đi trước khi truyền dữ liệu thực sự.",
+    "C": "Giao thức là cơ chế \"bắt tay ba lần\" mà mọi thiết bị trên mạng phải tuân theo để có thể liên lạc được với nhau.",
+    "D": "Giao thức là chương trình mà các máy tính phải có để hoạt động được trong mạng.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy chọn phương án đúng cho biết cáp xoắn đôi CAT 6 có tốc độ truyền là bao nhiêu?",
+    "A": "10Mbps",
+    "B": "1000Mbps",
+    "C": "50Mbps",
+    "D": "100Mbps",
+    "correct": "D"
+  },
+  {
+    "question": "Hãy cho biết nhược điểm chính của mạng dạng Star là gì trong các phương án sau đây?",
+    "A": "Cần quá nhiều cáp để kết nối tới nút mạng trung tâm.",
+    "B": "Khó cài đặt và bảo trì.",
+    "C": "Khó khắc phục khi lỗi cáp xảy ra, và ảnh hưởng tới các nút mạng khác.",
+    "D": "Không có khả năng thay đổi khi đã lắp đặt.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy quan sát hình ảnh (Cáp xoắn đôi có lớp bọc kim loại), cho biết đây là loại cáp nào trong các phương án sau đây?",
+    "A": "Cáp UTP.",
+    "B": "Cáp đồng trục.",
+    "C": "Cáp STP.",
+    "D": "Cáp quang.",
+    "correct": "C",
+    "image": "images/PhanMMT1_Cau10.png"
+  },
+  {
+    "question": "Phương pháp truy nhập nào dưới đây lắng nghe lưu thông mạng trên đường truyền trước khi truyền dữ liệu?",
+    "A": "CSMA/CD",
+    "B": "CSMA/CA",
+    "C": "Token RING",
+    "D": "Token BUS",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy chọn nguyên nhân chính phá vỡ hệ thống của mạng Token ring là gì trong các phương án sau đây?",
+    "A": "Là do mất thẻ bài.",
+    "B": "Là do không khởi tạo vòng logic.",
+    "C": "Là do khôi phục dữ liệu bị mất do gẫy vòng logic.",
+    "D": "Là do dung lượng của dữ liệu quá nhẹ.",
+    "correct": "A"
+  },
+  {
+    "question": "Chuẩn nào sau đây đặc tả mạng cục bộ hình vòng, sử dụng thẻ bài (Token) để điều khiển truy nhập đường truyền?",
+    "A": "IEEE 802.4",
+    "B": "IEEE 802.2",
+    "C": "IEEE 802.3",
+    "D": "IEEE 802.5",
+    "correct": "D"
+  },
+  {
+    "question": "Tia hồng ngoại thuộc?",
+    "A": "Đường truyền vô tuyến.",
+    "B": "Đường truyền hữu tuyến.",
+    "C": "Hữu tuyến và vô tuyến.",
+    "D": "Không được sử dụng trên mạng.",
+    "correct": "A"
+  },
+  {
+    "question": "3G là viết tắt của?",
+    "A": "3rd Generation.",
+    "B": "3rd Group.",
+    "C": "3rd Gopher.",
+    "D": "Goto 3.",
+    "correct": "A"
+  },
+  {
+    "question": "Phương thức định tuyến nào không sử dụng giao thức định tuyến?",
+    "A": "Định tuyến động",
+    "B": "Định tuyến tĩnh",
+    "C": "Định tuyến giao nhau",
+    "D": "Định tuyến ngẫu nhiên",
+    "correct": "B"
+  },
+  {
+    "question": "Chọn đáp án sai về chức năng của Card mạng?",
+    "A": "Chuyển dữ liệu từ CPU tới các slot thích hợp trong máy tính",
+    "B": "Chuyển đổi dữ liệu từ các đường truyền song song thành chuỗi dữ liệu tuần tự để có thể truyền thông qua mạng",
+    "C": "Truyền và nhận dữ liệu dựa trên địa chỉ vật lý của card mạng",
+    "D": "Định dạng dữ liệu theo những giao thức tương ứng",
+    "correct": "A"
+  },
+  {
+    "question": "Loại thiết bị nào cho phép sử dụng toàn bộ băng thông của đường truyền?",
+    "A": "Hub",
+    "B": "Switch",
+    "C": "Repeater",
+    "D": "Transceiver",
+    "correct": "B"
+  },
+  {
+    "question": "Địa chỉ mạng riêng (Private IP address) được quy định trong lớp C là?",
+    "A": "200.168.0.0 đến 200.168.255.255",
+    "B": "195.168.0.0 đến 195.168.255.255",
+    "C": "192.168.0.0 đến 192.168.255.255",
+    "D": "192.100.0.0 đến 192.100.255.255",
+    "correct": "C"
+  },
+  {
+    "question": "Đặc điểm của Subnet Mask là gì?",
+    "A": "Tất cả các bit của phần Netid là 1, tất cả các bit của phần Hostid là 0",
+    "B": "Tất cả các bit của phần Netid là 0, tất cả các bit của phần Hostid là 1",
+    "C": "Tất cả các bit của phần Netid là 1, tất cả các bit của phần Hostid là 1",
+    "D": "Mask là một số nhị phân 32 bit",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ 191.10.255.255 là địa chỉ gì?",
+    "A": "Broadcast lớp C",
+    "B": "Broadcast lớp A",
+    "C": "Broadcast lớp B",
+    "D": "Subnet mask lớp B",
+    "correct": "C"
+  },
+  {
+    "question": "Mỗi phần (octet) trong một địa chỉ IPv4 chiếm bao nhiêu Bit?",
+    "A": "4",
+    "B": "8",
+    "C": "16",
+    "D": "32",
+    "correct": "B"
+  },
+  {
+    "question": "Mạng FDDI sử dụng loại cáp nào?",
+    "A": "Cáp xoắn",
+    "B": "Cáp quang",
+    "C": "Cáp đồng trục",
+    "D": "Cáp S",
+    "correct": "B"
+  },
+  {
+    "question": "Sự giống nhau giữa 2 mô hình OSI và TCP/IP là?",
+    "A": "Sử dụng kỹ thuật chuyển mạch gói",
+    "B": "Đều có lớp trình diễn",
+    "C": "Cấu trúc 7 tầng",
+    "D": "Sử dụng kỹ thuật chuyển mạch kênh",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ mạng riêng (Private IP address) được quy định trong lớp A là?",
+    "A": "5.0.0.0 đến 10.255.255.255.255",
+    "B": "10.0.0.0 đến 10.255.255.255.255",
+    "C": "20.0.0.0 đến 20.255.255.255.255",
+    "D": "10.0.0.0 đến 15.255.255.255.255.255",
+    "correct": "B"
+  },
+  {
+    "question": "Địa chỉ trang web ‘www.hubt.edu.vn’. ‘vn’ trên địa chỉ có nghĩa là gì?",
+    "A": "Ký hiệu tên nước Việt Nam",
+    "B": "Ký hiệu nào đó",
+    "C": "Hiển thị thông tin tổ chức kinh doanh",
+    "D": "Khác",
+    "correct": "A"
+  },
+  {
+    "question": "Trong chuẩn 10BaseT, chữ T viết tắt của từ nào?",
+    "A": "Twisted Pair",
+    "B": "Thinet",
+    "C": "Thicknet",
+    "D": "Tall",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy xác định giao thức nào sau đây là một giao thức kết nối song công (Full-Duplex), đáng tin cậy và chịu trách nhiệm trong việc truyền dữ liệu?",
+    "A": "TCP",
+    "B": "UDP",
+    "C": "IP",
+    "D": "ARP",
+    "correct": "A"
+  },
+  {
+    "question": "Chiều dài giới hạn của dây cáp xoắn nối giữa 2 thiết bị (PC, Hub, Switch…) là bao nhiêu trong các phương án sau đây?",
+    "A": "10 mét.",
+    "B": "50 mét.",
+    "C": "100 mét.",
+    "D": "200 mét.",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy quan sát hình ảnh (Cáp xoắn đôi không bọc kim loại), cho biết đây là loại cáp nào trong các phương án sau đây?",
+    "A": "Cáp UTP.",
+    "B": "Cáp đồng trục.",
+    "C": "Cáp STP.",
+    "D": "Cáp quang.",
+    "correct": "A",
+    "image": "images/PhanMMT1_Cau30.png"
+  },
+  {
+    "question": "Khi thi công giải cáp mạng (cáp xoắn đôi), hãy cho biết góc giới hạn của cáp là bao nhiêu trong các phương án sau đây?",
+    "A": "90 độ.",
+    "B": "45 độ.",
+    "C": "60 độ.",
+    "D": ">90 độ.",
+    "correct": "D"
+  },
+  {
+    "question": "Hãy chọn tầng nào sau đây trong mô hình OSI có chức năng kiểm soát lỗi và kiểm soát luồng dữ liệu?",
+    "A": "Tầng liên kết dữ liệu.",
+    "B": "Tầng mạng.",
+    "C": "Tầng vật lý.",
+    "D": "Tầng vận chuyển.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy xác định đâu là mạng cục bộ (LAN) trong các trường hợp sau đây?",
+    "A": "Hai máy tính, một ở Đại học Kinh Doanh và Công nghệ HN, một ở Đại học Hải Phòng được nối mạng và gửi thông tin cho nhau.",
+    "B": "Một máy tính và một máy in trong một văn phòng, nối với nhau thông qua một Printer Switch box.",
+    "C": "Một số máy tính đặt trong các phòng học tại khu D - Đại học Kinh Doanh và Công Nghệ HN nối cáp với nhau, chia sẻ và sử dụng chung các tài nguyên.",
+    "D": "Các máy tính trong một công ty cùng kết nối vào Internet bằng USB 3G.",
+    "correct": "C"
+  },
+  {
+    "question": "Việc phân loại mạng thường được tuân theo những tiêu chí nào sau đây?",
+    "A": "Địa lý, kỹ thuật chuyển mạch, kiến trúc mạng và nguyên tắc quản lý.",
+    "B": "Kỹ thuật chuyển mạch, kiến trúc mạng, nguyên tắc quản lý và hệ điều hành mạng.",
+    "C": "Hệ điều hành, kỹ thuật chuyển mạch và nguyên tắc quản lý.",
+    "D": "Địa lý, kiến trúc mạng và nguyên tắc quản lý.",
+    "correct": "A"
+  },
+  {
+    "question": "Hệ thống mạng của Trường Đại Học Kinh Doanh và Công nghệ Hà Nội đang sử dụng một địa chỉ mạng lớp C, khi cần chia 12 subnets thì ta phải dùng Subnet Mask nào trong các phương án sau đây?",
+    "A": "255.255.255.240",
+    "B": "255.255.255.0",
+    "C": "255.255.12.0",
+    "D": "255.255.255.12",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy xác định độ dài của địa chỉ MAC là bao nhiêu trong các phương án sau đây?",
+    "A": "24 bits.",
+    "B": "48 bits.",
+    "C": "8 bits.",
+    "D": "36 bits.",
+    "correct": "B"
+  },
+  {
+    "question": "Phương pháp thẻ bài trong mạng Token Ring hoạt động hiệu quả ở điều kiện nào sau đây?",
+    "A": "Tải nhẹ.",
+    "B": "Tải nặng.",
+    "C": "Tắc nghẽn đường truyền.",
+    "D": "Có xung đột.",
+    "correct": "D"
+  },
+  {
+    "question": "Hãy chọn phương án đúng cho biết một địa chỉ mạng lớp C được phép mượn tối đa bao nhiêu bit cho Subnet?",
+    "A": "2 bits",
+    "B": "8 bits",
+    "C": "4 bits",
+    "D": "6 bits",
+    "correct": "D"
+  },
+  {
+    "question": "Theo chuẩn T568B của cáp xoắn đôi UTP (Unshielded Twisted Pair), hãy xác định dây Xanh dương nằm ở chân số mấy trong các phương án sau đây?",
+    "A": "Số 5",
+    "B": "Số 6",
+    "C": "Số 3",
+    "D": "Số 4",
+    "correct": "D"
+  },
+  {
+    "question": "Hãy xác định cổng giao tiếp SC (Subscriber Connector) nối Card mạng với loại cáp nào trong các phương án sau đây?",
+    "A": "Cáp Quang.",
+    "B": "Cáp Đồng trục gầy.",
+    "C": "Cáp Xoắn đôi.",
+    "D": "Cáp Đồng trục béo.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy xác định giao thức UDP được sử dụng cho các ứng dụng nào trong các phương án sau đây?",
+    "A": "Các ứng dụng không yêu cầu độ tin cậy cao.",
+    "B": "Các ứng dụng yêu cầu kiểm soát luồng và kiểm soát lỗi.",
+    "C": "Các ứng dụng yêu cầu độ tin cậy cao.",
+    "D": "Các ứng dụng không yêu cầu liên kết vật lý.",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy chọn phương án nào sau đây cho biết chức năng chính của giao thức ICMP trong bộ giao thức TCP/IP?",
+    "A": "Kiểm soát luồng dữ liệu truyền trên mạng.",
+    "B": "Thông báo lỗi và các thông tin trạng thái khác.",
+    "C": "Định hướng tìm đường cho gói tin.",
+    "D": "Hiển thị thông tin các gói tin không theo thứ tự.",
+    "correct": "B"
+  },
+  {
+    "question": "Trong mô hình TCP/IP, giao thức nào dùng để tìm địa chỉ MAC khi biết địa chỉ IP trong các phương án sau đây?",
+    "A": "ARP",
+    "B": "TCP",
+    "C": "UDP",
+    "D": "RARP",
+    "correct": "A"
+  },
+  {
+    "question": "Dùng phương pháp bấm cáp xoắn - chéo giữa hai thiết bị nào?",
+    "A": "Hub - Hub",
+    "B": "Modem - PC",
+    "C": "Hub - NIC",
+    "D": "Switch - PC",
+    "correct": "A"
+  },
+  {
+    "question": "Giao thức OSPF hoạt động theo phương thức định tuyến nào?",
+    "A": "Vector khoảng cách",
+    "B": "Trạng thái liên kết",
+    "C": "Định tuyến tĩnh",
+    "D": "Định tuyến ngẫu nhiên",
+    "correct": "B"
+  },
+  {
+    "question": "Hãy xác định đâu là Subnet Mask của địa chỉ mạng lớp C trong các phương án sau đây?",
+    "A": "255.255.255.0",
+    "B": "255.255.0.0",
+    "C": "255.0.0.0",
+    "D": "225.255.255.255",
+    "correct": "A"
+  },
+  {
+    "question": "Một mạng sử dụng địa chỉ lớp B cần chia thành 9 mạng con, hãy xác định Subnet Mask là gì trong các phương án sau đây?",
+    "A": "255.255.240.0",
+    "B": "255.0.0.255",
+    "C": "255.224.255.0",
+    "D": "255.255.255.224",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy xác định cổng giao tiếp RJ-45 (Registered Jack – 45) nối Card mạng với loại cáp nào trong các phương án sau đây?",
+    "A": "Cáp Đồng trục gầy",
+    "B": "Cáp Quang",
+    "C": "Cáp Xoắn đôi",
+    "D": "Cáp Đồng trục béo",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy chọn phương án đúng nào sau đây cho biết địa chỉ Broadcast của lớp C?",
+    "A": "221.218.2.255",
+    "B": "190.44.255.255",
+    "C": "129.219.145.255",
+    "D": "190.12.2.255",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy xác định địa chỉ IP nào sau đây là địa chỉ quảng bá nội bộ cho một mạng bất kỳ?",
+    "A": "10.16.1.255",
+    "B": "230.20.30.255",
+    "C": "255.255.255.255",
+    "D": "12.255.255.255",
+    "correct": "C"
+  },
+  {
+    "question": "Hãy xác định các giao thức RIP, OSPF hoạt động ở tầng nào trong mô hình TCP/IP trong các phương án sau đây?",
+    "A": "Application layer",
+    "B": "Network layer",
+    "C": "Transport layer",
+    "D": "Presentation layer",
+    "correct": "B"
+  },
+  {
+    "question": "Subnet Mask mặc định của địa chỉ 112.50.30.4 là gì trong các phương án sau đây?",
+    "A": "255.255.255.0",
+    "B": "255.0.0.0",
+    "C": "255.255.0.0",
+    "D": "255.255.255.4",
+    "correct": "B"
+  },
+  {
+    "question": "Hãy cho biết địa chỉ 182.18.8.1 thuộc lớp nào trong các phương án sau đây?",
+    "A": "Lớp C",
+    "B": "Lớp B",
+    "C": "Lớp D",
+    "D": "Lớp A",
+    "correct": "B"
+  },
+  {
+    "question": "Một mạng lớp B mượn 5 bit để chia subnet, hãy xác định Subnet Mask của mạng là bao nhiêu trong các phương án sau đây?",
+    "A": "255.255.248.0",
+    "B": "255.255.255.1",
+    "C": "255.255.255.248",
+    "D": "255.255.255.128",
+    "correct": "A"
+  },
+  {
+    "question": "Để chia thành 5 mạng con của 1 địa chỉ lớp C, ta sử dụng Subnet Mask nào trong các phương án sau đây?",
+    "A": "255.255.224.255",
+    "B": "255.255.255.224",
+    "C": "255.0.0.224",
+    "D": "255.225.255.0",
+    "correct": "B"
+  },
+  {
+    "question": "Hãy xác định phương thức định tuyến nào sau đây có thể tính toán đường đi ngắn nhất độc lập?",
+    "A": "Vector khoảng cách (Distance Vector).",
+    "B": "Trạng thái liên kết (Link State).",
+    "C": "Không tồn tại phương thức này.",
+    "D": "Định tuyến tĩnh (Static Routing).",
+    "correct": "A"
+  },
+  {
+    "question": "Hãy xác định chiều dài giới hạn của các dây cáp xoắn đôi khi tách xoắn là bao nhiêu trong các phương án sau đây?",
+    "A": "5 cm",
+    "B": "10 cm",
+    "C": "< 5 cm",
+    "D": "20 cm",
+    "correct": "B"
+  },
+  {
+    "question": "Đâu là Subnet Mask của lớp C?",
+    "A": "255.255.255.0",
+    "B": "255.255.0.0",
+    "C": "255.0.0.0",
+    "D": "225.255.255.255",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ nào được dành riêng cho những chức năng Loopback cục bộ?",
+    "A": "121.0.0.0",
+    "B": "0.0.0.0",
+    "C": "1.0.0.0",
+    "D": "127.0.0.0",
+    "correct": "D"
+  },
+  {
+    "question": "Địa chỉ 19.219.255.255 là địa chỉ gì?",
+    "A": "Broadcast lớp A",
+    "B": "Broadcast lớp B",
+    "C": "Subnet Mask lớp A",
+    "D": "Subnet Mask lớp B",
+    "correct": "A"
+  },
+  {
+    "question": "Một mạng con lớp A mượn 1 bit để chia Subnet thì Subnet Mask sẽ là?",
+    "A": "255.255.128.0",
+    "B": "255.255.255.240",
+    "C": "255.128.0.0",
+    "D": "255.255.128.0",
+    "correct": "C"
+  },
+  {
+    "question": "Trong địa chỉ lớp B, một mạng cần chia thành 9 mạng con, sử dụng Subnet Mask là?",
+    "A": "255.255.240.0",
+    "B": "255.0.0.255",
+    "C": "255.224.255.0",
+    "D": "255.255.255.224",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ lớp C được phép mượn tối đa bao nhiêu bit cho Subnet?",
+    "A": "2",
+    "B": "8",
+    "C": "4",
+    "D": "6",
+    "correct": "D"
+  },
+  {
+    "question": "Trong địa chỉ lớp C, một mạng cần chia thành 3 mạng con thì phải sử dụng Subnet Mask nào sau đây?",
+    "A": "255.255.224.0",
+    "B": "255.255.255.224",
+    "C": "255.0.0.255",
+    "D": "255.255.255.1",
+    "correct": "B"
+  },
+  {
+    "question": "Địa chỉ Broadcast của lớp C là?",
+    "A": "221.218.2.255",
+    "B": "190.44.255.255",
+    "C": "129.219.145.255",
+    "D": "190.12.2.255",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ lớp B được phép mượn tối đa bao nhiêu bit cho Subnet?",
+    "A": "14",
+    "B": "8",
+    "C": "6",
+    "D": "2",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ IP nào sau đây là địa chỉ quảng bá cho một mạng bất kỳ?",
+    "A": "10.16.1.255",
+    "B": "230.20.30.255",
+    "C": "255.255.255.255",
+    "D": "12.255.255.255",
+    "correct": "C"
+  },
+  {
+    "question": "Phương thức nào cho phép thiết bị Router truyền bảng chỉ đường của mình cho các router khác cập nhật?",
+    "A": "Vector khoảng cách",
+    "B": "Trạng thái liên kết",
+    "C": "Không tồn tại phương thức này",
+    "D": "Định tuyến tĩnh",
+    "correct": "B"
+  },
+  {
+    "question": "Trong mô hình OSI, thiết bị nào hoạt động ở tầng vật lý?",
+    "A": "Modem",
+    "B": "Switch",
+    "C": "Repeater",
+    "D": "Bridge",
+    "correct": "C"
+  },
+  {
+    "question": "Giao thức định tuyến nào tính toán đường đi ngắn nhất độc lập?",
+    "A": "Link State",
+    "B": "Distance Vector",
+    "C": "Không có phương thức nào",
+    "D": "Static Routing",
+    "correct": "B"
+  },
+  {
+    "question": "Chức năng chung của các giao thức định tuyến là gì?",
+    "A": "Lựa chọn đường đi được coi là \"ngắn nhất\"",
+    "B": "Tất cả đều đúng",
+    "C": "Gửi gói tin trên mạng",
+    "D": "Trao đổi thông tin định tuyến",
+    "correct": "B"
+  },
+  {
+    "question": "Trong mô hình TCP/IP, giao thức TCP hoạt động cùng tầng với các giao thức nào?",
+    "A": "UDP",
+    "B": "ARP",
+    "C": "IP",
+    "D": "FTP",
+    "correct": "A"
+  },
+  {
+    "question": "Xác định Mask Default của địa chỉ 122.50.30.4 là?",
+    "A": "255.255.255.0",
+    "B": "255.0.0.0",
+    "C": "255.255.0.0",
+    "D": "255.255.255.4",
+    "correct": "B"
+  },
+  {
+    "question": "Mỗi mạng muốn hoạt động trong môi trường liên mạng thì cần phải đăng ký gì?",
+    "A": "Một địa chỉ mạng",
+    "B": "Một địa chỉ IP",
+    "C": "Một địa chỉ IPX",
+    "D": "Một địa chỉ Default Gateway",
+    "correct": "D"
+  },
+  {
+    "question": "Chọn một phát biểu đúng?",
+    "A": "Mỗi thiết bị trong mạng có một địa chỉ IP cố định",
+    "B": "Địa chỉ IP được thiết lập từ nhà sản xuất",
+    "C": "Địa chỉ IP là duy nhất trong một hệ thống mạng",
+    "D": "Mỗi card mạng có một địa chỉ IP cố định",
+    "correct": "C"
+  },
+  {
+    "question": "Địa chỉ IP 190.50.1.2?",
+    "A": "Thuộc lớp C",
+    "B": "Thuộc lớp B",
+    "C": "Là địa chỉ riêng",
+    "D": "Thuộc lớp A",
+    "correct": "B"
+  },
+  {
+    "question": "Địa chỉ nào sau đây thuộc lớp A?",
+    "A": "100.1.1.10",
+    "B": "192.34.14.10",
+    "C": "140.8.8.8",
+    "D": "20.5.6.7",
+    "correct": "A"
+  },
+  {
+    "question": "Muốn chia sẻ ẩn một thư mục nằm trong ổ đĩa với tên MangMayTinh, trong ô Share Name, ta nhập chuỗi ký tự nào sau đây?",
+    "A": "MangMayTinh #",
+    "B": "MangMayTinh",
+    "C": "MangMayTinh%",
+    "D": "MangMayTinh$",
+    "correct": "D"
+  },
+  {
+    "question": "Một mạng con lớp B mượn 5 bit để chia Subnet thì Subnet Mask là?",
+    "A": "255.255.248.0",
+    "B": "255.255.255.1",
+    "C": "255.255.255.248",
+    "D": "255.255.255.128",
+    "correct": "A"
+  },
+  {
+    "question": "Một mạng có địa chỉ lớp B cần chia thành 3 mạng con, ta sử dụng Subnet Mask nào?",
+    "A": "255.0.0.255",
+    "B": "255.255.1.0",
+    "C": "255.255.224.0",
+    "D": "255.255.255.224",
+    "correct": "C"
+  },
+  {
+    "question": "Giao thức RIP hoạt động theo phương thức định tuyến nào?",
+    "A": "Vector khoảng cách",
+    "B": "Trạng thái liên kết",
+    "C": "Định tuyến tĩnh",
+    "D": "Khác",
+    "correct": "A"
+  },
+  {
+    "question": "IEEE được viết tắt của cụm từ nào sau đây?",
+    "A": "Institute of Electrical and Electronics Engineers",
+    "B": "Institute of Electrical and Electronics Editting",
+    "C": "Internation of Electrical and Electronics Engineers",
+    "D": "Institute Electrical and Electronics Engineers",
+    "correct": "A"
+  },
+  {
+    "question": "CIDR viết tắt của cụm từ nào sau đây?",
+    "A": "Classless Inter Domain Routing",
+    "B": "Classless Inter Dos Routing",
+    "C": "Class Inter Domain Routing",
+    "D": "Clear Inter Domain Routing",
+    "correct": "A"
+  },
+  {
+    "question": "Một địa chỉ IP được viết 200.23.16.0/23 có ý nghĩa gì?",
+    "A": "Sử dụng 23 bit cho Net ID",
+    "B": "Sử dụng 23 bit cho Host ID",
+    "C": "Không thể viết dưới dạng địa chỉ đó",
+    "D": "200.23.16.0 là địa chỉ mạng, 23 là địa chỉ máy",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ mạng con (Subnet Address) được sử dụng từ năm nào?",
+    "A": "1984",
+    "B": "1985",
+    "C": "1990",
+    "D": "1995",
+    "correct": "B"
+  },
+  {
+    "question": "Phân loại theo khu vực địa lý thì có mấy loại mạng máy tính?",
+    "A": "4",
+    "B": "1",
+    "C": "2",
+    "D": "3",
+    "correct": "A"
+  },
+  {
+    "question": "Mạng cục bộ \"LAN\" được viết tắt cho cụm từ nào?",
+    "A": "Local Area Connection",
+    "B": "Local Area Net",
+    "C": "Local Area Name",
+    "D": "Local Area Network",
+    "correct": "D"
+  },
+  {
+    "question": "Chọn định nghĩa đúng nhất về mô hình mạng ngang hàng (Peer to Peer)?",
+    "A": "LAN",
+    "B": "Ethernet",
+    "C": "Client - Server",
+    "D": "Peer to Peer",
+    "correct": "D"
+  },
+  {
+    "question": "Các trạm hoạt động trong một mạng vừa như máy phục vụ (Server) vừa như máy khách (Client) có thể tìm thấy ở mạng nào?",
+    "A": "Peer to Peer",
+    "B": "Ethernet",
+    "C": "Client - Server",
+    "D": "LAN",
+    "correct": "A"
+  },
+  {
+    "question": "Mô hình mạng nào có máy phục vụ cung cấp các tài nguyên và dịch vụ cho các máy khách trong mạng?",
+    "A": "Ethernet",
+    "B": "Peer to Peer",
+    "C": "Client - Server",
+    "D": "LAN",
+    "correct": "C"
+  },
+  {
+    "question": "Topo mạng cục bộ nào mà tất cả các trạm phân chia chung một đường truyền chính?",
+    "A": "Star",
+    "B": "Hybrid",
+    "C": "Ring",
+    "D": "Bus",
+    "correct": "D"
+  },
+  {
+    "question": "Có những hình trạng mạng LAN thông dụng (Topology LAN) nào?",
+    "A": "Ethernet",
+    "B": "Ring, Star, Bus",
+    "C": "Client - Server",
+    "D": "Peer to Peer",
+    "correct": "B"
+  },
+  {
+    "question": "Công nghệ mạng LAN nào sử dụng phổ biến hiện nay?",
+    "A": "ADSL",
+    "B": "FDDI",
+    "C": "Ethernet",
+    "D": "Token Ring",
+    "correct": "C"
+  },
+  {
+    "question": "Hiện nay có những loại đường truyền nào trong mạng LAN?",
+    "A": "Sóng viba, hồng ngoại, sóng vô tuyến (Radio)",
+    "B": "Cáp quang, sóng vô tuyến",
+    "C": "Cáp đồng trục, cáp xoắn đôi",
+    "D": "Tất cả các đáp án trên",
+    "correct": "D"
+  },
+  {
+    "question": "Có mấy loại kỹ thuật chuyển mạch trong mạng LAN?",
+    "A": "1",
+    "B": "4",
+    "C": "2",
+    "D": "3",
+    "correct": "D"
+  },
+  {
+    "question": "Phương pháp đa truy nhập sử dụng sóng mang có phát hiện xung đột CSMA/CD, trong đó \"CSMA/CD\" được viết tắt cho cụm từ nào?",
+    "A": "Console Sense Multiple Access With Collision Detection",
+    "B": "Carrier Sense Multiple Access With Control Data",
+    "C": "Carrier Sense Multiple Access With Collision Detection",
+    "D": "Carrier Sense Multiple Access With Collision Data",
+    "correct": "C"
+  },
+  {
+    "question": "Có mấy loại chuẩn hóa mạng?",
+    "A": "4",
+    "B": "2",
+    "C": "1",
+    "D": "3",
+    "correct": "B"
+  },
+  {
+    "question": "Mô hình tham chiếu OSI có mấy lớp?",
+    "A": "7",
+    "B": "3",
+    "C": "5",
+    "D": "4",
+    "correct": "A"
+  },
+  {
+    "question": "Lớp nào cung cấp các phương tiện để người sử dụng có thể truy nhập được vào môi trường OSI và cung cấp các dịch vụ thông tin phân tán?",
+    "A": "Application",
+    "B": "Session",
+    "C": "Presentation",
+    "D": "Transport",
+    "correct": "A"
+  },
+  {
+    "question": "Tầng 2 trong mô hình OSI tách luồng bit từ tầng vật lý chuyển lên thành?",
+    "A": "Packet",
+    "B": "Segment",
+    "C": "PSU",
+    "D": "Frame",
+    "correct": "D"
+  },
+  {
+    "question": "Các đơn vị dữ liệu trong giao thức lớp 2 của mô hình OSI được gọi là?",
+    "A": "Segment",
+    "B": "Packet",
+    "C": "Frame",
+    "D": "PSU",
+    "correct": "C"
+  },
+  {
+    "question": "Các đơn vị dữ liệu trong giao thức lớp 3 của mô hình OSI được gọi là?",
+    "A": "Segment",
+    "B": "Frame",
+    "C": "PSU",
+    "D": "Packet",
+    "correct": "D"
+  },
+  {
+    "question": "Các đơn vị dữ liệu trong giao thức lớp 7 của mô hình OSI được gọi là?",
+    "A": "Frame",
+    "B": "Data",
+    "C": "Packet",
+    "D": "Segment",
+    "correct": "B"
+  },
+  {
+    "question": "Thiết bị chọn đường (Router) hoạt động ở lớp nào trong mô hình OSI?",
+    "A": "Tầng ứng dụng (Application Layer)",
+    "B": "Tầng mạng (Network Layer)",
+    "C": "Tầng vận chuyển (Transport Layer)",
+    "D": "Tầng liên kết dữ liệu (Data Link Layer)",
+    "correct": "B"
+  },
+  {
+    "question": "IEEE là gì?",
+    "A": "Là tổ chức trong lĩnh vực cấp phép sản xuất thiết bị mạng",
+    "B": "Là tổ chức quản lý tên miền trên mạng",
+    "C": "Là tổ chức trong lĩnh vực chuẩn hóa mạng cục bộ",
+    "D": "Là tổ chức quản lý các chuẩn giao thức mạng",
+    "correct": "C"
+  },
+  {
+    "question": "IEEE 802.3 là chuẩn đặc tả gì?",
+    "A": "Kiến trúc mạng",
+    "B": "Mạng cục bộ với Tôp mạng dạng Bus",
+    "C": "Tầng dịch vụ giao thức của mạng",
+    "D": "Mạng cục bộ dựa trên mạng Ethernet",
+    "correct": "D"
+  },
+  {
+    "question": "IEEE 802.11 là chuẩn đặc tả gì?",
+    "A": "Mạng cục bộ với Tôp mạng dạng Ring",
+    "B": "Mạng cục bộ không dây",
+    "C": "Kiến trúc mạng",
+    "D": "Mạng cục bộ dựa trên mạng Ethernet",
+    "correct": "B"
+  },
+  {
+    "question": "Mô hình OSI được chia thành bao nhiêu lớp?",
+    "A": "6",
+    "B": "8",
+    "C": "5",
+    "D": "7",
+    "correct": "D"
+  },
+  {
+    "question": "Các giao thức TCP và UDP làm việc trên lớp nào trong mô hình tham chiếu OSI?",
+    "A": "Physical",
+    "B": "Data Link",
+    "C": "Application",
+    "D": "Transport",
+    "correct": "D"
+  },
+  {
+    "question": "Đối với lớp Mạng trong mô hình tham chiếu OSI, chúng ta có thể phát biểu?",
+    "A": "Nó chịu trách nhiệm mã hoá các gói dữ liệu mạng",
+    "B": "Tất cả đều đúng",
+    "C": "Các Router làm việc trên lớp này",
+    "D": "Nó chịu trách nhiệm cho việc định tuyến các gói tin cần đưa đến đích",
+    "correct": "B"
+  },
+  {
+    "question": "Lớp nào trong mô hình tham chiếu OSI có trách nhiệm mã hóa và nén dữ liệu?",
+    "A": "Session",
+    "B": "Presentation",
+    "C": "Application",
+    "D": "Data Link",
+    "correct": "B"
+  },
+  {
+    "question": "Các giao thức HTTP, DNS, FTP và SMTP làm việc trên lớp nào trong mô hình OSI?",
+    "A": "Application",
+    "B": "Presentation",
+    "C": "Data Link",
+    "D": "Session",
+    "correct": "A"
+  },
+  {
+    "question": "Lớp nào trong mô hình tham chiếu OSI ghi rõ các thông tin chi tiết về môi trường truyền dẫn, mức điện áp, điều khiển, cáp kết nối,...?",
+    "A": "Physical",
+    "B": "Transport",
+    "C": "Data Link",
+    "D": "Network",
+    "correct": "A"
+  },
+  {
+    "question": "Các Switch có khả năng đọc trường địa chỉ MAC từ các khung gửi dữ liệu đến chúng. Vậy chúng ta có thể nói rằng chúng làm việc trên lớp nào trong mô hình tham chiếu?",
+    "A": "Transport",
+    "B": "Session",
+    "C": "Physical",
+    "D": "Data Link",
+    "correct": "D"
+  },
+  {
+    "question": "Khi gửi đi một gói dữ liệu vào mạng (đến từ các lớp cao hơn), lớp Session sẽ xử lý yêu cầu này, đưa thêm vào các bit thông tin chịu trách nhiệm cho việc gửi gói dữ liệu đến đúng lớp bên dưới nó, đó là lớp?",
+    "A": "Network",
+    "B": "Transport",
+    "C": "Application",
+    "D": "Presentation",
+    "correct": "B"
+  },
+  {
+    "question": "Khi nhận một gói dữ liệu từ mạng (đến từ các lớp thấp hơn), lớp Mạng sẽ xử lý yêu cầu này tách bớt các bit thông tin cần thiết và gửi gói đó lên lớp cao hơn ở trên nó, đó là lớp?",
+    "A": "Presentation",
+    "B": "Data Link",
+    "C": "Session",
+    "D": "Transport",
+    "correct": "D"
+  },
+  {
+    "question": "Trong mô hình OSI, giao thức ARP thuộc tầng nào?",
+    "A": "Data Link",
+    "B": "Session",
+    "C": "Network",
+    "D": "Presentation",
+    "correct": "C"
+  },
+  {
+    "question": "Mô hình TCP/IP có mấy lớp?",
+    "A": "5",
+    "B": "4",
+    "C": "2",
+    "D": "3",
+    "correct": "B"
+  },
+  {
+    "question": "Mô hình TCP/IP gồm những lớp nào?",
+    "A": "Physical, Data Link, Network, Transport",
+    "B": "Physical, Data Link, Transport, Application",
+    "C": "Network Access, Internet, Transport, Application",
+    "D": "Network Access, Internet, Network, Transport",
+    "correct": "C"
+  },
+  {
+    "question": "Địa chỉ IP dài bao nhiêu Bit?",
+    "A": "16",
+    "B": "126",
+    "C": "32",
+    "D": "256",
+    "correct": "C"
+  },
+  {
+    "question": "Địa chỉ IP chia làm mấy phần?",
+    "A": "1 phần là: địa chỉ mạng",
+    "B": "Không chia",
+    "C": "1 phần là: địa chỉ máy",
+    "D": "2 phần là: địa chỉ mạng và địa chỉ máy",
+    "correct": "D"
+  },
+  {
+    "question": "Địa chỉ lớp A nhận trong khoảng nào?",
+    "A": "1.0.0.0 đến 127.0.0.0",
+    "B": "1.0.0.0 đến 191.255.0.0",
+    "C": "1.0.0.0 đến 128.0.0.0",
+    "D": "1.0.0.0 đến 223.255.255.0",
+    "correct": "A"
+  },
+  {
+    "question": "Địa chỉ lớp B nhận trong khoảng nào?",
+    "A": "128.0.0.0 đến 240.0.0.0",
+    "B": "128.0.0.0 đến 191.255.0.0",
+    "C": "1.0.0.0 đến 127.0.0.0",
+    "D": "128.0.0.0 đến 192.0.0.0",
+    "correct": "B"
+  },
+  {
+    "question": "Giao thức TCP có định hướng kết nối không?",
+    "A": "Có",
+    "B": "Không",
+    "correct": "A"
+  },
+  {
+    "question": "Giao thức UDP có định hướng kết nối không?",
+    "A": "Không",
+    "B": "Có",
+    "correct": "A"
+  },
+  {
+    "question": "Phần cứng trong Router Cisco có NVRAM, FLASH tương đương với thành phần nào trong máy PC?",
+    "A": "HDD",
+    "B": "MAIN",
+    "C": "CPU",
+    "D": "RAM",
+    "correct": "A"
+  },
+  {
+    "question": "Phần cứng trong Router Cisco, đầy đủ là gồm?",
+    "A": "MAIN, CPU, RAM, FLASH",
+    "B": "MAIN, CPU, RAM, NVRAM, FLASH",
+    "C": "MAIN, CPU, RAM",
+    "D": "MAIN, CPU, RAM, NVRAM",
+    "correct": "B"
+  },
+  {
+    "question": "Trong Router, nơi nào lưu file cấu hình Startup Config?",
+    "A": "FLASH",
+    "B": "RAM",
+    "C": "CPU",
+    "D": "NVRAM",
+    "correct": "D"
+  },
+  {
+    "question": "Tên phần mềm giả lập mạng, được hãng Cisco cung cấp, dùng trong học tập sử dụng các thiết bị mạng của Cisco?",
+    "A": "Packet Tracer",
+    "B": "Advanced IP Scanner",
+    "C": "Network Simulator",
+    "D": "NetSim Standard",
+    "correct": "A"
+  },
+  {
+    "question": "Cáp Console kết nối từ Router hoặc Switch đến máy tính, trên máy tính sẽ là cổng nào?",
+    "A": "Cổng DisplayPort",
+    "B": "Cổng VGA",
+    "C": "Cổng LAN",
+    "D": "Cổng COM",
+    "correct": "D"
+  },
+  {
+    "question": "Trong các cổng sau, cổng nào chỉ hỗ trợ trên Router, cho phép kết nối từ xa thông qua đường truyền Modem, ít được sử dụng?",
+    "A": "TELNET",
+    "B": "SSH",
+    "C": "AUX",
+    "D": "CONSOLE",
+    "correct": "C"
+  },
+  {
+    "question": "Cáp có một đầu là cổng COM để cắm vào máy tính, một đầu cáp là cổng RJ45 kết nối với Router. Hỏi cáp đó dùng để kết nối cổng gì trên Router?",
+    "A": "CONSOLE",
+    "B": "TELNET",
+    "C": "SSH",
+    "D": "AUX",
+    "correct": "A"
+  },
+  {
+    "question": "Phát biểu nào sau đây là đúng về sự so sánh hai loại kết nối Telnet và SSH?",
+    "A": "Kết nối Telnet và SSH đều không hỗ trợ bảo mật, tốc độ tương đương",
+    "B": "Kết nối Telnet có tốc độ chậm hơn, nhưng hỗ trợ bảo mật tốt hơn SSH",
+    "C": "Kết nối Telnet có tốc độ nhanh hơn, nhưng hỗ trợ bảo mật kém hơn SSH",
+    "D": "Kết nối Telnet và SSH đều có hỗ trợ bảo mật tốt, tốc độ tương đương",
+    "correct": "C"
+  },
+  {
+    "question": "Hệ điều hành Cisco IOS cung cấp cho các thiết bị với các dịch vụ mạng gì?",
+    "A": "Chức năng định tuyến và chuyển mạch, tin cậy và truy cập bảo mật vào tài nguyên mạng",
+    "B": "Chức năng định tuyến và chuyển mạch, tin cậy và truy cập bảo mật vào tài nguyên mạng, khả năng mở rộng hệ thống",
+    "C": "Chức năng định tuyến và chuyển mạch, khả năng mở rộng hệ thống",
+    "D": "Tin cậy và truy cập bảo mật vào tài nguyên mạng, khả năng mở rộng hệ thống",
+    "correct": "B"
+  },
+  {
+    "question": "Quá trình khởi động của Router?",
+    "A": "Điện sẽ được nạp vào ROM, kiểm tra các thiết bị phần cứng, IOS sẽ được load từ bộ nhớ Flash, Bootstrap sẽ liên lạc với IOS, IOS và Startup Config được load vào RAM tạo thành file chạy Running Config, file cấu hình được copy từ bộ nhớ NVRAM.",
+    "B": "Điện sẽ được nạp vào ROM, kiểm tra các thiết bị phần cứng, Bootstrap sẽ liên lạc với IOS, IOS sẽ được load từ bộ nhớ Flash, file cấu hình được copy từ bộ nhớ NVRAM, IOS và Startup Config được load vào RAM tạo thành file chạy Running Config.",
+    "C": "Điện sẽ được nạp vào ROM, kiểm tra các thiết bị phần cứng, IOS sẽ được load từ bộ nhớ Flash, file cấu hình được copy từ bộ nhớ NVRAM, Bootstrap sẽ liên lạc với IOS, IOS và Startup Config được load vào RAM tạo thành file chạy Running Config.",
+    "D": "Điện sẽ được nạp vào ROM, kiểm tra các thiết bị phần cứng, Bootstrap sẽ liên lạc với IOS, IOS sẽ được load từ bộ nhớ Flash, IOS và Startup Config được load vào RAM tạo thành file chạy Running Config, file cấu hình được copy từ bộ nhớ NVRAM.",
+    "correct": "B"
+  },
+  {
+    "question": "Quá trình khởi động của Router, thành phần nào hoạt động đầu tiên khi bật điện?",
+    "A": "NVRAM",
+    "B": "ROM",
+    "C": "Flash",
+    "D": "Bootstrap",
+    "correct": "B"
+  },
+  {
+    "question": "Vị trí PIN trên loại cáp chéo (tương tự 1 đầu chuẩn T-568A, 1 đầu chuẩn T-568B)?",
+    "A": "Pin 1 - Pin 3, Pin 2 - Pin 6, Pin 3 - Pin 1, Pin 4 - Pin 4, Pin 5 - Pin 5, Pin 6 - Pin 2, Pin 7 - Pin 7, Pin 8 - Pin 8",
+    "B": "Pin 1 - Pin 2, Pin 2 - Pin 1, Pin 3 - Pin 6, Pin 4 - Pin 4, Pin 5 - Pin 5, Pin 6 - Pin 3, Pin 7 - Pin 7, Pin 8 - Pin 8",
+    "C": "Pin 1 - Pin 1, Pin 2 - Pin 2, Pin 3 - Pin 3, Pin 4 - Pin 4, Pin 5 - Pin 5, Pin 6 - Pin 6, Pin 7 - Pin 7, Pin 8 - Pin 8",
+    "D": "Pin 1 - Pin 4, Pin 2 - Pin 6, Pin 3 - Pin 3, Pin 4 - Pin 1, Pin 5 - Pin 5, Pin 6 - Pin 2, Pin 7 - Pin 7, Pin 8 - Pin 8",
+    "correct": "A"
+  },
+  {
+    "question": "Telnet và SSH kết nối tới Router hay Switch thông qua cổng nào?",
+    "A": "Cổng Serial Ports",
+    "B": "Cổng Console",
+    "C": "Cổng mạng",
+    "D": "Cổng AUX",
+    "correct": "C"
+  },
+  {
+    "question": "Router là thiết bị thuộc lớp nào của mô hình OSI?",
+    "A": "Transport Layer",
+    "B": "Network Layer",
+    "C": "Data-Link Layer",
+    "D": "Physical Layer",
+    "correct": "B"
+  },
+  {
+    "question": "Trong cấu hình Router, Mode đầu tiên khi Telnet truy cập, Mode này bị giới hạn chỉ có thể sử dụng một số lệnh như ping hay ssh, là Mode gì?",
+    "A": "Mode User",
+    "B": "Mode Privileged",
+    "C": "Mode cấu hình",
+    "D": "Mode vào cổng",
+    "correct": "A"
+  },
+  {
+    "question": "Trong cấu hình Router, User Mode (chế độ User) có ký hiệu thế nào?",
+    "A": "Router>",
+    "B": "Router(config-if)#",
+    "C": "Router#",
+    "D": "Router(config)#",
+    "correct": "A"
+  },
+  {
+    "question": "Trong cấu hình Router, Privileged Mode (chế độ Privileged) có ký hiệu thế nào?",
+    "A": "Router#",
+    "B": "Router(config)#",
+    "C": "Router(config-if)#",
+    "D": "Router>",
+    "correct": "A"
+  },
+  {
+    "question": "Trong cấu hình Router, Global Configuration Mode (chế độ Global Configuration) có ký hiệu thế nào?",
+    "A": "Router>",
+    "B": "Router(config-if)#",
+    "C": "Router#",
+    "D": "Router(config)#",
+    "correct": "D"
+  },
+  {
+    "question": "Trong cấu hình Router, nếu đầu dòng lệnh đang ở ký hiệu: Router(config-if)#, thì đang ở chế độ nào?",
+    "A": "Chế độ Privileged",
+    "B": "Chế độ User",
+    "C": "Chế độ Global Configuration",
+    "D": "Chế độ Interface Configuration Mode",
+    "correct": "D"
+  },
+  {
+    "question": "Dòng lệnh sau dùng để làm gì: Router(config)# line vty 0 4",
+    "A": "Vào chế độ line console",
+    "B": "Vào chế độ line auxiliary",
+    "C": "Không có đáp án đúng",
+    "D": "Vào chế độ line vty để cho phép Telnet",
+    "correct": "D"
+  },
+  {
+    "question": "Dòng lệnh sau dùng để làm gì: Router# configure terminal",
+    "A": "Vào chế độ Global Configuration",
+    "B": "Vào chế độ Privileged",
+    "C": "Vào chế độ Interface Configuration Mode",
+    "D": "Vào chế độ User",
+    "correct": "A"
+  },
+  {
+    "question": "Dòng lệnh sau dùng để làm gì: Router> enable",
+    "A": "Chuyển chế độ Interface Configuration Mode",
+    "B": "Chuyển chế độ Global Configuration",
+    "C": "Chuyển vào chế độ Privileged",
+    "D": "Chuyển vào chế độ User",
+    "correct": "C"
+  },
+  {
+    "question": "Tại 01 Domain Member bất kỳ, thực hiện lệnh ping IP Public và nhận được Reply, nhưng các Domain Member không thể truy cập Internet. Trình bày cách khắc phục?",
+    "A": "Chưa khai báo Preferred DNS trên DNS Server",
+    "B": "Chưa khai báo địa chỉ IP Address trên DNS Server",
+    "C": "Chưa khai báo Subnet Mask trên DNS Server",
+    "D": "Chưa khai báo Default Gateway trên DNS Server",
+    "correct": "D"
+  },
+  {
+    "question": "Chức năng chính của bản ghi DNS Record CNAME?",
+    "A": "Chỉ ra toàn bộ DNS Server trong Domain",
+    "B": "Chỉ ra Primary DNS Server",
+    "C": "Chỉ ra tên miền có nhiều bí danh để truy cập vào",
+    "D": "Chỉ ra ánh xạ Domain thành địa chỉ IP",
+    "correct": "C"
+  },
+  {
+    "question": "Chức năng chính của bản ghi DNS Record A?",
+    "A": "Chỉ ra dịch vụ sử dụng máy tính sử dụng",
+    "B": "Chỉ ra Primary DNS Server",
+    "C": "Chỉ ra toàn bộ DNS Server trong Domain",
+    "D": "Chỉ ra ánh xạ Domain thành địa chỉ IP",
+    "correct": "D"
+  },
+  {
+    "question": "Chức năng chính của bản ghi DNS Record Name Server (NS)?",
+    "A": "Chỉ ra dịch vụ máy tính sử dụng",
+    "B": "Chỉ ra toàn bộ DNS Server Domain",
+    "C": "Chỉ ra Primary DNS Server",
+    "D": "Chỉ ra tên máy tính",
+    "correct": "B"
+  },
+  {
+    "question": "Chức năng chính của bản ghi DNS Record Start Of Authority (SOA)?",
+    "A": "Chỉ ra dịch vụ máy tính sử dụng",
+    "B": "Chỉ ra toàn bộ DNS Server Domain",
+    "C": "Chỉ ra Primary DNS Server",
+    "D": "Chỉ ra tên máy tính",
+    "correct": "C"
+  },
+  {
+    "question": "DNS Record SOA là viết tắt của từ nào sau đây?",
+    "A": "Start Of Authority",
+    "B": "Start Of Authen",
+    "C": "Start Of Auther",
+    "D": "Start Of Autthor",
+    "correct": "A"
+  },
+  {
+    "question": "Trình bày cách truy vấn để biết được tên và địa chỉ IP SMTP Mail Server của một Domain?",
+    "A": "Nslookup > Set type=CNAME",
+    "B": "Nslookup > Set type=MX",
+    "C": "Nslookup > Set type=NS",
+    "D": "Nslookup > Set type=SOA",
+    "correct": "B"
+  },
+  {
+    "question": "Trình bày cách truy vấn để biết được tên và địa chỉ IP Primary DNS Server của một Domain?",
+    "A": "Nslookup > Set type=CNAME",
+    "B": "Nslookup > Set type=MX",
+    "C": "Nslookup > Set type=NS",
+    "D": "Nslookup > Set type=SOA",
+    "correct": "D"
+  },
+  {
+    "question": "Trình bày cách truy vấn để biết được tên và địa chỉ IP các DNS Server của một Domain?",
+    "A": "Nslookup > Set type=CNAME",
+    "B": "Nslookup > Set type=MX",
+    "C": "Nslookup > Set type=NS",
+    "D": "Nslookup > Set type=SOA",
+    "correct": "C"
+  },
+  {
+    "question": "Giao thức DNS làm việc ở tầng nào trong mô hình OSI?",
+    "A": "Session Layer",
+    "B": "Network Layer",
+    "C": "Application Layer",
+    "D": "Transport Layer",
+    "correct": "C"
+  },
+  {
+    "question": "Trong dịch vụ DNS, Record nào sau đây được dùng trong trường hợp ánh xạ tên miền thành địa chỉ IP?",
+    "A": "MX",
+    "B": "A",
+    "C": "CNAME",
+    "D": "PTR",
+    "correct": "B"
+  },
+  {
+    "question": "MX Record dùng để làm gì?",
+    "A": "Định chuyển gói tin",
+    "B": "Dùng cho mạng LAN",
+    "C": "Dùng cho dịch vụ FTP",
+    "D": "Dùng cho dịch vụ chuyển Mail",
+    "correct": "D"
+  },
+  {
+    "question": "Record nào sau đây hỗ trợ cơ chế chứng thực cho miền?",
+    "A": "SRV Record",
+    "B": "SOV Record",
+    "C": "SOA Record",
+    "D": "SOS Record",
+    "correct": "C"
+  },
+  {
+    "question": "Tên FQDN (Fully Qualified Domain Name) được hiểu như là tên DNS …?",
+    "A": "Server Name",
+    "B": "Host Name",
+    "C": "Tên gọi tắt",
+    "D": "Đầy đủ",
+    "correct": "D"
+  },
+  {
+    "question": "Phương thức nào sau đây là phương thức ánh xạ tên miền tới địa chỉ IP có tần suất thay đổi cao?",
+    "A": "DNS Server",
+    "B": "Dynamic Routing",
+    "C": "DNS Lookup",
+    "D": "Dynamic DNS",
+    "correct": "D"
+  },
+  {
+    "question": "Lệnh nào dùng để kiểm tra dịch vụ DNS?",
+    "A": "Net Map",
+    "B": "Nslookup",
+    "C": "Ping",
+    "D": "Ipconfig",
+    "correct": "B"
+  },
+  {
+    "question": "Các loại Resource Record nào sau đây được mô tả trong DNS?",
+    "A": "Name Server (NS)",
+    "B": "NS",
+    "C": "MS",
+    "D": "NAMED",
+    "correct": "A"
+  },
+  {
+    "question": "Dịch vụ DNS Server có chức năng chính là gì?",
+    "A": "Phân giải địa chỉ MAC",
+    "B": "Tất cả đều sai",
+    "C": "Phân giải tên miền (IP sang tên miền và ngược lại)",
+    "D": "Phân giải tên NetBIOS",
+    "correct": "C"
+  },
+  {
+    "question": "Dòng lệnh sau dùng để làm gì: Router(config)# exit?",
+    "A": "Chuyển về chế độ cấu hình User",
+    "B": "Chuyển về chế độ Previlidge",
+    "C": "Chuyển về chế độ cấu hình Global",
+    "D": "Chuyển về chế độ cấu hình Interface Configuration Mode",
+    "correct": "B"
+  },
+  {
+    "question": "Dòng lệnh sau dùng để làm gì: Router(config-line)# exit?",
+    "A": "Chuyển về chế độ cấu hình User",
+    "B": "Chuyển về chế độ Previlidge",
+    "C": "Chuyển về chế độ cấu hình Global",
+    "D": "Chuyển về chế độ cấu hình Interface Configuration Mode",
+    "correct": "C"
+  }
+]
