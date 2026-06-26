@@ -51,28 +51,13 @@
     let currentFilter = 'all';
     const reviewList = document.getElementById('reviewList');
 
-    function answerLabels(answer) {
-      if (answer === null || answer === undefined) return [];
-      return Array.isArray(answer) ? answer : [answer];
-    }
-    function correctLabels(q) {
-      return Array.isArray(q.correct) ? q.correct : [q.correct];
-    }
-    function answerText(q, labels) {
-      return labels.map(l => `<b>${l}</b>. ${q[l] || ''}`).join('<br>');
-    }
-    function sameAnswer(answer, q) {
-      const selected = answerLabels(answer).slice().sort().join('|');
-      const correct = correctLabels(q).slice().sort().join('|');
-      return selected !== '' && selected === correct;
-    }
-
     function getItemStatus(index) {
       const ans = userAnswers[index];
       const q = quizData[index];
-      if (answerLabels(ans).length === 0) return 'skipped';
-      return sameAnswer(ans, q) ? 'correct' : 'wrong';
+      if (ans === null) return 'skipped';
+      return ans === q.correct ? 'correct' : 'wrong';
     }
+
     function renderReview() {
       reviewList.innerHTML = '';
 
@@ -87,19 +72,19 @@
         let userLine = '';
         if (userAns === null) {
           userLine = `<div class="review-answer-line user-wrong">Bạn chưa trả lời</div>`;
-        } else if (sameAnswer(userAns, q)) {
+        } else if (userAns === q.correct) {
           userLine = `<div class="review-answer-line user-correct">
-            <i class="fa-solid fa-check"></i> Bạn chọn:<br>${answerText(q, answerLabels(userAns))}
+            <i class="fa-solid fa-check"></i> Bạn chọn: <b>${userAns}</b>. ${q[userAns]}
           </div>`;
         } else {
           userLine = `<div class="review-answer-line user-wrong">
-            <i class="fa-solid fa-xmark"></i> Bạn chọn:<br>${answerText(q, answerLabels(userAns))}
+            <i class="fa-solid fa-xmark"></i> Bạn chọn: <b>${userAns}</b>. ${q[userAns]}
           </div>`;
         }
 
-        const correctLine = !sameAnswer(userAns, q)
+        const correctLine = userAns !== q.correct
           ? `<div class="review-answer-line correct-ans">
-              <i class="fa-solid fa-lightbulb"></i> Đáp án đúng:<br>${answerText(q, correctLabels(q))}
+              <i class="fa-solid fa-lightbulb"></i> Đáp án đúng: <b>${q.correct}</b>. ${q[q.correct]}
             </div>`
           : '';
 

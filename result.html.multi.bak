@@ -109,23 +109,11 @@
     const quizData = JSON.parse(localStorage.getItem('quizData') || 'null');
     const userAnswers = JSON.parse(localStorage.getItem('quizAnswers') || 'null');
 
-    function answerLabels(answer) {
-      if (answer === null || answer === undefined) return [];
-      return Array.isArray(answer) ? answer : [answer];
-    }
-    function correctLabels(q) {
-      return Array.isArray(q.correct) ? q.correct : [q.correct];
-    }
-    function sameAnswer(answer, q) {
-      const selected = answerLabels(answer).slice().sort().join('|');
-      const correct = correctLabels(q).slice().sort().join('|');
-      return selected !== '' && selected === correct;
-    }
-
     let wrongQuestions = [];
     if (quizData && userAnswers) {
-      wrongQuestions = quizData.filter((q, i) => !sameAnswer(userAnswers[i], q));
+      wrongQuestions = quizData.filter((q, i) => userAnswers[i] !== q.correct);
     }
+
     if (wrongQuestions.length === 0) {
       retryWrongBtn.style.display = 'none';
     } else {

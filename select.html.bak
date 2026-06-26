@@ -213,84 +213,40 @@ const EMBEDDED_EXAMS = {
       builtinList.appendChild(btn);
     });
 
-    // ===== Ham xu ly du lieu cau hoi sau khi doc duoc =====
-    function normalizeCorrectValue(q) {
-      const raw = Array.isArray(q.answers) ? q.answers : (q.answer !== undefined ? q.answer : q.correct);
-      const values = Array.isArray(raw) ? raw : String(raw || '').split(',');
-      const labels = values.map(v => String(v).trim().toUpperCase()).filter(Boolean);
-      return labels.length > 1 ? labels : (labels[0] || '');
-    }
-
-    function validCorrectValue(correct) {
-      const labels = Array.isArray(correct) ? correct : [correct];
-      return labels.length > 0 && labels.every(l => ['A', 'B', 'C', 'D', 'E'].includes(l));
-    }
-
-    function normalizeQuizData(rawData) {
-      const list = Array.isArray(rawData) ? rawData : rawData && Array.isArray(rawData.questions) ? rawData.questions : null;
-      if (!list || list.length === 0) {
-        throw new Error('File khong chua danh sach cau hoi hop le!');
-      }
-
-      return list.map((q, index) => {
-        if (q && q.question && q.options) {
-          const correct = normalizeCorrectValue(q);
-          const normalized = {
-            question: q.question,
-            A: q.options.A || '',
-            B: q.options.B || '',
-            C: q.options.C || '',
-            D: q.options.D || '',
-            correct,
-            multipleAnswers: Array.isArray(correct)
-          };
-          if (q.options.E) normalized.E = q.options.E;
-          return normalized;
-        }
-
-        if (q && q.question && q.A && q.B) {
-          const correct = normalizeCorrectValue(q);
-          return {
-            ...q,
-            correct,
-            multipleAnswers: Array.isArray(correct)
-          };
-        }
-
-        throw new Error(`Cau ${index + 1} khong dung dinh dang!`);
-      });
-    }
-
-    function processQuestions(rawData, sourceName) {
+    // ===== Hàm xử lý dữ liệu câu hỏi sau khi đọc được =====
+    function processQuestions(data, sourceName) {
       try {
-        const data = normalizeQuizData(rawData);
-        const invalid = data.findIndex(q => {
-          const optionCount = ['A', 'B', 'C', 'D', 'E'].filter(l => q[l]).length;
-          return !q.question || optionCount < 2 || !validCorrectValue(q.correct);
-        });
-        if (invalid !== -1) {
-          throw new Error(`Cau ${invalid + 1} thieu noi dung hoac dap an dung!`);
+        if (!Array.isArray(data) || data.length === 0) {
+          throw new Error('File không chứa danh sách câu hỏi hợp lệ!');
+        }
+        // Kiểm tra cấu trúc cơ bản của câu hỏi đầu tiên
+        const q = data[0];
+        if (!q.question || !q.A || !q.B || !q.C || !q.D || !q.correct) {
+          throw new Error('Cấu trúc câu hỏi không đúng định dạng!');
         }
 
+        // Lưu đề thi vào localStorage để dùng ở trang quiz
         localStorage.setItem('quizData', JSON.stringify(data));
         currentExamName = sourceName;
         localStorage.setItem('quizExamName', sourceName);
 
         uploadStatus.style.color = 'var(--success)';
-        uploadStatus.innerHTML = `<i class="fa-solid fa-circle-check"></i> Tai thanh cong: ${sourceName} (${data.length} cau)`;
+        uploadStatus.innerHTML = `<i class="fa-solid fa-circle-check"></i> Tải thành công: ${sourceName} (${data.length} câu)`;
 
         totalQuestions.textContent = data.length;
         quizInfo.style.display = 'block';
 
+        // Cập nhật ô "Số câu hỏi" cho chế độ thi thật theo đề vừa nạp
         questionCountInput.max = data.length;
         questionCountInput.value = data.length;
-        document.getElementById('questionCountMax').textContent = `/ ${data.length} cau`;
+        document.getElementById('questionCountMax').textContent = `/ ${data.length} câu`;
       } catch (err) {
         uploadStatus.style.color = 'var(--danger)';
-        uploadStatus.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Loi: ${err.message}`;
+        uploadStatus.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Lỗi: ${err.message}`;
         quizInfo.style.display = 'none';
       }
     }
+
     // ===== Tải file JSON từ máy người dùng =====
     fileInput.addEventListener('change', function (e) {
       const file = e.target.files[0];

@@ -465,12 +465,8 @@
 
   <script>
     // ===== Kiểm tra đăng nhập & dữ liệu đề thi =====
-    let user = localStorage.getItem('quizUser');
-    if (!user) {
-      user = 'Kh\u00e1ch';
-      localStorage.setItem('quizUser', user);
-      window.location.href = 'select.html';
-    }
+    const user = localStorage.getItem('quizUser');
+    if (!user) window.location.href = 'index.html';
 
     const quizDataRaw = localStorage.getItem('quizData');
     if (!quizDataRaw) window.location.href = 'select.html';

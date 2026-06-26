@@ -231,6 +231,57 @@
     .section-info .section-progress { font-size: 12px; color: var(--muted); margin-top: 2px; }
     .section-progress b { color: var(--primary); }
 
+    /* ===== Thanh tiến trình % ===== */
+    .progress-bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 4px 2px 14px;
+    }
+    .progress-bar-track {
+      flex: 1;
+      height: 9px;
+      border-radius: 99px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      border-radius: 99px;
+      background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+      transition: width .3s ease;
+    }
+    .progress-percent {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary);
+      min-width: 38px;
+      text-align: right;
+    }
+
+    /* ===== Ô thống kê đúng / sai ===== */
+    .stats-row {
+      display: flex;
+      gap: 10px;
+    }
+    .stat-box {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+    }
+    .stat-box i { font-size: 20px; }
+    .stat-correct i { color: var(--success); }
+    .stat-wrong i { color: var(--danger-light); }
+    .stat-num { font-size: 18px; font-weight: 800; line-height: 1.1; }
+    .stat-label { font-size: 12px; color: var(--muted); }
+
     /* ===== Cột giữa: câu hỏi ===== */
     .question-panel-header {
       display: flex;
@@ -400,6 +451,7 @@
 
     .qcell.answered-correct { background: var(--success); color: #fff; }
     .qcell.answered-wrong { background: var(--danger-light); color: #fff; }
+    .qcell.answered-neutral { background: var(--primary); color: #fff; }
     .qcell.current { outline: 3px solid var(--primary); outline-offset: 1px; }
 
     .qnav-row {
@@ -485,6 +537,30 @@
             <div class="section-progress">Tiến độ hoàn thành: <b id="sectionProgress">0/0</b></div>
           </div>
         </div>
+
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" id="progressBarFill"></div>
+          </div>
+          <div class="progress-percent" id="progressPercent">0%</div>
+        </div>
+
+        <div class="stats-row" id="statsRow">
+          <div class="stat-box stat-correct">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <div class="stat-num" id="correctCount">0</div>
+              <div class="stat-label">Câu đúng</div>
+            </div>
+          </div>
+          <div class="stat-box stat-wrong">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <div>
+              <div class="stat-num" id="wrongCount">0</div>
+              <div class="stat-label">Câu sai</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -542,6 +618,8 @@
 
     const questions = JSON.parse(quizDataRaw);
     const totalQuestions = questions.length;
+    const quizMode = localStorage.getItem('quizMode') || 'practice'; // 'practice' | 'exam'
+    const isExamMode = quizMode === 'exam';
 
     let userAnswers = JSON.parse(localStorage.getItem('quizAnswers')) || new Array(totalQuestions).fill(null);
     let currentIndex = 0;
@@ -557,6 +635,11 @@
     const qgrid = document.getElementById('qgrid');
     const submitBtn = document.getElementById('submitBtn');
     const sectionProgress = document.getElementById('sectionProgress');
+    const progressBarFill = document.getElementById('progressBarFill');
+    const progressPercent = document.getElementById('progressPercent');
+    const correctCountEl = document.getElementById('correctCount');
+    const wrongCountEl = document.getElementById('wrongCount');
+    const statsRow = document.getElementById('statsRow');
     const timerValue = document.getElementById('timerValue');
     const autoNextSelect = document.getElementById('autoNextSelect');
     const soundToggle = document.getElementById('soundToggle');
@@ -565,6 +648,12 @@
     const backBtn = document.getElementById('backBtn');
     const retryWrongSideBtn = document.getElementById('retryWrongSideBtn');
     const correctSound = document.getElementById('correctSound');
+
+    // ===== Chế độ Thi thật: ẩn các phần tử có thể lộ đáp án trước khi nộp bài =====
+    if (isExamMode) {
+      statsRow.style.display = 'none';
+      retryWrongSideBtn.style.display = 'none';
+    }
 
     // ===== Chế độ tối =====
     function applyDarkMode(on) {
@@ -602,15 +691,38 @@
       timerValue.textContent = formatTime(elapsedSeconds);
     }, 1000);
 
-    // ===== Hiển thị câu hỏi =====
+    function getCorrectLabels(q) {
+      return Array.isArray(q.correct) ? q.correct : [q.correct];
+    }
+
+    function getAnswerLabels(answer) {
+      if (answer === null || answer === undefined) return [];
+      return Array.isArray(answer) ? answer : [answer];
+    }
+
+    function isAnswered(answer) {
+      return getAnswerLabels(answer).length > 0;
+    }
+
+    function isCorrectAnswer(answer, q) {
+      const selected = getAnswerLabels(answer).slice().sort().join('|');
+      const correct = getCorrectLabels(q).slice().sort().join('|');
+      return selected !== '' && selected === correct;
+    }
+
+    function isMultipleQuestion(q) {
+      return getCorrectLabels(q).length > 1 || q.multipleAnswers === true;
+    }
+
+    // ===== Hien thi cau hoi =====
     function renderQuestion(index) {
       currentIndex = index;
       const q = questions[index];
+      const multiple = isMultipleQuestion(q);
 
       currentNumEl.textContent = index + 1;
-      questionText.textContent = `Câu ${index + 1}: ${q.question}`;
+      questionText.textContent = `Cau ${index + 1}: ${q.question}`;
 
-      // Hiển thị ảnh minh họa nếu câu hỏi có trường "image"
       if (q.image) {
         questionImage.src = q.image;
         questionImageWrap.style.display = 'block';
@@ -619,25 +731,48 @@
         questionImageWrap.style.display = 'none';
       }
 
-      const answeredTotal = userAnswers.filter(a => a !== null).length;
+      const answeredTotal = userAnswers.filter(isAnswered).length;
       sectionProgress.textContent = `${answeredTotal}/${totalQuestions}`;
+
+      const percent = totalQuestions ? Math.round((answeredTotal / totalQuestions) * 100) : 0;
+      progressBarFill.style.width = percent + '%';
+      progressPercent.textContent = percent + '%';
+
+      if (!isExamMode) {
+        let correctSoFar = 0, wrongSoFar = 0;
+        userAnswers.forEach((ans, i) => {
+          if (!isAnswered(ans)) return;
+          if (isCorrectAnswer(ans, questions[i])) correctSoFar++;
+          else wrongSoFar++;
+        });
+        correctCountEl.textContent = correctSoFar;
+        wrongCountEl.textContent = wrongSoFar;
+      }
 
       optionsContainer.innerHTML = '';
       const letters = ['A', 'B', 'C', 'D', 'E'];
       const userAnswer = userAnswers[index];
+      const selectedLabels = getAnswerLabels(userAnswer);
+      const correctLabels = getCorrectLabels(q);
 
       letters.forEach(letter => {
-        if (!q[letter]) return; // bỏ qua đáp án rỗng (câu chỉ có 2-3 lựa chọn)
+        if (!q[letter]) return;
         const row = document.createElement('div');
         row.className = 'option-row';
         row.innerHTML = `<span class="option-radio"></span><span class="option-text">${letter}. ${q[letter]}</span>`;
 
-        if (userAnswer) {
-          row.classList.add('locked');
-          if (letter === q.correct) {
+        if (isExamMode) {
+          if (selectedLabels.includes(letter)) row.classList.add('selected');
+          row.addEventListener('click', () => selectAnswer(letter));
+        } else if (isAnswered(userAnswer)) {
+          if (!multiple) row.classList.add('locked');
+          if (correctLabels.includes(letter)) {
             row.classList.add('correct');
-          } else if (letter === userAnswer) {
+          } else if (selectedLabels.includes(letter)) {
             row.classList.add('wrong');
+          }
+          if (multiple && !isCorrectAnswer(userAnswer, q)) {
+            row.addEventListener('click', () => selectAnswer(letter));
           }
         } else {
           row.addEventListener('click', () => selectAnswer(letter));
@@ -651,9 +786,18 @@
       nextBtn.disabled = (index === totalQuestions - 1);
     }
 
-    // ===== Chọn đáp án =====
+    // ===== Chon dap an =====
     function selectAnswer(letter) {
-      userAnswers[currentIndex] = letter;
+      const q = questions[currentIndex];
+      if (isMultipleQuestion(q)) {
+        const current = getAnswerLabels(userAnswers[currentIndex]);
+        userAnswers[currentIndex] = current.includes(letter)
+          ? current.filter(l => l !== letter)
+          : current.concat(letter);
+        if (userAnswers[currentIndex].length === 0) userAnswers[currentIndex] = null;
+      } else {
+        userAnswers[currentIndex] = letter;
+      }
       localStorage.setItem('quizAnswers', JSON.stringify(userAnswers));
 
       if (soundToggle.checked) {
@@ -663,13 +807,12 @@
 
       renderQuestion(currentIndex);
 
-      // Tự động chuyển câu nếu được bật
-      if (autoNextSelect.value === 'on' && currentIndex < totalQuestions - 1) {
+      if (!isMultipleQuestion(q) && autoNextSelect.value === 'on' && currentIndex < totalQuestions - 1) {
         setTimeout(() => renderQuestion(currentIndex + 1), 500);
       }
     }
 
-    // ===== Mục lục câu hỏi (lưới số) =====
+    // ===== Muc luc cau hoi =====
     function renderGrid() {
       qgrid.innerHTML = '';
       let currentCell = null;
@@ -677,8 +820,12 @@
         const cell = document.createElement('button');
         cell.className = 'qcell';
         cell.textContent = i + 1;
-        if (userAnswers[i] !== null) {
-          cell.classList.add(userAnswers[i] === questions[i].correct ? 'answered-correct' : 'answered-wrong');
+        if (isAnswered(userAnswers[i])) {
+          if (isExamMode) {
+            cell.classList.add('answered-neutral');
+          } else {
+            cell.classList.add(isCorrectAnswer(userAnswers[i], questions[i]) ? 'answered-correct' : 'answered-wrong');
+          }
         }
         if (i === currentIndex) {
           cell.classList.add('current');
@@ -687,13 +834,12 @@
         cell.addEventListener('click', () => renderQuestion(i));
         qgrid.appendChild(cell);
       }
-      // Tự động cuộn để luôn nhìn thấy câu hiện tại trong khu vực mục lục
       if (currentCell) {
         currentCell.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       }
     }
 
-    // ===== Điều hướng =====
+    // ===== Dieu huong =====
     prevBtn.addEventListener('click', () => {
       if (currentIndex > 0) renderQuestion(currentIndex - 1);
     });
@@ -701,7 +847,6 @@
       if (currentIndex < totalQuestions - 1) renderQuestion(currentIndex + 1);
     });
 
-    // ===== Phóng to ảnh minh họa khi click =====
     const imageLightbox = document.getElementById('imageLightbox');
     const imageLightboxImg = document.getElementById('imageLightboxImg');
     questionImage.addEventListener('click', () => {
@@ -713,9 +858,7 @@
       imageLightbox.classList.remove('open');
     });
 
-    // ===== Điều hướng bằng phím mũi tên trái/phải =====
     document.addEventListener('keydown', (e) => {
-      // Bỏ qua nếu người dùng đang gõ trong ô input/select để không gây xung đột
       const tag = document.activeElement.tagName;
       if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
 
@@ -728,19 +871,17 @@
       }
     });
 
-    // ===== Trở về trang chọn đề =====
     backBtn.addEventListener('click', () => {
       window.location.href = 'select.html';
     });
 
-    // ===== Làm lại các câu sai (ngay trong lúc làm bài) =====
     retryWrongSideBtn.addEventListener('click', () => {
       const wrongIndexes = userAnswers
-        .map((a, i) => (a !== null && a !== questions[i].correct) ? i : -1)
+        .map((a, i) => (isAnswered(a) && !isCorrectAnswer(a, questions[i])) ? i : -1)
         .filter(i => i !== -1);
 
       if (wrongIndexes.length === 0) {
-        alert('Chưa có câu nào trả lời sai để làm lại.');
+        alert('Chua co cau nao tra loi sai de lam lai.');
         return;
       }
 
@@ -751,11 +892,10 @@
       window.location.href = 'quiz.html';
     });
 
-    // ===== Nộp bài =====
     submitBtn.addEventListener('click', () => {
-      const unanswered = userAnswers.filter(a => a === null).length;
+      const unanswered = userAnswers.filter(a => !isAnswered(a)).length;
       if (unanswered > 0) {
-        const confirmSubmit = confirm(`Bạn còn ${unanswered} câu chưa trả lời. Bạn có chắc muốn nộp bài?`);
+        const confirmSubmit = confirm(`Ban con ${unanswered} cau chua tra loi. Ban co chac muon nop bai?`);
         if (!confirmSubmit) return;
       }
 
@@ -763,7 +903,7 @@
 
       let correctCount = 0;
       questions.forEach((q, i) => {
-        if (userAnswers[i] === q.correct) correctCount++;
+        if (isCorrectAnswer(userAnswers[i], q)) correctCount++;
       });
 
       const wrongCount = totalQuestions - correctCount;
@@ -783,7 +923,6 @@
       localStorage.removeItem('quizElapsed');
       window.location.href = 'result.html';
     });
-
     // ===== Khởi chạy =====
     renderQuestion(0);
   </script>

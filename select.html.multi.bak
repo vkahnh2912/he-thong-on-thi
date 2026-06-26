@@ -214,18 +214,6 @@ const EMBEDDED_EXAMS = {
     });
 
     // ===== Ham xu ly du lieu cau hoi sau khi doc duoc =====
-    function normalizeCorrectValue(q) {
-      const raw = Array.isArray(q.answers) ? q.answers : (q.answer !== undefined ? q.answer : q.correct);
-      const values = Array.isArray(raw) ? raw : String(raw || '').split(',');
-      const labels = values.map(v => String(v).trim().toUpperCase()).filter(Boolean);
-      return labels.length > 1 ? labels : (labels[0] || '');
-    }
-
-    function validCorrectValue(correct) {
-      const labels = Array.isArray(correct) ? correct : [correct];
-      return labels.length > 0 && labels.every(l => ['A', 'B', 'C', 'D', 'E'].includes(l));
-    }
-
     function normalizeQuizData(rawData) {
       const list = Array.isArray(rawData) ? rawData : rawData && Array.isArray(rawData.questions) ? rawData.questions : null;
       if (!list || list.length === 0) {
@@ -233,27 +221,23 @@ const EMBEDDED_EXAMS = {
       }
 
       return list.map((q, index) => {
-        if (q && q.question && q.options) {
-          const correct = normalizeCorrectValue(q);
+        if (q && q.question && q.options && q.answer) {
           const normalized = {
             question: q.question,
             A: q.options.A || '',
             B: q.options.B || '',
             C: q.options.C || '',
             D: q.options.D || '',
-            correct,
-            multipleAnswers: Array.isArray(correct)
+            correct: String(q.answer).trim().toUpperCase()
           };
           if (q.options.E) normalized.E = q.options.E;
           return normalized;
         }
 
-        if (q && q.question && q.A && q.B) {
-          const correct = normalizeCorrectValue(q);
+        if (q && q.question && q.A && q.B && q.C && q.D && q.correct) {
           return {
             ...q,
-            correct,
-            multipleAnswers: Array.isArray(correct)
+            correct: String(q.correct).trim().toUpperCase()
           };
         }
 
@@ -264,14 +248,12 @@ const EMBEDDED_EXAMS = {
     function processQuestions(rawData, sourceName) {
       try {
         const data = normalizeQuizData(rawData);
-        const invalid = data.findIndex(q => {
-          const optionCount = ['A', 'B', 'C', 'D', 'E'].filter(l => q[l]).length;
-          return !q.question || optionCount < 2 || !validCorrectValue(q.correct);
-        });
+        const invalid = data.findIndex(q => !q.question || !q.A || !q.B || !q.C || !q.D || !['A', 'B', 'C', 'D', 'E'].includes(q.correct));
         if (invalid !== -1) {
           throw new Error(`Cau ${invalid + 1} thieu noi dung hoac dap an dung!`);
         }
 
+        // Luu de thi vao localStorage de dung o trang quiz
         localStorage.setItem('quizData', JSON.stringify(data));
         currentExamName = sourceName;
         localStorage.setItem('quizExamName', sourceName);
@@ -282,6 +264,7 @@ const EMBEDDED_EXAMS = {
         totalQuestions.textContent = data.length;
         quizInfo.style.display = 'block';
 
+        // Cap nhat o so cau hoi cho che do thi that theo de vua nap
         questionCountInput.max = data.length;
         questionCountInput.value = data.length;
         document.getElementById('questionCountMax').textContent = `/ ${data.length} cau`;

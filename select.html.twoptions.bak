@@ -248,7 +248,7 @@ const EMBEDDED_EXAMS = {
           return normalized;
         }
 
-        if (q && q.question && q.A && q.B) {
+        if (q && q.question && q.A && q.B && q.C && q.D) {
           const correct = normalizeCorrectValue(q);
           return {
             ...q,
@@ -264,10 +264,7 @@ const EMBEDDED_EXAMS = {
     function processQuestions(rawData, sourceName) {
       try {
         const data = normalizeQuizData(rawData);
-        const invalid = data.findIndex(q => {
-          const optionCount = ['A', 'B', 'C', 'D', 'E'].filter(l => q[l]).length;
-          return !q.question || optionCount < 2 || !validCorrectValue(q.correct);
-        });
+        const invalid = data.findIndex(q => !q.question || !q.A || !q.B || !q.C || !q.D || !validCorrectValue(q.correct));
         if (invalid !== -1) {
           throw new Error(`Cau ${invalid + 1} thieu noi dung hoac dap an dung!`);
         }

@@ -53,41 +53,23 @@ function shuffleArray(arr) {
   return a;
 }
 
-function getCorrectLabels(q) {
-  return Array.isArray(q.correct) ? q.correct : [q.correct];
-}
-
-function getAnswerLabels(answer) {
-  if (answer === null || answer === undefined) return [];
-  return Array.isArray(answer) ? answer : [answer];
-}
-
-function sameLabels(a, b) {
-  const left = getAnswerLabels(a).slice().sort().join('|');
-  const right = getAnswerLabels(b).slice().sort().join('|');
-  return left !== '' && left === right;
-}
-
-function isCorrectAnswer(answer, q) {
-  return sameLabels(answer, getCorrectLabels(q));
-}
-
 function shuffleQuestionOptions(q) {
+  // Chỉ lấy những đáp án thực sự tồn tại trong câu hỏi (hỗ trợ cả 2-3-4-5 lựa chọn, kể cả E)
   const letters = ['A', 'B', 'C', 'D', 'E'].filter(l => q[l] !== undefined && q[l] !== null && q[l] !== '');
-  const correctLabels = getCorrectLabels(q);
-  const entries = letters.map(l => ({ text: q[l], isCorrect: correctLabels.includes(l) }));
+  const entries = letters.map(l => ({ text: q[l], isCorrect: l === q.correct }));
   const shuffled = shuffleArray(entries);
 
+  // Giữ nguyên toàn bộ field khác của câu hỏi gốc (image, number, section, ...)
   const newQ = { ...q };
-  const newCorrect = [];
+  let newCorrect = '';
   letters.forEach((letter, idx) => {
     newQ[letter] = shuffled[idx].text;
-    if (shuffled[idx].isCorrect) newCorrect.push(letter);
+    if (shuffled[idx].isCorrect) newCorrect = letter;
   });
-  newQ.correct = newCorrect.length > 1 ? newCorrect : newCorrect[0];
-  newQ.multipleAnswers = newCorrect.length > 1;
+  newQ.correct = newCorrect;
   return newQ;
 }
+
 function formatDuration(seconds) {
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
@@ -113,7 +95,7 @@ function calculateResult(questions, userAnswers) {
   const total = questions.length;
   let correctCount = 0;
   questions.forEach((q, i) => {
-    if (isCorrectAnswer(userAnswers[i], q)) correctCount++;
+    if (userAnswers[i] === q.correct) correctCount++;
   });
   return {
     total,
