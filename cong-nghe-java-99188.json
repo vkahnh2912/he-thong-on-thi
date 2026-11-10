@@ -1,0 +1,2702 @@
+[
+  {
+    "number": 1,
+    "question": "Lớp System.out dùng để?",
+    "A": "Hiển thị kết quả trên màn hình",
+    "B": "Xuất dữ liệu ra ngoài màn hình",
+    "C": "Đọc các ký tự dữ liệu",
+    "D": "Xuất các kí tự dữ liệu",
+    "correct": "A"
+  },
+  {
+    "number": 2,
+    "question": "Lớp System.in dùng để?",
+    "A": "Hiển thị kết quả trên màn hình",
+    "B": "Xuất dữ liệu ra ngoài màn hình",
+    "C": "Đọc các ký tự dữ liệu",
+    "D": "Xuất các kí tự dữ liệu",
+    "correct": "C"
+  },
+  {
+    "number": 3,
+    "question": "Lớp System.err là?",
+    "A": "Hiển thị kết quả trên màn hình",
+    "B": "Xuất dữ liệu ra ngoài màn hình",
+    "C": "Đọc các ký tự dữ liệu",
+    "D": "Dòng lỗi chuẩn",
+    "correct": "D"
+  },
+  {
+    "number": 4,
+    "question": "Lớp System.err là?",
+    "A": "Hiển thị kết quả trên màn hình",
+    "B": "Xuất dữ liệu ra ngoài màn hình",
+    "C": "Đọc các ký tự dữ liệu",
+    "D": "Tất cả đều sai",
+    "correct": "D"
+  },
+  {
+    "number": 5,
+    "question": "Lớp InputStream dùng để?",
+    "A": "Đọc và dùng các dòng dữ liệu để",
+    "B": "Tạo ra, ghi và xử lý kết xuất các dòng làm đầu vào.",
+    "C": "Đọc các ký tự dữ liệu",
+    "D": "Xuất các kí tự dữ liệu",
+    "correct": "A"
+  },
+  {
+    "number": 6,
+    "question": "Lớp OutputStream dùng để?",
+    "A": "Đọc và dùng các dòng dữ liệu để làm",
+    "B": "Tạo ra, ghi và xử lý kết xuất các dòng làm đầu vào.",
+    "C": "Đọc các ký tự dữ liệu",
+    "D": "Xuất các kí tự dữ liệu",
+    "correct": "B"
+  },
+  {
+    "number": 7,
+    "question": "Lớp nputStream dùng để?",
+    "A": "Đọc và dùng các dòng dữ liệu để",
+    "B": "Tạo ra, ghi và xử lý kết xuất các dòng làm đầu vào.",
+    "C": "Đọc các ký tự dữ liệu",
+    "D": "Xuất các kí tự dữ liệu",
+    "correct": "A"
+  },
+  {
+    "number": 8,
+    "question": "Phương thức read() dùng để?",
+    "A": "Đọc các byte dữ liệu từ một dòng. Nếu như không có byte dữ liệu nào, nó phải chờ. Khi một phương thức phải chờ, các luồng đang thực hiện phải tạm dừng cho đến khi có dữ liệu.",
+    "B": "Trả về số byte đọc được hay ʻ-1ʼ nếu như đã đọc đến cuối dòng. Nó gây ra ngoại lệ IOException nếu có lỗi xảy ra.",
+    "C": "Phương thức này định vị lại dòng theo vị trí được đánh lần cuối cùng. Nó gây ra ngoại lệ IOException nếu lỗi xảy ra.",
+    "D": "Đánh dấu vị trí hiện tại của dòng",
+    "correct": "A"
+  },
+  {
+    "number": 9,
+    "question": "Phương thức read(byte []) dùng để?",
+    "A": "Đọc các byte dữ liệu từ một dòng. Nếu như không có byte dữ liệu nào, nó phải chờ. Khi một phương thức phải chờ, các luồng đang thực hiện phải tạm dừng cho đến khi có dữ liệu.",
+    "B": "Trả về số byte đọc được hay ʻ-1ʼ nếu như đã đọc đến cuối dòng. Nó gây ra ngoại lệ IOException nếu có lỗi xảy ra.",
+    "C": "Phương thức này định vị lại dòng theo vị trí được đánh lần cuối cùng. Nó gây ra ngoại lệ IOException nếu lỗi xảy ra.",
+    "D": "Đánh dấu vị trí hiện tại của dòng",
+    "correct": "B"
+  },
+  {
+    "number": 10,
+    "question": "Phương thức mark() dùng để?",
+    "A": "Đọc các byte dữ liệu từ một dòng. Nếu như không có byte dữ liệu nào, nó phải chờ. Khi một phương thức phải chờ, các luồng đang thực hiện phải tạm dừng cho đến khi có dữ liệu.",
+    "B": "Trả về số byte đọc được hay ʻ-1ʼ nếu như đã đọc đến cuối dòng. Nó gây ra ngoại lệ IOException nếu có lỗi xảy ra.",
+    "C": "Phương thức này định vị lại dòng theo vị trí được đánh lần cuối cùng. Nó gây ra ngoại lệ IOException nếu lỗi xảy ra.",
+    "D": "Đánh dấu vị trí hiện tại của dòng",
+    "correct": "D"
+  },
+  {
+    "number": 11,
+    "question": "Phương thức read(byte [], int, int) dùng để?",
+    "A": "Đọc các byte dữ liệu từ một dòng. Nếu như không có byte dữ liệu nào, nó phải chờ. Khi một phương thức phải chờ, các luồng đang thực hiện phải tạm dừng cho đến khi có dữ liệu.",
+    "B": "Trả về số byte đọc được hay ʻ-1ʼ nếu như đã đọc đến cuối dòng. Nó gây ra ngoại lệ IOException nếu có lỗi xảy ra.",
+    "C": "Phương thức này định vị lại dòng theo vị trí được đánh lần cuối cùng. Nó gây ra ngoại lệ IOException nếu lỗi xảy ra.",
+    "D": "Đánh dấu vị trí hiện tại của dòng",
+    "correct": "C"
+  },
+  {
+    "number": 12,
+    "question": "Phương thức available() dùng để?",
+    "A": "Đọc các byte dữ liệu từ một dòng. Nếu như không có byte dữ liệu nào, nó phải chờ. Khi một phương thức phải chờ, các luồng đang thực hiện phải tạm dừng cho đến khi có dữ liệu.",
+    "B": "Trả về số byte đọc được hay ʻ-1ʼ nếu như đã đọc đến cuối dòng. Nó gây ra ngoại lệ IOException nếu có lỗi xảy ra.",
+    "C": "Phương pháp này trả về số lượng byte có thể đọc được mà không phải chờ. Nó trả về số byte hiện tại có trong dòng. Nó không phải là phương thức tin cậy để thực hiện tiến trình xử lý đầu vào.",
+    "D": "Đánh dấu vị trí hiện tại của dòng",
+    "correct": "C"
+  },
+  {
+    "number": 13,
+    "question": "Phương thức write(int) dùng để?",
+    "A": "Đọc các byte dữ liệu từ một dòng. Nếu như không có byte dữ liệu nào, nó phải chờ. Khi một phương thức phải chờ, các luồng đang thực hiện phải tạm dừng cho đến khi có dữ liệu.E",
+    "B": "Phương thức này phong toả cho đến khi một byte được ghi. Dòng phải chờ cho đến khi tác vụ ghi hoàn tất. Nó gây ra ngoại lệ IOException nếu lỗi xảy ra.",
+    "C": "Phương pháp này trả về số lượng byte có thể đọc được mà không phải chờ. Nó trả về số byte hiện tại có trong dòng. Nó không phải là phương thức tin cậy để thực hiện tiến trình xử lý đầu vào.",
+    "D": "Phương thức này ghi một byte",
+    "correct": "D"
+  },
+  {
+    "number": 14,
+    "question": "Phương thức flush() dùng để?",
+    "A": "Đọc các byte dữ liệu từ một dòng. Nếu như không có byte dữ liệu nào, nó phải chờ. Khi một phương thức phải chờ, các luồng đang thực hiện phải tạm dừng cho đến khi có dữ liệu.",
+    "B": "Phương thức này xả sạch dòng. Đệm dữ liệu được ghi ra dòng. Nó kích hoạt IOException nếu lỗi xảy ra.",
+    "C": "Phương pháp này trả về số lượng byte có thể đọc được mà không phải chờ. Nó trả về số byte hiện tại có trong dòng. Nó không phải là phương thức tin cậy để thực hiện tiến trình xử lý đầu vào.",
+    "D": "Phương thức này ghi một byte",
+    "correct": "B"
+  },
+  {
+    "number": 15,
+    "question": "Phương thức close() dùng để?",
+    "A": "Đọc các byte dữ liệu từ một dòng. Nếu như không có byte dữ liệu nào, nó phải chờ. Khi một phương thức phải chờ, các luồng đang thực hiện phải tạm dừng cho đến khi có dữ liệu.",
+    "B": "Phương thức này xả sạch dòng. Đệm dữ liệu được ghi ra dòng. Nó kích hoạt IOException nếu lỗi xảy ra.",
+    "C": "Phương thức đóng dòng. Nó được dùng để giải phóng mọi tài nguyên gắn với dòng. Nó kích hoạt IOException nếu lỗi xảy ra.",
+    "D": "Phương thức này ghi một byte",
+    "correct": "C"
+  },
+  {
+    "number": 16,
+    "question": "Thư viện hsqldb.jar dùng để làm gì?",
+    "A": "Hỗ trợ tạo bảng và truy vấn trong Java, sử dụng CSDL hsqldb.",
+    "B": "Hỗ trợ giao diện đồ họa trong Java",
+    "C": "Hỗ trợ quản lý người dùng",
+    "D": "Hỗ trợ đọc/ghi tệp văn bản",
+    "correct": "A"
+  },
+  {
+    "number": 17,
+    "question": "Đối tượng java.sql.Connection được khởi tạo từ câu lệnh nào?",
+    "A": "DriverManager.getConnection()",
+    "B": "createStatement()",
+    "C": "executeUpdate()",
+    "D": "executeQuery()",
+    "correct": "A"
+  },
+  {
+    "number": 18,
+    "question": "Đối tượng java.sql.DriverManager có phương thức nào?",
+    "A": "getConnection()",
+    "B": "getHSQLConnection()",
+    "C": "createStatement()",
+    "D": "executeUpdate()",
+    "correct": "A"
+  },
+  {
+    "number": 19,
+    "question": "Đối tượng java.sql.ResultSet được trả về từ phương thức nào sau đây?",
+    "A": "executeQuery();",
+    "B": "getHSQLConnection()",
+    "C": "createStatement()",
+    "D": "getConnection()",
+    "correct": "A"
+  },
+  {
+    "number": 20,
+    "question": "Đối tượng java.sql.ResultSetMetaData được trả về từ phương thức nào sau đây?",
+    "A": "getMetaData()",
+    "B": "getHSQLConnection()",
+    "C": "createStatement()",
+    "D": "executeUpdate()",
+    "correct": "A"
+  },
+  {
+    "number": 21,
+    "question": "Đối tượng java.sql.ResultSetMetaData có thuộc tính ColumnCount, thuộc tính này có\nthể xác định bằng hàm nào?",
+    "A": "getColumnsCount()",
+    "B": "getColumnCount()",
+    "C": "getColumnCountIndex()",
+    "D": "getColumnIndex()",
+    "correct": "B"
+  },
+  {
+    "number": 22,
+    "question": "Để đóng một Connection chúng ta dùng phương thức:",
+    "A": "exit()",
+    "B": "finish()",
+    "C": "quit()",
+    "D": "close()",
+    "correct": "D"
+  },
+  {
+    "number": 23,
+    "question": "Để đóng một Statement chúng ta dùng phương thức:",
+    "A": "close()",
+    "B": "finish()",
+    "C": "quit()",
+    "D": "exit()",
+    "correct": "A"
+  },
+  {
+    "number": 24,
+    "question": "Để đóng một ResultSet chúng ta dùng phương thức:",
+    "A": "close()",
+    "B": "finish()",
+    "C": "quit()",
+    "D": "exit()",
+    "correct": "A"
+  },
+  {
+    "number": 25,
+    "question": "Để đăng ký sử dụng thư viện hsqldb chúng ta dùng câu lệnh nào?",
+    "A": "Class.forName(\"org.hsqldb.jdbcDriver\")",
+    "B": "getHSQLConnection()",
+    "C": "createStatement()",
+    "D": "executeUpdate()",
+    "correct": "A"
+  },
+  {
+    "number": 26,
+    "question": "Java kết nối dữ liệu với Oracle cần dùng tới thư viện gì?",
+    "A": "Không cần thư viện ngoài",
+    "B": "Hsqldb.jar",
+    "C": "OJDBC14.jar",
+    "D": "Thư viện thsoft.jar",
+    "correct": "C"
+  },
+  {
+    "number": 27,
+    "question": "Để đăng ký sử dụng thư viện OJDBC chúng ta dùng câu lệnh nào?",
+    "A": "Class.forName(\"oracle.jdbc.driver.OracleDriver\")",
+    "B": "getHSQLConnection()",
+    "C": "createStatement()",
+    "D": "executeUpdate()",
+    "correct": "A"
+  },
+  {
+    "number": 28,
+    "question": "Để cập nhật dữ liệu vào bảng ta dùng câu lệnh nào?",
+    "A": "getHSQLConnection()",
+    "B": "executeQuery();",
+    "C": "executeUpdate();",
+    "D": "createStatement()",
+    "correct": "C"
+  },
+  {
+    "number": 29,
+    "question": "Để tạo 1 bảng mới ta dùng lệnh nào?",
+    "A": "createStatement()",
+    "B": "executeQuery(\"create table survey\");",
+    "C": "getHSQLConnection()",
+    "D": "executeUpdate(\"create table survey (id int, name CHAR(5) );\");",
+    "correct": "D"
+  },
+  {
+    "number": 30,
+    "question": "Câu lệnh nào sau đây viết đúng cú pháp?",
+    "A": "executeUpdate(\"create table survey (id int, name CHAR(5) );\");",
+    "B": "executeUpdate(\"table survey (id int, name CHARZ(5) );\");",
+    "C": "executeUpdate(\"create table (id int, name CHAR(5) );\");",
+    "D": "executeUpdate(\"create table name survey (id int, name CHAR(5) );\");",
+    "correct": "A"
+  },
+  {
+    "number": 31,
+    "question": "2D API là gì?",
+    "A": "Chứa các lớp hiện thực nhiều kiểu vẽ, các hình phức tạp, fonts, color. 2D API không phải là một phần của Swing.",
+    "B": "Là bộ công cụ giúp người dùng kết nối với các thiết bị như bàn phím, bộ đọc chữ tự động… cho phép truy xuất trực tiếp tới các thành phần Swing.",
+    "C": "Chứa các lớp hiện thực nhiều kiểu vẽ, các hình phức tạp, fonts, color. 2D API là một phần của Swing.",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 32,
+    "question": "Trong kiến trúc MVC của Swing, thành phần có ghi giá trị như sau Minimum = 0. Vậy\nthành phần đó thuộc loại nào?",
+    "A": "View",
+    "B": "Model",
+    "C": "Controller",
+    "D": "Không có đáp án đúng",
+    "correct": "B"
+  },
+  {
+    "number": 33,
+    "question": "Trong kiến trúc MVC của Swing, thành phần có ghi giá trị như sau Accept mouse\nclicks on end buttons. Vậy thành phần đó thuộc loại nào?",
+    "A": "Model",
+    "B": "View",
+    "C": "Controller",
+    "D": "Không có đáp án đúng",
+    "correct": "C"
+  },
+  {
+    "number": 34,
+    "question": "Phát biểu đúng nhất về đối tượng Panel và ScrollPanes.",
+    "A": "Đây là hai thành phần thuộc Container. Rất giống nhau, khác nhau ở điểm ScrollPanes có thêm hai thanh trượt.",
+    "B": "Đây là hai thành phần thuộc Container. Giống nhau hoàn toàn, đều có thêm hai thanh trượt.",
+    "C": "Đây là hai thành phần thuộc Component. Không giống nhau.",
+    "D": "Không có đáp án đúng.",
+    "correct": "A"
+  },
+  {
+    "number": 35,
+    "question": "Dialogs là đối tượng gì?",
+    "A": "Là một cửa sổ dạng hộp thoại, dùng để đưa ra các thông báo, lấy dữ liệu nhập từ người dùng.",
+    "B": "Là hộp chứa, chuyên dùng để chứa mọi thành phần trong java.",
+    "C": "Là hộp dùng để kết nối cơ sở dữ liệu bên ngoài, rồi hiển thị.",
+    "D": "Không có đáp án đúng.",
+    "correct": "A"
+  },
+  {
+    "number": 36,
+    "question": "Phương thức mouseClicked(MouseEvent event) có được từ giao tiếp lắng nghe nào?",
+    "A": "MouseListener",
+    "B": "MouseMotionListener",
+    "C": "MouseEvent",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 37,
+    "question": "Phương thức mousePressed(MouseEvent event) có được từ giao tiếp lắng nghe nào?",
+    "A": "MouseListener",
+    "B": "MouseMotionListener",
+    "C": "MouseEvent",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 38,
+    "question": "Phương thức mouseDragged(MouseEvent event) có được từ giao tiếp lắng nghe nào?",
+    "A": "MouseMotionListener",
+    "B": "MouseListener",
+    "C": "MouseEvent",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 39,
+    "question": "Phương thức mouseMoved(MouseEvent event) có được từ giao tiếp lắng nghe nào?",
+    "A": "MouseMotionListener",
+    "B": "MouseListener",
+    "C": "MouseEvent",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 40,
+    "question": "Phương thức mouseMoved(MouseEvent event) có được từ giao tiếp lắng nghe nào?",
+    "A": "MouseMotionListener",
+    "B": "MouseListener",
+    "C": "MouseEvent",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 41,
+    "question": "Trong giao tiếp, xử lý sự kiện phím KeyListener. Hàm keyPressed là sự kiện gì?",
+    "A": "Khi nhấn phím bất kỳ",
+    "B": "Khi thả phím bất kỳ",
+    "C": "Xác định kiểu phím nhấn",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 42,
+    "question": "Trong giao tiếp, xử lý sự kiện phím KeyListener. Hàm keyReleased là sự kiện gì?",
+    "A": "Khi nhấn phím bất kỳ",
+    "B": "Khi thả phím bất kỳ",
+    "C": "Xác định kiểu phím nhấn",
+    "D": "Không có đáp án đúng",
+    "correct": "B"
+  },
+  {
+    "number": 43,
+    "question": "Có Rem câu lệnh sau: Image img = kit.getImage(\"hand.jpg\");. Hỏi bức ảnh hand.jpg\nđược lưu ở đâu?",
+    "A": "Cú pháp viết Rem câu lệnh sai.",
+    "B": "Được lưu ngoài desktop.",
+    "C": "Được lưu tại bất kỳ dự án nào về java.",
+    "D": "Được đặt trong thư mục dự án đang viết code.",
+    "correct": "D"
+  },
+  {
+    "number": 44,
+    "question": "Kiến trúc MVC của Swing chia mỗi thành phần giao diện thành mấy phần?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "correct": "C"
+  },
+  {
+    "number": 45,
+    "question": "JFC (Java Foundation Classes) gồm?",
+    "A": "Swing, AWT, Accessibility API, 2D API, Drag and Drop",
+    "B": "Swing, AWT, Accessibility API, 2D ACI",
+    "C": "Swing, AWT, Accessibility API, 2D ACI, Drag and Drop",
+    "D": "Swing, AWT, Accessibility AGI, 2D ACI, Drag and Drop API, Drag and Drop",
+    "correct": "A"
+  },
+  {
+    "number": 46,
+    "question": "Trong các phương thức sau phương thức nào thuộc Lớp OutputStream:",
+    "A": "flush().",
+    "B": "mark().",
+    "C": "reset().",
+    "D": "skip().",
+    "correct": "A"
+  },
+  {
+    "number": 47,
+    "question": "Trong các phương thức sau phương thức nào thuộc Lớp OutputStream:",
+    "A": "write(byte[]).",
+    "B": "mark().",
+    "C": "reset().",
+    "D": "skip().",
+    "correct": "A"
+  },
+  {
+    "number": 48,
+    "question": "Trong các phương thức sau phương thức nào thuộc Lớp nputStream:",
+    "A": "Write(byte[]).",
+    "B": "Write(int).",
+    "C": "Flush().",
+    "D": "Read().",
+    "correct": "D"
+  },
+  {
+    "number": 49,
+    "question": "Trong các phương thức sau phương thức nào thuộc Lớp nputStream:",
+    "A": "Write(byte[]).",
+    "B": "Write(int).",
+    "C": "Flush().",
+    "D": "Mark().",
+    "correct": "D"
+  },
+  {
+    "number": 50,
+    "question": "Lớp FileDescriptor:",
+    "A": "Cung cấp khả năng truy cập các mô tả tập tin mà hệ điều hành sử dụng khi tập tin và thư mục đang được truy cập.",
+    "B": "Lớp này cho phép đọc vào từ một tập tin dưới dạng một dòng.",
+    "C": "Lớp này cho phép xuất ra một tập tin theo dòng.",
+    "D": "Lớp này cho phép đọc và xuất ra một tập tin theo dòng.",
+    "correct": "A"
+  },
+  {
+    "number": 51,
+    "question": "Lớp FileInputStream:",
+    "A": "Cung cấp khả năng truy cập các mô tả tập tin mà hệ điều hành sử dụng khi tập tin và thư mục đang được truy cập.",
+    "B": "Lớp này cho phép đọc vào từ một tập tin dưới dạng một dòng.",
+    "C": "Lớp này cho phép xuất ra một tập tin theo dòng.",
+    "D": "Lớp này cho phép đọc và xuất ra một tập tin theo dòng.",
+    "correct": "B"
+  },
+  {
+    "number": 52,
+    "question": "Lớp FileOutputStream:",
+    "A": "Cung cấp khả năng truy cập các mô tả tập tin mà hệ điều hành sử dụng khi tập tin và thư mục đang được truy cập.",
+    "B": "Lớp này cho phép đọc vào từ một tập tin dưới dạng một dòng.",
+    "C": "Lớp này cho phép xuất ra một tập tin theo dòng.",
+    "D": "Lớp này cho phép đọc và xuất ra một tập tin theo dòng.",
+    "correct": "C"
+  },
+  {
+    "number": 53,
+    "question": "Phương thức ʻfinalize()ʻ được dùng để:",
+    "A": "Đóng dòng khi nó được bộ gom rác Java nhặt.",
+    "B": "Lớp này cho phép đọc vào từ một tập tin dưới dạng một dòng.",
+    "C": "Trả về đối tượng FileDescriptor chứa thông tin về sự kết nối thực sự tới file mà ʻFileInputStreamʼ đang sử dụng.",
+    "D": "Lớp này cho phép đọc và xuất ra một tập tin theo dòng.",
+    "correct": "A"
+  },
+  {
+    "number": 54,
+    "question": "Phương thức ʻgetFD()ʼ được dùng để:",
+    "A": "Đóng dòng khi nó được bộ gom rác Java nhặt.",
+    "B": "Lớp này cho phép đọc vào từ một tập tin dưới dạng một dòng.",
+    "C": "Trả về đối tượng FileDescriptor chứa thông tin về sự kết nối thực sự tới file mà ʻFileInputStreamʼ đang sử dụng.",
+    "D": "Lớp này cho phép đọc và xuất ra một tập tin theo dòng.",
+    "correct": "C"
+  },
+  {
+    "number": 55,
+    "question": "Phương thức ʻfinalize()ʼ và getFD():",
+    "A": "Được sử dụng ở lớp FileOutputStream.",
+    "B": "Được sử dụng ở lớp FileInputStream.",
+    "C": "Cả 2 lớp trên.",
+    "D": "Tất cả đều sai.",
+    "correct": "C"
+  },
+  {
+    "number": 56,
+    "question": "Lớp BufferedInputStream dùng để:",
+    "A": "Cung cấp khả năng truy cập các mô tả tập tin mà hệ điều hành sử dụng khi tập tin và thư mục đang được truy cập.",
+    "B": "Lớp này tự động tạo ra và duy trì vùng đệm để hỗ trợ thao tác vào.",
+    "C": "Lớp này cho phép xuất ra một tập tin theo dòng.",
+    "D": "Lớp này cho phép đọc và xuất ra một tập tin theo dòng.",
+    "correct": "B"
+  },
+  {
+    "number": 57,
+    "question": "Lớp BufferedOutputStream dùng để:",
+    "A": "Lớp này cũng định nghĩa hai phương thức thiết lập, một cho phép chỉ định kích cỡ của vùng đệm xuất, một một sử dụng kích cỡ vùng đệm ngầm định.",
+    "B": "Lớp này tự động tạo ra và duy trì vùng đệm để hỗ trợ thao tác vào.",
+    "C": "Lớp này cho phép xuất ra một tập tin theo dòng.",
+    "D": "Lớp này cho phép đọc và xuất ra một tập tin theo dòng.",
+    "correct": "A"
+  },
+  {
+    "number": 58,
+    "question": "Phương thức reset() được dùng để:",
+    "A": "Thiết lập lại vùng đệm.",
+    "B": "Trả về kích cỡ hiện hành của vùng đệm.",
+    "C": "Trả về bản sao mảng ký tự của vùng",
+    "D": "Chuyển đổi vùng đệm xuất thành một đối tượng String.",
+    "correct": "A"
+  },
+  {
+    "number": 59,
+    "question": "Phương thức size() được dùng để:",
+    "A": "Thiết lập lại vùng đệm.",
+    "B": "Trả về kích cỡ hiện hành của vùng đệm.",
+    "C": "Trả về bản sao mảng ký tự của vùng",
+    "D": "Chuyển đổi vùng đệm xuất thành một đối tượng String.",
+    "correct": "B"
+  },
+  {
+    "number": 60,
+    "question": "Phương thức toCharArray() được dùng để:",
+    "A": "Thiết lập lại vùng đệm.",
+    "B": "Trả về kích cỡ hiện hành của vùng đệm.",
+    "C": "Trả về bản sao mảng ký tự của",
+    "D": "Chuyển đổi vùng đệm xuất thành một đối tượng String.",
+    "correct": "C"
+  },
+  {
+    "number": 61,
+    "question": "Phương thức toString() được dùng để:",
+    "A": "Thiết lập lại vùng đệm.",
+    "B": "Trả về kích cỡ hiện hành của vùng đệm.",
+    "C": "Trả về bản sao mảng ký tự của vùng",
+    "D": "Chuyển đổi vùng đệm xuất thành một đối tượng String.",
+    "correct": "D"
+  },
+  {
+    "number": 62,
+    "question": "Phương thức writeTo() được dùng để:",
+    "A": "Thiết lập lại vùng đệm.",
+    "B": "Trả về kích cỡ hiện hành của vùng đệm.",
+    "C": "Trả về bản sao mảng ký tự của vùng",
+    "D": "Ghi vùng đệm ra một luồng xuất khác.",
+    "correct": "D"
+  },
+  {
+    "number": 63,
+    "question": "Phương thức getBuffer() được dùng để:",
+    "A": "Thiết lập lại vùng đệm.",
+    "B": "Trả về đối tượng StringBuffer tương ứng với vùng đệm xuất.",
+    "C": "Trả về bản sao mảng ký tự của vùng đệm xuất.",
+    "D": "Ghi vùng đệm ra một luồng xuất khác.",
+    "correct": "B"
+  },
+  {
+    "number": 64,
+    "question": "Phương thức toString() được dùng để:",
+    "A": "Thiết lập lại vùng đệm.",
+    "B": "Trả về đối tượng StringBuffer tương ứng với vùng đệm xuất.",
+    "C": "Trả về bản sao mảng ký tự của vùng đệm xuất.",
+    "D": "Trả về một chuỗi chứa bản sao của vùng đệm xuất.",
+    "correct": "D"
+  },
+  {
+    "number": 65,
+    "question": "Phương thức byte readByte() là:",
+    "A": "Đọc một byte.",
+    "B": "Đọc và trả về một giá trị ký tự.",
+    "C": "Đọc 2 byte và trả về giá trị kiểu short.",
+    "D": "Đọc 8 byte và trả về giá trị kiểu long.",
+    "correct": "A"
+  },
+  {
+    "number": 66,
+    "question": "Phương thức long readLong() là:",
+    "A": "Đọc một byte.",
+    "B": "Đọc và trả về một giá trị ký tự.",
+    "C": "Đọc 2 byte và trả về giá trị kiểu short.",
+    "D": "Đọc 8 byte và trả về giá trị kiểu long.",
+    "correct": "D"
+  },
+  {
+    "number": 67,
+    "question": "Phương thức short redShort() là:",
+    "A": "Đọc một byte.",
+    "B": "Đọc và trả về một giá trị ký tự.",
+    "C": "Đọc 2 byte và trả về giá trị kiểu short.",
+    "D": "Đọc 8 byte và trả về giá trị kiểu long.",
+    "correct": "C"
+  },
+  {
+    "number": 68,
+    "question": "Phương thức char readChar() là:",
+    "A": "Đọc một byte.",
+    "B": "Đọc và trả về một giá trị ký tự.",
+    "C": "Đọc 2 byte và trả về giá trị kiểu short.",
+    "D": "Đọc 8 byte và trả về giá trị kiểu long.",
+    "correct": "B"
+  },
+  {
+    "number": 69,
+    "question": "Phương thức String readUTF() là:",
+    "A": "Đọc một byte.",
+    "B": "Đọc một chuỗi.",
+    "C": "Đọc 2 byte và trả về giá trị kiểu short.",
+    "D": "Đọc 8 byte và trả về giá trị kiểu long.",
+    "correct": "B"
+  },
+  {
+    "number": 70,
+    "question": "Câu lệnh nào sau đây viết đúng cú pháp?",
+    "A": "executeQuery(\"SELECT * FROM survey\");",
+    "B": "executeQuery(\"SELECTED * FROM survey\");",
+    "C": "executeQuery(\"SELECT * FROM tablesurvey\");",
+    "D": "executeQuery(\"SELECT servey FROM survey\");",
+    "correct": "A"
+  },
+  {
+    "number": 71,
+    "question": "Câu lệnh nào sau đây viết đúng cú pháp?",
+    "A": "executeUpdate(\"INSERT INTO survey(id, name)VALUES(111, '123456789')\");",
+    "B": "executeUpdate(\"INSERT INTO table survey(id, name)VALUES(111, '123456789')\");",
+    "C": "executeUpdate(\"INSERTED INTO survey(id, name)VALUES(111, '123456789')\");",
+    "D": "executeUpdate(\"INSERTING INTO survey(id, name)VALUES(111, '123456789')\");",
+    "correct": "A"
+  },
+  {
+    "number": 72,
+    "question": "Câu lệnh nào sau đây viết đúng cú pháp xóa bảng?",
+    "A": "executeUpdate(\"drop table survey\");",
+    "B": "executeUpdate(\"drop survey\");",
+    "C": "executeUpdate(\"drop * table survey\");",
+    "D": "executeUpdate(\"drop all table survey\");",
+    "correct": "A"
+  },
+  {
+    "number": 73,
+    "question": "Câu lệnh nào sau đây viết đúng cú pháp?",
+    "A": "executeQuery(\"SELECT * FROM survey\");",
+    "B": "executeQuery(\"SELECT all FROM survey\");",
+    "C": "executeQuery(\"SELECT table FROM survey\");",
+    "D": "executeQuery(\"SELECTED FROM survey\");",
+    "correct": "A"
+  },
+  {
+    "number": 74,
+    "question": "Chuyển tới bản ghi tiếp theo trong ResultSet chúng ta dùng thủ tục nào?",
+    "A": "next()",
+    "B": "nextTo()",
+    "C": "continue()",
+    "D": "continueTo()",
+    "correct": "A"
+  },
+  {
+    "number": 75,
+    "question": "Câu lệnh nào sau đây viết đúng cú pháp?",
+    "A": "executeUpdate(\"delete from survey\");",
+    "B": "executeUpdate(\"delete * from survey\");",
+    "C": "executeUpdate(\"delete all from survey\");",
+    "D": "executeUpdate(\"deleted from survey\");",
+    "correct": "A"
+  },
+  {
+    "number": 76,
+    "question": "Câu lệnh nào sau đây viết đúng cú pháp xóa dữ liệu trong bảng:",
+    "A": "executeUpdate(\"delete from survey\");",
+    "B": "executeUpdate(\"delete table from survey\");",
+    "C": "executeUpdate(\"delete col from survey\");",
+    "D": "executeUpdate(\"delete from survey at line 5\");",
+    "correct": "A"
+  },
+  {
+    "number": 77,
+    "question": "Câu lệnh DriverManager.getConnection(url, \"sa\", \"\") có 3 tham số gồm url, user name\nvà:",
+    "A": "Tên file",
+    "B": "Tài khoản",
+    "C": "Password",
+    "D": "Tên bảng",
+    "correct": "C"
+  },
+  {
+    "number": 78,
+    "question": "Câu lệnh DriverManager.getConnection(url, \"sa\", \"\") có 3 tham số gồm password, user\nname và:",
+    "A": "rl",
+    "B": "Tài khoản",
+    "C": "Tên file",
+    "D": "Tên bảng",
+    "correct": "A"
+  },
+  {
+    "number": 79,
+    "question": "Câu lệnh DriverManager.getConnection(url, \"sa\", \"\") có 3 tham số gồm password, url\nvà:",
+    "A": "Tài khoản",
+    "B": "serName",
+    "C": "Tên file",
+    "D": "Tên bảng",
+    "correct": "B"
+  },
+  {
+    "number": 80,
+    "question": "Đối tượng ResultSet không có phương thức nào sau đây?",
+    "A": "getNextItem();",
+    "B": "executeUpdate()",
+    "C": "executeQuery()",
+    "D": "close()",
+    "correct": "A"
+  },
+  {
+    "number": 81,
+    "question": "Đối tượng ResultSet không có phương thức nào sau đây?",
+    "A": "next()",
+    "B": "executeUpdate()",
+    "C": "executeQuery()",
+    "D": "getRecord();",
+    "correct": "D"
+  },
+  {
+    "number": 82,
+    "question": "Đối tượng ResultSet không có phương thức nào sau đây?",
+    "A": "next()",
+    "B": "executeUpdate()",
+    "C": "executeQuery()",
+    "D": "getDataView();",
+    "correct": "D"
+  },
+  {
+    "number": 83,
+    "question": "Phương thức next của đối tượng ResultSet trả về giá trị gì?",
+    "A": "Boolean",
+    "B": "nt",
+    "C": "Double",
+    "D": "Float",
+    "correct": "A"
+  },
+  {
+    "number": 84,
+    "question": "Phương thức getColumnCount() của đối tượng ResultSetMetaData trả về giá trị kiểu\ngì?",
+    "A": "Boolean",
+    "B": "Int",
+    "C": "Double",
+    "D": "String",
+    "correct": "B"
+  },
+  {
+    "number": 85,
+    "question": "Câu lệnh nào sau đây viết sai cú pháp?",
+    "A": "executeUpdate(\"create survey (id int, name CHAR(5) );\");",
+    "B": "executeUpdate(\"create table survey (id int, name CHAR(5) );\");",
+    "C": "executeUpdate(\"create table persion (id int, name CHAR(5) );\");",
+    "D": "executeUpdate(\"create table taxi (id int, name CHAR(5) );\");",
+    "correct": "A"
+  },
+  {
+    "number": 86,
+    "question": "Câu lệnh nào sau đây viết sai cú pháp:",
+    "A": "executeUpdate(\"delete all from survey\");",
+    "B": "executeUpdate(\"delete from driver\");",
+    "C": "executeUpdate(\"delete from survey\");",
+    "D": "executeUpdate(\"delete from taxi\");",
+    "correct": "A"
+  },
+  {
+    "number": 87,
+    "question": "Câu lệnh nào sau đây viết sai cú pháp:",
+    "A": "executeQuery(\"SELECT all FROM survey\");",
+    "B": "executeQuery(\"SELECT * FROM survey\");",
+    "C": "executeQuery(\"SELECT * FROM computers\");",
+    "D": "executeQuery(\"SELECT * FROM taxi\");",
+    "correct": "A"
+  },
+  {
+    "number": 88,
+    "question": "Câu lệnh nào sau đây viết sai cú pháp?",
+    "A": "executeUpdate(\"drop table taxi\");",
+    "B": "executeUpdate(\"drop table survey\");",
+    "C": "executeUpdate(\"drop table name survey\");",
+    "D": "executeUpdate(\"drop table computers\");",
+    "correct": "C"
+  },
+  {
+    "number": 89,
+    "question": "Đối tượng Statement được trả về từ hàm nào?",
+    "A": "executeUpdate(\"drop table computers\");",
+    "B": "executeUpdate(\"drop table survey\");",
+    "C": "executeUpdate(\"drop table taxi\");",
+    "D": "createStatement();",
+    "correct": "D"
+  },
+  {
+    "number": 90,
+    "question": "Đối tượng ResultSet có hàm nào sau đây:",
+    "A": "getStr()",
+    "B": "getString()",
+    "C": "getStrings()",
+    "D": "getValues()",
+    "correct": "B"
+  },
+  {
+    "number": 91,
+    "question": "Đối tượng ResultSet có hàm nào sau đây:",
+    "A": "updateString()",
+    "B": "updateStr()",
+    "C": "updateStrings()",
+    "D": "updateValues()",
+    "correct": "A"
+  },
+  {
+    "number": 92,
+    "question": "Đối tượng ResultSet có hàm nào sau đây:",
+    "A": "updateInts()",
+    "B": "updateRows()",
+    "C": "updateRow()",
+    "D": "updateValues()",
+    "correct": "C"
+  },
+  {
+    "number": 93,
+    "question": "Điền thêm từ vào … để hoàn thành đoạn lệnh sau:\ntry {\nUIManager.setLookAnd…(UIManager.getSystemLookAndFeelClassName());\n}\ncatch (Exception e)\n{\ne.printStackTrace();\n}",
+    "A": "Feel",
+    "B": "Show",
+    "C": "Look",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 94,
+    "question": "Điền thêm từ vào … để hoàn thành đoạn lệnh sau:\ntry {\nUIManager.setLookAndFeel(UIManager.get…LookAndFeelClassName());\n}\ncatch (Exception e)\n{\ne.printStackTrace();\n}",
+    "A": "System",
+    "B": "Show",
+    "C": "Container",
+    "D": "Component",
+    "correct": "A"
+  },
+  {
+    "number": 95,
+    "question": "Điền thêm từ vào … để hoàn thành đoạn lệnh sau:\ntry {\nUIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());\n}\n… (Exception e) {\ne.printStackTrace();\n}",
+    "A": "CATCH",
+    "B": "and",
+    "C": "catch",
+    "D": "And",
+    "correct": "C"
+  },
+  {
+    "number": 96,
+    "question": "Điền thêm từ vào … để hoàn thành đoạn lệnh sau:\ntry {\nUIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());\n}\ncatch (… e) {\ne.printStackTrace(",
+    "A": "Exception",
+    "B": "EXCEPTION",
+    "C": "except",
+    "D": "Except",
+    "correct": "A"
+  },
+  {
+    "number": 97,
+    "question": "Điền thêm từ vào … để hoàn thành đoạn lệnh sau:\naddMouse…Listener(new MouseMotionAdapter() {\npublic void mouseDragged(MouseEvent event) {\np = event.getPoint();\nrepaint();\n}\n});",
+    "A": "Motion",
+    "B": "event",
+    "C": "Point",
+    "D": "Adapter",
+    "correct": "A"
+  },
+  {
+    "number": 98,
+    "question": "Điền thêm từ vào … để hoàn thành đoạn lệnh sau:\naddMouseMotionListener(new MouseMotion…() {\npublic void mouseDragged(MouseEvent event) {\np = event.getPoint();\nrepaint();\n}\n});",
+    "A": "Adapter",
+    "B": "vent",
+    "C": "Dragged",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 99,
+    "question": "Điền thêm từ vào … để hoàn thành đoạn lệnh sau:\naddMouseMotionListener(new MouseMotionAdapter() {\npublic void …Dragged(MouseEvent event) {\np = event.getPoint();\nrepaint();\n}\n});",
+    "A": "mouse",
+    "B": "event",
+    "C": "repaint",
+    "D": "getPoint",
+    "correct": "A"
+  },
+  {
+    "number": 100,
+    "question": "Kiến trúc MVC của Swing gồm có những thành phần nào?",
+    "A": "Model, View, Controller",
+    "B": "Model, View, Controller, Connection",
+    "C": "Model, View, Console",
+    "D": "Model, View, Connection",
+    "correct": "A"
+  },
+  {
+    "number": 101,
+    "question": "Trong Java, AWT viết là gì?",
+    "A": "Abstract Window Toolkit",
+    "B": "All Window Toolkit",
+    "C": "Add Window Toolkit",
+    "D": "Tất cả đều sai.",
+    "correct": "A"
+  },
+  {
+    "number": 102,
+    "question": "Trong Java, Container là gì?",
+    "A": "Đối tượng vật chứa, có khả năng qUuản lý và nhóm các đối tượng khác lại",
+    "B": "Đối tượng thành phần hiển thị,Q nằm trong đối tượng chứa",
+    "C": "Đối tượng độc lập, được xây dựng riêng",
+    "D": "Đối tượng quản lDý bố cục",
+    "correct": "A"
+  },
+  {
+    "number": 103,
+    "question": "Trong Java, Component là gì?",
+    "A": "Là các đối tượng có biểu diễn đồ họa, được hiển thị lên màn hình mà người dùng tương tác được",
+    "B": "Là các đối tượng có biểu diễn đồ họa, được hiển thị lên màn hình mà người dùng không tương tác được",
+    "C": "Là đối tượng chứa, dùng để chứa các Container, quản lý bố cục",
+    "D": "Là đối tượng chuyên quản lý bố cục",
+    "correct": "A"
+  },
+  {
+    "number": 104,
+    "question": "JFrame frame = new JFrame(\"HelloWorldSwing\");\nframe.pack();\nLệnh frame.pack() để làm gì?",
+    "A": "Hiển thị frame với đủ các thành phần trên frame, với khung bé nhất",
+    "B": "Hiển thị frame với đủ các thành phần trên frame, với toàn màn hình",
+    "C": "Cố định frame ở một chỗ",
+    "D": "Tất cả đều sai",
+    "correct": "A"
+  },
+  {
+    "number": 105,
+    "question": "Menu, Label, Button, Textbox… là thuộc loại nào?",
+    "A": "Component",
+    "B": "Container",
+    "C": "Layout manager",
+    "D": "vent",
+    "correct": "A"
+  },
+  {
+    "number": 106,
+    "question": "Những thành phần nào sau chỉ thuộc Container?",
+    "A": "Combo Box, List, Menu",
+    "B": "Frame, Applet, Panel, Scroll pane, Slider, List",
+    "C": "Dialog, Frame, Applet, Panel, Scroll pane",
+    "D": "Không có đáp án đúng",
+    "correct": "C"
+  },
+  {
+    "number": 107,
+    "question": "Đồ họa trong Java, thành phần nào dùng để quản lý bố cục?",
+    "A": "Container",
+    "B": "Graphic",
+    "C": "Font",
+    "D": "Layout manager",
+    "correct": "D"
+  },
+  {
+    "number": 108,
+    "question": "Đồ họa trong Java,D thành phần nào dùng để xử lý sự kiện?",
+    "A": "Component",
+    "B": "vent",
+    "C": "Graphic",
+    "D": "Container",
+    "correct": "B"
+  },
+  {
+    "number": 109,
+    "question": "Một số loại Layout có trong Java?",
+    "A": "BorderLayout, BoxLayout, PrintsLayout, ScannerLayout",
+    "B": "BorderLayout, BoxLayout, CardLayout, FlowLayout, BagfwLayout",
+    "C": "BorderLayout, BoxLayout, CardLayout, FlowLayout, GridLayout",
+    "D": "BorderLayout, BoxLayout, CardLayout, FlowLayout, PrintsLayout",
+    "correct": "C"
+  },
+  {
+    "number": 110,
+    "question": "BorderLayout hoạt động thế nào?",
+    "A": "Đưa các thành phần từ trái qua phải, từ trên xuống dưới",
+    "B": "Đưa các thành phần vào thành từng dòng hoặc từng cột",
+    "C": "Đưa các thành phần từ phải qua trái, từ trên xuống dưới",
+    "D": "Chia thành 5 phần: north, west, center, east, south",
+    "correct": "D"
+  },
+  {
+    "number": 111,
+    "question": "BoxLayout hoạt động thế nào?",
+    "A": "Đưa các thành phần vào thành từng dòng hoặc từng cột",
+    "B": "Chia thành 5 phần: north, west, center, east, south",
+    "C": "Đưa các thành phần từ trái qua phải, từ trên xuống dưới",
+    "D": "Đưa các thành phần từ phải qua trái, từ trên xuống dưới",
+    "correct": "A"
+  },
+  {
+    "number": 112,
+    "question": "CardLayout hoạt động thế nào?",
+    "A": "Đưa các thành phần từ phải qua trái, từ trên xuống dưới",
+    "B": "Cho phép hiển thị nhiều Component khác nhau tại nhiều thời điểm khác nhau",
+    "C": "Chia thành 5 phần: north, west, center, east, south",
+    "D": "Đưa các thành phần từ trái qua phải, từ trên xuống dưới",
+    "correct": "B"
+  },
+  {
+    "number": 113,
+    "question": "FlowLayout hoạt động thế nào?",
+    "A": "Chia thành 5 phần: north, west, center, east, south",
+    "B": "Đưa các thành phần vào thành từng dòng hoặc từng cột",
+    "C": "Đưa các thành phần từ trái qua phải",
+    "D": "Đưa các thành phần từ phải qua trái, từ trên xuống dưới",
+    "correct": "C"
+  },
+  {
+    "number": 114,
+    "question": "GridLayout hoạt động thế nào?",
+    "A": "Đưa các thành phần từ phải qua trái, từ trên xuống dưới",
+    "B": "Chia thành 5 phần: north, west, center, east, south",
+    "C": "Đưa các thành phần vào thành từng dòng hoặc từng cột",
+    "D": "Đưa các thành phần từ trái qua phải, từ trên xuống dưới vào các ô định sẵn",
+    "correct": "D"
+  },
+  {
+    "number": 115,
+    "question": "Cách khai báo (import) gói sự kiện nào sau đây đúng?",
+    "A": "java.awt.event.✶, java.event.✶",
+    "B": "java.awt.even.✶, java.swing.even.✶",
+    "C": "java.awt.event, java.swing.event",
+    "D": "java.awt.event.✶, java.swing.event.✶",
+    "correct": "D"
+  },
+  {
+    "number": 116,
+    "question": "Câu lệnh Java nào đúng?",
+    "A": "statusBar = new JLabel(); getContentPanel().add(statusBar, BordLayout.SOUTH);",
+    "B": "statusBar = new JLabel(); getContentPane().add(statusBar, BorderLayout.SOUTH);",
+    "C": "statusBar = new JLabel(); getContentPane().add(statusBar, BorderLayout.IN);",
+    "D": "statusBar = new JLabel(); getContenPanel().add(statusBar, BorderLayout.SOUTH);",
+    "correct": "B"
+  },
+  {
+    "number": 117,
+    "question": "Lệnh getContentPane().setBackground(Color.RED); để làm gì?",
+    "A": "Lấy màu đỏ từ thành phần",
+    "B": "Không có đáp án đúng",
+    "C": "Đặt màu nền của đối tượng thành màu đỏ",
+    "D": "Đặt màu đỏ làm mặc định không đổi trong cả chương trình",
+    "correct": "C"
+  },
+  {
+    "number": 118,
+    "question": "Dòng lệnh nào sau đây đúng cú pháp?",
+    "A": "public class xlsk extend JFrame implements MouseMotionListener, MouseListener",
+    "B": "public xlsk extends JFrame implements MouseMotionListener, MouseListener",
+    "C": "public class xlsk extends JFrame implements MouseMotionListener; MouseListener",
+    "D": "public class xlsk extends JFrame implements MouseMotionListener, MouseListener",
+    "correct": "D"
+  },
+  {
+    "number": 119,
+    "question": "Lệnh repaint(); dùng để làm gì?",
+    "A": "Gọi đến hàm public void paint(Graphics g) {} để xử lý",
+    "B": "Không có lệnh này trong Java",
+    "C": "Gọi đến hàm repaint. Hàm này buộc phải xây dựng chương trình chạy",
+    "D": "Không có đáp án đúng",
+    "correct": "A"
+  },
+  {
+    "number": 120,
+    "question": "Lệnh đặt chiều dài, chiều rộng (x,y) cho đối tượng là gì?",
+    "A": "GetSize(x,y)",
+    "B": "setSize(x,y)",
+    "C": "getSize(x,y)",
+    "D": "SetSize(x,y)",
+    "correct": "B"
+  },
+  {
+    "number": 121,
+    "question": "Lệnh hiển thị 1 đối tượng kiểu JFrame là?",
+    "A": "setEnabled(true);",
+    "B": "setEnabled(false);",
+    "C": "setVisible(true);",
+    "D": "setVisible(true);",
+    "correct": "C"
+  },
+  {
+    "number": 122,
+    "question": "Chức năng của JScrollPane là?",
+    "A": "Giúp hiển thị các component với kích thước tĩnh",
+    "B": "Là thành phần chứa container, chứa tất cả các thành phần khác",
+    "C": "Không có đáp án đúng",
+    "D": "Giúp hiển thị các component với kích thước động",
+    "correct": "D"
+  },
+  {
+    "number": 123,
+    "question": "Chức năng của JSplitPane là gì?",
+    "A": "Chia các component ra làm 2 phần, theo chiều ngang hoặc dọc",
+    "B": "Chia các component ra nhiều phần, chỉ theo chiều ngang",
+    "C": "Chia các component ra làm 2 phần, theo chiều dọc",
+    "D": "Chia các component ra làm 2 phần, theo chiều ngang",
+    "correct": "A"
+  },
+  {
+    "number": 124,
+    "question": "Các thành phần JRadioButton cùng thuộc vào 1 ButtonGroup thì?",
+    "A": "Chương trình chạy, tại một thời điểm có thể chọn hết hoặc không chọn",
+    "B": "Chương trình chạy, tại một thời điểm chỉ có một cái được chọn - setSelected(true)",
+    "C": "Không có đáp án đúng",
+    "D": "Chương trình chạy, tại một thời điểm có thể nhiều cái được chọn - setSelected(true)",
+    "correct": "B"
+  },
+  {
+    "number": 125,
+    "question": "B là kiểu JButton. Lệnh B.setEnabled(false) để làm gì?",
+    "A": "Ẩn nút B",
+    "B": "Thay đổi màu nút B nhưng vẫn tác động được Vẫn nhìn thấy B nhưng không tác động được",
+    "C": "Vô hiệu hóa nút",
+    "D": "Không có đáp án đúng",
+    "correct": "C"
+  },
+  {
+    "number": 126,
+    "question": "Đối tượng thuộc kiểu JTextField giống và khác nhau với JPasswordField?",
+    "A": "Khác nhau hoàn toàn",
+    "B": "Cùng tạo hộp nhập dữ liệu, nhưng khác nhau về màu sắc.",
+    "C": "Cùng tạo hộp nhập dữ liệu, nhưng một cái hiển thị rõ giá trị một cái không",
+    "D": "Không có sự phân biệt",
+    "correct": "C"
+  },
+  {
+    "number": 127,
+    "question": "Phương thức hasNextLine() trong lớp Scanner có tác dụng?",
+    "A": "Kiểm tra xem có 1 số nguyên trong input không",
+    "B": "Kiểm tra xem có 1 chuỗi ký tự nằm trong input không, kể cả dấu cách",
+    "C": "Lớp Scanner không có phương thức này",
+    "D": "Kiểm tra xem có 1 chuỗi ký tự trong input không, không kể dấu cách",
+    "correct": "B"
+  },
+  {
+    "number": 128,
+    "question": "Muốn cài đặt lại locate mặc định cho hệ thống thì dùng phương thức nào sau đây:",
+    "A": "String getDisplayName()",
+    "B": "Static Locate getDefault()",
+    "C": "String getDisplayName(Locate loc)",
+    "D": "Static void setDefault(Locate loc)",
+    "correct": "D"
+  },
+  {
+    "number": 129,
+    "question": "Muốn lấy tên mô tả của một locate được biểu diễn trong locate hiện tại thì ta dùng\nphương thức nào:",
+    "A": "String getDisplayName()",
+    "B": "Static void setDefault(Locate loc)",
+    "C": "Static Locate getDefault()",
+    "D": "String getDisplayName(Locate loc)",
+    "correct": "A"
+  },
+  {
+    "number": 130,
+    "question": "Muốn lấy tên của một locate được chỉ định thì ta dùng phương thức nào?",
+    "A": "Static Locate getDefault()",
+    "B": "String getDisplayName(Locate loc)",
+    "C": "Static void setDefault(Locate loc)",
+    "D": "String getDisplayName()",
+    "correct": "B"
+  },
+  {
+    "number": 131,
+    "question": "Remote Method nvocation (RMI) do Sun đưa ra vào năm nào?",
+    "A": "2000",
+    "B": "1998",
+    "C": "1996",
+    "D": "1995",
+    "correct": "D"
+  },
+  {
+    "number": 132,
+    "question": "Cho đoạn mã sau:\n1: class SuperDuper\n2: {\n3: void aMethod(){}\n4: }\n5: class sub extends SuperDuper\n6: {\n7: void aMethod(){}\n8: }\nHãy chọn từ khóa chỉ phạm vi hợp lệ đứng trước aMethod()?",
+    "A": "protected",
+    "B": "public",
+    "C": "Tất cả các đáp án đều đúng",
+    "D": "default",
+    "correct": "D"
+  },
+  {
+    "number": 133,
+    "question": "Cho biết kết quả của đoạn mã sau:\n1: int x = 3;\n2: int y = 10;\n3: System.out.println(y%x);",
+    "A": "3",
+    "B": "1",
+    "C": "0",
+    "D": "2",
+    "correct": "B"
+  },
+  {
+    "number": 134,
+    "question": "Lớp nào không thuộc gói java.net?",
+    "A": "DatagramPacket",
+    "B": "SocketAddress",
+    "C": "SocketOption",
+    "D": "Các đáp án đều sai",
+    "correct": "C"
+  },
+  {
+    "number": 135,
+    "question": "Chọn phát biểu đúng trong các phát biểu sau:",
+    "A": "Cả (1) và (2) đều sai",
+    "B": "Lớp DatagramSocket là lớp dùng để chuyển đi một gói dữ liệu theo giao thức UDP (2)",
+    "C": "Cả (1) và (2) đều đúng",
+    "D": "Lớp DatagramSocket là lớp dùng để chuyển đi một gói dữ liệu theo giao thức TCP (1)",
+    "correct": "B"
+  },
+  {
+    "number": 136,
+    "question": "Tìm dòng sai trong đoạn mã sau:\n1: public class ChaoBan\n2: {\n3: public static void Main(String[] args)\n4: {\n5: System.out.println(\"Chào bạn đã đến với Java\");\n6: }\n7: }",
+    "A": "Dòng 5",
+    "B": "Đúng hoàn toàn",
+    "C": "Dòng 3",
+    "D": "Dòng 1",
+    "correct": "C"
+  },
+  {
+    "number": 137,
+    "question": "Tìm dòng sai trong đoạn mã sau:\n1: public Class Chao Ban\n2: {\n3: public static void main(String[] args)\n4: {\n5: System.out.println(\"Chào bạn đã đến với Java\");\n6: }\n7: }",
+    "A": "Dòng 5",
+    "B": "Dòng 1",
+    "C": "Đúng hoàn toàn",
+    "D": "Dòng 3",
+    "correct": "B"
+  },
+  {
+    "number": 138,
+    "question": "Tìm dòng sai trong đoạn mã sau:\n1: public class ChaoBan\n2: {\n3: public static void main(String[] args)\n4: {\n5: System.Out.println(\"Chào bạn đã đến với Java\");\n6: }\n7: }",
+    "A": "Dòng 3",
+    "B": "Đúng hoàn toàn",
+    "C": "Dòng 5",
+    "D": "Dòng 1",
+    "correct": "C"
+  },
+  {
+    "number": 139,
+    "question": "Khi chạy, chương trình sau cho kết quả nào?\npublic class TinhToan\n{\npublic static void main(String[] args)\n{\na=1;\nb=2;\nc=3;\ns=a+b+c;\nSystem.out.println(\"S=\"+s);\n}\n}",
+    "A": "S=6",
+    "B": "Không có kết quả nào được in ra",
+    "C": "6",
+    "D": "Báo lỗi",
+    "correct": "D"
+  },
+  {
+    "number": 140,
+    "question": "Khi chạy, chương trình sau cho kết quả nào?\npublic class TinhToan\n{\npublic static void main(String[] args)\n{\nint a, b, c, s;\na=10;\nb=20;\nc=30;\ns=abc;\nSystem.out.println(\"S=\"+s);\n}\n}",
+    "A": "S=6000",
+    "B": "Báo lỗi",
+    "C": "Không có kết quả nào được in ra",
+    "D": "6000",
+    "correct": "A"
+  },
+  {
+    "number": 141,
+    "question": "Khi chạy chương trình sau cho kết quả nào?\npublic class ViDu\n{\npublic static void main(String[] args)\n{\nint i;\ni=1;\nif (i<1)\n{\nSystem.out.println(\"I=\"+(i+3));\n}\nelse\n{\nSystem.out.println(\"I=\"+(i+5));\n}\n}\n}",
+    "A": "I=4",
+    "B": "I=6",
+    "C": "I=1",
+    "D": "I=3",
+    "correct": "B"
+  },
+  {
+    "number": 142,
+    "question": "Khi chạy, chương trình sau cho kết quả nào?\npublic class TinhTong\n{\npublic static void main(String[] args)\n{\nint s,i;\nfor (i=1;i<=3;i++)\n{\ns=0;\ns=s+i;\n}\nSystem.out.println(\"s=\"+s);\n}\n}",
+    "A": "s=0",
+    "B": "s=1",
+    "C": "s=2",
+    "D": "s=3",
+    "correct": "D"
+  },
+  {
+    "number": 143,
+    "question": "Khi chạy, chương trình sau cho kết quả nào?\npublic class TinhTong\n{\npublic static void main(String[] args)\n{\nint s,i;\nfor (i=1;i<=3;i++)\n{\ns=s+i;\ns=0;\n}\nSystem.out.println(\"s=\"+s);\n}\n}",
+    "A": "s=6",
+    "B": "s=3",
+    "C": "s=1",
+    "D": "s=0",
+    "correct": "D"
+  },
+  {
+    "number": 144,
+    "question": "Chương trình sau sai ở dòng nào?\n1: public class TuanMethod\n{\n2: public static void main(String[] args)\n{\n3: TenDiaChi();\n}\n4: public static void TenDiaChi\n{\n5: System.out.println(\"Truong DHQL&KD ha noi\");\n6: System.out.println(\"Vinh Tuy-HBT-HN\");\n7: System.out.println(\"Tel 9712932\");\n}\n}",
+    "A": "Dòng 2",
+    "B": "Không có lệnh sai",
+    "C": "Dòng 4",
+    "D": "Dòng 3",
+    "correct": "C"
+  },
+  {
+    "number": 145,
+    "question": "Khi chạy, chương trình sau cho kết quả nào?\npublic class TinhTong\n{\npublic static void main(String[] args)\n{\nint s,i;\ns=0;\nfor (i=1;i<=3;i++)\n{\ns=s+i;\ns=s+1;\n}\nSystem.out.println(\"s=\"+s);\n}\n}",
+    "A": "s=6",
+    "B": "s=9",
+    "C": "s=3",
+    "D": "s=8",
+    "correct": "B"
+  },
+  {
+    "number": 146,
+    "question": "Khi chạy, chương trình sau sẽ cho kết quả nào?\npublic class TinhTong\n{\npublic static void main(string[] args)\n{\nint s,i;\ns=0; i=1;\nwhile (i<=3)\n{\ns=s+i;\ni=i+1;\n}\nSystem.out.println(\"s=\"+s);\n}\n}",
+    "A": "s=6",
+    "B": "s=1",
+    "C": "Máy báo lỗi",
+    "D": "s=3",
+    "correct": "C"
+  },
+  {
+    "number": 147,
+    "question": "Khi chạy, chương trình sau sẽ cho kết quả nào?I\npublic class Mangxau\n{\npublic static void main(String[] args)\n{\nString [] chr;\nint i;\nchr[0]=\"Toi di tim cai nua cua toi\";\nchr[1]=\"Ma tim mai den bay gio cha thay\";\nchr[2]=\"Tinh yeu cua toi oi anh la ai vay\";\nfor (i=0; i<3; i++)\nSystem.out.println(chr[2]);\n}\n}",
+    "A": "Không báo gì cả",
+    "B": "Máy báo lỗi",
+    "C": "Ma tim mai den bay gio cha thay",
+    "D": "Toi di tim cai nua cua toi",
+    "correct": "B"
+  },
+  {
+    "number": 148,
+    "question": "Khi chạy, chương trình sau sẽ cho kết quả nào?\npublic class Mangxau\n{\npublic static void main(String[] args)\n{\nString [] chr;\nint i;\nchr=new String[3];\nchr[0]=\"Toi di tim cai nua cua toi\";\nchr[1]=\"Ma tim mai den bay gio cha thay\";\nchr[2]=\"Tinh yeu cua toi oi anh la ai vay\";\nfor (i=0; i<3; i++)\nSystem.out.println(chr[2]);\n}\n}",
+    "A": "Ma tim mai den bay gio cha thay",
+    "B": "Máy báo lỗi",
+    "C": "Không báo gì cả",
+    "D": "Tinh yeu cua toi oi anh la ai vay",
+    "correct": "D"
+  },
+  {
+    "number": 149,
+    "question": "Chọn phát biểu đúng:",
+    "A": "Mọi lớp đều kế thừa trực tiếp hoặc gián tiếp từ lớp Object",
+    "B": "Lớp Class là lớp cha của lớp Object",
+    "C": "Tất cả các câu trên đều sai",
+    "D": "Lớp Object là một lớp final",
+    "correct": "A"
+  },
+  {
+    "number": 150,
+    "question": "Lớp nào sau đây dùng để thực hiện các thao tác nhập xuất cơ bản với console?",
+    "A": "String",
+    "B": "System",
+    "C": "String Buffer",
+    "D": "Math",
+    "correct": "B"
+  },
+  {
+    "number": 151,
+    "question": "Lớp nào sau đây không phải là lớp bao?",
+    "A": "Character",
+    "B": "Boolean",
+    "C": "String",
+    "D": "nteger Character là lớp bao cho kiểu char. Boolean là lớp bao cho kiểu boolean. nteger là lớp bao cho kiểu int",
+    "correct": "C"
+  },
+  {
+    "number": 152,
+    "question": "Phương thức nào sau đây sẽ làm cho giá trị biến s bị thay đổi?",
+    "A": "s.replace()",
+    "B": "Câu a) và b) đúng",
+    "C": "s.toUpperCase()",
+    "D": "s.concat()",
+    "correct": "C"
+  },
+  {
+    "number": 153,
+    "question": "Chọn phát biểu đúng cho hàm khởi tạo:",
+    "A": "Một lớp sẽ kế thừa các hàm khởi tạo từ lớp cha",
+    "B": "Tất cả các hàm khởi tạo có kiểu trả về là void",
+    "C": "Trình biên dịch sẽ tự động tạo hàm khởi tạo mặc định nếu lớp không định nghĩa hàm khởi tạo",
+    "D": "Tất cả các câu trên đều sai",
+    "correct": "C"
+  },
+  {
+    "number": 154,
+    "question": "Một kiểu dữ liệu số có dấu có 2 giá trị +0 và -0 bằng nhau:",
+    "A": "Chỉ đúng với kiểu số thực",
+    "B": "Sai",
+    "C": "Chỉ đúng với kiểu số nguyên",
+    "D": "Đúng",
+    "correct": "D"
+  },
+  {
+    "number": 155,
+    "question": "Một locale mô tả:",
+    "A": "Tùy chọn vị trí (2)",
+    "B": "1 2 3",
+    "C": "Tùy chọn biến thể khác nhau (option",
+    "D": "Một từ ngữ (1) variant) (3)",
+    "correct": "B"
+  },
+  {
+    "number": 156,
+    "question": "Muốn lấy đối tượng Locate mặc định của hệ thống thì dùng phương thức nào sau đây?",
+    "A": "String getDisplayName()",
+    "B": "Static void setDefault(Locate loc)",
+    "C": "Static Locate getDefault()",
+    "D": "String getDisplayName(Locate loc)",
+    "correct": "C"
+  },
+  {
+    "number": 157,
+    "question": "Lớp DatagramSocket dùng để?",
+    "A": "Định vị địa chỉ tài nguyên trên mạng",
+    "B": "Chuyển đi một gói dữ liệu theo (3) giao thức UDP (1)",
+    "C": "Tất cả (1), (2), (3) đều sai.",
+    "D": "Chứa dữ liệu để gửi đi trên mạng (2)",
+    "correct": "B"
+  },
+  {
+    "number": 158,
+    "question": "Đoạn mã lệnh dưới đây thực hiện việc gì?\nFileOutputStream os = new FileOutputStream(\"abc.txt\");\nString s = \"Welcome to File nput Output Stream\";\nfor (int i = 0; i < s.length(); ++i)\nos.write(s.charAt(i));",
+    "A": "Đếm độ dài chuỗi kí tự.",
+    "B": "Đọc một chuỗi.",
+    "C": "Tạo file abc.txt.",
+    "D": "Sắp xếp chuỗi kí tự.",
+    "correct": "C"
+  },
+  {
+    "number": 159,
+    "question": "Đoạn mã lệnh dưới đây sai ở dòng nào?\nFileOutputStream os = 1 FileOutputStream(\"abc.txt\");\nString s = \"Welcome to File nput Output Stream\";\nfor (int i = 0; i < s.length(); ++i)\nos.write(s.charAt(i));",
+    "A": "Dòng 3.",
+    "B": "Dòng 1.",
+    "C": "Dòng 4.",
+    "D": "Dòng 2.",
+    "correct": "B"
+  },
+  {
+    "number": 160,
+    "question": "Đoạn mã lệnh dưới đây thực hiện việc gì?\nFileInputStream is = new FileInputStream(\"abc.txt\");\nint ibyts = is.available();\nSystem.out.println(\"Input Stream has \" + ibyts + \" available bytes\");\nbyte ibuf[] = new byte[ibyts];\nint byrd = is.read(ibuf, 0, ibyts);\nSystem.out.println(\"Number of Bytes read are: \" + byrd);\nSystem.out.println(\"They are: \" + new String(ibuf ));\nis.close();\nFile fl = new File(\"abc.txt\");\nfl.delete();",
+    "A": "Mở file abc.txt ra ghi.",
+    "B": "Mở file abc.txt ra viết.",
+    "C": "Mở file abc.txt ra đọc.",
+    "D": "Mở file abc.txt ra xóa.",
+    "correct": "C"
+  },
+  {
+    "number": 161,
+    "question": "Đoạn mã lệnh dưới đây sai dòng nào?\nFileInputStream is = new FileInputStream(\"abc.txt\");\nint ibyts = oEs.available();\nSystem.out.println(\"Input Stream has \" + ibyts + \" available bytes\");\nbyte ibuf[] = new byte[ibyts];\nint byrd = is.read(ibuf, 0, ibyts);\nSystem.out.println(\"Number of Bytes read are: \" + byrd);\nSystem.out.println(\"They are: \" + new String(ibuf ));\nis.close();\nFile fl = new File(\"abc.txt\");\nfl.delete();",
+    "A": "Dòng 8.",
+    "B": "Dòng 3.",
+    "C": "Dòng 1.",
+    "D": "Dòng 2.",
+    "correct": "D"
+  },
+  {
+    "number": 162,
+    "question": "Đoạn mã lệnh dưới đây sai chỗ nào?\nFileInputStream is = new FileOnputStream(\"abc.txt\");\nint ibyts = is.available();\nSystem.out.println(\"Input Stream has \" + ibyts + \" available bytes\");\nbyte ibuf[] = new byte[ibyts];\nint byrd = is.read(ibuf, 0, ibyts);\nSystem.out.println(\"Number of Bytes read are: \" + byrd);\nSystem.out.println(\"They are: \" + new String(ibuf ));\nis.close();\nFile fl = new File(\"abc.txt\");\nfl.delete();",
+    "A": "Dòng 5.",
+    "B": "Dòng 1.",
+    "C": "Dòng 3.",
+    "D": "Dòng 4.",
+    "correct": "B"
+  },
+  {
+    "number": 163,
+    "question": "Đoạn mã lệnh dưới đây sai chỗ nào?\n1. FileInputStream is = new FileInputStream(\"abc.txt\");\n2. int ibyts = is.available();\n3. System.out.println(\"Input Stream has \" + ibyts + \" available bytes\");\n4. byte ibuf[] = new byte[ibyts];\n5. nt byrd = is.read(ibuf, 0, ibyts);\n6. System.out.println(\"Number of Bytes read are: \" + byrd);\n7. System.out.println(\"They are: \" + new String(ibuf ));\n8. is.close();\n9. File fl = new File(\"abc.txt\");\n10. fl.delete();",
+    "A": "Dòng 4.",
+    "B": "Dòng 1.",
+    "C": "Dòng 5.",
+    "D": "Dòng 6.",
+    "correct": "C"
+  },
+  {
+    "number": 164,
+    "question": "Đoạn mã lệnh dưới đây sai chỗ nào?\n1. FileInputStream is = new FileInputStream(\"abc.txt\");\n2. int ibyts = is.available();\n3. System.out.println(\"Input Stream has \" + ibyts + \" available bytes\");\n4. byte ibuf[] = new byte[ibyts];\n5. int byrd = is.read(ibuf, 0, ibyts);\n6. System.iut.println(\"Number of Bytes read are: \" + byrd);\n7. System.out.println(\"They are: \" \" + new String(ibuf ));\n8. is.close();\n9. File fl = new File(\"abc.txt\");\n10. fl.delete();",
+    "A": "Dòng 3.",
+    "B": "Dòng 6.",
+    "C": "Dòng 1.",
+    "D": "Dòng 2.",
+    "correct": "B"
+  },
+  {
+    "number": 165,
+    "question": "Đoạn mã lệnh dưới đây sai chỗ nào?\n1. FileInputStream is = new FileInputStream(\"abc.txt\");\n2. int ibyts = is.available();\n3. System.out.println(\"Input Stream has \" + ibyts + \" available bytes\");\n4. byte ibuf[] = new byte[ibyts];\n5. int byrd = is.read(ibuf, 0, ibyts);\n6. System.iut.println(\"Number of Bytes read are: \" + byrd);\n7. System.out.println(\"They are: \" + new String(ibuf ));\n8. is.close();\n9. File fl = new File(\"abc.txt\");\n10. fl.delete();",
+    "A": "Không sai chỗ nào.",
+    "B": "Dòng 10.",
+    "C": "Dòng 1.",
+    "D": "Dòng 6.",
+    "correct": "D"
+  },
+  {
+    "number": 166,
+    "question": "Cho biết kết quả sau khi thực hiện chương trình sau:\npublic class Short {\npublic static void main(String[] args)\nStringBuffert s = new StringBuffert(\"Hello\");\nif (s.leght()>5)&& s.sppend(\"three\") equals(\"false\"));\nSystem.out.println(\"value is\" + s);\n}\n}",
+    "A": "Không có giá trị xuất.",
+    "B": "Thông báo NullPointerException.",
+    "C": "Value is Hello.",
+    "D": "Lỗi biên dịch tại dòng 4 và dòng 5.",
+    "correct": "D"
+  },
+  {
+    "number": 167,
+    "question": "Lớp NumberFormat được sử dụng để tạo ra các định dạng địa phương (Local format)\ncụ thể nào?",
+    "A": "Con số B, C và",
+    "B": "Tiền tệ A, B và C",
+    "C": "Tỷ lệ phần trăm A, B, C và",
+    "D": "Ngày A, B và",
+    "correct": "B"
+  },
+  {
+    "number": 168,
+    "question": "Cho biết kết quả sau khi biên dịch và thi hành chương trình sau:\n1. public class Conditionnal\n2. public static void main(String[] args)\n3. int x=4;\n4. System.out.println\n5. (\"value is\" + ((x>4?99,99:9));\n6. }\n7. }",
+    "A": "99,99",
+    "B": "9",
+    "C": "Lỗi biên dịch tại dòng số 5",
+    "D": "9,Z0",
+    "correct": "C"
+  },
+  {
+    "number": 169,
+    "question": "Chọn khai báo đúng cho phương thức main()",
+    "A": "public static int main(String[] arg)",
+    "B": "public static void main(String[] args)",
+    "C": "public static void main()",
+    "D": "public void main(String[] arg)",
+    "correct": "B"
+  },
+  {
+    "number": 170,
+    "question": "Chọn thứ tự đúng của các thành phần trong một tập tin nguồn:",
+    "A": "Câu lệnh import, khai báo package, khai báo lớp",
+    "B": "Câu lệnh import trước tiên; thứ tự của khai báo package và khai báo lớp là tùy ý",
+    "C": "Khai báo package đầu tiên; thứ tự của câu lệnh import và khai báo lớp là tùy ý",
+    "D": "Khai báo package, câu lệnh import, khai báo lớp",
+    "correct": "D"
+  },
+  {
+    "number": 171,
+    "question": "Cho câu lệnh sau:\nint[] x = new int[25];\nChọn kết quả đúng sau khi thi hành câu lệnh trên:",
+    "A": "x.length = 25",
+    "B": "x[24] chưa được định nghĩa",
+    "C": "x[0] có giá trị null",
+    "D": "x[25] có giá trị 0",
+    "correct": "A"
+  },
+  {
+    "number": 172,
+    "question": "Chọn phát biểu đúng:",
+    "A": "c. Lớp Writer có thể được dùng để ghi giá trị các kiểu dữ liệu cơ sở ra luồng xuất",
+    "B": "b. Lớp Writer có thể được dùng để ghi các ký tự nicode ra luồng xuất",
+    "C": "Câu a) và b) đúng",
+    "D": "a. Lớp Writer có thể được dùng để ghi các ký tự có cách mã hóa khác nhau ra luồng xuất",
+    "correct": "C"
+  },
+  {
+    "number": 173,
+    "question": "Chọn phát biểu đúng:",
+    "A": "Các event listeners là các interface quy định các phương thức cần phải cài đặt để xử lý các sự kiện liên quan khi sự kiện đó xảy ra.",
+    "B": "Tất cả các câu trên đều đúng",
+    "C": "Lớp WindowAdapter được dùng để xử lý các sự kiện liên quan đến cửa sổ màn hình",
+    "D": "Một event adapter cung cấp các cài đặt mặc định cho các event listener tương ứng",
+    "correct": "B"
+  },
+  {
+    "number": 174,
+    "question": "Đoạn mã sau sai chỗ nào?\npublic class Question {\npublic static viod main(String args[]) {\nBoolean b = new Boolean(\"TRUE\");\nif (b) {\nfor (Interger i=0; i<10; i++) {\nSystem.out.println(i);\n}\n}\n}\n}",
+    "A": "c. Chỉ số của câu lệnh for là int thay vì Integer",
+    "B": "a. Đoạn mã không có lỗi",
+    "C": "b. Điều kiện của câu lệnh if phải có kiểu boolean thay vì Boolean",
+    "D": "Câu b) và c) đúng",
+    "correct": "D"
+  },
+  {
+    "number": 175,
+    "question": "Đoạn chương trình sau biên dịch gặp lỗi do:\npublic class MyClass {\npublic static void main(String arguments[]) {\nAmethod(arguments);\n}\npublic void amethod(String[] arguments)\n{\nSystem.out.println(arguments);\n}\n}",
+    "A": "Truy cập tới phần tử vượt quá chỉ số của mảng",
+    "B": "Không tạo ra đối tượng tham chiếu tới lớp không tĩnh (non static class)",
+    "C": "2 sai",
+    "D": "2 đúng",
+    "correct": "B"
+  },
+  {
+    "number": 176,
+    "question": "Chọn phát biểu đúng:",
+    "A": "Một lớp trừu tượng không thể chứa phương thức final (b)",
+    "B": "a, b đều sai",
+    "C": "Một lớp final không thể chứa các phương thức trừu tượng (a)",
+    "D": "a, b đều đúng",
+    "correct": "C"
+  },
+  {
+    "number": 177,
+    "question": "Câu nào sau đây là đúng?",
+    "A": "float f=1.3",
+    "B": "char c=\"a\"",
+    "C": "byte b=257",
+    "D": "int = 10",
+    "correct": "D"
+  },
+  {
+    "number": 178,
+    "question": "Chọn câu phát biểu đúng:",
+    "A": "Khi một đối tượng của lớp File được tạo ra thì một tập tin tương ứng cũng được tạo ra trên đĩa (2)",
+    "B": "Các đối tượng của lớp File được dùng truy cập đến các tập tin và thư mục trên đĩa (3)",
+    "C": "Câu 1 và 3 đúng",
+    "D": "Một đối tượng của lớp File có thể được dùng để truy cập các tập tin trong thư mục hiện hành (1)",
+    "correct": "C"
+  },
+  {
+    "number": 179,
+    "question": "Trong các khai báo giao diện sau, khai báo nào đúng?",
+    "A": "public class MyInterface {}",
+    "B": "public interface MyInterface {}",
+    "C": "public abtract MyInterface {}",
+    "D": "public interface MyInterface ()",
+    "correct": "B"
+  },
+  {
+    "number": 180,
+    "question": "Muốn lưu trữ một biến số nguyên dương mà có giá trị lớn nhất là một triệu thì sử\ndụng kiểu dữ liệu nào là tiết kiệm bộ nhớ nhất?",
+    "A": "Double",
+    "B": "Byte",
+    "C": "int",
+    "D": "float",
+    "correct": "C"
+  },
+  {
+    "number": 181,
+    "question": "ArrayList sử dụng cấu trúc mảng để lưu trữ phần tử, tuy nhiên có 2 đặc điểm khác\nmảng?",
+    "A": "Không cần xác định trước số lượng phần tử (kích thước mảng)",
+    "B": "Tất cả đều đúng",
+    "C": "Tất cả đều sai",
+    "D": "Không cần khai báo trước kiểu phần tử",
+    "correct": "B"
+  },
+  {
+    "number": 182,
+    "question": "Hàm khởi tạo nào đúng?",
+    "A": "ArrayList()",
+    "B": "ArrayList(Collection c)",
+    "C": "ArrayList(int initialCapactity)",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "number": 183,
+    "question": "Các methods chính là:",
+    "A": "Tất cả đều đúng",
+    "B": "get(int index), size()",
+    "C": "isEmpty(), contains(Object o),",
+    "D": "add(Object o), remove(Object o) clear()",
+    "correct": "A"
+  },
+  {
+    "number": 184,
+    "question": "Vector và ArrayList:",
+    "A": "Tất cả đều sai",
+    "B": "Hoàn toàn giống ArrayList về chức năng",
+    "C": "Tất cả đều đúng",
+    "D": "Hoàn toàn không giống ArrayList về chức năng",
+    "correct": "B"
+  },
+  {
+    "number": 185,
+    "question": "Khi không làm việc với thread thì nên sử dụng ....... vì tốc độ nhanh hơn .........",
+    "A": "Vector ..... ArrayList",
+    "B": "Tất cả đều sai",
+    "C": "ArrayList ..... Vector",
+    "D": "Tất cả đều đúng",
+    "correct": "C"
+  },
+  {
+    "number": 186,
+    "question": "Khi có nhiều thread cùng .......... phần tử trong Vector thì chỉ 1 thread được làm việc đó.",
+    "A": "add hoặc remove 3",
+    "B": "add hoặc remove 4",
+    "C": "add hoặc remove 2",
+    "D": "add hoặc remove 1",
+    "correct": "D"
+  },
+  {
+    "number": 187,
+    "question": "LinkedList là gì?",
+    "A": "Tất cả đều đúng",
+    "B": "Về cấu trúc, các object trong LinkedList chứa liên kết đến object kế trước nó trong list.",
+    "C": "Tất cả đều sai.",
+    "D": "Về cấu trúc, các object trong LinkedList chứa liên kết đến object kế sau nó trong list.",
+    "correct": "D"
+  },
+  {
+    "number": 188,
+    "question": "Khi duyệt list, không truy nhập trực tiếp được mà phải đi từ phần tử đầu tiên, chậm\nhơn rất nhiều so với ArrayList hay Vector. Tuy nhiên khi add hay remove 1 phần tử\nthì......",
+    "A": "Tất cả đều sai",
+    "B": "Rất nhanh vì không phải thực hiện dồn các phần tử",
+    "C": "Tất cả đều đúng",
+    "D": "Rất chậm vì không phải thực hiện dồn các phần tử",
+    "correct": "B"
+  },
+  {
+    "number": 189,
+    "question": "Ngoài các method như ArrayList, LinkedList còn có thêm các method:",
+    "A": "add.Last()",
+    "B": "Tất cả đều sai",
+    "C": "add.First()",
+    "D": "get.First()",
+    "correct": "B"
+  },
+  {
+    "number": 190,
+    "question": "Ngoài các method như ArrayList, LinkedList còn có thêm các method:",
+    "A": "removeFirst()",
+    "B": "Tất cả đều đúng",
+    "C": "peek() = getFirst()",
+    "D": "poll() = getFirst() + removeFirst()",
+    "correct": "B"
+  },
+  {
+    "number": 191,
+    "question": "Khi nào dùng ArrayList, khi nào dùng LinkedList?",
+    "A": "Nếu ít thường xuyên phải truy nhập trực tiếp dữ liệu trong list → sử dụng ArrayList",
+    "B": "Tất cả đều đúng",
+    "C": "Nếu không phải truy nhập trực tiếp dữ liệu trong list → sử dụng ArrayList",
+    "D": "Nếu thường xuyên phải truy nhập trực tiếp dữ liệu trong list → sử dụng ArrayList",
+    "correct": "D"
+  },
+  {
+    "number": 192,
+    "question": "Khi nào dùng ArrayList, khi nào dùng LinkedList? Nếu chương trình thường xuyên\nphải thêm hoặc xóa 1 phần tử trong list (đặc biệt là thêm hoặc xóa ở giữa)......",
+    "A": "Thì nên sử dụng LinkedList",
+    "B": "Tất cả đều sai",
+    "C": "Thì nên sử dụng ArrayList",
+    "D": "Tất cả đều đúng",
+    "correct": "A"
+  },
+  {
+    "number": 193,
+    "question": "Set => Cũng là ........ Điểm khác biệt giữa Set và List là trong Set không bao giờ có 2\nphần tử giống nhau, có nghĩa là nếu add 2 lần cùng 1 object thì lần add thứ 2 không có\ntác dụng.",
+    "A": "Kiểu collection như Vectorlist",
+    "B": "Kiểu collection như ArrayList",
+    "C": "Kiểu collection như List",
+    "D": "Kiểu collection như LinkedList",
+    "correct": "C"
+  },
+  {
+    "number": 194,
+    "question": "Cũng là kiểu collection như List. Điểm khác biệt giữa Set và List là trong Set........, có\nnghĩa là nếu add 2 lần cùng 1 object thì lần add thứ 2 không có tác dụng.",
+    "A": "Không bao giờ có 3 phần tử giống",
+    "B": "Không bao giờ có 1 phần tử giống nhau nhau",
+    "C": "Không bao giờ có 4 phần tử giống",
+    "D": "Không bao giờ có 2 phần tử giống nhau nhau",
+    "correct": "D"
+  },
+  {
+    "number": 195,
+    "question": "Khai báo HashSet:",
+    "A": "HashSet hs = new HashSet();",
+    "B": "HashSet hs = new HashSet;",
+    "C": "HashSet hs = HashSet();",
+    "D": "HashSet hs = add new HashSet();",
+    "correct": "A"
+  },
+  {
+    "number": 196,
+    "question": "Hàm khởi tạo HashSet:",
+    "A": "New HashSet()",
+    "B": "HashSet()",
+    "C": "Add new HashSet()",
+    "D": "HashSet",
+    "correct": "B"
+  },
+  {
+    "number": 197,
+    "question": "Hàm khởi tạo HashSet:",
+    "A": "Set(Collection c)",
+    "B": "Add new HashSet(Collection c)",
+    "C": "HashSet(Collection c)",
+    "D": "new HashSet(Collection c)",
+    "correct": "C"
+  },
+  {
+    "number": 198,
+    "question": "Hàm khởi tạo HashSet?",
+    "A": "Add New HashSet(int capactity)",
+    "B": "Hash(int capactity)",
+    "C": "HashSet(int capactity)",
+    "D": "New HashSet(int capactity)",
+    "correct": "C"
+  },
+  {
+    "number": 199,
+    "question": "Hàm khởi tạo HashSet?",
+    "A": "HashSet(Collection c)",
+    "B": "Tất cả đều đúng",
+    "C": "HashSet(int capactity)",
+    "D": "HashSet()",
+    "correct": "B"
+  },
+  {
+    "number": 200,
+    "question": "Các method chính HashSet?",
+    "A": "remove(Object o)",
+    "B": "contains(Object o)",
+    "C": "Tất cả đều đúng",
+    "D": "add(Object o)",
+    "correct": "C"
+  },
+  {
+    "number": 201,
+    "question": "Các method chính HashSet?",
+    "A": "Tất cả đều sai",
+    "B": "contain(Object o)",
+    "C": "ad(Object o)",
+    "D": "rem(Object o)",
+    "correct": "A"
+  },
+  {
+    "number": 202,
+    "question": "Tuy nhiên Set không có hàm ..... để lấy ra 1 phần tử trực tiếp.",
+    "A": "take",
+    "B": "get",
+    "C": "hand",
+    "D": "call",
+    "correct": "B"
+  },
+  {
+    "number": 203,
+    "question": "Muốn duyệt các phần tử của Set, sử dụng ........",
+    "A": "Phần tử iterator",
+    "B": "Hàm iterator",
+    "C": "Con trỏ iterator",
+    "D": "Biến iterator",
+    "correct": "C"
+  },
+  {
+    "number": 204,
+    "question": "LinkedHashSet?",
+    "A": "Tất cả đều sai",
+    "B": "Giống như ArrayList ngoại trừ thứ tự các phần tử trong set là thứ tự khi add vào",
+    "C": "Tất cả đều đúng",
+    "D": "Giống như HashSet ngoại trừ thứ tự các phần tử trong set là thứ tự khi add vào",
+    "correct": "D"
+  },
+  {
+    "number": 205,
+    "question": "TreeSet? Thứ tự các phần tử trong TreeSet .......... vào thứ tự lúc add mà phụ thuộc vào\nthứ tự của các object trong set (nếu các object này có thể so sánh thứ tự được).",
+    "A": "Không phụ thuộc",
+    "B": "Tất cả đều đúng",
+    "C": "Có phụ thuộc",
+    "D": "Tất cả đều sai",
+    "correct": "A"
+  },
+  {
+    "number": 206,
+    "question": "Thứ tự các phần tử trong TreeSet không phụ thuộc vào thứ tự lúc add ............. trong set\n(nếu các object này có thể so sánh thứ tự được).",
+    "A": "Mà phụ thuộc vào thứ tự của các",
+    "B": "Mà phụ thuộc vào thứ tự của các TreeSet object",
+    "C": "Mà phụ thuộc vào thứ tự của các Set",
+    "D": "Mà phụ thuộc vào thứ tự của các Tree",
+    "correct": "B"
+  },
+  {
+    "number": 207,
+    "question": "Map?",
+    "A": "Map là kiểu dữ liệu dạng từ điển, hai phần tử bao gồm key và value",
+    "B": "Map là kiểu dữ liệu dạng từ điển, một phần tử bao gồm key và value",
+    "C": "Map là kiểu dữ liệu dạng từ điển, mỗi phần tử bao gồm key và value",
+    "D": "Map là kiểu dữ liệu dạng từ điển, các phần tử bao gồm key và value",
+    "correct": "C"
+  },
+  {
+    "number": 208,
+    "question": "Hàm khởi tạo HashMap?",
+    "A": "HashMap(Collection c)",
+    "B": "Tất cả đều đúng",
+    "C": "HashMap()",
+    "D": "HashMap(int capacity)",
+    "correct": "B"
+  },
+  {
+    "number": 209,
+    "question": "Các methods chính HashMap?",
+    "A": "remove(Object key),",
+    "B": "containsValue(Object value), size(), containsKey(Object key) isEmpty",
+    "C": "Tất cả đều đúng",
+    "D": "put(Object key, Object value), get(Object key)",
+    "correct": "C"
+  },
+  {
+    "number": 210,
+    "question": "Các methods chính HashMap?",
+    "A": "puts(Object key, Object value),",
+    "B": "Tất cả đều sai gets(Object key)",
+    "C": "Tất cả đều đúng",
+    "D": "removes(Object key), containsKeys(Object key)",
+    "correct": "B"
+  },
+  {
+    "number": 211,
+    "question": "HashTable cũng giống như HashQMap ngoại trừ các .............. là synchronized.",
+    "A": "HashTable của method",
+    "B": "Tất cả đều đúng",
+    "C": "method của HashTable",
+    "D": "methods của HashTables",
+    "correct": "C"
+  },
+  {
+    "number": 212,
+    "question": "LinkedHashMap?",
+    "A": "Là HashMap nhưng các toán tử được sắp xếp đúng như thứ tự insert vào map",
+    "B": "Là HashMap nhưng các phần tử được sắp xếp đúng như thứ tự insert vào map",
+    "C": "Là HashMap nhưng các đối tượng được sắp xếp đúng như thứ tự insert vào map",
+    "D": "Là HashMap nhưng các thành phần được sắp xếp đúng như thứ tự insert vào map",
+    "correct": "B"
+  },
+  {
+    "number": 213,
+    "question": "Các phần tử của TreeMap được sắp xếp theo thứ tự ....... tự nhiên (natural order) của\ncác key.",
+    "A": "Tuần tự",
+    "B": "Trước sau",
+    "C": "Đối xứng",
+    "D": "So sánh",
+    "correct": "D"
+  },
+  {
+    "number": 214,
+    "question": "Những interface cơ bản trong Java Collections Framework?",
+    "A": "Tất cả đều đúng",
+    "B": "List, Map",
+    "C": "Collection",
+    "D": "Set",
+    "correct": "A"
+  },
+  {
+    "number": 215,
+    "question": "Collection, biểu thị cho ..........., những đối tượng này được gọi là phần tử của tập hợp.",
+    "A": "Mảng các đối tượng",
+    "B": "Nhóm các đối tượng",
+    "C": "Rất nhiều các đối tượng",
+    "D": "Vài các đối tượng",
+    "correct": "B"
+  },
+  {
+    "number": 216,
+    "question": "Set, là một tập hợp mà …….. những phần tử trùng nhau.",
+    "A": "Có chứa",
+    "B": "Tất cả đều sai",
+    "C": "Không chứa",
+    "D": "Tất cả đều đúng",
+    "correct": "C"
+  },
+  {
+    "number": 217,
+    "question": "List, là một tập hợp ............ và có thể chứa những phần tử trùng nhau.",
+    "A": "Tất cả đều sai",
+    "B": "Chưa sắp xếp",
+    "C": "Tất cả đều đúng",
+    "D": "Đã sắp xếp",
+    "correct": "D"
+  },
+  {
+    "number": 218,
+    "question": "Map, là …….. mà ánh xạ các khóa vào các giá trị và không chứa những khóa trùng\nnhau.",
+    "A": "Là danh sách đối tượng",
+    "B": "Là nhóm đối tượng",
+    "C": "Là một đối tượng",
+    "D": "Là vài đối tượng",
+    "correct": "C"
+  },
+  {
+    "number": 219,
+    "question": "PriorityQueue?",
+    "A": "Hàng đợi hỗn hợp",
+    "B": "Hàng đợi ưu tiên",
+    "C": "Một danh sách",
+    "D": "Hàng đợi chưa sắp xếp",
+    "correct": "B"
+  },
+  {
+    "number": 220,
+    "question": "PriorityQueue (hàng đợi ưu tiên). Thứ tự truy xuất các phần tử ....... của chúng.",
+    "A": "Phụ thuộc vào phạm vi",
+    "B": "Phụ thuộc vào toán tử",
+    "C": "Phụ thuộc vào kiểu",
+    "D": "Phụ thuộc vào giá trị",
+    "correct": "D"
+  },
+  {
+    "number": 221,
+    "question": "Các phần tử được truy xuất theo thứ tự .....",
+    "A": "First n First Out (FIFO)",
+    "B": "Tất cả đều sai",
+    "C": "Last n First Out (LIFO)",
+    "D": "Tất cả đều đúng",
+    "correct": "A"
+  },
+  {
+    "number": 222,
+    "question": "Các phương thức của ueue.",
+    "A": "poll(), remove()",
+    "B": "element()",
+    "C": "Tất cả đều đúng",
+    "D": "offer(), peek()",
+    "correct": "C"
+  },
+  {
+    "number": 223,
+    "question": "Lớp PriorityQueue?",
+    "A": "Không chấp nhận phần tử có giá trị null",
+    "B": "Tất cả đều đúng",
+    "C": "Tất cả đều sai",
+    "D": "Các phần tử được sắp xếp theo thứ tự tự nhiên hoặc dựa vào một comparator",
+    "correct": "B"
+  },
+  {
+    "number": 224,
+    "question": "Các phương thức của PriorityQueue.",
+    "A": "offer(), peek(), poll()",
+    "B": "remove(), size(), comparator()",
+    "C": "add(), clear()",
+    "D": "Tất cả đều đúng",
+    "correct": "D"
+  },
+  {
+    "number": 225,
+    "question": "Sự khác nhau giữa Array và ArrayList?",
+    "A": "Array có thể chứa kiểu dữ liệu cơ bản và đối tượng, trong khi ArrayList chỉ chứa đối tượng",
+    "B": "Array không chứa kiểu dữ liệu đối tượng, trong khi ArrayList chỉ chứa đối tượng",
+    "C": "Array có thể chứa kiểu dữ liệu đối tượng, trong khi ArrayList chỉ chứa đối tượng",
+    "D": "Array không chứa kiểu dữ liệu cơ bản và đối tượng, trong khi ArrayList chỉ chứa đối tượng",
+    "correct": "A"
+  },
+  {
+    "number": 226,
+    "question": "Sự khác nhau giữa Array và ArrayList?",
+    "A": "Tất cả đều sai",
+    "B": "ArrayList cố định số lượng phần tử, Array thì động",
+    "C": "Array cố định số lượng phần tử,",
+    "D": "Tất cả đều đúng ArrayList thì động",
+    "correct": "C"
+  },
+  {
+    "number": 227,
+    "question": "Thế nào là PriorityQueue? PriorityQueue là .........., dựa trên priority heap và phần tử\ncủa nó được sắp xếp theo trật tự ban đầu.",
+    "A": "Tất cả đều đúng",
+    "B": "Một queue (hàng đợi) không giới hạn (unbounded)",
+    "C": "Một queue (hàng đợi) có giới hạn",
+    "D": "Tất cả đều sai (unbounded)",
+    "correct": "B"
+  },
+  {
+    "number": 228,
+    "question": "Khác biệt giữa mảng có thứ tự và mảng không thứ tự? Lợi ích chính của mảng có thứ\ntự là thời gian tìm kiếm có độ phức tạp là ...... trong khi mảng không có thứ tự sẽ là\n..........",
+    "A": "O(n) ........ O(logn)",
+    "B": "Tất cả đều sai",
+    "C": "Tất cả đều đúng",
+    "D": "O(logn) ........ O(n)",
+    "correct": "D"
+  },
+  {
+    "number": 229,
+    "question": "Chọn khai báo tên đúng:",
+    "A": "Tất cả các câu trên đều đúng",
+    "B": "Big01LongStringWidth MeaninglessName",
+    "C": "$int",
+    "D": "bytes",
+    "correct": "A"
+  },
+  {
+    "number": 230,
+    "question": "Collection là?",
+    "A": "kiểu dữ liệu tập hợp cho phép lưu trữ và thao tác với một nhóm đối tượng",
+    "B": "kiểu dữ liệu tập hợp cho phép lưu trữ và thao tác với hai nhóm đối tượng",
+    "C": "kiểu dữ liệu tập hợp cho phép lưu trữ và thao tác với ba nhóm đối tượng",
+    "D": "kiểu dữ liệu tập hợp cho phép lưu trữ và thao tác với bốn nhóm đối tượng",
+    "correct": "A"
+  },
+  {
+    "number": 231,
+    "question": "Map là 1 interface độc lập .............. kế thừa từ Collection.",
+    "A": "Không",
+    "B": "Có",
+    "C": "Tất cả đều đúng",
+    "D": "Tất cả đều sai",
+    "correct": "A"
+  },
+  {
+    "number": 232,
+    "question": "File chứa mã nguồn Java sau khi được biên dịch có đuôi là gì?",
+    "A": ".java",
+    "B": ".class",
+    "C": ".jav",
+    "D": ".exe",
+    "correct": "B"
+  },
+  {
+    "number": 233,
+    "question": "Java Platform gồm mấy thành phần?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "correct": "B"
+  },
+  {
+    "number": 234,
+    "question": "Java Virtual Machine là gì?",
+    "A": "Là một thành phần của Java Platform dùng để đọc mã bytecode trong file .class",
+    "B": "Là chương trình biên dịch của Java dùng để biên dịch file nguồn Java thành mã bytecode",
+    "C": "Là chương trình chạy cho Java",
+    "D": "Tất cả các đáp án đều đúng",
+    "correct": "A"
+  },
+  {
+    "number": 235,
+    "question": "Java chạy trên hệ điều hành nào sau đây?",
+    "A": "Microsoft Windows",
+    "B": "Linux",
+    "C": "Sun Solaris OS",
+    "D": "Tất cả các đáp án đều đúng",
+    "correct": "D"
+  },
+  {
+    "number": 236,
+    "question": "API là gì?",
+    "A": "Thư viện mã nguồn của Java",
+    "B": "Là thư viện chứa các thành phần phần mềm tạo sẵn cung cấp các chức năng cho chương trình Java",
+    "C": "Thư viện cung cấp giao diện đồ họa cho chương trình Java",
+    "D": "Tất cả đều sai",
+    "correct": "B"
+  },
+  {
+    "number": 237,
+    "question": "Ngôn ngữ lập trình Java cung cấp các tính năng nào sau đây?",
+    "A": "Tất cả đáp án trên",
+    "B": "Giao diện lập trình ứng dụng",
+    "C": "Bộ công cụ giao diện người dùng",
+    "D": "Thư viện tích hợp",
+    "correct": "A"
+  },
+  {
+    "number": 238,
+    "question": "Có bao nhiêu cách viết chú thích trong Java?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "correct": "C"
+  },
+  {
+    "number": 239,
+    "question": "Thứ tự các từ khóa public và static khi khai báo như thế nào?",
+    "A": "public đứng trước static",
+    "B": "static đứng trước public",
+    "C": "Thứ tự bất kỳ nhưng thông",
+    "D": "Tất cả đều sai thường public đứng trước",
+    "correct": "C"
+  },
+  {
+    "number": 240,
+    "question": "Câu lệnh khai báo chuẩn cho phương thức main như thế nào?",
+    "A": "public static void main(String[]",
+    "B": "public static int main(String args) {} a) {}",
+    "C": "public static main(String[] args) {}",
+    "D": "public static final void main(String[] args) {}",
+    "correct": "A"
+  },
+  {
+    "number": 241,
+    "question": "Câu nào sau đây là sai?",
+    "A": "/** chú thích */",
+    "B": "/* chú thích */",
+    "C": "/* chú thích",
+    "D": "// chú thích",
+    "correct": "C"
+  },
+  {
+    "number": 242,
+    "question": "Khi biên dịch gặp lỗi Exception in thread main java.lang.NoClassDefFoundError:\nmyprogram. Lỗi này có nghĩa gì?",
+    "A": "Không khai báo class",
+    "B": "Không có hàm main",
+    "C": "Đường dẫn chương trình sai",
+    "D": "Không có từ khóa public tại mở đầu khai báo class",
+    "correct": "C"
+  },
+  {
+    "number": 243,
+    "question": "Đối tượng trong phần mềm là gì?",
+    "A": "Là vật thể xác định của thế giới thực",
+    "B": "Là các đối tượng được biểu diễn trong phần mềm gồm có 2 thuộc tính: trường dữ liệu và các phương thức xử lý dữ liệu",
+    "C": "Là vật thể gồm hành vi và trạng thái",
+    "D": "Là một bó phần mềm gồm các hành vi và trạng thái có liên quan với nhau",
+    "correct": "B"
+  },
+  {
+    "number": 244,
+    "question": "Khai báo lớp nào dưới đây là đúng?",
+    "A": "public class default {}",
+    "B": "Tất cả đều sai",
+    "C": "final class outer {}",
+    "D": "protected inner class engine {}",
+    "correct": "C"
+  },
+  {
+    "number": 245,
+    "question": "Cách đặt tên nào sau đây là sai?",
+    "A": "main",
+    "B": "Tất cả đều sai",
+    "C": "2word",
+    "D": "word",
+    "correct": "B"
+  },
+  {
+    "number": 246,
+    "question": "Một chương trình gồm 2 class sẽ có bao nhiêu phương thức main?",
+    "A": "3",
+    "B": "4",
+    "C": "2",
+    "D": "1",
+    "correct": "D"
+  },
+  {
+    "number": 247,
+    "question": "Một lớp trong Java có thể có bao nhiêu lớp cha?I",
+    "A": "4",
+    "B": "1",
+    "C": "3",
+    "D": "2",
+    "correct": "B"
+  },
+  {
+    "number": 248,
+    "question": "Cho chương trình tên message.class:?",
+    "A": "Vô số",
+    "B": "4",
+    "C": "2",
+    "D": "3",
+    "correct": "A"
+  },
+  {
+    "number": 249,
+    "question": "Để khai báo lớp Xedap1 kế thừa lớp Xedap phải làm như thế nào?",
+    "A": "public classs Xedap1 extend Xedap",
+    "B": "Tất cả đều sai {}",
+    "C": "class Xedap1 extends Xedap {}",
+    "D": "class Xedap1 extend Xedap {}",
+    "correct": "C"
+  },
+  {
+    "number": 250,
+    "question": "Chọn câu trả lời đúng nhất. nterface là gì?",
+    "A": "Là một phương thức thực hiện của lớp khác",
+    "B": "Là một kiểu tham chiếu, tương tự như class, chỉ có thể chứa hằng giá trị, khai báo phương thức và kiểu lồng",
+    "C": "Là lớp nối giữa lớp cơ sở và lớp cha",
+    "D": "Là lớp chứa các phương thức rỗng có liên quan với nhau",
+    "correct": "B"
+  },
+  {
+    "number": 251,
+    "question": "Để sử dụng giao diện Xedap cho lớp Xedap1, ta làm thế nào?",
+    "A": "public class Xedap1 extends Xedap",
+    "B": "class Xedap1 implement Xedap {} {}",
+    "C": "class Xedap1 implements Xedap {}",
+    "D": "public class Xedap1 implement Xedap {}",
+    "correct": "C"
+  },
+  {
+    "number": 252,
+    "question": "Có bao nhiêu loại biến trong Java?",
+    "A": "4",
+    "B": "2",
+    "C": "3",
+    "D": "1",
+    "correct": "C"
+  },
+  {
+    "number": 253,
+    "question": "Trường dữ liệu là các biến dạng nào sau đây?",
+    "A": "Biến đại diện và biến cục bộ",
+    "B": "Biến đại diện và biến lớp",
+    "C": "Biến lớp và tham số",
+    "D": "Biến đại diện và tham số",
+    "correct": "B"
+  },
+  {
+    "number": 254,
+    "question": "Biến dữ liệu là các biến dạng nào sau đây?",
+    "A": "Biến lớp và tham số",
+    "B": "Biến cục bộ và biến lớp",
+    "C": "Biến cục bộ và tham số",
+    "D": "Các đáp án đều sai",
+    "correct": "C"
+  },
+  {
+    "number": 255,
+    "question": "Biến f nào sau đây là biến đại diện?",
+    "A": "double CA(int f )",
+    "B": "float f;",
+    "C": "Không có giá trị đúng",
+    "D": "public static f;",
+    "correct": "B"
+  },
+  {
+    "number": 256,
+    "question": "Khai báo nào sau đây là khai báo biến lớp?",
+    "A": "volatile int sleepTime",
+    "B": "final double d;",
+    "C": "private static id;",
+    "D": "Không có đáp án đúng",
+    "correct": "D"
+  },
+  {
+    "number": 257,
+    "question": "Cách đặt tên nào sau đây là không chính xác?",
+    "A": "_final",
+    "B": "final",
+    "C": "$final",
+    "D": "dem",
+    "correct": "B"
+  },
+  {
+    "number": 258,
+    "question": "Có bao nhiêu kiểu dữ liệu cơ sở trong Java?",
+    "A": "5",
+    "B": "9",
+    "C": "7",
+    "D": "8",
+    "correct": "D"
+  },
+  {
+    "number": 259,
+    "question": "Có bao nhiêu kiểu số nguyên trong Java?",
+    "A": "3",
+    "B": "2",
+    "C": "Tất cả đều sai",
+    "D": "1",
+    "correct": "C"
+  },
+  {
+    "number": 260,
+    "question": "Có bao nhiêu kiểu dữ liệu ký tự cơ sở trong Java?",
+    "A": "1",
+    "B": "Tất cả đều sai",
+    "C": "3",
+    "D": "2",
+    "correct": "A"
+  },
+  {
+    "number": 261,
+    "question": "Khái niệm phương thức start()?",
+    "A": "Phương thức khởi tạo của applet và chạy song song với applet",
+    "B": "Mọi phương thức thực hiện tác vụ sau khi khởi tạo phải chèn lên phương thức start. start() bắt đầu việc thực thi của applet",
+    "C": "Tất cả đều sai",
+    "D": "Là phương thức bắt đầu của applet và chạy song song với applet",
+    "correct": "B"
+  },
+  {
+    "number": 262,
+    "question": "Lệnh java có tác dụng gì?",
+    "A": "Dùng để debug chương trình",
+    "B": "Biên dịch file .java thành file .class",
+    "C": "Chạy chương trình Java có đuôi",
+    "D": "Biên dịch file .class thành .java .class",
+    "correct": "C"
+  },
+  {
+    "number": 263,
+    "question": "Để khai báo một lớp giao diện cho lớp Xedap, ta làm thế nào?",
+    "A": "public class Xedap1 extends Xedap",
+    "B": "class Xedap1 implements Xedap {} {}",
+    "C": "public class Xedap1 implement",
+    "D": "class Xedap1 implement Xedap {} Xedap {}",
+    "correct": "B"
+  },
+  {
+    "number": 264,
+    "question": "Hai câu lệnh sau đưa ra kết quả s là bao nhiêu?\nString greetings = \" Hello \";\nString s = greetings.substring(0,3);",
+    "A": "Hello",
+    "B": "Hell",
+    "C": "ello",
+    "D": "Hel",
+    "correct": "D"
+  },
+  {
+    "number": 265,
+    "question": "Hai câu lệnh sau đưa ra kết quả s là bao nhiêu?\nString greetings = String s = greetings.substring(0,3); \" Hello \";",
+    "A": "Hello",
+    "B": "Hel",
+    "C": "Lệnh sai",
+    "D": "Hell",
+    "correct": "C"
+  },
+  {
+    "number": 266,
+    "question": "Trong hai câu lệnh sau, lệnh substring có tác dụng gì?\nString greetings = \" Hello \";\nString s = greetings.substring(0,3);",
+    "A": "Sao chép chuỗi greetings vào chuỗi s",
+    "B": "Lấy 3 ký tự từ vị trí chỉ mục 0 của chuỗi greetings và đưa vào s",
+    "C": "Thay đổi 3 ký tự đầu tiên của chuỗi greetings",
+    "D": "Cắt các ký tự từ vị trí chỉ mục 0 đến chỉ mục 3 và đưa vào s",
+    "correct": "B"
+  },
+  {
+    "number": 267,
+    "question": "Phạm vi truy cập của một đối tượng khi khai báo private là gì?",
+    "A": "Có thể được truy cập từ tất cả mọi nơi",
+    "B": "Có thể được truy cập từ các lớp trong cùng package",
+    "C": "Có thể được truy cập từ các lớp trong cùng package và lớp con nằm trong package khác",
+    "D": "Chỉ có thể truy cập từ các phương thức khác trong class đó",
+    "correct": "D"
+  },
+  {
+    "number": 268,
+    "question": "Phạm vi truy cập của một đối tượng khi được khai báo protected là gì?",
+    "A": "Chỉ có thể truy cập từ các phương thức khác trong class đó",
+    "B": "Có thể được truy cập từ các lớp trong cùng package và lớp con nằm trong package khác",
+    "C": "Có thể được truy cập từ tất cả mọi nơi",
+    "D": "Có thể được truy cập từ các lớp trong cùng package",
+    "correct": "B"
+  },
+  {
+    "number": 269,
+    "question": "Phạm vi truy cập của một đối tượng khi được khai báo public là gì?",
+    "A": "Có thể được truy cập từ tất cả mọi nơi",
+    "B": "Chỉ có thể truy cập từ các phương thức khác trong class đó",
+    "C": "Có thể được truy cập từ các lớp trong cùng package",
+    "D": "Có thể được truy cập từ các lớp trong cùng package và lớp con nằm trong package khác",
+    "correct": "A"
+  },
+  {
+    "number": 270,
+    "question": "Công nghệ JE2ME là công nghệ gì?",
+    "A": "Hỗ trợ phát triển các chương trình, phần mềm nhúng",
+    "B": "Cung cấp môi trường cho chương trình ứng dụng chạy trên các thiết bị cá nhân",
+    "C": "Tất cả các ý trên",
+    "D": "Hỗ trợ chương trình chạy trên điện thoại di động, máy tính bỏ túi PDA hay Palm",
+    "correct": "C"
+  },
+  {
+    "number": 271,
+    "question": "Phương thức nextInt() trong lớp Scanner có tác dụng?",
+    "A": "Đọc 1 giá trị số thực từ bàn phím",
+    "B": "Đọc 1 chuỗi ký tự từ bàn phím, không kể dấu cách",
+    "C": "Đọc 1 chuỗi ký tự từ bàn phím, kể cả dấu cách",
+    "D": "Đọc 1 giá trị số nguyên từ bàn phím",
+    "correct": "D"
+  },
+  {
+    "number": 272,
+    "question": "Cho khối lệnh như sau:\nswitch (thu) {\ncase 2:\nSystem.out.println(\"Van, Toan\");\nbreak;\ncase 3:\nSystem.out.println(\"Hoa, Ly\");\nbreak;\ndefault:\nSystem.out.println(\"Ngay nghi\");\nbreak;\n}\nKhối lệnh trên sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 1?",
+    "A": "Hoa, Ly",
+    "B": "Không có đáp án đúng",
+    "C": "Ngay nghi",
+    "D": "Van, Toan",
+    "correct": "C"
+  },
+  {
+    "number": 273,
+    "question": "Cho khối lệnh như sau:\nswitch (thu) {\ncase 2:\nSystem.out.println(\"Van, Toan\")Q;\nbreak;\ncase 3:\nSystem.out.println(\"Hoa, Ly\");\nbreak;\ndefault:\nSystem.out.println(\"Ngay nghi\");\nbreak;\n}\nKhối lệnh trên sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 2?",
+    "A": "Van, Toan",
+    "B": "Ngay nghi",
+    "C": "Không có đáp án đúng",
+    "D": "Hoa, Ly",
+    "correct": "A"
+  },
+  {
+    "number": 274,
+    "question": "Cho khối lệnh như sau:\nswitch (thu) {\ncase 2:\nSystem.out.println(\"Van, Toan\");\nbreak;\ncase 3:\nSystem.out.println(\"Hoa, Ly\");\nbreak;\ndefault:\nSystem.out.println(\"Ngay nghi\");\nbreak;\n}\nKhối lệnh trên sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 3?",
+    "A": "Không có đáp án đúng",
+    "B": "Ngay nghi",
+    "C": "Van, Toan",
+    "D": "Hoa, Ly",
+    "correct": "D"
+  },
+  {
+    "number": 275,
+    "question": "Cho khối lệnh sau:\nint s = 0;\nfor (int i = 0; i < 10; i++)\ns += i;\nSystem.out.println(s);\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+    "A": "55",
+    "B": "45",
+    "C": "Không có kết quả đúng",
+    "D": "0",
+    "correct": "B"
+  },
+  {
+    "number": 276,
+    "question": "Cho khối lệnh như sau:\nint[] mang = new int[10];\nint s = 0;\nint j = 0;\nfor (int i : mang) {\ni = ++j;\ns += i;\n}\nSystem.out.println(\"S = \" + s);\nKhối lệnh thực hiện chuyện gì?",
+    "A": "Nhập dữ liệu và tính tổng mảng",
+    "B": "Nhập dữ liệu cho mảng nguyên",
+    "C": "Tất cả đều sai",
+    "D": "Tính tổng mảng nguyên",
+    "correct": "C"
+  },
+  {
+    "number": 277,
+    "question": "Cho khối lệnh như sau:\nint[] mang = new int[10];\nint s = 0;\nint j = 0;\nfor (int i : mang) {\ni = ++j;\ns += i;\n}\nSystem.out.println(\"S = \" + s);\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+    "A": "S = 45",
+    "B": "S = 40",
+    "C": "S = 55",
+    "D": "S = 50",
+    "correct": "C"
+  },
+  {
+    "number": 278,
+    "question": "Cho khối lệnh sau:\nint[] mang = new int[10];\nint s;\nint j = 0;\nfor (int i : mang) {\ns = 0;\ni = ++j;\ns += i;\n}\nSystem.out.println(\"S = \" + s);\nKhi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+    "A": "S = 55",
+    "B": "Lệnh sai",
+    "C": "S = 10",
+    "D": "S = 45",
+    "correct": "B"
+  },
+  {
+    "number": 279,
+    "question": "Khi thực hiện khối lệnh sẽ cho kết quả là bao nhiêu?\nint i = 0;\ndo {\ni += 1;\n} while (i == 0);\nSystem.out.println(\"i = \" + i);",
+    "A": "Tất cả đều sai",
+    "B": "i = 2",
+    "C": "i = 0",
+    "D": "i = 1",
+    "correct": "D"
+  },
+  {
+    "number": 280,
+    "question": "Khối lệnh sai ở dòng nào?\n1. int i = 0;\n2. do {\n3. i += 1;\n4. } while (i == 0);\n5. System.out.println(\"i = \" + i);",
+    "A": "4",
+    "B": "Không sai ở dòng nào cả",
+    "C": "1",
+    "D": "2 và 3",
+    "correct": "B"
+  },
+  {
+    "number": 281,
+    "question": "s có kết quả là bao nhiêu khi thực hiện khối lệnh?\nint i = 0;\nint s = 0;\nfor ( ; ; ) {\nif i == 3 break;\ns = s + i;\ni++;\n}",
+    "A": "0",
+    "B": "6",
+    "C": "Chương trình báo lỗi",
+    "D": "3",
+    "correct": "C"
+  },
+  {
+    "number": 282,
+    "question": "Chương trình sai ở dòng nào?\n1.int i = 0;\n2.int s = 0;\n3.for ( ; ; ) {\n4.if i == 3 break;\n5.s = s + i;\n6.i++;\n7.}",
+    "A": "4",
+    "B": "Không sai dòng nào hết",
+    "C": "6",
+    "D": "1 và 2",
+    "correct": "A"
+  },
+  {
+    "number": 283,
+    "question": "Trong Java, kiểu char biểu diễn bộ mã code nào dưới đây?",
+    "A": "UTF-8",
+    "B": "UTF-16",
+    "C": "UTF-32",
+    "D": "Tất cả các mã trên",
+    "correct": "B"
+  },
+  {
+    "number": 284,
+    "question": "Đối tượng nào cho phép xử lý tương tác hành động giữa người dùng và applet?",
+    "A": "MouseListener",
+    "B": "ActionListener",
+    "C": "Không có đáp án đúng",
+    "D": "MouseMotionListener",
+    "correct": "B"
+  },
+  {
+    "number": 285,
+    "question": "Đối tượng nào cho phép xử lý thao tác chuột trong applet?",
+    "A": "ActionListener",
+    "B": "Cả 3 đáp án",
+    "C": "MouseListener",
+    "D": "MouseMotionListener",
+    "correct": "C"
+  },
+  {
+    "number": 286,
+    "question": "Đối tượng nào cho phép xử lý thao tác di chuyển chuột trong applet?",
+    "A": "MouseMotionListener",
+    "B": "MouseListener",
+    "C": "Cả 3 đáp án",
+    "D": "ActionListener",
+    "correct": "A"
+  },
+  {
+    "number": 287,
+    "question": "Applet là gì?",
+    "A": "Là một chương trình chạy sử dụng ngôn ngữ Java",
+    "B": "Không có đáp án đúng",
+    "C": "Là chương trình Java gắn trên web",
+    "D": "Là một loại chương trình Java đặc biệt mà một trình duyệt cho phép công nghệ Java download từ nternet và chạy",
+    "correct": "D"
+  },
+  {
+    "number": 288,
+    "question": "Câu nào sau đây là đúng có nội dung nói về đặc điểm của applet?",
+    "A": "Applet được gắn trong website",
+    "B": "Applet thường được gắn trong website và phải là lớp con của lớp java.applet.Applet",
+    "C": "Không có đáp án đúng",
+    "D": "Applet thường được gắn trong website và phải là lớp con của lớp java.applet",
+    "correct": "B"
+  },
+  {
+    "number": 289,
+    "question": "Phương thức init() trong Applet có mục đích gì?",
+    "A": "Phương thức chạy song song với applet khi bắt đầu chương trình",
+    "B": "Không có đáp án đúng",
+    "C": "Phương thức được kích hoạt đầu tiên khi applet khởi động. init() chỉ chạy một lần duy nhất vào lúc bắt đầu chương trình",
+    "D": "Phương thức khởi tạo của applet",
+    "correct": "C"
+  },
+  {
+    "number": 290,
+    "question": "Cho khối lệnh sau:\nint i = 10;\nint n = i++ % 5;\nSau khi thực hiện khối lệnh, kết quả sẽ là:",
+    "A": "i = 10, n = 1",
+    "B": "i = 11, n = 0",
+    "C": "n = 1, i = 11",
+    "D": "i = 10, n = 0",
+    "correct": "B"
+  },
+  {
+    "number": 291,
+    "question": "Cho khối lệnh sau:\nint i = 10;\nint n = i % * 5;\nSau khi thực hiện khối lệnh, kết quả sẽ là:",
+    "A": "n = 1, i = 11",
+    "B": "n = 0, i = 10",
+    "C": "n = 0, i = 11",
+    "D": "n = 1, i = 10",
+    "correct": "A"
+  },
+  {
+    "number": 292,
+    "question": "Lệnh result = condition ? value1 : value2 có nghĩa gì?",
+    "A": "Câu lệnh sai",
+    "B": "Nếu condition là true thì result = value2, nếu condition là false thì result = value1",
+    "C": "Nếu condition là true thì result = value1, nếu condition là false thì result = value2",
+    "D": "Nếu condition là true thì result sẽ đảo giá trị của value1 và value2",
+    "correct": "C"
+  },
+  {
+    "number": 293,
+    "question": "Mảng là gì?",
+    "A": "Là một biến chứa các giá trị cùng kiểu",
+    "B": "Là một đối tượng chứa một số hữu hạn các giá trị cùng kiểu",
+    "C": "Tất cả đều sai",
+    "D": "Là một biến chứa một số hữu hạn các giá trị cùng kiểu",
+    "correct": "B"
+  },
+  {
+    "number": 294,
+    "question": "Cách khai báo mảng nào sau đây là đúng?",
+    "A": "int a[];",
+    "B": "int a[] = new int[10];",
+    "C": "int[] a;",
+    "D": "Cả 3 cách khai báo đều đúng",
+    "correct": "D"
+  },
+  {
+    "number": 295,
+    "question": "Lệnh if CONDITION {Khối lệnh 1} else {Khối lệnh 2} có tác dụng gì?",
+    "A": "Nếu CONDITION sai thì thực hiện Khối lệnh 1, nếu đúng thì thực hiện Khối lệnh 2",
+    "B": "Nếu CONDITION đúng thì thực hiện Khối lệnh 2, nếu sai thì bỏ qua",
+    "C": "Nếu CONDITION đúng thì thực hiện Khối lệnh 1, nếu sai thì thực hiện Khối lệnh 2",
+    "D": "Nếu CONDITION sai thì thực hiện Khối lệnh 1, nếu đúng thì bỏ qua",
+    "correct": "C"
+  },
+  {
+    "number": 296,
+    "question": "Để kiểm tra 2 chuỗi có bằng nhau hay không, sử dụng phương thức nào?",
+    "A": "string1 = string2",
+    "B": "string1.equal(string2)",
+    "C": "string1 == string2",
+    "D": "string1.equals(string2)",
+    "correct": "D"
+  },
+  {
+    "number": 297,
+    "question": "Lệnh charAt(n) có tác dụng gì?",
+    "A": "Tìm kiếm ký tự thứ n",
+    "B": "Trả về ký tự có vị trí chỉ mục n",
+    "C": "Trả về ký tự thứ n-1",
+    "D": "Trả về ký tự thứ n",
+    "correct": "B"
+  },
+  {
+    "number": 298,
+    "question": "Lệnh sau trả về kết quả là bao nhiêu?\nString greetings = \"Hello\";\nchar letter = greetings.charAt(0);",
+    "A": "e",
+    "B": "o",
+    "C": "H",
+    "D": "l",
+    "correct": "C"
+  },
+  {
+    "number": 299,
+    "question": "Lệnh khai báo Scanner in = new Scanner(System.in); có tác dụng gì?",
+    "A": "Khai báo đối tượng tên là in, kết nối với stream input chuẩn",
+    "B": "Khai báo đối tượng Scanner kết nối tới dữ liệu",
+    "C": "Khai báo đối tượng tên là in, kết nối với stream output chuẩn",
+    "D": "Khai báo đối tượng kiểu Scanner để in dữ liệu",
+    "correct": "A"
+  },
+  {
+    "number": 300,
+    "question": "Phương thức nextLine() trong lớp Scanner có tác dụng?",
+    "A": "Đọc 1 giá trị số nguyên từ bàn phím",
+    "B": "Đọc 1 chuỗi ký tự từ bàn phím, kể cả dấu cách",
+    "C": "Đọc 1 giá trị số thực từ bàn phím",
+    "D": "Đọc 1 chuỗi ký tự từ bàn phím, không kể dấu cách",
+    "correct": "B"
+  }
+]

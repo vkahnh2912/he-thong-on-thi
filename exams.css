@@ -1,0 +1,1027 @@
+/* ===== EXAMS GRID & UPLOAD MENU STYLES (EDUK QUIZ) ===== */
+
+/* Navigation Menu Tabs (1: Danh sách các đề, 2: Tải đề lên) */
+.main-nav-tabs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--card-solid);
+  padding: 5px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.tab-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border-radius: var(--radius-full);
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.tab-nav-btn:hover {
+  color: var(--primary);
+  background: var(--primary-light);
+}
+
+.tab-nav-btn.active {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.38);
+}
+
+/* Nút Trở về màu đỏ tinh tế, không bị thô */
+.btn-back-red {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 7px 16px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.25);
+}
+
+.btn-back-red:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.35);
+}
+
+/* Nút Admin VIP Hoàng Gia dành riêng cho Anh Khánh */
+.btn-admin-vip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 7px 16px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 3px 10px rgba(245, 158, 11, 0.35);
+}
+
+.btn-admin-vip:hover {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  transform: translateY(-1.5px) scale(1.02);
+  box-shadow: 0 5px 16px rgba(245, 158, 11, 0.45);
+}
+
+.btn-admin-vip i {
+  color: #fef08a;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+}
+
+/* Thanh tìm kiếm & thống kê kết quả */
+.search-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.search-box-wrap {
+  position: relative;
+  flex: 1;
+  max-width: 480px;
+}
+
+.search-box-wrap i.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #64748b;
+  font-size: 15px;
+  pointer-events: none;
+}
+
+.search-box-input {
+  width: 100%;
+  padding: 10px 14px 10px 40px;
+  border-radius: 8px;
+  border: 1px solid var(--card-border);
+  background: var(--card-solid);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.search-box-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.search-result-count {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.search-result-count .count-num {
+  color: #2563eb;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+/* Grid danh sách đề thi (4 cột như ảnh) */
+.exams-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  .exams-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .exams-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 580px) {
+  .exams-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card thẻ đề thi khớp 100% với ảnh chụp */
+.exam-card {
+  background: var(--card-solid);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  position: relative;
+}
+
+.exam-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08);
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+/* Thumbnail container */
+.exam-thumb-container {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #f1f5f9;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exam-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.exam-card:hover .exam-thumb-img {
+  transform: scale(1.03);
+}
+
+/* Card Body */
+.exam-card-body {
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.exam-card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 8px;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 38px;
+}
+
+/* Dòng ngày tháng */
+.exam-date-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.exam-date-row i {
+  font-size: 13px;
+}
+
+/* Dòng số câu hỏi & số lượt thi */
+.exam-stats-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.badge-stat-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.icon-square-question {
+  width: 18px;
+  height: 18px;
+  background: #f59e0b;
+  color: #ffffff;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.icon-square-chart {
+  width: 18px;
+  height: 18px;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+/* Dòng tác giả */
+.exam-author-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.author-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #7c2d12;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.author-avatar.avatar-moon {
+  background: linear-gradient(135deg, #fbcfe8, #f43f5e);
+  color: #ffffff;
+}
+
+.author-avatar.avatar-tech {
+  background: #94a3b8;
+  color: #ffffff;
+}
+
+.author-avatar.avatar-letter {
+  background: #581c87;
+  color: #ffffff;
+}
+
+.author-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Dòng trường học con nhộng */
+.exam-org-tag {
+  display: inline-block;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+body.dark .exam-org-tag {
+  background: #334155;
+  color: #cbd5e1;
+}
+
+/* Nút Vào ôn thi Gradient */
+.btn-enter-exam {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #a855f7 100%);
+  color: #ffffff;
+  font-family: var(--font-family);
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+  transition: all 0.25s ease;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.btn-enter-exam:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(99, 102, 241, 0.4);
+  filter: brightness(1.08);
+}
+
+.btn-enter-exam i {
+  font-size: 14px;
+}
+
+/* Nút xóa đề nhỏ gọn */
+.btn-delete-exam {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(15, 23, 42, 0.65);
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.2s ease;
+  z-index: 5;
+}
+
+.exam-card:hover .btn-delete-exam {
+  opacity: 1;
+}
+
+.btn-delete-exam:hover {
+  background: #ef4444;
+}
+
+/* Modal Popup Cấu hình ôn thi */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-box {
+  background: var(--card-solid);
+  border: 1px solid var(--card-border);
+  border-radius: 18px;
+  max-width: 540px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  transform: translateY(20px) scale(0.98);
+  transition: transform 0.25s ease;
+  padding: 28px;
+}
+
+.modal-action-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.modal-action-row .btn {
+  width: 100%;
+}
+
+.btn-pdf-action {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+  border: 1px solid rgba(79, 70, 229, 0.25);
+  border-radius: 8px;
+  background: rgba(79, 70, 229, 0.08);
+  color: #4f46e5;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-pdf-action:hover {
+  background: #4f46e5;
+  color: #ffffff;
+  transform: scale(1.08);
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.3);
+}
+
+.modal-overlay.active .modal-box {
+  transform: translateY(0) scale(1);
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.3;
+}
+
+.btn-close-modal {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.btn-close-modal:hover {
+  color: var(--danger);
+}
+
+@media (max-width: 520px) {
+  .modal-action-row {
+    flex-direction: column;
+  }
+}
+
+/* Upload Tab Zone */
+.upload-panel-card {
+  background: var(--card-solid);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: var(--shadow-sm);
+}
+
+.dropzone-area {
+  border: 2px dashed #93c5fd;
+  border-radius: 14px;
+  background: rgba(239, 246, 255, 0.6);
+  padding: 36px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+body.dark .dropzone-area {
+  background: rgba(30, 41, 59, 0.5);
+  border-color: #3b82f6;
+}
+
+.dropzone-area:hover, .dropzone-area.dragover {
+  border-color: #2563eb;
+  background: rgba(219, 234, 254, 0.8);
+}
+
+.cover-preset-picker {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.preset-thumb-option {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  aspect-ratio: 16 / 10;
+  transition: all 0.2s ease;
+  background: #f1f5f9;
+}
+
+.preset-thumb-option:hover {
+  transform: translateY(-2px);
+}
+
+.preset-thumb-option.selected {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+.preset-thumb-option img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Sub-tabs trong tải đề: Tải File vs Dán Văn Bản */
+.upload-subnav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.upload-subnav-btn {
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--card-border);
+  background: var(--card-solid);
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.upload-subnav-btn:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.upload-subnav-btn.active {
+  background: var(--primary-light);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+/* Interactive Question Card in Preview Editor */
+.editor-question-card {
+  background: var(--card-solid);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+  transition: border-color 0.2s;
+}
+
+.editor-question-card:hover {
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+.editor-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.editor-card-num {
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.editor-btn-delete {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.editor-btn-delete:hover {
+  color: var(--danger);
+  background: var(--danger-light);
+}
+
+.editor-input-q {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.editor-input-q:focus {
+  border-color: var(--primary);
+  background: var(--card-solid);
+}
+
+.editor-question-image-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin: 0 0 10px;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.editor-question-image {
+  display: block;
+  max-width: min(100%, 420px);
+  max-height: 220px;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.editor-options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  .editor-options-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.editor-opt-input-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-main);
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.editor-opt-label {
+  font-weight: 800;
+  font-size: 12px;
+  color: var(--text-muted);
+  width: 16px;
+  text-align: center;
+}
+
+.editor-opt-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 13px;
+  outline: none;
+}
+
+/* Bộ nút chọn đáp án đúng */
+.editor-correct-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.editor-correct-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.btn-key-pick {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--card-border);
+  background: var(--card-solid);
+  color: var(--text-main);
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-key-pick:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.btn-key-pick.active {
+  background: var(--success);
+  border-color: var(--success);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.4);
+}
+
+/* ===== ADMIN MODAL & ATTEMPTS HISTORY STYLES (PREMIUM REDESIGN) ===== */
+.admin-modal-box {
+  background: var(--card-solid);
+  border: 1.5px solid rgba(245, 158, 11, 0.45);
+  border-radius: 22px;
+  max-width: 1040px;
+  width: 95%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 25px 60px -12px rgba(0, 0, 0, 0.35), 0 0 35px rgba(245, 158, 11, 0.15);
+  transform: translateY(20px) scale(0.98);
+  transition: transform 0.25s ease;
+  padding: 30px 34px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-overlay.active .admin-modal-box {
+  transform: translateY(0) scale(1);
+}
+
+.admin-header-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(239, 68, 68, 0.12));
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  color: #f59e0b;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.admin-sub-tabs {
+  display: flex;
+  gap: 12px;
+  border-bottom: 2px solid var(--card-border);
+  margin-bottom: 20px;
+}
+
+.admin-sub-tab-btn {
+  padding: 12px 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 14.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: -2px;
+  border-radius: 6px 6px 0 0;
+}
+
+.admin-sub-tab-btn:hover {
+  color: var(--primary);
+  background: var(--primary-light);
+}
+
+.admin-sub-tab-btn.active {
+  color: #6366f1;
+  border-bottom-color: #6366f1;
+  background: rgba(99, 102, 241, 0.06);
+}
+
+.admin-toolbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn-clear-all-danger {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #ffffff;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.35);
+}
+
+.btn-clear-all-danger:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  transform: translateY(-1.5px);
+  box-shadow: 0 6px 16px rgba(239, 68, 68, 0.45);
+}
+
+.admin-table-container {
+  overflow-x: auto;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  background: var(--card-solid);
+  max-height: 480px;
+  overflow-y: auto;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.admin-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  text-align: left;
+}
+
+.admin-data-table th {
+  position: sticky;
+  top: 0;
+  background: var(--bg-main);
+  padding: 13px 16px;
+  font-weight: 700;
+  color: var(--text-muted);
+  border-bottom: 2px solid var(--card-border);
+  z-index: 2;
+  white-space: nowrap;
+}
+
+.admin-data-table td {
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--card-border);
+  color: var(--text-main);
+  vertical-align: middle;
+}
+
+.admin-data-table tr:hover td {
+  background: rgba(99, 102, 241, 0.05);
+}
+
+.badge-mode-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.badge-mode-practice {
+  background: rgba(16, 185, 129, 0.14);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge-mode-exam {
+  background: rgba(245, 158, 11, 0.14);
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.score-tag-high {
+  font-weight: 800;
+  color: #10b981;
+  font-size: 15px;
+}
+
+.score-tag-mid {
+  font-weight: 800;
+  color: #f59e0b;
+  font-size: 15px;
+}
+
+.score-tag-low {
+  font-weight: 800;
+  color: #ef4444;
+  font-size: 15px;
+}
+
+.btn-del-action {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  background: rgba(239, 68, 68, 0.08);
+  color: #ef4444;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn-del-action:hover {
+  background: #ef4444;
+  color: #ffffff;
+  transform: scale(1.08);
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.35);
+}
+
+/* Empty state sang trọng cho Admin Modal */
+.admin-empty-state {
+  text-align: center;
+  padding: 45px 20px;
+  color: var(--text-muted);
+}
+
+.admin-empty-state i {
+  font-size: 42px;
+  color: #cbd5e1;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.admin-empty-state h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.admin-empty-state p {
+  font-size: 13px;
+  margin: 0;
+}

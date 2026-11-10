@@ -1,0 +1,2071 @@
+[
+    {
+        "number": 1,
+        "question": "Cho đoạn chương trình sau #include <iostream.h> int main (void) { cout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”; return 0; } Lệnh #include dùng để làm gì?",
+        "A": "Sử dụng thư viện iostream.h.",
+        "B": "Lấy code viết sẵn của chương trình khác đưa vào chương trình.",
+        "C": "Liên kết file iostream.h",
+        "D": "Đọc file iostream.h",
+        "correct": "A"
+    },
+    {
+        "number": 2,
+        "question": "Cho đoạn chương trình sau #include <iostream.h> int main (void) { cout << “Dai hoc Kinh doanh va Cong nghe Ha Noi”; return 0; } Một chương trình C++ có bao nhiêu hàm main?",
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "correct": "A"
+    },
+    {
+        "number": 3,
+        "question": "Đối tượng là gì?",
+        "A": "Là một thực thể",
+        "B": "Là một khuôn mẫu được tạo ra trong phần mềm",
+        "C": "Là biểu diễn của một thực thể trong thế giới thực của phần mềm",
+        "D": "Là nhóm thực thể có thuộc tính chung",
+        "correct": "C"
+    },
+    {
+        "number": 4,
+        "question": "Lớp là gì?",
+        "A": "Là một khuôn mẫu hoặc bản vẽ định nghĩa trạng thái và hành vi của tất cả các đối tượng thuộc về lớp đó",
+        "B": "Là một khuôn mẫu định nghĩa trong phần mềm",
+        "C": "Là một dạng hàm của chương trình",
+        "D": "Là khuôn mẫu hoặc bản vẽ định nghĩa các hàm giao tiếp với người dùng của chương trình hướng đối tượng",
+        "correct": "A"
+    },
+    {
+        "number": 5,
+        "question": "Các file .h trong C++ có tác dụng gì?",
+        "A": "Thư viện mã nguồn của C++",
+        "B": "Các file header chứa các định nghĩa sẵn hỗ trợ cho việc lập trình C++",
+        "C": "Các chương trình đã được mã hóa, nhằm hỗ trợ cho việc lập trình C++",
+        "D": "Một bộ phận của trình biên dịch C++",
+        "correct": "B"
+    },
+    {
+        "number": 6,
+        "question": "Một khối lệnh trong C++ được biểu diễn dưới dạng nào?",
+        "A": "{}",
+        "B": "[ ]",
+        "C": "< >",
+        "D": "Tất cả đáp án đều sai",
+        "correct": "A"
+    },
+    {
+        "number": 7,
+        "question": "File C++ sau khi biên dịch có đuôi là gì?",
+        "A": ".C",
+        "B": ".EXE",
+        "C": ".BAK",
+        "D": ".CPP",
+        "correct": "B"
+    },
+    {
+        "number": 8,
+        "question": "Lệnh nào sau đây dùng để vào dữ liệu chuẩn trong C++?",
+        "A": "cout",
+        "B": "cin",
+        "C": "printf",
+        "D": "getline",
+        "correct": "B"
+    },
+    {
+        "number": 9,
+        "question": "Lệnh nào sau đây dùng để in dữ liệu chuẩn trong C++?",
+        "A": "cout",
+        "B": "cin",
+        "C": "printf",
+        "D": "getline",
+        "correct": "A"
+    },
+    {
+        "number": 10,
+        "question": "Câu nào sau đây là SAI?",
+        "A": "Lớp là một mô hình khái niệm",
+        "B": "Lớp là một thực thể trong thế giới thực",
+        "C": "Đối tượng là một vật thể thực",
+        "D": "Đối tượng là một đại diện của lớp",
+        "correct": "B"
+    },
+    {
+        "number": 11,
+        "question": "Trong các khai báo dưới đây, lệnh nào khai báo biến số nguyên?",
+        "A": "signed songuyen;",
+        "B": "byte songuyen;",
+        "C": "unsigned long;",
+        "D": "signed int;",
+        "correct": "A"
+    },
+    {
+        "number": 12,
+        "question": "Trong các khai báo dưới đây, lệnh nào khai báo số nguyên có dấu?",
+        "A": "unsigned short number ;",
+        "B": "short number ;",
+        "C": "unsigned long;",
+        "D": "signed byte number",
+        "correct": "B"
+    },
+    {
+        "number": 13,
+        "question": "Chọn phát biểu ĐÚNG?",
+        "A": "Hàm thành viên biểu diễn hành vi của lớp",
+        "B": "Trường dữ liệu biểu diễn trạng thái của một đối tượng",
+        "C": "Trường dữ liệu là đại diện của lớp",
+        "D": "Hàm thành viên biểu diễn trạng thái của một đối tượng",
+        "correct": "A"
+    },
+    {
+        "number": 14,
+        "question": "Cho class tinhtong được định nghĩa như sau: class tinhtong { int a,b; public: int tong(void); }; Hai biến a, b có quyền truy cập là gì?",
+        "A": "public",
+        "B": "private",
+        "C": "protected",
+        "D": "Tất cả các quyền",
+        "correct": "B"
+    },
+    {
+        "number": 15,
+        "question": "Khai báo nào sau đây là SAI?",
+        "A": "char kytu = “A”;",
+        "B": "char kytu = 28;",
+        "C": "signed char offset = -88;",
+        "D": "char kytu[ ] = “sinh vien”;",
+        "correct": "A"
+    },
+    {
+        "number": 16,
+        "question": "Lệnh nào sau đây sẽ báo lỗi khi biên dịch?",
+        "A": "signed int i = 2.9;",
+        "B": "float y = y * 2;",
+        "C": "signed char = -1782;",
+        "D": "Không báo lỗi",
+        "correct": "C"
+    },
+    {
+        "number": 17,
+        "question": "Một lớp trong C++ có bao nhiêu lớp con?",
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "Vô số",
+        "correct": "D"
+    },
+    {
+        "number": 18,
+        "question": "Tên nào sau đây là KHÔNG hợp lệ?",
+        "A": "int _static;",
+        "B": "int average_weight_of_large_size;",
+        "C": "int object.oriented;",
+        "D": "int variable ;",
+        "correct": "C"
+    },
+    {
+        "number": 19,
+        "question": "Khai báo nào sau đây là hợp lệ?",
+        "A": "int default;",
+        "B": "int 2by2;",
+        "C": "int object.oriented;",
+        "D": "int gross$income;",
+        "correct": "D"
+    },
+    {
+        "number": 20,
+        "question": "Một lớp trong C++ có thể có bao nhiêu lớp cha?",
+        "A": "1",
+        "B": "2",
+        "C": "10",
+        "D": "Vô số",
+        "correct": "D"
+    },
+    {
+        "number": 21,
+        "question": "Định nghĩa nào sau đây là định nghĩa về tính đóng kín trong lập trình hướng đối tượng của C++?",
+        "A": "Tiến trình che dấu việc thực thi chi tiết một đối tượng",
+        "B": "Các hành động và thuộc tính định nghĩa trong một lớp có thể được thừa kế hoặc sử dụng lại bởi các lớp khác.",
+        "C": "Nhiều hình thức, hành động cùng tên có thể được thực hiện khác nhau đối với các đối tượng hoặc các lớp các khác nhau.",
+        "D": "Không có định nghĩa đúng",
+        "correct": "A"
+    },
+    {
+        "number": 22,
+        "question": "Định nghĩa nào sau đây là định nghĩa về tính kế thừa trong lập trình hướng đối tượng của C++?",
+        "A": "Tiến trình che dấu việc thực thi chi tiết một đối tượng",
+        "B": "Các hành động và thuộc tính định nghĩa trong một lớp có thể được thừa kế hoặc sử dụng lại bởi các lớp khác.",
+        "C": "Nhiều hình thức, hành động cùng tên có thể được thực hiện khác nhau đối với các đối tượng hoặc các lớp các khác nhau.",
+        "D": "Không có định nghĩa đúng",
+        "correct": "B"
+    },
+    {
+        "number": 23,
+        "question": "Định nghĩa nào sau đây là định nghĩa về tính đa hình trong lập trình hướng đối tượng của C++?",
+        "A": "Tiến trình che dấu việc thực thi chi tiết một đối tượng",
+        "B": "Các hành động và thuộc tính định nghĩa trong một lớp có thể được thừa kế hoặc sử dụng lại bởi các lớp khác.",
+        "C": "Nhiều hình thức, hành động cùng tên có thể được thực hiện khác nhau đối với các đối tượng hoặc các lớp các khác nhau.",
+        "D": "Không có định nghĩa đúng",
+        "correct": "C"
+    },
+    {
+        "number": 24,
+        "question": "Con trỏ là gì?",
+        "A": "Một biến chứa giá trị kiểu số thực, số nguyên hoặc ký tự",
+        "B": "Một biến chứa địa chỉ của biến khác",
+        "C": "Một biến có kiểu struct",
+        "D": "Một biến khai báo trong hàm",
+        "correct": "B"
+    },
+    {
+        "number": 25,
+        "question": "Trường dữ liệu tĩnh (static) còn gọi là gì?",
+        "A": "Biến đại diện",
+        "B": "Biến lớp",
+        "C": "Biến cục bộ",
+        "D": "Biến toàn cục",
+        "correct": "D"
+    },
+    {
+        "number": 26,
+        "question": "Trong các câu sau, câu nào biểu diễn địa chỉ của biến p?",
+        "A": "p",
+        "B": "&p",
+        "C": "p = new int;",
+        "D": "delete p;",
+        "correct": "B"
+    },
+    {
+        "number": 27,
+        "question": "Lập trình hướng đối tượng là gì?",
+        "A": "Chương trình thực hiện lần lượt các lệnh từ trên xuống dưới",
+        "B": "Chia nhỏ bài toán lớn thành các module và thực hiện việc lập trình các module đó. Sau đó ghép các kết quả của các module lại để thu được kết quả cuối cùng của bài toán",
+        "C": "Phương pháp thiết kế và phát triển phần mềm dựa trên kiến trúc lớp và đối tượng",
+        "D": "Tất cả các đáp án đều đúng",
+        "correct": "C"
+    },
+    {
+        "number": 28,
+        "question": "Trong lập trình hướng đối tượng, thành viên có quyền private có nghĩa:",
+        "A": "Chỉ cho phép thành viên của chính lớp đó sử dụng",
+        "B": "Cho phép thành viên của chính lớp đó và lớp con của lớp đó sử dụng",
+        "C": "Cho phép tất cả các thành viên khác trong chương trình sử dụng",
+        "D": "Không có đáp án đúng",
+        "correct": "A"
+    },
+    {
+        "number": 29,
+        "question": "Trạng thái của đối tượng trong thế giới thực mô tả trong lập trình hướng đối tượng của C++ được gọi là gì?",
+        "A": "Dữ liệu thành viên",
+        "B": "Hàm thành viên",
+        "C": "Kiểu dữ liệu",
+        "D": "Hàm dữ liệu",
+        "correct": "A"
+    },
+    {
+        "number": 30,
+        "question": "Các hành vi của đối tượng trong thế giới thực mô tả trong lập trình hướng đối tượng C++ được gọi là gì?",
+        "A": "Dữ liệu thành viên",
+        "B": "Hàm thành viên",
+        "C": "Thuộc tính",
+        "D": "Hành động",
+        "correct": "B"
+    },
+    {
+        "number": 31,
+        "question": "Đoạn lệnh sau cho kết quả là bao nhiêu: for (int i = 1; i <= 5; i++) cout << i < “, “ ; cout << “LAUNCH! << endl;",
+        "A": "1, 2, 3, 4, 5, LAUNCH!( nếu “LAUNCH!\" thì khoanh )",
+        "B": "0, 1, 2, 3, 4, LAUNCH!",
+        "C": "5, 4, 3, 2, 1, LAUNCH!",
+        "D": "4, 3, 2, 1, 0, LAUNCH!",
+        "correct": "E",
+        "E": "(Câu này sai ở câu lệnh cuối “LAUNCH! , thiếu dấu ”)"
+    },
+    {
+        "number": 32,
+        "question": "Đoạn lệnh sau cho kết quả là bao nhiêu: for (int i = 5; i >= 1; i++) cout << i < “, “ ; cout << “LAUNCH!\" << endl;",
+        "A": "1, 2, 3, 4, 5, LAUNCH!",
+        "B": "0, 1, 2, 3, 4, LAUNCH!",
+        "C": "5, 4, 3, 2, 1, LAUNCH!( nếu là i-- thì khoanh)",
+        "D": "4, 3, 2, 1, 0, LAUNCH!",
+        "correct": "E",
+        "E": "(Câu này sai ở i++, phải là i--)"
+    },
+    {
+        "number": 33,
+        "question": "Cho đoạn mã sau: int i = 5; for (i = 1; i < 5; i++) { if (i == 3) continue; cout << i << “, “; } cout << “END” << endl; Đoạn lệnh trên cho kết quả là bao nhiêu?",
+        "A": "1, 2, 3, 4, 5, END",
+        "B": "1, 2, 4, END",
+        "C": "1, 2, 3, 4, END",
+        "D": "1, 2, 4, 5, END",
+        "correct": "B"
+    },
+    {
+        "number": 34,
+        "question": "Khi định nghĩa hàm thành viên ở ngoài lớp, ta dùng cú pháp nào?",
+        "A": "Kiểu_trả_về_của_hàm Tên_lớp:Tên_hàm(danh sách tham số) {[nội dung hàm]}",
+        "B": "Kiểu_trả_về_của_hàm Tên_hàm:Tên_lớp(danh sách tham số) {[nội dung hàm]}",
+        "C": "Kiểu_trả_về_của_hàm Tên_hàm(danh sách tham số) {[nội dung hàm]}",
+        "D": "Kiểu_trả_về_của_hàm Tên_lớp::Tên_hàm(danh sách tham số) {[nội dung hàm]}",
+        "correct": "D"
+    },
+    {
+        "number": 35,
+        "question": "Cho đoạn mã sau: #include <iostream.h> int main() int a = 5; ++a; cout << a; return 0; } Kết quả khi in ra a là bao nhiêu?",
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "7",
+        "correct": "B"
+    },
+    {
+        "number": 36,
+        "question": "Cho đoạn mã sau: #include <iostream.h> int main() int a = 5; a++; cout << a; return 0; } Kết quả khi in ra a là bao nhiêu?",
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "7",
+        "correct": "B"
+    },
+    {
+        "number": 37,
+        "question": "Kết quả là bao nhiêu khi thực hiện đoạn lệnh sau: #include <iostream.h> int main() int a = 5; cout << a++; return 0; } Kết quả khi in ra a là bao nhiêu?",
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "correct": "B"
+    },
+    {
+        "number": 38,
+        "question": "Kết quả là bao nhiêu khi thực hiện đoạn lệnh sau: #include <iostream.h> int main() int a = 5; cout << ++a; return 0; } Kết quả khi in ra a là bao nhiêu?",
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "correct": "C"
+    },
+    {
+        "number": 39,
+        "question": "Kết quả khi thực hiện đoạn lệnh trên là bao nhiêu? char hoten[] = “Dai hoc Kinh doanh va Cong nghe Ha noi”; int l = strlen(hoten); cout << ++l << endl;",
+        "A": "37",
+        "B": "38",
+        "C": "39",
+        "D": "Đoạn lệnh báo lỗi",
+        "correct": "C"
+    },
+    {
+        "number": 40,
+        "question": "Kết quả khi thực hiện đoạn lệnh trên là bao nhiêu? class nhanvien { double luong; public: void setLuong(double d) { luong = d; } double getLuong() { return luong; } void tangLuong(double d) { luong += d; } }class quanly:public nhanvien { double phucap; public: quanly() { setLuong(100); phucap = getLuong() * 0.5 cout << phucap; } }; void main() { quanly q; }",
+        "A": "Không hiện gì hết",
+        "B": "50",
+        "C": "0",
+        "D": "Chương trình báo lỗi vì lớp nhanvien không có hàm constructor nào cả",
+        "correct": "B"
+    },
+    {
+        "number": 41,
+        "question": "Kế thừa là gì?",
+        "A": "Tiến trình che dấu việc thực thi chi tiết một đối tượng",
+        "B": "Các hành động và thuộc tính định nghĩa trong một lớp có thể được tái sử dụng lại bởi các lớp khác",
+        "C": "Nhiều hình thức, hành động cùng tên có thể được thực hiện khác nhau đối với các đối tượng hoặc các lớp khác nhau",
+        "D": "Không có kết quả đúng",
+        "correct": "B"
+    },
+    {
+        "number": 42,
+        "question": "Con trỏ là gì?",
+        "A": "Biến chứa giá trị kiểu số nguyên, số thực hoặc ký tự",
+        "B": "Biến có kiểu struct",
+        "C": "Biến chứa địa chỉ của biến khác",
+        "D": "Biến được khai báo ở bên trong hàm và luôn giữ giá trị không đổi",
+        "correct": "C"
+    },
+    {
+        "number": 43,
+        "question": "Cho đoạn lệnh sau: class nhanvien { double luong; public: void setLuong(double d) { luong = d; } double getLuong() { return luong; } void tangLuong(double d) { luong += d; } } int main() { nhanvien A; A.setLuong(700); A.tangLuong(10); cout << A.getLuong(); } Khi chạy chương trình cho kết quả là bao nhiêu?",
+        "A": "700",
+        "B": "770",
+        "C": "0",
+        "D": "710",
+        "correct": "D"
+    },
+    {
+        "number": 44,
+        "question": "Khi chạy chương trình cho kết quả là bao nhiêu class nhanvien { double luong; public: void setLuong(double d) { luong = d; } double getLuong() { return luong; } void tangLuong(double d) { luong += d; } } int main() { nhanvien A, *p; p = &A; p->setLuong(100); cout << p->luong; }",
+        "A": "100",
+        "B": "0",
+        "C": "110",
+        "D": "Lỗi biên dịch",
+        "correct": "D",
+        "E": "Trong câu này, nếu khai báo luong với quyền truy xuất là public: double luong; thì đáp án là 100"
+    },
+    {
+        "number": 45,
+        "question": "Hàm constructor là gì?",
+        "A": "Là hàm tự động được gọi bất kỳ khi nào một đối tượng mới của lớp được tạo ra",
+        "B": "Là hàm được gọi sau khi thực hiện xong tất cả các hàm thành viên của lớp",
+        "C": "Là hàm được định nghĩa ở bên ngoài lớp và chịu trách nhiệm xoá các thành viên của lớp",
+        "D": "Không có đáp án đúng",
+        "correct": "A"
+    },
+    {
+        "number": 46,
+        "question": "Cho khối lệnh như sau: switch (thu) { case 2: cout <<“Van, Toan”; break; case 3: cout << “Hoa, Ly”; break; default: cout << “Ngay nghi”; break; } Khối lệnh trên sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 1?",
+        "A": "Van, Toan",
+        "B": "Hoa, Ly",
+        "C": "Ngay nghi",
+        "D": "Không có đáp án đúng",
+        "correct": "C"
+    },
+    {
+        "number": 47,
+        "question": "Cho khối lệnh như sau: switch (thu) { case 2: cout <<“Van, Toan”; break; case 3: cout << “Hoa, Ly”; break; default: cout << “Ngay nghi”; break; } Khối lệnh trên sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 2?",
+        "A": "Van, Toan",
+        "B": "Hoa, Ly",
+        "C": "Ngay nghi",
+        "D": "Không có đáp án đúng",
+        "correct": "A"
+    },
+    {
+        "number": 48,
+        "question": "Cho khối lệnh như sau: switch (thu) { case 2: cout <<“Van, Toan”; break; case 3: cout << “Hoa, Ly”; break; default: cout << “Ngay nghi”; break; } Khối lệnh trên sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 3?",
+        "A": "Van, Toan",
+        "B": "Hoa, Ly",
+        "C": "Ngay nghi",
+        "D": "Không có đáp án đúng",
+        "correct": "B"
+    },
+    {
+        "number": 49,
+        "question": "Cho khối lệnh như sau: enum mausac { DEN, LAM, LUC, TRANG }; mausac color; char * t; switch (color) { case 0: t = \"Mau trang\"; break; case 1: t = \"Mau den\"; break; case 2: t = \"Mau lam\"; break; case 3: t = \"Mau luc\"; break; default: t = \"Khong co trong danh sach mau\"; break; } cout << t; Nếu cho color = DEN thì đoạn lệnh trên in kết quả là bao nhiêu?",
+        "A": "Mau trang.",
+        "B": "Mau den.",
+        "C": "Mau luc.",
+        "D": "Khong co trong danh sach mau",
+        "correct": "A"
+    },
+    {
+        "number": 50,
+        "question": "Cho khối lệnh như sau: enum mausac { DEN = 3, LAM, LUC, TRANG }; mausac color; char * t; switch (color) { case 0: t = \"Mau trang\"; break; case 1: t = \"Mau den\"; break; case 2: t = \"Mau lam\"; break; case 3: t = \"Mau luc\"; break; default: t = \"Khong co trong danh sach mau\"; break; } cout << t; Nếu cho color = DEN thì đoạn lệnh trên in kết quả là bao nhiêu?",
+        "A": "Mau den",
+        "B": "Mau lam",
+        "C": "Mau trang",
+        "D": "Mau luc",
+        "correct": "D"
+    },
+    {
+        "number": 51,
+        "question": "Cho khối lệnh sau: int s = 0; for (int i = 0; i < 10; i++) s += i; cout << s << endl; Khi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+        "A": "45",
+        "B": "0",
+        "C": "55",
+        "D": "Không có kết quả đúng",
+        "correct": "A"
+    },
+    {
+        "number": 52,
+        "question": "Cho khối lệnh sau: int s = 0; for (int i = 0; i <= 10; i++) s += i; cout << s << endl; Khi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+        "A": "45",
+        "B": "5",
+        "C": "0",
+        "D": "Chương trình báo lỗi",
+        "correct": "E",
+        "E": "( Đáp án của câu này là 55, không thấy trong các đáp án thì cứ khoanh b , dự đoán là đáp án b ghi 55)"
+    },
+    {
+        "number": 53,
+        "question": "Cho khối lệnh sau: int s = 0; for (int i = 1; i < 10; i++) s += i; cout << i << end; Khi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+        "A": "45",
+        "B": "55",
+        "C": "Chương trình báo lỗi",
+        "D": "0",
+        "correct": "C"
+    },
+    {
+        "number": 54,
+        "question": "Cho khối lệnh sau: int i = 0; int s = 0; for (int i = 0; i < 10; i++) s += i; cout << i << end; Khi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?",
+        "A": "45",
+        "B": "Chương trình báo lỗi",
+        "C": "55",
+        "D": "0",
+        "correct": "B",
+        "E": "(Nếu câu lệnh cuối là endl thì kết quả là 0, nếu giữ nguyên cách viết trên thì báo lỗi tại vị trí cuối)"
+    },
+    {
+        "number": 55,
+        "question": "Khi thực hiện khối lệnh sẽ cho kết quả là bao nhiêu? int i = 0; do{ i += 1; } while (i == 0); cout << i << endl;",
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "Tất cả đều sai",
+        "correct": "B"
+    },
+    {
+        "number": 56,
+        "question": "Khối lệnh sai ở dòng nào? int i = 0; do{ i += 1; } while (i == 0); cout << i;",
+        "A": "1",
+        "B": "2 và 3",
+        "C": "4",
+        "D": "Không sai ở dòng nào cả",
+        "correct": "D"
+    },
+    {
+        "number": 57,
+        "question": "s có kết quả là bao nhiêu khi thực hiện khối lệnh? int i = 0; int s = 0; for ( ; ; ) { if (i == 3) break; s = s + i; i++; }",
+        "A": "3 ( nếu có lệnh cout<<s)",
+        "B": "6",
+        "C": "Chương trình báo lỗi (thiếu câu lệnh cout<",
+        "D": "Không có đáp án đúng",
+        "correct": "C"
+    },
+    {
+        "number": 58,
+        "question": "Chương trình sai ở dòng nào? int i = 0; int s = 0; for ( ; ; ) { if i == 3 break; s = s + i; i++; }",
+        "A": "4",
+        "B": "1 và 2",
+        "C": "6",
+        "D": "Không sai dòng nào hết",
+        "correct": "A"
+    },
+    {
+        "number": 59,
+        "question": "Cho đoạn chương trình sau: double i = 0, n = 10; while (i < n) { double s = s + n; n--; } cout << s; Đoạn lệnh trên cho kết quả là bao nhiêu khi chạy?",
+        "A": "0",
+        "B": "55",
+        "C": "Chương trình lỗi",
+        "D": "45",
+        "correct": "C",
+        "E": "(nếu khai báo double s ở ngoài vòng lặp while thì đáp án là 55)"
+    },
+    {
+        "number": 60,
+        "question": "Cho đoạn chương trình sau: double i = 0, n = 10, s = 0; while (i < n) { double s = s + n; n--; } cout << s; Đoạn lệnh trên cho kết quả là bao nhiêu khi chạy?",
+        "A": "0",
+        "B": "55 (Sửa thành s = s + n; In ra 55)",
+        "C": "45",
+        "D": "Chương trình báo lỗi",
+        "correct": "D"
+    },
+    {
+        "number": 61,
+        "question": "Chương trình thực hiện công việc gì? #define length(a) (sizeof(a) / sizeof(*a)) int main() { int mang[] = {12, 37, 48, 51, 2, 9}; int tk = 51, i; bool check = false; for (i = 0; i < length(mang); i++) { if (mang[i] == tk) { check = true; break; } } if (check) cout << \"Found \" << tk << \" at index \" << i << endl; else cout << \"Not found\"; return 0; }",
+        "A": "Tìm 1 phần tử trong mảng.( kết quả in ra là Found 51 at index 3)",
+        "B": "So sánh các phần tử mảng với nhau.",
+        "C": "Tính tổng mảng.",
+        "D": "Chương trình báo lỗi.",
+        "correct": "A"
+    },
+    {
+        "number": 62,
+        "question": "Chương trình sai ở dòng nào? 1. define length(a) (sizeof(a) / sizeof(*a)) 2. int main() { 3. int mang[] = {12, 37, 48, 51, 2, 9}; 4. int tk = 51, i; 5. bool check = false; 6. for (i = 0; i < length(mang); i++) { 7. if (mang[i] = tk) { 8. check = true; 9. break; 10. } 11. } 12. cout << i ; 14. return 0; 15. }",
+        "A": "1, 3",
+        "B": "1, 7 ( 1 thiếu # và 7 điều kiện phải là dấu == )",
+        "C": "3, 5, 6",
+        "D": "Chương trình không sai.",
+        "correct": "B"
+    },
+    {
+        "number": 63,
+        "question": "Đoạn lệnh sau cho kết quả là bao nhiêu: char chuoi[] = “peter pan put a pepper into pen”; int max = strlen(chuoi); int number = 0; for (int i = 0; i < max; i++) { if (chuoi[i] != ' p') continue; number++; } cout << number << endl;",
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "Chương trình báo lỗi",
+        "correct": "A"
+    },
+    {
+        "number": 64,
+        "question": "Đoạn lệnh sau cho kết quả là bao nhiêu: char chuoi[] = “hoi dong dang di den huyen dinh dong”; int max = strlen(chuoi); int number = 0; for (int i = 0; i < max; i++) { if (chuoi[i] != 'd') continue; number++; } cout << number << endl;",
+        "A": "7",
+        "B": "6",
+        "C": "3",
+        "D": "Chương trình báo lỗi",
+        "correct": "B"
+    },
+    {
+        "number": 65,
+        "question": "Đoạn lệnh sau in ra kết quả bao nhiêu: void indl (int *a) { cout << *a; } int main() { int a = 10; indl (&a); return 0; }",
+        "A": "10",
+        "B": "11",
+        "C": "Địa chỉ của a",
+        "D": "Địa chỉ của bộ nhớ đứng trưóc a",
+        "correct": "A"
+    },
+    {
+        "number": 66,
+        "question": "Đoạn lệnh sau in ra kết quả bao nhiêu: void indl (int *a) { cout << ++*a; } int main() { int a = 10; indl (&a); return 0; }",
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "Địa chỉ của biến a",
+        "correct": "C"
+    },
+    {
+        "number": 67,
+        "question": "Đoạn lệnh sau in ra kết quả bao nhiêu: void indl (int a[4]) { int *p = &a[1]; cout << *(p++); } int main() { int a[4] = { 1, 2, 3, 4 }; indl (&a); return 0; }",
+        "A": "1",
+        "B": "2(kết quả chỉ bằng 2 nếu câu lệnh indl(&a) được thay bằng câu lệnh indl(a))",
+        "C": "3",
+        "D": "4",
+        "correct": "B"
+    },
+    {
+        "number": 68,
+        "question": "Đoạn lệnh sau in ra kết quả bao nhiêu: void indl (int a[4]) { int *p = &a[1]; cout << ++*p; } int main() { int a[4] = { 2, 4, 6, 8 }; indl (&a); return 0; }",
+        "A": "4",
+        "B": "5 (kết quả chỉ bằng 5 nếu câu lệnh indl(&a) được thay bằng câu lệnh indl(a))",
+        "C": "6",
+        "D": "7",
+        "correct": "B"
+    },
+    {
+        "number": 69,
+        "question": "Đoạn lệnh sau in ra kết quả bao nhiêu: void indl (int a[4]) { int *p = &a[1]; cout << *++p; } int main() { int a[4] = { 2, 4, 6, 8 }; indl (&a); return 0; }",
+        "A": "4",
+        "B": "5",
+        "C": "6(kết quả chỉ bằng 6 nếu câu lệnh indl(&a) được thay bằng câu lệnh indl(a))",
+        "D": "7",
+        "correct": "C"
+    },
+    {
+        "number": 70,
+        "question": "Đoạn lệnh sau in ra kết quả bao nhiêu: void indl (int &a) { a--; } int main() { int x = 5 indl (x); cout << x; return 0; }",
+        "A": "4( Nếu sau câu lệnh int x=5 có dấu ; thì kết quả là 4)",
+        "B": "5",
+        "C": "6",
+        "D": "Chương trình báo lỗi",
+        "correct": "D"
+    },
+    {
+        "number": 71,
+        "question": "Đoạn lệnh sau in ra kết quả bao nhiêu: void indl (int *a) { a- -; } int main() { int x = 5 indl (x); cout << x; return 0; }",
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "Chương trình báo lỗi (Chương trình sẽ báo lỗi ở dòng indl(x))",
+        "correct": "D"
+    },
+    {
+        "number": 72,
+        "question": "Cho đoạn chương trình sau: char str[40]; cin.getline (str,40); if ( strcmp(str, “Juliet”) == 0) cout << “Same here”; else cout << str; Nếu nhập vào từ bàn phím chuỗi Juliet, chương trình sẽ in ra kết quả?",
+        "A": "Chương trình báo lỗi",
+        "B": "Same here",
+        "C": "str",
+        "D": "Juliet",
+        "correct": "B"
+    },
+    {
+        "number": 73,
+        "question": "Cho đoạn chương trình sau: char str[40]; cin.getline (str,40); if ( strcmp(str, “Juliet”) == 0) cout << “Same here”; else cout << str; Nếu nhập vào từ bàn phím chuỗi Rome, chương trình sẽ in ra kết quả?",
+        "A": "Same here",
+        "B": "Rome",
+        "C": "Chương trình báo lỗi",
+        "D": "Không in ra gì cả",
+        "correct": "B"
+    },
+    {
+        "number": 74,
+        "question": "Cho đoạn chương trình sau: char str[40]; cin.getline (str,40); if ( strcmp(str,”Juliet”) = 0) cout << “Same here”; else cout << str; Nếu nhập vào từ bàn phím chuỗi Alvata, chương trình sẽ in ra kết quả?",
+        "A": "Alvata",
+        "B": "Same here",
+        "C": "Chương trình báo lỗi (Sai ở dòng if ( strcmp(str,”Juliet”) = 0), phài là ==0)",
+        "D": "Không in ra gì cả",
+        "correct": "C"
+    },
+    {
+        "number": 75,
+        "question": "Cho đoạn chương trình sau: char str[40]; cin.getline (str,40); if ( strcmp(str, “Rome”) == 0) cout << “Same here”; else cout << str; Nếu nhập vào từ bàn phím chuỗi Rome, chương trình sẽ in ra kết quả?",
+        "A": "Rome",
+        "B": "Chương trình báo lỗi",
+        "C": "Same here",
+        "D": "str",
+        "correct": "C"
+    },
+    {
+        "number": 76,
+        "question": "Cho khối lệnh sau: int i = 10; int n = ++i%5; Sau khi thực hiện khối lệnh, kết quả sẽ là:",
+        "A": "i = 10, n = 0",
+        "B": "i = 11, n = 0",
+        "C": "i = 10, n = 1",
+        "D": "i = 11, n = 1",
+        "correct": "D"
+    },
+    {
+        "number": 77,
+        "question": "Đoạn lệnh sau in ra kết quả nào? int s = 0; string str; for (int i = 0; i < 5; i++) { int k = 0; k += i; s = k; } str = ((k % 2 == 0) ? “true” : “false”; cout << str << endl;",
+        "A": "true",
+        "B": "false",
+        "C": "Chương trình lỗi",
+        "D": "Không in ra gì cả",
+        "correct": "C"
+    },
+    {
+        "number": 78,
+        "question": "Mảng là gì?",
+        "A": "Là một đối tượng chứa các một số hữu hạn các giá trị cùng kiểu.",
+        "B": "Là một biến chứa các giá trị cùng kiểu.",
+        "C": "Là một biến chứa một số hữu hạn các giá trị cùng kiểu.",
+        "D": "Tất cả đều sai.",
+        "correct": "A"
+    },
+    {
+        "number": 79,
+        "question": "Đoạn lệnh sau in ra kết quả nào? int s = 0; string str; for (int i = 0; i < 5; i++) { int k = 0; k += i; s = k; } str = ((s % 2) == 0) ? “true” : “false”; cout << str << endl;",
+        "A": "true",
+        "B": "false",
+        "C": "Không in ra gì cả",
+        "D": "Chương trình lỗi",
+        "correct": "A"
+    },
+    {
+        "number": 80,
+        "question": "Chương trình sau in ra kết quả là bao nhiêu: const int row = 3; const int col = 4; int seasonTemp[row][col] = { { 26, 34, 22, 17 }, { 24, 32, 19, 13 }, { 28, 38, 25, 20 } }; int functionM (temp[row][col]) { int m = 0; for (int i = 0; i < row; i++) for (int j = 0; j < col; j++) if (temp[i][j] > m) m = temp[i][j];( để ý dấu >) return m; } int main() { cout << functionM (seasonTemp) << endl; return 0; }",
+        "A": "38 ( nếu sửa lại phần khai báo int functionM (int temp[row][col]) )",
+        "B": "13",
+        "C": "0",
+        "D": "60",
+        "correct": "A"
+    },
+    {
+        "number": 81,
+        "question": "Chương trình sau in ra kết quả là bao nhiêu: const int row = 3; const int col = 4; int seasonTemp[row][col] = { { 26, 34, 22, 17 }, { 24, 32, 19, 13 }, { 28, 38, 25, 20 } }; int functionM (temp[row][col]) { int m = 0; for (int i = 0; i < row; i++) for (int j = 0; j < col; j++) if (temp[i][j] < m) m = temp[i][j];( để ý dấu <) return m; } int main() { cout << functionM (seasonTemp) << endl; return 0; }",
+        "A": "38",
+        "B": "13",
+        "C": "0 (nếu sửa lại phần khai báo int functionM (int temp[row][col]) )",
+        "D": "60",
+        "correct": "C"
+    },
+    {
+        "number": 82,
+        "question": "Chương trình sau in ra kết quả là bao nhiêu: const int row = 3; const int col = 4; int seasonTemp[row][col] = { { 26, 34, 22, 17 }, { 24, 32, 19, 13 }, { 28, 38, 25, 20 } }; int function (temp[row][col]) { int m = 0; for (int i = 0; i < row; i++) for (int j = 0; j < col; j++) if (temp[i][j] > m) m += temp[i][j]; return m; } int main() { cout << functionM (seasonTemp) << endl; return 0; }",
+        "A": "38",
+        "B": "264",
+        "C": "0",
+        "D": "60 (nếu sửa lại phần khai báo int functionM (int temp[row][col]) )",
+        "correct": "D"
+    },
+    {
+        "number": 83,
+        "question": "Chương trình sau in ra kết quả là bao nhiêu: const int row = 3; const int col = 4; int seasonTemp[row][col] = { { 26, 34, 22, 17 }, { 24, 32, 19, 13 }, { 28, 38, 25, 20 } }; int function (temp[row][col]) { int m = temp[0][0]; for (int i = 0; i < row; i++) for (int j = 0; j < col; j++) if (temp[i][j] < m) m += temp[i][j]; return m; } int main() { cout << functionM (seasonTemp) << endl; return 0; }",
+        "A": "264",
+        "B": "60",
+        "C": "0",
+        "D": "38 (nếu sửa lại phần khai báo int functionM (int temp[row][col]) )",
+        "correct": "A"
+    },
+    {
+        "number": 84,
+        "question": "Chương trình sau in ra kết quả là bao nhiêu: const int row = 3; const int col = 4; int seasonTemp[row][col] = { { 26, 34, 22, 17 }, { 24, 32, 19, 13 }, { 28, 38, 25, 20 } }; int function (temp[row][col]) { int m = 38; for (int i = 0; i < row; i++) for (int j = 0; j < col; j++) if (temp[i][j] < m) m = temp[i][j]; return m; } int main() { cout << functionM (seasonTemp) << endl; return 0; }",
+        "A": "38",
+        "B": "264",
+        "C": "0",
+        "D": "13 (nếu sửa lại phần khai báo int functionM (int temp[row][col]) )",
+        "correct": "D"
+    },
+    {
+        "number": 85,
+        "question": "Biến message sau đây có kết quả là: string expletive = “Expletive “; string PG13 = “deleted”; string message = expletive + PG13;",
+        "A": "Expletive deleted",
+        "B": "Expletivedeleted",
+        "C": "deletedExpletive",
+        "D": "Chương trình báo lỗi",
+        "correct": "A"
+    },
+    {
+        "number": 86,
+        "question": "Chương trình sau in ra kết quả là bao nhiêu: int BinSearch (char *item,char table[],int n, int (Sosanh)(const char,const char)) { int bot = 0, top = n - 1, mid, cmp; while (bot < top) { mid = (bot + top) / 2; if ((cmp = Sosanh(item,table[mid])) == 0) return mid; else if (cmp < 0) top = mid - 1; else bot = mid + 1; } return -1; } int main() { char *cities[] = { “Boston”, “London”, “Sydney”, “Tokyo” }; cout << BinSearch (“Sydney”,cities,4,strcmp) << endl; }",
+        "A": "1",
+        "B": "2",
+        "C": "true",
+        "D": "Chương trình báo lỗi",
+        "correct": "B"
+    },
+    {
+        "number": 87,
+        "question": "Chương trình sau thực hiện công việc gì? int BinSearch (char *item,char table[],int n, int (Sosanh)(const char,const char)) { int bot = 0, top = n - 1, mid, cmp; while (bot < top) { mid = (bot + top) / 2; if ((cmp = Sosanh(item,table[mid])) == 0) return mid; else if (cmp < 0) top = mid - 1; else bot = mid + 1; } return -1; } int main() { char *cities[] = { “Boston”, “London”, “Sydney”, “Tokyo” }; cout << BinSearch (“Sydney”,cities,4,strcmp) << endl; }",
+        "A": "Sắp xếp mảng tăng dần",
+        "B": "Sắp xếp mảng giảm dần",
+        "C": "Tìm kiếm một chuỗi trong mảng chuỗi ký tự",
+        "D": "Đếm xem có bao nhiêu thành phần trong mảng chứa chuỗi ký tự cho trước (kết quả ra về là chỉ số của phần tử cần tìm kiếm)",
+        "correct": "C"
+    },
+    {
+        "number": 88,
+        "question": "Chương trình sau in ra kết quả bao nhiêu void functionSw (int &x, int &y) { int tmp = x; x = y; y = tmp; } int main() { int i = 10, j = 20; functionSw (i,j); cout << i << “, “ << j << endl; }",
+        "A": "10, 20",
+        "B": "20, 10",
+        "C": "Lỗi biên dịch",
+        "D": "0, 0",
+        "correct": "B"
+    },
+    {
+        "number": 89,
+        "question": "Chương trình sau in ra kết quả bao nhiêu void functionSw (int x, int y) { int tmp = x; x = y; y = tmp; } int main() { int i = 10, j = 20; functionSw (i,j); cout << i << “, “ << j << endl; }",
+        "A": "10, 20",
+        "B": "20, 10",
+        "C": "Lỗi biên dịch",
+        "D": "0, 0",
+        "correct": "A"
+    },
+    {
+        "number": 90,
+        "question": "Chương trình sau in ra kết quả bao nhiêu void functionSw (int *x, int *y) { int tmp = *x; *x = *y; *y = tmp; } int main() { int i = 10, j = 20; functionSw (i,j); cout << i << “, “ << j << endl; }",
+        "A": "10, 20",
+        "B": "20, 10",
+        "C": "0, 0",
+        "D": "Lỗi biên dịch ( sửa thành functionSw(&i, &j); )",
+        "correct": "D"
+    },
+    {
+        "number": 91,
+        "question": "Chương trình sau thực hiện công việc gì? char* ReChar (char* str) { int len = strlen (str); char* ketqua = new char[len+1]; for (int i = 0; i < len; i++) ketqua[i] = str[len-i-1]; ketqua[len] = '\\0'; return ketqua; } int main() { char *p = 178892”; cout << ReChar (p) << endl; return 0; }",
+        "A": "Chuyển đổi ký tự thành số",
+        "B": "Đảo ngược chuỗi ký tự (Đáp án là b nếu char *p = 178892”; được thay bằng char *p = “178892” vì thiếu “)",
+        "C": "Sắp xếp chuỗi ký tự",
+        "D": "Không có đáp án đúng",
+        "correct": "D"
+    },
+    {
+        "number": 92,
+        "question": "Chương trình sau hiển thị kết quả nào? char* ReChar (char* str) { int len = strlen (str); char* ketqua = new char[len+1]; for (int i = 0; i < len; i++) ketqua[i] = str[len-i-1]; ketqua[len] = '\\0'; return ketqua; } int main() { char *p = 178892”; cout << ReChar (p) << endl; return 0; }",
+        "A": "178892",
+        "B": "298871 (Đáp án là b nếu char *p = 178892”; được thay bằng char *p = “178892” vì thiếu dấu “ )",
+        "C": "127889",
+        "D": "988721",
+        "correct": "B"
+    },
+    {
+        "number": 93,
+        "question": "Chương trình sau sai ở dòng nào? char ReChar (char str) { int len = strlen (str); char ketqua = new char[len+1]; for (int i = 0; i < len; i++) ketqua[i] = str[len-i-1]; ketqua[len] = '\\0'; return ketqua; } int main() { char p[] = \"178892”; cout << ReChar (p) << endl; return 0; 12.}",
+        "A": "1, 3",
+        "B": "5, 10",
+        "C": "6",
+        "D": "Chương trình không sai",
+        "correct": "A"
+    },
+    {
+        "number": 94,
+        "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu? int val1, val2; int * pointer; pointer = &val1; *pointer = 10; pointer = &val2; *pointer = 20; cout << val1 * val2 << endl;",
+        "A": "10 * 20",
+        "B": "200",
+        "C": "20",
+        "D": "Chương trình báo lỗi",
+        "correct": "B"
+    },
+    {
+        "number": 95,
+        "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu? int val1, val2; int * pointer; pointer = val1; *pointer = 10; pointer = val2; *pointer = 20; cout << val1 * val2 << endl;",
+        "A": "10 * 20",
+        "B": "200",
+        "C": "20",
+        "D": "Chương trình báo lỗi",
+        "correct": "D"
+    },
+    {
+        "number": 96,
+        "question": "Cho đoạn chương trình sau: int val1 = 5, val2 = 15; int *p1, *p2; p1 = &val1; p2 = &val2; *p1 = 10; *p2 = *p1; p1 = p2; *p2 = 20; Tại dòng lệnh thứ 6, val2 có giá trị bao nhiêu?",
+        "A": "10",
+        "B": "20",
+        "C": "30",
+        "D": "0",
+        "correct": "A"
+    },
+    {
+        "number": 97,
+        "question": "Cho đoạn chương trình sau: int val1 = 5, val2 = 15; int *p1, *p2; p1 = &val1; p2 = &val2; *p1 = 10; *p2 = *p1; p1 = p2; *p2 = 20; cout << *p1 << endl; chương trình sau in ra kết quả bao nhiêu?",
+        "A": "10",
+        "B": "20",
+        "C": "400",
+        "D": "200",
+        "correct": "B"
+    },
+    {
+        "number": 98,
+        "question": "Cho đoạn chương trình sau: int val1 = 5, val2 = 15; int *p1, *p2; p1 = &val1; p2 = &val2; *p1 = 10; *p2 = *p1; p1 = p2; *p2 = 20; cout << *p1 * val2 << endl; chương trình in ra kết quả là bao nhiêu?",
+        "A": "10",
+        "B": "20",
+        "C": "200",
+        "D": "400",
+        "correct": "D"
+    },
+    {
+        "number": 99,
+        "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu: int number[5] = { 10, 20, 30, 40, 50 }; int *p; p = number; p++; *p += 60; cout << number[1] << endl;",
+        "A": "10",
+        "B": "20",
+        "C": "50",
+        "D": "80",
+        "correct": "D"
+    },
+    {
+        "number": 100,
+        "question": "Đoạn lệnh sau in ra kết quả là bao nhiêu: int number[5] = { 10, 20, 30, 40, 50 }; int *p; p = number; p++; *p = number + 3; cout << number[3] / 2 << endl;",
+        "A": "10",
+        "B": "20",
+        "C": "40",
+        "D": "Chương trình báo lỗi",
+        "correct": "D"
+    },
+    {
+        "number": 101,
+        "question": "Cho khối lệnh sau: if (yourSale >= target) bonus = 100 + 0.01 * (yourSale - target); else bonus = 0; Với yourSale = 3000, target = 2500, vậy bonus = ?",
+        "A": "105",
+        "B": "150",
+        "C": "600",
+        "D": "0",
+        "correct": "A"
+    },
+    {
+        "number": 102,
+        "question": "Cho khối lệnh sau: if (yourSale >= target) bonus = 100 + 0.01 * (yourSale - target); else bonus = 0 Với yourSale = 3000, target = 2500, vậy bonus = ?",
+        "A": "105",
+        "B": "150",
+        "C": "600",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 103,
+        "question": "Cho khối lệnh sau: if (yourSale >= target) bonus = 100 + 0.01 * (yourSale – target); else bonus = 0; Với yourSale = 2400, target = 2500, vậy bonus = ?",
+        "A": "105",
+        "B": "150",
+        "C": "600",
+        "D": "0",
+        "correct": "D"
+    },
+    {
+        "number": 104,
+        "question": "Sau khi thực hiện khối lệnh, balance = ? double balance = 10, goal = 20, payment = 5; int years = 0; while (balance < goal) { balance += payment; double interest = balance * 0.1 / 100; balance += interest; years ++; }",
+        "A": "20.015",
+        "B": "15",
+        "C": "15.015",
+        "D": "20.035",
+        "correct": "D"
+    },
+    {
+        "number": 105,
+        "question": "Sau khi thực hiện khối lệnh, balance = ? double balance = 20, goal = 20, payment = 5; int years = 0; while (balance <= goal) { balance += payment; double interest = balance * 0.1 / 100; balance += interest; years ++; }",
+        "A": "20.025",
+        "B": "15",
+        "C": "15.015",
+        "D": "20.035015",
+        "correct": "E",
+        "E": "(Đáp án đúng là 25.025, ko có đáp án nào trong 4 phương án , phương án gần đúng nhất là a)"
+    },
+    {
+        "number": 106,
+        "question": "Khi thực hiện đoạn lệnh, balance = ? double balance = 10, goal = 20, payment = 5; int years = 0; while (balance < goal) { balance += payment; double interest = balance * 0.1 / 100; balance += interest; years ++ }",
+        "A": "20.015",
+        "B": "15",
+        "C": "15.015",
+        "D": "Lệnh sai",
+        "correct": "D"
+    },
+    {
+        "number": 107,
+        "question": "Khi thực hiện, balance = ? double balance = 20, goal = 20, payment = 5; int years = 0; do{ balance += payment; double interest = balance * 0.1 / 100; balance += interest; years ++; } while (balance < goal);",
+        "A": "20.015",
+        "B": "15",
+        "C": "25.025",
+        "D": "20.035015",
+        "correct": "C"
+    },
+    {
+        "number": 108,
+        "question": "Khi thực hiện, balance = ? double balance = 20, goal = 20, payment = 5; int years = 0; do{ balance += payment; double interest = balance * 0.1 / 100; balance += interest; years ++; } while (balance < goal)\"",
+        "A": "20.015",
+        "B": "15",
+        "C": "15.015",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 109,
+        "question": "Khi thực hiện, years = ? double balance = 20, goal = 20, payment = 5; int years = 0; do{ balance += payment; double interest = balance * 0.1 / 100; balance += interest; years ++; } while (balance < goal);",
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "3",
+        "correct": "A"
+    },
+    {
+        "number": 110,
+        "question": "Cho khối lệnh sau: int s = 0; for (int i = 0; i < 10; i++) s += i; s -= 10; Sau khi chạy khối lệnh s = ?",
+        "A": "0",
+        "B": "55",
+        "C": "45",
+        "D": "35",
+        "correct": "D"
+    },
+    {
+        "number": 111,
+        "question": "Cho khối lệnh sau: for (int i = 0; i <= 10; i++) { int s = 0; s += i;} cout << s; Sau khi chạy khối lệnh s = ?",
+        "A": "0",
+        "B": "55",
+        "C": "45",
+        "D": "Lệnh sai",
+        "correct": "D"
+    },
+    {
+        "number": 112,
+        "question": "Cho khối lệnh sau: int s = 0; for (int i = 0; i <= 10; i++) s += i; Sau khi chạy khối lệnh s = ?",
+        "A": "0",
+        "B": "55",
+        "C": "45",
+        "D": "50",
+        "correct": "B"
+    },
+    {
+        "number": 113,
+        "question": "Cho khối lệnh sau: int s = 0; for (int i = 0; i < 10; i++) { s = 0; s += i; } Sau khi chạy khối lệnh s = ?",
+        "A": "0",
+        "B": "55",
+        "C": "45",
+        "D": "9",
+        "correct": "D"
+    },
+    {
+        "number": 114,
+        "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu? void inc (void* data, int psize) { if (psize == sizeof (char)) { char* pchar; pchar = (char*)data; ++(pchar); } else if (psize == sizeof(int)) { int pint; pint = (int*)data; ++(*pint); }} int main() { int s = 1642; inc (&s,sizeof(s)); cout << s << endl; return 0; }",
+        "A": "1642",
+        "B": "1641",
+        "C": "1643",
+        "D": "Lỗi biên dịch",
+        "correct": "C"
+    },
+    {
+        "number": 115,
+        "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu? void inc (void* data, int psize) { if (psize == sizeof (char)) { char* pchar; pchar = (char*)data; ++(pchar); } else if (psize == sizeof(int)) { int pint; pint = (int*)data; ++(*pint); }} int main() { char c = ' y'; inc (&s,sizeof(s)); cout << s << endl; return 0; }",
+        "A": "' y'",
+        "B": "' x'",
+        "C": "' z'",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 116,
+        "question": "Đoạn lệnh sau đưa ra kết quả là bao nhiêu? void inc (void* data, int psize) { if (psize == sizeof (char)) { char* pchar; pchar = (char*)data; ++(pchar); } else if (psize == sizeof(int)) { int pint; pint = (char*)data; ++(*pint); }} int main() { int s = 1642; inc (s); void << s << endl; return 0; }",
+        "A": "1642",
+        "B": "1643",
+        "C": "1641",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 117,
+        "question": "Chương trinh test.exe có code như sau: int main(int argc,char* argv[]) { double s = 0; for (int i = 1; i < argc; i++) s += atof(argv[i]); cout << s << endl; return 0; } Tại dấu nhắc DOS, chạy chương trình: test 32.1 4 5.6, chương trình sẽ cho kết quả là bao nhiêu?",
+        "A": "41.7",
+        "B": "32.1",
+        "C": "32.1 4 5.6",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 118,
+        "question": "Chương trinh test.exe có code như sau: int main(int argc,char* argv[]) { double s = atof(argv[1]); for (int i = 2; i < argc; i++) s -= atof(argv[i]); cout << s << endl; return 0; } Tại dấu nhắc DOS, chạy chương trình: test 40 5 12 7, chương trình sẽ cho kết quả là bao nhiêu?",
+        "A": "0",
+        "B": "40",
+        "C": "16",
+        "D": "Lỗi biên dịch",
+        "correct": "C"
+    },
+    {
+        "number": 119,
+        "question": "Chương trinh test.exe có code như sau: int main(int argc,char* argv[]) { double s = 1; for (int i = 0; i < atof(argv[2]); i++) s *= atof(argv[1]); cout << s << endl; return 0; } Tại dấu nhắc DOS, chạy chương trình: test 3 3, chương trình sẽ cho kết quả là bao nhiêu?",
+        "A": "9",
+        "B": "27",
+        "C": "3",
+        "D": "Lỗi biên dịch",
+        "correct": "B"
+    },
+    {
+        "number": 120,
+        "question": "Chương trinh test.exe có code như sau: int main(int argc,char* argv[]) { double s = 1; for (int i = 0; i < argv[2]; i++) s += atof(argv[1]); cou << s << endl; return 0; } Tại dấu nhắc DOS, chạy chương trình: test 3 3, chương trình sẽ cho kết quả là bao nhiêu?",
+        "A": "27",
+        "B": "9",
+        "C": "3",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 121,
+        "question": "Chương trình sau in ra kết quả gì: int add (int a, int b) { return (a + b); } int sub (int a, int b) { return (a - b); } int operation (int x, int y, int (*functocall) (int,int)) { int s = (*functocall) (x,y); return s; } int main() { int m,n; int (*minus)(int,int) = sub; m = (7,5,add); n = (20,m,minus); return 0; }",
+        "A": "12",
+        "B": "32",
+        "C": "8",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 122,
+        "question": "Chương trình sau in ra kết quả gì: int add (int a, int b) { return (a + b); } int sub (int a, int b) { return (a - b); } int operation (int x, int y, int (*functocall) (int,int)) { int s = (*functocall) (x,y); return s; } int main() { int m,n; int (*minus)(int,int) = sub; m = (7,5,add); n = (operation(20,3,minus),m,minus); return 0; }",
+        "A": "12",
+        "B": "8",
+        "C": "5",
+        "D": "Chương trình báo lỗi",
+        "correct": "D"
+    },
+    {
+        "number": 123,
+        "question": "Chương trình sau in ra kết quả gì: int add (int a, int b) { return (a + b); } int sub (int a, int b) { return (a - b); } int operation (int x, int y,int (*functocall) (int,int)) { int s = (*functocall) (x,y); return s; } int main() { int s = 0; int *p = new int[5]; for (int i = 0; i < 5; i++) { p[i] = i + 1; s = operation (s,p[i],add); } cout << s << endl; return 0; }",
+        "A": "15",
+        "B": "6",
+        "C": "3",
+        "D": "10",
+        "correct": "A"
+    },
+    {
+        "number": 124,
+        "question": "Chương trình sau in ra kết quả gì: int add (int a, int b) { return (a + b); } int sub (int a, int b) { return (a - b); } int operation (int x, int y,int (*functocall) (int,int)) { int s = (*functocall) (x,y); return s; } int main() { int s = 0, n = 10; int *p = new int[5]; for (int i = 0; i < 5; i++) { p[i] = n--; s = operation (s,p[i],add); } cout << s << endl; return 0; }",
+        "A": "40",
+        "B": "55",
+        "C": "45",
+        "D": "36",
+        "correct": "A"
+    },
+    {
+        "number": 125,
+        "question": "Thực hiện đoạn lệnh sau đưa ra kết quả bao nhiêu: int s = 0, n = 10; int number[3][3]; for (int i = 0,j = 0; i < 3,j < 3; i++, j++) { number[i][j] = n --; s += number[i][j]; } cout << s << endl;",
+        "A": "10",
+        "B": "9",
+        "C": "8",
+        "D": "27",
+        "correct": "D"
+    },
+    {
+        "number": 126,
+        "question": "Thực hiện đoạn lệnh sau đưa ra kết quả bao nhiêu: int s = 0, n = 10; int number[3][4]; for (int i = 0,j = 0; i < 3,j < 4; i++, j++) { number[i][j] = n --; s += number[i][j]; } cout << s << endl;",
+        "A": "27",
+        "B": "19",
+        "C": "30",
+        "D": "14",
+        "correct": "D"
+    },
+    {
+        "number": 127,
+        "question": "Chương trình sau in kết quả là bao nhiêu: void inc (void* data,int psize) { if (psize == sizeof(char)) { char p; p = (char)data; ++(*p); }} struct hocsinh { string hoten; int namsinh; }; int main() { char ten = 'A'; hocsinh hs[3]; for (int i = 0; i < 3; i++) { hs[i].hoten = ten; hs[i].namsinh = 1990 + i; inc (&ten,sizeof(ten)); } cout << hs[1].hoten << “ - “ << hs[1].namsinh << endl; return 0; }",
+        "A": "A - 1990",
+        "B": "B - 1991",
+        "C": "C - 1992",
+        "D": "A – 1991",
+        "correct": "B"
+    },
+    {
+        "number": 128,
+        "question": "Chương trình sau in kết quả là bao nhiêu: void inc (void* data,int psize) { if (psize == sizeof(char)) { char p; p = (char)data; ++(*p); }} struct hocsinh { string hoten; int namsinh; }; int main() { char ten = 'A'; hocsinh hs[3]; for (int i = 0; i < 3; i++) { hs[i].hoten = ten; hs[i].namsinh = 1990 + i; inc (&ten,sizeof(ten)); } cout << hs[0].hoten << “ - “ << hs[1].namsinh << endl; return 0; }",
+        "A": "A - 1990",
+        "B": "A - 1991",
+        "C": "B - 1992",
+        "D": "Lỗi biên dịch",
+        "correct": "B"
+    },
+    {
+        "number": 129,
+        "question": "Chương trình sau in kết quả là bao nhiêu: void inc (void* data,int psize) { if (psize == sizeof(char)) { char *p; p = (char)data; ++(*p); }} struct hocsinh { string hoten; int namsinh; }; int main() { char ten = 'A'; hocsinh hs[3]; for (int i = 0; i < 3; i++) { hs[i].hoten = ten; hs[i].namsinh = 1990 + i; inc (&ten,sizeof(ten)); } cout << hs[0].hoten << “ - “ << hs[2].namsinh << endl; }",
+        "A": "A - 1992",
+        "B": "B - 1991",
+        "C": "C - 1992",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 130,
+        "question": "Chương trình sau in kết quả là bao nhiêu: struct hocsinh { string hoten; int namsinh; }; int main() { hocsinh hs[3]; hocsinh *p = hs; for (int i = 0; i < 3; i++) { p->namsinh = 1991 + i; p++; } p = hs+1; p->namsinh -= 20; cout << hs[1].namsinh << endl; return 0; }",
+        "A": "1972",
+        "B": "1971",
+        "C": "1970",
+        "D": "1973",
+        "correct": "A"
+    },
+    {
+        "number": 131,
+        "question": "Chương trình sau in kết quả là bao nhiêu: struct hocsinh { string hoten; int namsinh; }; int main() { hocsinh hs[3]; hocsinh *p = hs; for (int i = 0; i < 3; i++) { p->namsinh = 1991 + i; p++; } p = hs+1; p->namsinh -= 20; cout << hs[0].namsinh << endl; return 0; }",
+        "A": "1972",
+        "B": "1991",
+        "C": "1992",
+        "D": "1971",
+        "correct": "B"
+    },
+    {
+        "number": 132,
+        "question": "Chương trình sau sai ở dòng nào: 1. struct hocsinh { 2. string hoten; 3. int namsinh; 4. }; 5. int main() { 6. hocsinh hs[3]; 7. hocsinh *p = hs; 8. for (int i = 0; i < 3; i++) { 9. p->namsinh = 1991 + i; 10. p++; 11. } 12. *p = hs+1; 13. p.namsinh -= 20; 14. cout << *p.namsinh << endl; 15. return 0; 16. }",
+        "A": "Không sai dòng nào",
+        "B": "9, 12, 14",
+        "C": "12, 13, 14",
+        "D": "9, 13, 14",
+        "correct": "C"
+    },
+    {
+        "number": 133,
+        "question": "Chương trình sau sai ở dòng nào: 1. struct hocsinh { 2. string hoten; 3. int namsinh; 4. }; 5. int main() { 6. hocsinh hs[3]; 7. hocsinh *p = hs; 8. for (int i = 0; i < 3; i++) { 9. (*p).namsinh = 1991 + i; 10. p++; 11. } 12. p = hs+1; 13. (*p).namsinh -= 20; 14. cout << (*p).namsinh << endl; 15. return 0; 16. }",
+        "A": "9, 14",
+        "B": "12, 13",
+        "C": "9, 13, 14",
+        "D": "Không sai ở dòng nào cả",
+        "correct": "C"
+    },
+    {
+        "number": 134,
+        "question": "Chương trình sau đưa ra kết quả bao nhiêu? struct hocsinh { string hoten; int namsinh; double diem; }; double bac3 (double a,int x) { double d = 1; for (int i = 0; i < x; i++) d *= a; return d; } int main() { hocsinh hs[3]; hocsinh *p; p = hs; for (int i = 0; i < 3; i++) { p->diem = 5; p++; } cout << hs[0].diem << “, “ << bac3(hs[1].diem,2);",
+        "A": "5, 25, 125",
+        "B": "5, 25, 625",
+        "C": "5, 25",
+        "D": "5, 5",
+        "correct": "C"
+    },
+    {
+        "number": 135,
+        "question": "Chương trình sau có kết quả là bao nhiêu? double bac3 (double a, int x) { for (int i = 0; i < x; i++) a = a * a; return a; } int main() { int i = 3; cout << i << “, “ << bac3(i,2); return 0; }",
+        "A": "3, 81",
+        "B": "3, 9",
+        "C": "9, 81",
+        "D": "3, 18",
+        "correct": "A"
+    },
+    {
+        "number": 136,
+        "question": "Chương trình sau cho kết quả là bao nhiêu? class nhanvien { double luong; public: void setLuong(double d) { luong = d; } double getLuong() { return luong; } void tangLuong(double d) { luong += d; } }; int main() { nhanvien A; A.setLuong(700); nhanvien B = A; B.tangLuong(100); cout << B.luong; return 0; }",
+        "A": "700",
+        "B": "800",
+        "C": "0",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 137,
+        "question": "Chương trình sau cho kết quả là bao nhiêu? class nhanvien { double luong; public: void setLuong(double d) { luong = d; } void getLuong() { return luong; } void tangLuong(double d) { luong += d; } }; int main() { nhanvien A; A.setLuong(700); nhanvien B = A; B.tangluong(100); cout << B.getLuong(); return 0; }",
+        "A": "700",
+        "B": "800",
+        "C": "0",
+        "D": "Lỗi biên dịch (sai vì luong khai báo ở chế độ private)",
+        "correct": "D"
+    },
+    {
+        "number": 138,
+        "question": "Chương trình sau cho kết quả bao nhiêu khi chạy? class CRect { int height, width; public: CRect (int,int); int DT () { return (height * width); } }; CRect::CRect (int a, int b) { height = a; width = b; } int main() { CRect cn (7,7); cout << cn.DT(); return 0; }",
+        "A": "Lỗi biên dịch",
+        "B": "7",
+        "C": "49",
+        "D": "14",
+        "correct": "C"
+    },
+    {
+        "number": 139,
+        "question": "Chương trình sau cho kết quả bao nhiêu khi chạy? class CRect { int height, width; public: CRect (int,int); int DT () { return (height + width); } }; CRect::CRect (int a, int b) { height = a; width = b; } int main() { CRect cn (7,7); cout << cn.DT(); return 0; }",
+        "A": "Lỗi biên dịch",
+        "B": "7",
+        "C": "49",
+        "D": "14",
+        "correct": "D"
+    },
+    {
+        "number": 140,
+        "question": "Chương trình sau cho kết quả bao nhiêu khi chạy? class CRect { int height, width; public: CRect (int,int); int DT () { return (height * width); } }; CRect::CRect (int a, int b) { height = a; width = b; } int main() { CRect cn; cout << cn.DT(); return 0; }",
+        "A": "Lỗi biên dịch",
+        "B": "7",
+        "C": "49",
+        "D": "14",
+        "correct": "A"
+    },
+    {
+        "number": 141,
+        "question": "Chương trình sau cho kết quả bao nhiêu khi chạy? class CRect { int height, width; public: CRect (int,int); CRect (); int DT (void) { return (height * width); } }; CRect::CRect (int a, int b) { height = a; width = b; } CRect::CRect () { height = 5; width = 5; } int main() { CRect cn1 (3,4); CRect cn2; cout << cn1.DT() + cn2.DT(); return 0; }",
+        "A": "12",
+        "B": "25",
+        "C": "37",
+        "D": "Lỗi biên dịch",
+        "correct": "C"
+    },
+    {
+        "number": 142,
+        "question": "Chương trình sau cho kết quả bao nhiêu khi chạy? class CRect { int height, width; public: CRect (int,int); CRect (); int DT (void) { return (height * width); } }; CRect::CRect (int a, int b) { height = a; width = b; } CRect::CRect () { height = 5; width = 5; } int main() { CRect cn1 (3,4); CRect cn2; cout << cn2.DT(); return 0; }",
+        "A": "12",
+        "B": "25",
+        "C": "37",
+        "D": "Lỗi biên dịch",
+        "correct": "B"
+    },
+    {
+        "number": 143,
+        "question": "Chương trình sau cho kết quả bao nhiêu khi chạy? class CRect { int height, width; public: CRect (int,int); CRect (); int DT (void) { return (height * width); } }; CRect::CRect (int a, int b) { height = a; width = b; } CRect::CRect () { height = 5; width = 5; } int main() { CRect cn1 (3,4); CRect cn2; cout << cn2.height * cn2.width; return 0; }",
+        "A": "12",
+        "B": "25",
+        "C": "37",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 144,
+        "question": "Chương trình sau cho kết quả bao nhiêu khi chạy? class CRect { int *height, *width; public: CRect (int,int); ~CRect (); int DT (void) { return (*height * *width); } }; CRect::CRect (int a, int b) { height = new int; width = new int; *height = a; width = b; } CRect::~CRect() { delete height; delete width; } int main() { CRect cn1 (3,4); cout << cn1.DT(); return 0; }",
+        "A": "12",
+        "B": "20",
+        "C": "7",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 145,
+        "question": "Chương trình sau sai ở dòng nào? class CRect { int *height, *width; public: CRect (int,int); ~CRect (); int DT (void) { return (*height * *width); } }; CRect::CRect (int a, int b) { height = new int; width = new int; *height = a; width = b; 13. } CRect::~CRect() { delete height; delete width; } int main() { CRect cn1 (3,4); cout << cn1.DT(); return 0; }",
+        "A": "6, 7",
+        "B": "7, 8",
+        "C": "9, 10",
+        "D": "Không sai dòng nào",
+        "correct": "D"
+    },
+    {
+        "number": 146,
+        "question": "Chương trình sau sai ở dòng nào? class CRect { int *height, *width; public: CRect (int,int); ~CRect (); int DT (void) { return (height * width); } } CRect::CRect (int a, int b) { height = new int; width = new int; *height = a; width = b; 13.} CRect::~CRect() { delete height; delete width; } int main() { CRect cn1 (3,4); cout << cn1.DT(); return 0; }",
+        "A": "6, 7",
+        "B": "9, 10",
+        "C": "6, 11, 12",
+        "D": "Không sai dòng nào",
+        "correct": "A"
+    },
+    {
+        "number": 147,
+        "question": "Chương trình sau sai ở dòng nào? class CRect { int *height, *width; public: CRect (int,int); ~CRect (); int DT (void) { return (*height * *width); } }; CRect::CRect (int a, int b) { height = new short int; width = new short int; *height = a; width = b; 13.} CRect::~CRect() { delete height; delete width; } int main() { CRect cn1 (3,4); cout << cn1.DT(); return 0; }",
+        "A": "6, 7",
+        "B": "9, 10",
+        "C": "6, 11, 12",
+        "D": "Không sai dòng nào",
+        "correct": "B"
+    },
+    {
+        "number": 148,
+        "question": "Chương trình sau sai ở dòng nào? class CRect { int *height, *width; public: CRect (int,int); 5.CRect(); int DT (void) { return (*height * width); } }; CRect::CRect (int a, int b) { height = new int; width = new int; height = a; width = b; 13.} CRect::~CRect() { delete height; delete width; } int main() { CRect cn1 (3,4); cout << cn1.DT(); return 0; }",
+        "A": "6, 7",
+        "B": "9,10",
+        "C": "6, 11, 12",
+        "D": "Không sai dòng nào",
+        "correct": "C"
+    },
+    {
+        "number": 149,
+        "question": "Chương trình cho kết quả là bao nhiêu? class CRect { int height, width; public: void setGiatri(int a, int b) { height = a; width = b; } int DT() { return (height * width); } }; int main() { CRect a, *b, *c, *d; d = new CRect[2]; b = new CRect; c = &a; a.setGiatri(1,2); b- >setGiatri(3,4); d->setGiatri(5,6); d[1].setGiatri(7,8); cout << c->DT() << endl; delete b; delete[] d; return 0; }",
+        "A": "2",
+        "B": "12",
+        "C": "30",
+        "D": "56",
+        "correct": "A"
+    },
+    {
+        "number": 150,
+        "question": "Chương trình cho kết quả là bao nhiêu? class CRect { int height, width; public: void setGiatri(int a, int b) { height = a; width = b; } int DT() { return (height * width); } }; int main() { CRect a, *b, *c, *d; d = new CRect[2]; b = new CRect; c = &a; a- setGiatri(1,2); b- >setGiatri(3,4); d->setGiatri(5,6); d[1].setGiatri(7,8); cout << c->DT() * (*b).DT() << endl; delete b; delete[] d; return 0; }",
+        "A": "24",
+        "B": "12",
+        "C": "30",
+        "D": "56",
+        "correct": "A"
+    },
+    {
+        "number": 151,
+        "question": "Chương trình cho kết quả là bao nhiêu? class CRect { int height, width; public: void setGiatri(int a, int b) { height = a; width = b; } int DT() { return (height + width); } }; int main() { CRect a, *b, *c, *d; d = new CRect[2]; b = new CRect; c = &a; a- setGiatri(1,2); b- >setGiatri(3,4); d->setGiatri(5,6); d[1].setGiatri(7,8); cout << d->DT() << endl; delete b; delete[] d; return 0; }",
+        "A": "2",
+        "B": "11",
+        "C": "15",
+        "D": "30",
+        "correct": "B"
+    },
+    {
+        "number": 152,
+        "question": "Chương trình sau sai ở dòng nào? class CRect { int height, width; public: void setGiatri(int a, int b) { height = a; width = b; } int DT() { return (height * width); } }; int main() { CRect a, *b, *c, *d; d = new CRect[2]; b = new CRect; c = &a; a- setGiatri(1,2); b- >setGiatri(3,4); d->setGiatri(5,6); d[1]->setGiatri(7,8); cout << c->DT() * b.DT() << endl; delete b; delete[] d; return 0; }",
+        "A": "8, 9, 14",
+        "B": "18, 19",
+        "C": "2, 21",
+        "D": "Không có dòng nào sai",
+        "correct": "B"
+    },
+    {
+        "number": 153,
+        "question": "Chương trình sau cho kết quả là bao nhiêu? class CVector { public: int x,y; CVector () {} CVector (int,int); CVector operator+ (CVector); }; CVector::CVector (int a,int b) { x = a; y = b; } CVector CVector::operator+ (CVector v) { CVector tmp; tmp.x = x + v.x; tmp.y = y + v.y; return tmp; 17. } 18. int main () { CVector a (3,1); CVector b(8,4); CVector c; c = a + b; cout << c.x + c.y << endl; return 0; 25.}",
+        "A": "-8",
+        "B": "5",
+        "C": "16",
+        "D": "4",
+        "correct": "C"
+    },
+    {
+        "number": 154,
+        "question": "Chương trình sau cho kết quả là bao nhiêu? class CVector { public: int x,y; CVector () {} CVector (int,int); CVector operator+ (CVector); }; CVector::CVector (int a,int b) { x = a; y = b; } CVector CVector::operator+ (CVector v) { CVector tmp; tmp.x = x - v.x; tmp.y = y - v.y; return tmp; 17. } 18. int main () { CVector a (3,1); CVector b(8,4); CVector c; c = a + b; cout << c.x + c.y << endl; return 0; 25.}",
+        "A": "-8",
+        "B": "16",
+        "C": "5",
+        "D": "4",
+        "correct": "A"
+    },
+    {
+        "number": 155,
+        "question": "Chương trình sau cho kết quả là bao nhiêu? class CVector { public: int x,y; CVector () {} CVector (int,int); CVector operator+ (CVector); }; CVector::CVector (int a,int b) { x = a; y = b; } CVector CVector::operator+ (CVector v) { CVector tmp; tmp.x = x % v.x; tmp.y = y % v.y; return tmp; 17.} 18. int main () { CVector a (3,1); CVector b(8,4); CVector c; c = a + b; cout << c.x + c.y << endl; return 0; 25.}",
+        "A": "-8",
+        "B": "16",
+        "C": "5",
+        "D": "4",
+        "correct": "D"
+    },
+    {
+        "number": 156,
+        "question": "Khi chạy đoạn chương trình sau cho kết quả bằng bao nhiêu? int i; float p; p=1; for(i=1;i<3;i++) { p=pi; p=pp; } cout << p << endl;",
+        "A": "p=6",
+        "B": "p=4",
+        "C": "p=124",
+        "D": "p=144",
+        "correct": "B"
+    },
+    {
+        "number": 157,
+        "question": "Chương trình cho kết quả là bao nhiêu? class tinh { public: int a; tinh() {} tinh(int i) {a = i;} tinh operator+(tinh t) { tinh tmp; tmp.a = a % t.a; return tmp } }; void main() { tinh t1(1), t2(3),t3; t3 = t1 + t2; cout << t.a; }",
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "Lỗi biên dịch (nếu dòng cout << t.a; được thay bằng cout << t3.a; thì kết quả là 1)",
+        "correct": "D"
+    },
+    {
+        "number": 158,
+        "question": "Chương trình sau cho kết quả là bao nhiêu? class rec { public: int *w; rec(int a) { w = new int; *w = a; } }; void main() { rec r(1); cout << r.w; }",
+        "A": "1",
+        "B": "0",
+        "C": "Địa chỉ của r.w",
+        "D": "Lỗi biên dịch",
+        "correct": "C"
+    },
+    {
+        "number": 159,
+        "question": "Chương trình sau sai ở dòng nào? class CVector { int x,y; public: CVector () {} CVector (int,int); CVector operator+ (CVector); } CVector::CVector (int a,int b) { x = a; y = b; } CVector CVector::operator+ (CVector v) { CVector tmp; tmp.x = x % v.x; tmp.y = y % v.y; return tmp; 17.} 18. int main () { CVector a (3,1); CVector b(8,4); CVector c; c = a + b; cout << c.x + c.y << endl; return 0; 25.}",
+        "A": "1, 3",
+        "B": "7, 23",
+        "C": "14, 15",
+        "D": "Không sai dòng nào",
+        "correct": "B"
+    },
+    {
+        "number": 160,
+        "question": "Cho khối lệnh như sau, kết quả in ra màn hình sẽ là class rect { int x,y; public: void setValue(int a,int b) { x = a, y = b; } int area() { return a * b; } }; int main() { rect r; r.setValue(2,3); cout << “Chu vi hinh chu nhat: “ << r.area(); return 0; }",
+        "A": "Lỗi biên dịch",
+        "B": "6",
+        "C": "5",
+        "D": "0",
+        "correct": "A"
+    },
+    {
+        "number": 161,
+        "question": "Cho khối lệnh như sau, kết quả in ra màn hình sẽ là class test { public: int a; test(int i) {a = i} int b3(int b) { for(int i = 1; i <= b; i++) a *= a; return a; } void main() { test t(3); cout << t.b(3); }",
+        "A": "81",
+        "B": "3",
+        "C": "9",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 162,
+        "question": "Cho đoạn chương trình sau: int i,j; char c; for (i = 2; i < 16; i++) for (j = 0; j < 16; j++) { if (j == 0) cout << endl; c = i * 16 + j; cout << “ << c; } Đoạn chương trình trên thực hiện công việc gì?",
+        "A": "In ra dãy số từ 0 đến 16",
+        "B": "In ra bảng mã ASCII",
+        "C": "In ra các bội số của 16",
+        "D": "Lệnh sai (phải sửa lại ở dòng cout << “ << c; thành cout << “ “ << c;, nếu không đáp án là d)",
+        "correct": "B"
+    },
+    {
+        "number": 163,
+        "question": "Cho đoạn chương trình sau: void stringRear (char s[], char d[], int x) { for (int i = strlen(s); i > x; i--) d[i-x] = s[i]; d[0] = s[x]; } int main() { char str[11], tmp[11]; char *p; char a[3]; p = strchr(str, “/ “); int num = p - str; strncpy(a,str,num); a[2] = “\\0”; cout << a << endl; return 0; } Đoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
+        "A": "30",
+        "B": "04",
+        "C": "2011",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 164,
+        "question": "Cho đoạn chương trình sau: void stringRear (char s[], char d[], int x) { for (int i = strlen(s); i > x; i--) d[i-x] = s[i]; d[0] = s[x]; } int main() { char str[11], tmp[11]; char *p; char a[3]; p = strchr(str, “/”); int num = p - str; strncpy(a,str,num); a[2] = “\\0”; cout << (atof(a) - 26) << endl; return 0; } Đoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
+        "A": "30",
+        "B": "4",
+        "C": "2011",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 165,
+        "question": "Cho đoạn chương trình sau: void stringRear (char s[], char d[], int x) { for (int i = strlen(s); i > x; i--) d[i-x] = s[i]; d[0] = s[x]; } int main() { char str[11], tmp[11]; char *p; char a[3]; p = strchr(str, “/”); int num = p - str; strncpy(a,str,num); a[2] = “\\0”; stringRear (str,tmp,p-str+1); p = strchr(tmp,“/”); strncpy(a,tmp,p-tmp); a[2] = “\\0”; cout << a << endl; return 0; } Đoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
+        "A": "30",
+        "B": "04",
+        "C": "2011",
+        "D": "Lỗi biên dịch",
+        "correct": "B"
+    },
+    {
+        "number": 166,
+        "question": "Cho đoạn chương trình sau: void stringRear (char s[], char d[], int x) { for (int i = strlen(s); i > x; i--) d[i-x] = s[i]; d[0] = s[x]; } int main() { char str[11], tmp[11]; char *p; char a[3]; p = strchr(str, “/”); int num = p - str; strncpy(a,str,num); a[2] = “\\0”; stringRear (str,tmp,p-str+1); p = strchr(tmp,“/”); strncpy(a,tmp,p-tmp); a[2] = “\\0”; stringRear (tmp,str,p-tmp+1); cout << str << endl; return 0; } Đoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
+        "A": "30",
+        "B": "04",
+        "C": "2011",
+        "D": "Lỗi biên dịch",
+        "correct": "C"
+    },
+    {
+        "number": 167,
+        "question": "Cho đoạn chương trình sau: void stringRear (char s[], char d[], int x) { for (int i = strlen(s); i > x; i--) d[i-x] = s[i]; d[0] = s[x]; } int main() { char str[11], tmp[11]; char *p; char a[3]; p = strchr(str, “/”); int num = p - str; strncpy(a,str,num); a[2] = “\\0”; stringRear (str,tmp,p-str+1); p = strchr(tmp,“/”); strncpy(a,tmp,p-tmp); a[2] = “\\0”; stringRear (tmp,str,p-tmp+1); cout << atof(str) * a << endl; return 0; } Đoạn chương trình trên in ra kết quả bao nhiêu nếu cho str = 30/04/2011?",
+        "A": "30",
+        "B": "4",
+        "C": "2011",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 168,
+        "question": "Cho đoạn chương trình sau: int main() { int k; for (k=0;k<100;k++) { if ((k%3==0) && (k%7==0)) cout << k << “ “; } return 0; } Đoạn chương trình trên in ra kết quả bao nhiêu?",
+        "A": "21 42 63 84",
+        "B": "0 21 42 63 84",
+        "C": "42 63 84",
+        "D": "Chương trình báo lỗi",
+        "correct": "B"
+    },
+    {
+        "number": 169,
+        "question": "Cho đoạn chương trình sau: int main() { int k,n; for (k=1;k<30;k++) if ((k%3==0) && (k%7==0)) cout << k << “ “; } return 0; } Đoạn chương trình trên in ra kết quả bao nhiêu?",
+        "A": "21 (nếu xóa dấu } trước câu lệnh return thì kết quả là 21, nếu ko xóa thì báo lỗi)",
+        "B": "1 21",
+        "C": "14",
+        "D": "Chương trình báo lỗi",
+        "correct": "D"
+    },
+    {
+        "number": 170,
+        "question": "Cho đoạn chương trình sau: int main() { int num, dv, c, t; for (num = 100; num < 160; num++) { dv = num % 10; c = (num / 10) % 10; t = num / 100; if (dv * dv * dv + c * c * c + t * t * t == num) cout << num << “ “; } return 0; } Đoạn chương trình trên in ra kết quả bao nhiêu?",
+        "A": "153",
+        "B": "110",
+        "C": "145",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 171,
+        "question": "Cho đoạn mã sau kết quả hiển thị sẽ là: int n=12,k=2; while(k<n){ for(k=2;k<=n;k++) if(n%k==2){ cout << k << “ “; n /= k; break; } }",
+        "A": "2 2 3",
+        "B": "3 2 2",
+        "C": "5",
+        "D": "2 3 6",
+        "correct": "C"
+    },
+    {
+        "number": 172,
+        "question": "Cho đoạn chương trình sau: int main() { int n,k,dem; for ( k = 1; k < 10; k++ ) { dem = 0; for ( n = 2; n <= k; n++ ) if ( k%n==0) dem++; if (dem > 1) cout << k; } } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "468910",
+        "C": "8910",
+        "D": "4689",
+        "correct": "D"
+    },
+    {
+        "number": 173,
+        "question": "Cho đoạn chương trình sau: int main() { int n,k,dem; for ( k = 1; k < 10; k++ ) { dem = 0; for ( n = 2; n <= k; n++ ) { if ( k%n==0) dem++; if (dem > 1) cout << k; } } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "468910",
+        "C": "8910",
+        "D": "68910",
+        "correct": "A",
+        "E": "46666888889 (nếu thêm dấu } ở cuối chương trình thì cho kết quả ý e)"
+    },
+    {
+        "number": 174,
+        "question": "Cho đoạn chương trình sau: int main() { int n,k,dem; for ( k = 7; k <= 10; k++ ) { dem = 0; for ( n = 2; n <= k; n++ ) if ( k%n==0) dem++; if (dem > 1) cout << k; } } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "468910",
+        "C": "8910",
+        "D": "68910",
+        "correct": "C"
+    },
+    {
+        "number": 175,
+        "question": "Cho đoạn chương trình sau: typedef struct tagcomplex { float thuc,ao; } complex; complex tich (complex a,complex b) { complex c; c.thuc = a.thuc * b.thuc - a.ao * b.ao; c.ao = a.thuc * b.ao + a.ao * b.thuc; return c; } void print_complex (complex a) { printf(“%.2f + %.2fi”, a.thuc, a.ao); } int main() { complex a, b, c; a.thuc = 3.2; a.ao =2.8; b.thuc = 5.0; b.ao = 3.5; c = tich (a,b); print_complex (c); return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "6.20 + 25.20i",
+        "C": "25.80 + -2.80i",
+        "D": "6.2 + 25.2",
+        "correct": "B"
+    },
+    {
+        "number": 176,
+        "question": "Cho đoạn chương trình sau: typedef struct tagcomplex { float thuc,ao; } complex; complex thuong (complex a,complex b) { complex c; float tong = b.thuc * b.thuc + b.ao * b.ao; c.thuc = (a.thuc * a.ao + b.thuc * b.ao) / tong; c.ao = (a.ao * b.thuc - a.thuc * b.ao) / tong; return c; } void print_complex (complex a) { printf(“%.2f + %.2fi”, a.thuc, a.ao); } int main() { complex a, b, c; a.thuc = 3.2; a.ao =2.8; b.thuc = 5.0; b.ao = 3.5; c = thuong (a,b); print_complex (c); return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "0.7 + 0.1i",
+        "C": "0.71 + 0.08i",
+        "D": "1 + 0.1i",
+        "correct": "C"
+    },
+    {
+        "number": 177,
+        "question": "Cho đoạn chương trình sau: #include <math.h> typedef struct tagcomplex { float thuc,ao; } complex; float modul (complex a) { return sqrt(a.thuc * a.thuc + a.ao * a.ao); } int main() { complex a; a.thuc = 3.2; a.ao =2.8; cout << modul (a); return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "4.25206",
+        "B": "4.97089",
+        "C": "0.71883",
+        "D": "Chương trình báo lỗi",
+        "correct": "A"
+    },
+    {
+        "number": 178,
+        "question": "Cho đoạn chương trình sau: #include <math.h> typedef struct tagcomplex { float thuc,ao; } complex; float doiso (complex a) { return acos (a.thuc / sqrt(a.thuc * a.thuc + a.ao * a.ao)); } int main() { complex a; a.thuc = 3.2; a.ao =2.8; cout << doiso (a); return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "4.25206",
+        "C": "4.97089",
+        "D": "0.71883",
+        "correct": "D"
+    },
+    {
+        "number": 179,
+        "question": "Cho đoạn chương trình sau: #include <math.h> typedef struct tagcomplex { float thuc,ao; } complex; float doiso (complex a) { return acos (a.thuc / sqrt(a.thuc * a.thuc + a.ao * a.ao)); } float modul (complex a) { return sqrt (a.thuc * a.thuc + a.ao * a.ao); } int main() { complex a; a.thuc = 3.2; a.ao =2.8; cout << doiso (a) + modul (a); return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "4.25206",
+        "C": "4.97089",
+        "D": "0.71883",
+        "correct": "C"
+    },
+    {
+        "number": 180,
+        "question": "Cho đoạn chương trình sau: #include <math.h> typedef struct tagcomplex { float thuc,ao; } complex; float doiso (complex a) { return acos (a.thuc / modul(a)); } float modul (complex a) { return sqrt (a.thuc * a.thuc + a.ao * a.ao); } int main() { complex a; a.thuc = 3.2; a.ao =2.8; cout << doiso (a) + modul (a); return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "4.25206",
+        "C": "4.97089",
+        "D": "0.71883",
+        "correct": "A"
+    },
+    {
+        "number": 181,
+        "question": "Cho đoạn chương trình sau: int main() { int k=0,n,dem,j=0; while(j<3) { k++; dem=0; for(n=2;n<=k;n++) if(k%n==0) dem++; if(dem==1) { cout << k << “ “; j++; } } return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "2 3 5",
+        "C": "2 3 5 7 11",
+        "D": "3 4 5 7 11",
+        "correct": "B"
+    },
+    {
+        "number": 182,
+        "question": "Cho đoạn chương trình sau: int main() { int k=0,n,dem,j=0; while(j<5) { k++; dem=0; for(n=2;n<=k;n++) if(k%n==0) dem++; if(dem==1) { cout << k << “ “; j++; } } return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "2 3 5",
+        "C": "2 3 5 7 11",
+        "D": "3 4 5 7 11",
+        "correct": "C"
+    },
+    {
+        "number": 183,
+        "question": "Cho đoạn chương trình sau: int main() { int k=0,n,dem,j=0; while(j<3) { k++; dem=0; { for(n=2;n<=k;n++) if(k%n==0) dem++; if(dem==1) { cout << k << “ “; j++; } } return 0; } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "2 3 5",
+        "C": "2 3 5 7 11",
+        "D": "3 4 5 7 11",
+        "correct": "A"
+    },
+    {
+        "number": 184,
+        "question": "Cho đoạn chương trình sau: public class Test { public static void main(String[] args) { int k=0,n,dem,j=0; while(j<3) { k=8; dem=0; { for(n=3;n<=k;n++) { if(k%n==0) dem++; } if(dem==1) { System.out.print(k+” “); j++; } } } } Đoạn chương trình trên cho kết quả là bao nhiêu?",
+        "A": "Chương trình báo lỗi",
+        "B": "2 3 5",
+        "C": "2 3 5 7 11",
+        "D": "3 4 5 7 11",
+        "correct": "A"
+    },
+    {
+        "number": 185,
+        "question": "Cho đoạn chương trình sau: int main() { int k=0,n,dem,j=0; while(j<3) { k++; dem=0; for(n=2;n<=k;n++) if(k%n==0) dem++; if(dem==1) { cout << k << “\\t”; j++; } } return 0; } Đoạn chương trình trên thực hiện công việc gì?",
+        "A": "In ra các hợp số từ 1 đến 10",
+        "B": "In ra tổng các số từ 1 đến 10",
+        "C": "In ra 3 số nguyên tố đầu tiên",
+        "D": "In ra các số từ 1 đến 100 và chia hết cho 3,7",
+        "correct": "C"
+    },
+    {
+        "number": 186,
+        "question": "Cho đoạn chương trình sau: int main() { unsigned nam = 1952; char can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”, “Ky”, “Canh”, “Tan”, “Nham”, “Quy” }; char chi[][5] = { “Ty”, “Suu”, “Dan”, “Mao”, “Thin”, “Ty.”, “Ngo”, “Mui”, “Than”, “Dau”, “Tuat”, “Hoi” }; cout << can[(nam+6)%10] << chi[(nam+8)%12]; return 0; } chương trình trên in ra kết quả là bao nhiêu?",
+        "A": "NhamThin",
+        "B": "CanhThan",
+        "C": "QuyTy",
+        "D": "Chương trình báo lỗi",
+        "correct": "A"
+    },
+    {
+        "number": 187,
+        "question": "Cho đoạn chương trình sau: int main() { unsigned nam = 1971; char can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”, “Ky”, “Canh”, “Tan”, “Nham”, “Quy” }; char chi[][5] = { “Ty”, “Suu”, “Dan”, “Mao”, “Thin”, “Ty.”, “Ngo”, “Mui”, “Than”, “Dau”, “Tuat”, “Hoi” }; cout << can[(nam+6)%10] << chi[(nam+8)%12]; return 0; } chương trình trên in ra kết quả là bao nhiêu?",
+        "A": "TanHoi",
+        "B": "AtSuu",
+        "C": "CanhTy",
+        "D": "Chương trình báo lỗi",
+        "correct": "A"
+    },
+    {
+        "number": 188,
+        "question": "Cho đoạn chương trình sau: int main() { unsigned nam = 1952; char can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”, “Ky”, “Canh”, “Tan”, “Nham”, “Quy” }; char chi[][5] = { “Ty”, “Suu”, “Dan”, “Mao”, “Thin”, “Ty.”, “Ngo”, “Mui”, “Than”, “Dau”, “Tuat”, “Hoi” }; cout << can[(nam+4)%10] << chi[(nam+10)%12]; return 0; } chương trình trên in ra kết quả là bao nhiêu?",
+        "A": "NhamThin",
+        "B": "QuyTy",
+        "C": "CanhNgo",
+        "D": "Chương trình báo lỗi",
+        "correct": "C"
+    },
+    {
+        "number": 189,
+        "question": "Cho đoạn chương trình sau: int main() { unsigned nam = 1952; char can[][5] = { “Giap”, “At”, “Binh”, “Dinh”, “Mau”, “Ky”, “Canh”, “Tan”, “Nham”, “Quy” } char chi[][5] = { “Ty”, “Suu”, “Dan”, “Mao”, “Thin”, “Ty”, “Ngo”, “Mui”, “Than”, “Dau”, “Tuat”, “Hoi” }; cout << ca[(nam+6)%10] << chi[(nam+8)%12]; return 0; } chương trình trên in ra kết quả là bao nhiêu?",
+        "A": "NhamThin",
+        "B": "CanhThan",
+        "C": "QuyTy",
+        "D": "Chương trình báo lỗi",
+        "correct": "D"
+    },
+    {
+        "number": 190,
+        "question": "Đoạn chương trình sau thực hiện công việc gì: char * functionD (char *number,int n,int m) { static char ketqua[17]; char chuso[] = “0123456789ABCDEF”; int i = 0, giatri = 0, len; len = strlen(number); while (i < len) { giatri = giatri * n + (strchr(chuso,number[i]) - chuso); i++; } i = 16; ketqua[17] = 0; do{ ketqua[i] = chuso[giatri % m]; giatri /= m; i- -; } while (giatri > 0); return (ketqua + i + 1); } int main() { unsigned n = 10,m = 2; char number[17] = “123”; cout << functionD(number,n,m); return 0; }",
+        "A": "In ra các số nguyên tố từ 0 đến số đã cho",
+        "B": "In ra các hợp số của số đã cho",
+        "C": "Chuyển đổi số phức",
+        "D": "Đổi số từ hệ cơ số này sang hệ cơ số khác",
+        "correct": "D"
+    },
+    {
+        "number": 191,
+        "question": "Đoạn chương trình sau in ra kết quả bao nhiêu: char * functionD (char *number,int n,int m) { static char ketqua[17]; char chuso[] = “0123456789ABCDEF”; int i = 0, giatri = 0, len; len = strlen(number); while (i < len) { giatri = giatri * n + (strchr(chuso,number[i]) - chuso); i++; } i = 16; ketqua[17] = 0; do{ ketqua[i] = chuso[giatri % m]; giatri /= m; i--; } while (giatri > 0); return (ketqua + i + 1); } int main() { unsigned n = 10,m = 2; char number[17] = \"123”; cout << functionD(number,n,m); return 0; }",
+        "A": "1111011",
+        "B": "173",
+        "C": "146",
+        "D": "7B",
+        "correct": "A"
+    },
+    {
+        "number": 192,
+        "question": "Đoạn chương trình sau có kết quả bao nhiêu? char * functionD (char *number,int n,int m) { static char ketqua[17]; char chuso[] = “0123456789ABCDEF”; int i = 0, giatri = 0, len; len = strlen(number); while (i < len) { giatri = giatri * n + (strchr(chuso,number[i]) - chuso); i++; } i = 16; ketqua[17] = 0; do{ ketqua[i] = chuso[giatri % m]; giatri /= m; i- -; } while (giatri > 0); return (ketqua + i + 1); } int main() { unsigned n = 10,m = 9; char number[17] = \"123”; cout << functionD(number,n,m); return 0; }",
+        "A": "1111011",
+        "B": "173",
+        "C": "146",
+        "D": "7B",
+        "correct": "C"
+    },
+    {
+        "number": 193,
+        "question": "Đoạn chương trình sau có kết quả bao nhiêu? char * functionD (char *number,int n,int m) { static char ketqua[17]; char chuso[] = “0123456789ABCDEF”; int i = 0, giatri = 0, len; len = strlen(number); while (i < len) { giatri = giatri * n + (strchr(chuso,number[i]) - chuso); i++; } i = 16; ketqua[17] = 0; do{ ketqua[i] = chuso[giatri % m]; giatri /= m; i--; } while (giatri > 0); return (ketqua + i + 1); } int main() { unsigned n = 10,m = 8; char number[17] = \"123”; cout << functionD(number,n,m); return 0; }",
+        "A": "173",
+        "B": "146",
+        "C": "A3",
+        "D": "7B",
+        "correct": "A"
+    },
+    {
+        "number": 194,
+        "question": "Đoạn chương trình sau có kết quả bao nhiêu? char * functionD (char *number,int n,int m) { static char ketqua[17]; char chuso[] = “0123456789ABCDEF”; int i = 0, giatri = 0, len; len = strlen(number); while (i < len) { giatri = giatri * n + (strchr(chuso,number[i]) - chuso); i++; } i = 16; ketqua[17] = 0; do{ ketqua[i] = chuso[giatri % m]; giatri /= m; i- -; } while (giatri > 0); return (ketqua + i + 1); } int main() { unsigned n = 10,m = 16; char number[17] = \"123”; cout << functionD(number,n,m); return 0; }",
+        "A": "173",
+        "B": "146",
+        "C": "A3",
+        "D": "7B",
+        "correct": "D"
+    },
+    {
+        "number": 195,
+        "question": "Đoạn chương trình sau thực hiện công việc gì: char * functionD (char *number,int n,int m) { static char ketqua[17]; char chuso[] = “0123456789ABCDEF”; int i = 0, giatri = 0, len; len = strlen(number); while (i < len) { giatri = giatri * n + (strchr(chuso,number[i]) - chuso); i++; } i = 16; ketqua[17] = 0; do{ ketqua[i] = chuso[giatri % m]; giatri /= m; i- -; } while (giatri > 0); return (ketqua + i + 1); } int main() { unsigned n = 10,m = 12; char number[17] = 123”; cout << functionD(number,n,m); return 0; }",
+        "A": "173",
+        "B": "146",
+        "C": "7B",
+        "D": "A3",
+        "correct": "D"
+    },
+    {
+        "number": 196,
+        "question": "Cho đoạn mã sau: 1:int [] a={3,1,7,0,10} 2:int n=5,k,max; 3:max=a[0]; 4:for(k=0;k<n;k++) 5:if(max<a[k]) 6:max=a[k]; 7:cout << max << endl; 8:for(k=0;k<n;k++) 9:if(max==a[k]) 10:cout << k << endl; Kết quả cho ở dòng lệnh 7 là:\"",
+        "A": "10",
+        "B": "7",
+        "C": "4",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 197,
+        "question": "Cho đoạn mã sau: 1:int a[] = {3,1,7,0,10}; 2:int n=5,k,max; 3:max=a[0]; 4:for(k=0;k<n;k++) 5:if(max<a[k]) 6:max=a[k]; 7:cout << max; 8:for(k=0;k<n;k++) 9:if(max==a[k]) 10:cout << k; Kết quả hiển thị ở dòng lệnh 7 là:\"",
+        "A": "10",
+        "B": "7",
+        "C": "104",
+        "D": "4",
+        "correct": "A"
+    },
+    {
+        "number": 198,
+        "question": "Cho đoạn mã sau: 1:int [] a={3,1,7,0,10}; 2:int n=5,k,max; 3:max=a[0]; 4:for(k=0;k<n;k++) 5:if(max<a[k]) 6:max=a[k]; 7:cout << max; 8:for(k=0;k<n;k++) 9:if(max==a[k]) 10:cout << k; Kết quả hiển thị là:\"",
+        "A": "10",
+        "B": "7",
+        "C": "104",
+        "D": "4",
+        "correct": "D"
+    },
+    {
+        "number": 199,
+        "question": "Cho đoạn mã sau: 1:for(int i=0;i<2;i++) 2:for(int j=0;j<3;j++){ 3:if(i==j) continue; 6:cout << “i = “ << i << “ j = “ << j << endl; 7:} “Dòng nào sẽ là một trong các kết quả được in ra?\"",
+        "A": "i = 0 j = 0",
+        "B": "i = 2 j = 1",
+        "C": "i = 0 j = 2",
+        "D": "Lỗi biên dịch",
+        "correct": "C"
+    },
+    {
+        "number": 200,
+        "question": "Cho đoạn mã sau: 1:for(i=0;i<2;i++) 2:for(j=0;j<3;j++){ 3:if(i = j) continue; 6:cout << “i = “ << i << “ j = “ << j << endl; 7:} “Dòng nào sẽ là một trong các kết quả được in ra?\"",
+        "A": "i = 0 j = 0",
+        "B": "i = 0 j = 1",
+        "C": "i = 0 j = 2",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 201,
+        "question": "Cho đoạn mã sau: int n=10,k; for (k = 2;k <= n;k++) { int dem = 0; for (int i = 2; i <= k; i++) if (n % k == 0) dem++; if ((n % k == 0) && (dem == 1)) cout << k << “ “; } Kết quả đoạn mã là bao nhiêu khi thực hiện?",
+        "A": "2",
+        "B": "2 5 10",
+        "C": "2 3 5",
+        "D": "2 5",
+        "correct": "A"
+    },
+    {
+        "number": 202,
+        "question": "Cho đoạn mã sau: int n=10,k; for (k = 2;k <= n;k++) { int dem = 0; for (int i = 2; i <= k; i++) if (n % k == 0) dem++; if ((n % k == 0) | | (dem == 1)) cout << k << “ “; } Kết quả đoạn mã là bao nhiêu khi thực hiện?",
+        "A": "2",
+        "B": "2 5 10",
+        "C": "2 3 5",
+        "D": "2 5",
+        "correct": "B"
+    },
+    {
+        "number": 203,
+        "question": "Cho đoạn mã sau: int N,k; for (k = 2;k <= N;k++) if (N % k == 0) { cout << k << “ “; n = N/k; k--; } Nếu cho N =12, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 2 3",
+        "B": "3 3",
+        "C": "5 5",
+        "D": "2 3 7",
+        "correct": "A"
+    },
+    {
+        "number": 204,
+        "question": "Cho đoạn mã sau: int N,k; for (k = 2;k <= N;k++) if (N % k == 0) { cout << k << “ “; n = N/k; k--; } Nếu cho N =9, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 2 3",
+        "B": "3 3",
+        "C": "5 5",
+        "D": "2 3 7",
+        "correct": "B"
+    },
+    {
+        "number": 205,
+        "question": "Cho đoạn mã sau: int N,k; for (k = 2;k <= N;k++) if (N % k == 0) { cout << k << “ “; n = N/k; k--; } Nếu cho N =25, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 2 3",
+        "B": "3 3",
+        "C": "5 5",
+        "D": "2 3 7",
+        "correct": "C"
+    },
+    {
+        "number": 206,
+        "question": "Cho đoạn mã sau: int N,k; for (k = 2;k <= N;k++) if (N % k == 0) { cout << k << “ “; n = N/k; k--; } Nếu cho N =42, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 2 3",
+        "B": "3 3",
+        "C": "5 5",
+        "D": "2 3 7",
+        "correct": "D"
+    },
+    {
+        "number": 207,
+        "question": "Cho đoạn mã sau: int n,k; for (k = 2;k <= N;k++) if (n % k == 0) { cout << k << “ “; n = N/k; k--; } Nếu cho N =12, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 2 3",
+        "B": "3 3",
+        "C": "5 5",
+        "D": "Lỗi biên dịch (sai biến n,N)",
+        "correct": "D"
+    },
+    {
+        "number": 208,
+        "question": "Cho đoạn mã sau: int N,k; for (k = 2;k <= N;k++) if (N % k == 0) { cout << k << “ “; n = N/k; k++; } Nếu cho N =12, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 6",
+        "B": "3",
+        "C": "5",
+        "D": "2 7",
+        "correct": "A"
+    },
+    {
+        "number": 209,
+        "question": "Cho đoạn mã sau: int N,k; for (k = 2;k <= N;k++) if (N % k == 0) { cout << k << “ “; n = N/k; k--; } Nếu cho N =9, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 6",
+        "B": "3 (không có đáp án đúng, đáp án đúng là 3 3, có thể chọn b nếu phải chọn)",
+        "C": "5",
+        "D": "2 7",
+        "correct": "B"
+    },
+    {
+        "number": 210,
+        "question": "Cho đoạn mã sau: int N,k; for (k = 2;k <= N;k++) if (N % k == 0) { cout << k << “ “; n = N/k; k--; } Nếu cho N =42, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 6",
+        "B": "3",
+        "C": "5",
+        "D": "2 7 (không có đáp án đúng, đáp án đúng là 2 3 7, có thể chọn d nếu phải chọn)",
+        "correct": "D"
+    },
+    {
+        "number": 211,
+        "question": "Cho đoạn mã sau: int N,k; for (k = 2;k <= N;k++) if (N % k == 0) { cout << k << “ “; n = N/k; k--; } Nếu cho N =25, khi thực hiện đoạn mã sẽ cho kết quả là bao nhiêu?",
+        "A": "2 6",
+        "B": "3",
+        "C": "5",
+        "D": "2 7 (không có đáp án đúng, đáp án đúng là 5 5, các em có thể chọn c nếu đề thi vẫn vậy)",
+        "correct": "C"
+    },
+    {
+        "number": 212,
+        "question": "Cho đoạn mã sau: int main() { float S = 0.0; int N=2,k; for (k = 1; k <= N; k++) S += 1/sum(k); cout << S; return 0; } float sum(int k) { int tong = 0; for (int x = 1; x <= k; x++) tong += x; return tong; }",
+        "A": "1",
+        "B": "1.33333",
+        "C": "1.5",
+        "D": "Chương trình báo lỗi (nếu đưa hàm sum lên trước hàm main() thì kết quả là b, còn không báo lỗi)",
+        "correct": "D"
+    },
+    {
+        "number": 213,
+        "question": "Cho đoạn mã sau: float sum(int); int main() { float S = 0.0; int N=2,k; for (k = 1; k <= N; k++) S += 1/sum(k); cout << S; return 0; } float sum(int k) { int tong = 0; for (int x = 1; x <= k; x++) tong += x; return tong; }",
+        "A": "1",
+        "B": "1.33333",
+        "C": "1.5",
+        "D": "1.6",
+        "correct": "B"
+    },
+    {
+        "number": 214,
+        "question": "Cho đoạn mã sau: float sum(int); int main() { float S = 0.0; int N=4,k; for (k = 1; k <= N; k++) S += 1/sum(k); cout << S; return 0; } float sum(int k) { int tong = 0; for (int x = 1; x <= k; x++) tong += x; return tong; }",
+        "A": "1",
+        "B": "1.3333334",
+        "C": "1.5",
+        "D": "1.6",
+        "correct": "D"
+    },
+    {
+        "number": 215,
+        "question": "Cho đoạn mã sau: float sum(int); int main() { float S = 0.0; int N=5,k; for (k = 1; k <= N; k++) S += 1/sum(k); cout << S; return 0; } float sum(int k) { int tong = 0; for (int x = 1; x <= k; x++) tong += x; return tong; }",
+        "A": "1.6",
+        "B": "1.33333",
+        "C": "1.5",
+        "D": "1.66667",
+        "correct": "D"
+    },
+    {
+        "number": 216,
+        "question": "Cho đoạn mã sau: int main() { double a = 4, xn, kq, dem = 0; xn = (a + 1) / 2; do{ kq = xn; xn = 0.5 * (xn + a/xn); dem++; } while (fabs(xn - kq) > 0.001); cout << kq; return 0; }",
+        "A": "2 (kết quả đúng là 2.00061)",
+        "B": "1.41",
+        "C": "1.73",
+        "D": "3",
+        "correct": "A"
+    },
+    {
+        "number": 217,
+        "question": "Cho đoạn mã sau: int main() { double a = 4, xn, kq, dem = 0; xn = (a + 1) / 2; do{ kq = xn; xn = 0.5 * (xn + a/xn); dem++; } while (fabs(xn - kq) > 0.001); cout << dem; return 0; }",
+        "A": "2",
+        "B": "1.41",
+        "C": "1.73",
+        "D": "3",
+        "correct": "D"
+    },
+    {
+        "number": 218,
+        "question": "Cho đoạn mã sau: int main() { double a = 3, xn, kq, dem = 0; xn = (a + 1) / 2; do{ kq = xn; xn = 0.5 * (xn + a/xn); dem++; } while (fabs(xn - kq) > 0.001); cout << kq; return 0; }",
+        "A": "2",
+        "B": "1.41",
+        "C": "1.73",
+        "D": "3",
+        "correct": "C"
+    },
+    {
+        "number": 219,
+        "question": "Cho đoạn mã sau: int main() { char chuoi[] = “tinhoc”; int khoa = 1,i,len; len = strlen(chuoi); for (i = 0; i < len; i++) chuoi[i] = (char) ((int)chuoi[i] + khoa); cout << chuoi; }",
+        "A": "ujoipd",
+        "B": "tinhoc",
+        "C": "TINHOC",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 220,
+        "question": "Cho đoạn mã sau: int main() { char chuoi[] = “tinhoc”; int khoa = 32,i,len; len = strlen(chuoi); for (i = 0; i < len; i++) chuoi[i] = (char) ((int)chuoi[i] - khoa); cout << chuoi; }",
+        "A": "ujoipd",
+        "B": "tinhoc",
+        "C": "TINHOC",
+        "D": "Lỗi biên dịch",
+        "correct": "C"
+    },
+    {
+        "number": 221,
+        "question": "Cho đoạn mã sau: int main() { char chuoi[] = “tinhoc”; int khoa = 32,i,len; len = strlen(chuoi); for (i = 0; i < len; i++) chuoi = (char) ((int)chuoi[i] - khoa); cout << chuoi; }",
+        "A": "ujoipd",
+        "B": "tinhoc",
+        "C": "TINHOC",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 222,
+        "question": "Cho đoạn mã sau: float tinhtich (int k) { float tich =1; for (int i = 1; i <=k; i++) tich *= i; return tich; } float tinhtong (int k) { float tong = 0; for (int i = 1; i <= k; i++) tong += tinhtich(i); return tong; } int main() { float s = 0.0; int n = 3, k; for (k = 1; k <= n; k++) s += 1/tinhtong(k); cout << s; }",
+        "A": "1.44444",
+        "B": "1.33333",
+        "C": "1.47475",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 223,
+        "question": "Cho đoạn mã sau: float tinhtong (int k) { float tong = 0; for (int i = 1; i <= k; i++) tong += tinhtich(i); return tong; } float tinhtich (int k) { float tich =1; for (int i = 1; i <=k; i++) tich *= i; return tich; } int main() { float s = 0.0; int n = 3, k; for (k = 1; k <= n; k++) s += 1/tinhtong(k); cout << s; }",
+        "A": "1.44444",
+        "B": "1.33333",
+        "C": "1.47475",
+        "D": "Lỗi biên dịch",
+        "correct": "D"
+    },
+    {
+        "number": 224,
+        "question": "Cho đoạn mã sau: float tinhtich (int k) { float tich =1; for (int i = 1; i <=k; i++) tich *= i; return tich; } float tinhtong (int k) { float tong = 0; for (int i = 1; i <= k; i++) tong += tinhtich(i); return tong; } int main() { float s = 0.0; int n = 4, k; for (k = 1; k <= n; k++) s += 1/tinhtong(k); cout << s; }",
+        "A": "1.44444",
+        "B": "1.33333",
+        "C": "1.47475",
+        "D": "1",
+        "correct": "C"
+    },
+    {
+        "number": 225,
+        "question": "Cho đoạn mã sau: float tinhtich (int k) { float tich =1; for (int i = 1; i <=k; i++) tich *= i; return tich; } float tinhtong (int k) { float tong = 0; for (int i = 1; i <= k; i++) tong += tinhtich(i); return tong; } int main() { float s = 0.0; int n = 4, k; for (k = 1; k <= n; k++) { s += 1/tinhtong(k); s = 1; } cout << s; }",
+        "A": "1.44444",
+        "B": "1.33333",
+        "C": "1.47475",
+        "D": "1",
+        "correct": "D"
+    },
+    {
+        "number": 226,
+        "question": "Cho đoạn mã sau: int main () { int n = 5, i, j, tong; for (i = 2; i <= n; i++) { tong = 1; for (j = 2; j <= i/2; j++) if ( i % j == 0 ) tong += j; if ( tong == j ) cout << i << “ “; } return 0; }",
+        "A": "4 ( có ngoặc {} ở for dong 5 thì = 4 )",
+        "B": "2 3 5",
+        "C": "3 5",
+        "D": "Lỗi biên dịch vì thiếu dấu {} ở lệnh for dòng 5",
+        "correct": "D"
+    },
+    {
+        "number": 227,
+        "question": "Cho đoạn mã sau: int main () { int n = 5, i, j, tong; for (i = 2; i <= n; i++) { tong = 1; for (j = 2; j <= i; j++) if ( i % j == 0 ) tong += j; if ( tong == j ) cout << i << “ “; } return 0; }",
+        "A": "4",
+        "B": "2 3 5",
+        "C": "3 5",
+        "D": "Lỗi biên dịch",
+        "correct": "B"
+    },
+    {
+        "number": 228,
+        "question": "Chương trình có kết quả là bao nhiêu khi thực hiện: unsigned long giaithua (int k) { unsigned long kq = 1; for (int i = 2; i <= k; i++) kq *= i; return kq; } unsigned long th (int k, int n) { return giaithua (n) / (giaithua (k) * giaithua (n-k)); } int main() { int n = 3, k= 2; cout << th(k,n); }",
+        "A": "3",
+        "B": "6",
+        "C": "0",
+        "D": "Lỗi biên dịch",
+        "correct": "A"
+    },
+    {
+        "number": 229,
+        "question": "Chương trình có kết quả là bao nhiêu khi thực hiện: unsigned long giaithua (int k) { unsigned long kq = 1; for (int i = 2; i <= k; i++) kq *= i; return kq; } unsigned long th (int k, int n) { return giaithua (n) / (giaithua (k) * giaithua (n-k)); } int main() { int n = 4, k= 2; cout << th(k,n); }",
+        "A": "3",
+        "B": "6",
+        "C": "0",
+        "D": "Lỗi biên dịch",
+        "correct": "B"
+    }
+]

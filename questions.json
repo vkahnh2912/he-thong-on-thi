@@ -1,0 +1,82 @@
+[
+  {
+    "question": "HTML là gì?",
+    "A": "Ngôn ngữ lập trình",
+    "B": "Ngôn ngữ đánh dấu",
+    "C": "Hệ điều hành",
+    "D": "Cơ sở dữ liệu",
+    "correct": "B"
+  },
+  {
+    "question": "CSS dùng để làm gì trong thiết kế web?",
+    "A": "Xử lý dữ liệu phía server",
+    "B": "Tạo cấu trúc trang web",
+    "C": "Định dạng và trang trí giao diện",
+    "D": "Quản lý cơ sở dữ liệu",
+    "correct": "C"
+  },
+  {
+    "question": "Thẻ HTML nào dùng để tạo liên kết?",
+    "A": "<link>",
+    "B": "<a>",
+    "C": "<href>",
+    "D": "<url>",
+    "correct": "B"
+  },
+  {
+    "question": "JavaScript chủ yếu chạy ở đâu?",
+    "A": "Trên máy chủ",
+    "B": "Trên trình duyệt (client-side)",
+    "C": "Trong cơ sở dữ liệu",
+    "D": "Trên hệ điều hành",
+    "correct": "B"
+  },
+  {
+    "question": "Phương thức nào dùng để chuyển đổi chuỗi JSON thành object trong JS?",
+    "A": "JSON.stringify()",
+    "B": "JSON.toObject()",
+    "C": "JSON.parse()",
+    "D": "JSON.convert()",
+    "correct": "C"
+  },
+  {
+    "question": "Thuộc tính CSS nào dùng để thay đổi màu chữ?",
+    "A": "background-color",
+    "B": "color",
+    "C": "font-style",
+    "D": "text-decoration",
+    "correct": "B"
+  },
+  {
+    "question": "Trong JavaScript, từ khóa nào dùng để khai báo biến không thể thay đổi giá trị?",
+    "A": "var",
+    "B": "let",
+    "C": "const",
+    "D": "static",
+    "correct": "C"
+  },
+  {
+    "question": "Thẻ nào dùng để chèn hình ảnh vào trang HTML?",
+    "A": "<image>",
+    "B": "<img>",
+    "C": "<picture>",
+    "D": "<src>",
+    "correct": "B"
+  },
+  {
+    "question": "Đơn vị nào sau đây dùng để thiết kế responsive trong CSS?",
+    "A": "px",
+    "B": "%",
+    "C": "vw/vh",
+    "D": "Cả B và C",
+    "correct": "D"
+  },
+  {
+    "question": "Sự kiện nào trong JavaScript được kích hoạt khi người dùng nhấp chuột?",
+    "A": "onchange",
+    "B": "onclick",
+    "C": "onload",
+    "D": "onhover",
+    "correct": "B"
+  }
+]

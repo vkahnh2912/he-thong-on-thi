@@ -1,0 +1,973 @@
+﻿[
+    {
+        "question":  "Tiến trình ra quyết định bao gồm mấy phần?",
+        "A":  "1",
+        "B":  "2",
+        "C":  "3",
+        "D":  "4",
+        "correct":  "C"
+    },
+    {
+        "question":  "Tiến trình ra quyết định bao gồm?",
+        "A":  "Phân Tích,Thiết Kế,Lựa chọn",
+        "B":  "Phân tích, thiết kế,lựa chọn, thực thi lựa chọn",
+        "C":  "Phân tích, thiết kế, hành động",
+        "D":  "Phân tích, thiết kế",
+        "correct":  "A"
+    },
+    {
+        "question":  "Quyết định được xác định theo một trình tự thủ tục xác định được gọi là quyết định……",
+        "A":  "Có cấu trúc",
+        "B":  "Không cấu trúc",
+        "C":  "Bán cấu trúc",
+        "D":  "Không tài liệu",
+        "correct":  "A"
+    },
+    {
+        "question":  "Tính lương cho công nhân được xếp vào phạm trù ra quyết định …",
+        "A":  "Có cấu trúc",
+        "B":  "Không cấu trúc",
+        "C":  "Bán cấu trúc",
+        "D":  "Không tài liệu",
+        "correct":  "A"
+    },
+    {
+        "question":  "Ra quyết định là?",
+        "A":  "Công việc của các nhà quản trị cấp cao",
+        "B":  "Lựa chọn 1 giải pháp cho vấn đề đã xác định",
+        "C":  "Một công việc mang tính nghệ thuật",
+        "D":  "Tất cả điều sai",
+        "correct":  "A"
+    },
+    {
+        "question":  "Ra quyết định là 1 hoạt động?",
+        "A":  "Nhờ vào trực giác",
+        "B":  "Mang tính khoa học và nghệ thuật",
+        "C":  "Nhờ vào kinh nghiệm",
+        "D":  "Tất cả điều chưa chính xác",
+        "correct":  "B"
+    },
+    {
+        "question":  "Câu nào là câu có phát biểu sai trong các câu sau?",
+        "A":  "Ra quyết định phụ thuộc hoàn toàn vào ý muốn chủ quan của nhà quản trị",
+        "B":  "Ra quyết định mang tính khoa học và nghệ thuật",
+        "C":  "Việc ra quyết định rất cần dựa vào kinh nghiệm",
+        "D":  "Cần nắm vững lý thuyết ra quyết định",
+        "correct":  "A"
+    },
+    {
+        "question":  "Ra quyết định quản trị nhằm?",
+        "A":  "Chọn phương án tốt nhất và ra quyết định",
+        "B":  "Thảo luận với những người khác và ra quyết định",
+        "C":  "Giải quyết 1 vấn đề",
+        "D":  "Tìm phương án để giải quyết vấn đề",
+        "correct":  "A"
+    },
+    {
+        "question":  "Qui trình ra quyết định gồm?",
+        "A":  "Xác định vấn đề và ra quyết định",
+        "B":  "Chọn phương án tốt nhất và ra quyết định",
+        "C":  "Thảo luận với những người khác và ra quyết định",
+        "D":  "Nhiều bước khác nhau",
+        "correct":  "D"
+    },
+    {
+        "question":  "DSS là viết tắt của hệ thống nào?",
+        "A":  "Hệ hỗ trợ điều hành",
+        "B":  "Hệ chuyên gia",
+        "C":  "Hệ tri thức",
+        "D":  "Hệ trợ giúp ra quyết định",
+        "correct":  "D"
+    },
+    {
+        "question":  "Bước thứ nhất trong tiến trình ra quyết định là?",
+        "A":  "Chọn phương án tốt nhất và quyết định",
+        "B":  "Xác định mục tiêu",
+        "C":  "Phân tích, nhận diện vấn đề cần giải quyết",
+        "D":  "Tìm kiếm các phương án",
+        "correct":  "C"
+    },
+    {
+        "question":  "Bước khó khăn nhất của tiến trình ra quyết định là",
+        "A":  "Chọn phương án tốt nhất và quyết định",
+        "B":  "Xác định mục tiêu",
+        "C":  "Phân tích, nhận diện vấn đề cần giải quyết",
+        "D":  "Tìm kiếm các phương án",
+        "correct":  "A"
+    },
+    {
+        "question":  "Bước thứ 2 trong tiến trình ra quyết định là?",
+        "A":  "Phân tích",
+        "B":  "Thiết kế",
+        "C":  "Lựa chọn",
+        "D":  "Thực thi",
+        "correct":  "B"
+    },
+    {
+        "question":  "Bước thứ 3 trong tiến trình ra quyết định là?",
+        "A":  "Phân tích",
+        "B":  "Thiết kế",
+        "C":  "Lựa chọn",
+        "D":  "Thực thi",
+        "correct":  "C"
+    },
+    {
+        "question":  "Quyết định có cấu trúc (Structured Decision) là?",
+        "A":  "Các quyết định mà người ra quyết định biết chắc chắn đúng.",
+        "B":  "Các quyết định mà người ra quyết định biết là có nhiều câu trả lời gần đúng và không có cách nào để tìm ra câu trả lời chính xác nhất.",
+        "C":  "Các quyết định lặp đi lặp lại.",
+        "D":  "Các quyết định không xảy ra thường xuyên",
+        "correct":  "A"
+    },
+    {
+        "question":  "Quyết định không có cấu trúc (NonStructured Decision) là?",
+        "A":  "Các quyết định mà người ra quyết định biết chắc chắn đúng.",
+        "B":  "Các quyết định mà người ra quyết định biết là có nhiều câu trả lời gần đúng và không có cách nào để tìm ra câu trả lời chính xác nhất.",
+        "C":  "Các quyết định lặp đi lặp lại.",
+        "D":  "Các quyết định không xảy ra thường xuyên.",
+        "correct":  "B"
+    },
+    {
+        "question":  "Một hệ hỗ trợ quyết định gồm có mấy thành phần chính?",
+        "A":  "1",
+        "B":  "2",
+        "C":  "3",
+        "D":  "4",
+        "correct":  "C"
+    },
+    {
+        "question":  "Một hệ hỗ trợ quyết định gồm có ba thành phần chính, là những thành phần nào trong các thành phần sau đây",
+        "A":  "Quản lý dữ liệu",
+        "B":  "Quản lý mô hình",
+        "C":  "Quản lý giao diện người dùng",
+        "D":  "Cả 3 thành phần trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "TPS – Transaction Processing Systems là?",
+        "A":  "Hệ thống xử lý tác nghiệp",
+        "B":  "Hệ thống thông tin quản lý",
+        "C":  "Hệ thống trợ giúp ra quyết định",
+        "D":  "Hệ chuyên gia",
+        "correct":  "A"
+    },
+    {
+        "question":  "MIS - Management Information Systems là gì?",
+        "A":  "Hệ thống xử lý tác nghiệp",
+        "B":  "Hệ thống thông tin quản lý",
+        "C":  "Hệ thống trợ giúp ra quyết định",
+        "D":  "Hệ chuyên gia",
+        "correct":  "B"
+    },
+    {
+        "question":  "Quản trị dữ liệu là gì?",
+        "A":  "Bao gồm các CSDL chứa dữ liệu liên quan đến một tình huống và được quản lý bởi phần mềm là hệ quản trị CSDL",
+        "B":  "Cho phép khai thác và quản lý các mô hình định lượng (xử lý) khác nhau, cung cấp khả năng phân tích cho hệ thống.",
+        "C":  "Cung cấp giao diện cho người dùng để liên lạc và ra lệnh cho Hệ hỗ trợ quyết định",
+        "D":  "Hoạt động như 1 thành phần độc lập, hoặc có thể trợ giúp cho bất kỳ 1 hệ thống nào trong 3 hệ thống nói trên",
+        "correct":  "A"
+    },
+    {
+        "question":  "Quản trị mô hình là gì?",
+        "A":  "Bao gồm các CSDL chứa dữ liệu liên quan đến một tình huống và được quản lý bởi phần mềm là hệ quản trị CSDL",
+        "B":  "Cho phép khai thác và quản lý các mô hình định lượng (xử lý) khác nhau, cung cấp khả năng phân tích cho hệ thống.",
+        "C":  "Cung cấp giao diện cho người dùng để liên lạc và ra lệnh cho Hệ hỗ trợ quyết định",
+        "D":  "Hoạt động như 1 thành phần độc lập, hoặc có thể trợ giúp cho bất kỳ 1 hệ thống nào trong 3 hệ thống nói trên",
+        "correct":  "B"
+    },
+    {
+        "question":  "Quản trị đối thoại là gì?",
+        "A":  "Bao gồm các CSDL chứa dữ liệu liên quan đến một tình huống và được quản lý bởi phần mềm là hệ quản trị CSDL",
+        "B":  "Cho phép khai thác và quản lý các mô hình định lượng (xử lý) khác nhau, cung cấp khả năng phân tích cho hệ thống.",
+        "C":  "Cung cấp giao diện cho người dùng để liên lạc và ra lệnh cho Hệ hỗ trợ quyết định",
+        "D":  "Hoạt động như 1 thành phần độc lập, hoặc có thể trợ giúp cho bất kỳ 1 hệ thống nào trong 3 hệ thống nói trên",
+        "correct":  "C"
+    },
+    {
+        "question":  "Quản trị tri thức là gì?",
+        "A":  "Bao gồm các CSDL chứa dữ liệu liên quan đến một tình huống và được quản lý bởi phần mềm là hệ quản trị CSDL",
+        "B":  "Cho phép khai thác và quản lý các mô hình định lượng (xử lý) khác nhau, cung cấp khả năng phân tích cho hệ thống.",
+        "C":  "Cung cấp giao diện cho người dùng để liên lạc và ra lệnh cho Hệ hỗ trợ quyết định",
+        "D":  "Hoạt động như 1 thành phần độc lập, hoặc có thể trợ giúp cho bất kỳ 1 hệ thống nào trong 3 hệ thống nói trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "Hiệu quả của quyết định phụ thuộc vào?",
+        "A":  "Nắm vững các bước của quá trình ra quyết định",
+        "B":  "Vận dụng nhuần nhuyễn các bước của quá trình ra quyết định",
+        "C":  "Bảo đảm đầy đủ các điều kiện thực hiện quyết định",
+        "D":  "Tất cả điều đúng",
+        "correct":  "D"
+    },
+    {
+        "question":  "Lựa chọn mô hình ra quyết định phụ thuộc vào?",
+        "A":  "Tính cách nhà quản trị",
+        "B":  "Ý muốn của đa số nhân viên",
+        "C":  "Năng lực nhà quản trị",
+        "D":  "Nhiều yếu tố khác nhau",
+        "correct":  "D"
+    },
+    {
+        "question":  "Hiệu quả của quyết định phụ thuộc vào?",
+        "A":  "Nắm vững các bước của quá trình ra quyết định",
+        "B":  "Vận dụng nhuần nhuyễn các bước của quá trình ra quyết định",
+        "C":  "Bảo đảm đầy đủ các điều kiện thực hiện quyết định",
+        "D":  "Tất cả điều đúng",
+        "correct":  "D"
+    },
+    {
+        "question":  "Decision Support Systems có nghĩa là gì?",
+        "A":  "Hệ chuyên gia",
+        "B":  "Hệ trợ giúp ra quyết định",
+        "C":  "Hệ tri thức",
+        "D":  "Hệ quản trị CSDL",
+        "correct":  "B"
+    },
+    {
+        "question":  "Những kỹ năng ra quyết định bao gồm?",
+        "A":  "Quyết định đúng thẩm quyền",
+        "B":  "Phải ngắn gọn, kịp thời, chính xác",
+        "C":  "Phải có tính pháp lý",
+        "D":  "Tất cả các kỹ năng trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "Ra quyết định theo phong cách độc đoán sẽ?",
+        "A":  "Không có lợi trong mọi trường hợp",
+        "B":  "Không được cấp dưới ủng hộ khi thực thi quyết định",
+        "C":  "Gặp sai lầm trong giải quyết vấn đề",
+        "D":  "Không phát huy được tính sáng tạo của nhân viên trong quá trình ra quyết định",
+        "correct":  "D"
+    },
+    {
+        "question":  "Quá trình ra quyết định có mấy giai đoạn?",
+        "A":  "2",
+        "B":  "3",
+        "C":  "4",
+        "D":  "5",
+        "correct":  "C"
+    },
+    {
+        "question":  "Quá trình ra quyết định – giai đoạn tìm hiểu là?",
+        "A":  "Phát biểu mô hình, đặt các tiêu chuẩn chọn, tìm các phương án chọn, dự đoán và đo kết quả ra",
+        "B":  "Các mục tiêu, tập hợp dữ liệu, định hình bài toán, phân loại vấn đề, trình bày bài toán",
+        "C":  "Tính toán theo mô hình, phân tích độ phù hợp, chọn phương án tốt (nhất), lập kế hoạch thực hiện, thiết kế một hệ thống điều khiển",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "B"
+    },
+    {
+        "question":  "Quá trình ra quyết định – Giai đoạn phân tích là?",
+        "A":  "Phát biểu mô hình, đặt các tiêu chuẩn chọn, tìm các phương án chọn, dự đoán và đo kết quả ra",
+        "B":  "Các mục tiêu, tập hợp dữ liệu, định hình bài toán, phân loại vấn đề, trình bày bài toán",
+        "C":  "Tính toán theo mô hình, phân tích độ phù hợp, chọn phương án tốt (nhất), lập kế hoạch thực hiện, thiết kế một hệ thống điều khiển",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "A"
+    },
+    {
+        "question":  "Quá trình ra quyết định – Giai đoạn lựa chọn là?",
+        "A":  "Phát biểu mô hình, đặt các tiêu chuẩn chọn, tìm các phương án chọn, dự đoán và đo kết quả ra",
+        "B":  "Các mục tiêu, tập hợp dữ liệu, định hình bài toán, phân loại vấn đề, trình bày bài toán",
+        "C":  "Tính toán theo mô hình, phân tích độ phù hợp, chọn phương án tốt (nhất), lập kế hoạch thực hiện, thiết kế một hệ thống điều khiển",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "C"
+    },
+    {
+        "question":  "Môi trường ra quyết định phụ thuộc vào các yếu tố nào sau đây?",
+        "A":  "Các yếu tố tác động",
+        "B":  "Các yếu tố tổ chức",
+        "C":  "Các yếu tố ngoại cảnh",
+        "D":  "Tác động – Tổ chức – Ngoại cảnh – Thông tin – Các mục tiêu quản lý",
+        "correct":  "D"
+    },
+    {
+        "question":  "Môi trường ra quyết định phụ thuộc vào bao nhiêu yếu tố?",
+        "A":  "3",
+        "B":  "4",
+        "C":  "5",
+        "D":  "6",
+        "correct":  "C"
+    },
+    {
+        "question":  "Môi trường ra quyết định – Các yếu tố tác động là?",
+        "A":  "Trực tiếp, dễ nhìn thấy như: Hạn chế về tài nguyên, điều kiện vật lý và các tham số chức năng ảnh hưởng đến hiệu quả",
+        "B":  "Điều kiện xã hội, ý thức chấp hành, hành vi văn hóa, thái độ và nhân cách",
+        "C":  "Pháp luật, các quy định cần tuân thủ",
+        "D":  "Thông tin tỉ mỉ, tổng hợp, đa dạng",
+        "correct":  "A"
+    },
+    {
+        "question":  "Môi trường ra quyết định – Các yếu tố tổ chức là?",
+        "A":  "Chính sách",
+        "B":  "Con người",
+        "C":  "Chính sách – Cấu trúc – Hình ảnh – Con người",
+        "D":  "Tổ chức",
+        "correct":  "C"
+    },
+    {
+        "question":  "Môi trường ra quyết định – Các yếu tố ngoại cảnh là?",
+        "A":  "Pháp luật, các quy luật cần tuân thủ",
+        "B":  "Pháp luật, các quy luật cần tuân thủ - Kinh tế - môi trường – Thị trường – Đòi hỏi của khách hàng, nhu cầu của khách hàng",
+        "C":  "Thị trường: Sự cạnh tranh, phát triển của công nghệ mới",
+        "D":  "Đòi hỏi của khách hàng, nhu cầu của khách hàng",
+        "correct":  "B"
+    },
+    {
+        "question":  "Môi trường ra quyết định – Các yếu tố thông tin là?",
+        "A":  "Khả năng thông tin: độ bảo mật, khả năng truyền thông, phương tiện lưu trữ, nguồn, kênh thông tin",
+        "B":  "Độ tin cậy: Độ chính xác – cập nhật – chuẩn mực",
+        "C":  "Giải pháp: Thông tin tỉ mỉ, tổng hợp và đa dạng",
+        "D":  "Khả năng thông tin – Độ tin cậy – Giải pháp – Giá cả",
+        "correct":  "D"
+    },
+    {
+        "question":  "Môi trường ra quyết định – Các mục tiêu quản lý là?",
+        "A":  "Sự vận hành: Kinh tế, hiệu quả, chất lượng",
+        "B":  "Vùng ảnh hưởng: Điều kiện tác nghiệp, truyền đạt trong tổ chức",
+        "C":  "Giải pháp: Thông tin tỉ mỉ, tổng hợp và đa dạng",
+        "D":  "Sự vận hành – Vùng ảnh hưởng – Sự giải quyết – Mức độ rõ ràng",
+        "correct":  "D"
+    },
+    {
+        "question":  "Đánh giá các phương án chọn trong quá trình ra quyết định phụ thuộc bao nhiêu yếu tố chính?",
+        "A":  "2",
+        "B":  "3",
+        "C":  "4",
+        "D":  "Không phụ thuộc vào yếu tố nào cả",
+        "correct":  "B"
+    },
+    {
+        "question":  "Đánh giá các phương án chọn trong quá trình ra quyết định phụ thuộc các yếu tố chính nào sau đây?",
+        "A":  "Trạng thái và định lượng của các yếu tố ảnh hưởng",
+        "B":  "Đặc trưng của đối tượng (định lượng, chủ quan, rõ, mờ)",
+        "C":  "Cấu trúc và độ phức tạp của hoàn cảnh được phân tích",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "Đánh giá các phương án chọn trong quá trình ra quyết định phụ thuộc các yếu tố chính nào sau đây?",
+        "A":  "Trạng thái và định lượng của các yếu tố ảnh hưởng",
+        "B":  "Đặc trưng của đối tượng (định lượng, chủ quan, rõ, mờ)",
+        "C":  "Cấu trúc và độ phức tạp của hoàn cảnh được phân tích",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "Ra quyết định là gì?",
+        "A":  "Ra quyết định là quá trình cân nhắc dẫn đến việc lựa chọn một phương án thực hiện trong số các phương án hiện có. Với việc đưa ra kết quả này phải dựa trên cơ sở của lý giải. Với quá trình tiến hành phân tích để tìm kiếm các lựa chọn tốt nhất. Được thực hiện với chủ thể có quyền và tác động đến kết quả phản ánh đối với quyết định",
+        "B":  "Ra quyết định là một phương án được lựa chọn trong số các phương án hiện có",
+        "C":  "Là hành vi sáng tạo của nhà quản trị nhằm định ra chương trình và tính chất hoạt động của tổ chức để giải quyết một vấn đề đã chín muồi, trên cơ sở hiểu biết các quy luật vận động khách quan của hệ thống",
+        "D":  "Không có đáp án nào chính xác",
+        "correct":  "A"
+    },
+    {
+        "question":  "DGMS - Hệ thống quản trị và tạo sinh hội thoại viết tắt của?",
+        "A":  "Digital Generation and Management System",
+        "B":  "Dialog Generation and Management System",
+        "C":  "Dialog Generation and Management Structure",
+        "D":  "Không có đáp án chính xác",
+        "correct":  "B"
+    },
+    {
+        "question":  "UIMS - Hệ quản trị giao diện người dùng viết tắt của?",
+        "A":  "User Interface Metting System",
+        "B":  "User Interface Management System",
+        "C":  "User Information Management System",
+        "D":  "Không có đáp án chính xác",
+        "correct":  "B"
+    },
+    {
+        "question":  "Các chức năng cơ bản của hệ quản trị CSDL",
+        "A":  "Lưu trữ",
+        "B":  "Tìm kiếm",
+        "C":  "Điều khiển",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "CSDL của hệ hỗ trợ quyết định bao gồm:",
+        "A":  "Dữ liệu ngoài",
+        "B":  "Dữ liệu riêng",
+        "C":  "Dữ liệu trong",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "CSDL của hệ hỗ trợ quyết định – dữ liệu riêng là:",
+        "A":  "Dữ liệu lấy từ hệ thống và xử lý các công việc của tổ chức, từ các bộ phận nghiệp vụ như tài chính, vật tư, sản xuất",
+        "B":  "Dữ liệu chuyển vào hệ thống khi sử dụng Hệ hỗ trợ quyết định",
+        "C":  "Dữ liệu của người ra quyết định được sử dụng trong những tình huống cụ thể, xác định các giải pháp khác nhau với cùng một bài toán",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "C"
+    },
+    {
+        "question":  "CSDL của hệ hỗ trợ quyết định – dữ liệu ngoài là:",
+        "A":  "Dữ liệu lấy từ hệ thống và xử lý các công việc của tổ chức, từ các bộ phận nghiệp vụ như tài chính, vật tư, sản xuất",
+        "B":  "Dữ liệu chuyển vào hệ thống khi sử dụng Hệ hỗ trợ quyết định",
+        "C":  "Dữ liệu của người ra quyết định được sử dụng trong những tình huống cụ thể, xác định các giải pháp khác nhau với cùng một bài toán",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "B"
+    },
+    {
+        "question":  "CSDL của hệ hỗ trợ quyết định – dữ liệu trong là:",
+        "A":  "Dữ liệu lấy từ hệ thống và xử lý các công việc của tổ chức, từ các bộ phận nghiệp vụ như tài chính, vật tư, sản xuất",
+        "B":  "Dữ liệu chuyển vào hệ thống khi sử dụng Hệ hỗ trợ quyết định",
+        "C":  "Dữ liệu của người ra quyết định được sử dụng trong những tình huống cụ thể, xác định các giải pháp khác nhau với cùng một bài toán",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "A"
+    },
+    {
+        "question":  "Hệ con quản trị mô hình gồm các thành phần:",
+        "A":  "Cơ sở mô hình - Hệ quản trị cơ sở mô hình - Ngôn ngữ dùng trong mô hình - Danh mục mô hình - Thực hiện, tích hợp và điều khiển mô hình",
+        "B":  "Cơ sở mô hình - Hệ quản trị cơ sở mô hình - Ngôn ngữ dùng trong mô hình - Danh mục mô hình",
+        "C":  "Cơ sở mô hình - Hệ quản trị cơ sở mô hình - Ngôn ngữ dùng trong mô hình",
+        "D":  "Không có đáp án nào chính xác",
+        "correct":  "A"
+    },
+    {
+        "question":  "Mô hình chiến lược?",
+        "A":  "Cho mức quản lý trung gian, thời gian 1 tháng đến 2 năm, ở các phòng ban, nhằm trợ giúp xác định và điều phối các nguồn lực của tổ chức, như lập kế hoạch yêu cầu về lao động, quảng cáo, bán sản phẩm",
+        "B":  "Trợ giúp lập kế hoạch chiến lược quản lý ở mức cao nhất, phạm vi rộng, thời gian dài như: phát triển các mục tiêu chung, phân tích môi trường, phát triển công nghệ, phần mềm",
+        "C":  "Trợ giúp những hoạt động thường xuyên của tổ chức như lập thời gian biểu sản xuất, thống kê, bán sản phẩm",
+        "D":  "Sử dụng cho phân tích dữ liệu, xác định các giá trị của các biến, các tham số trong mô hình,... như cơ chế sinh ra số ngẫu nhiên, phân tích hồi quy",
+        "correct":  "B"
+    },
+    {
+        "question":  "Mô hình chiến thuật?",
+        "A":  "Cho mức quản lý trung gian, thời gian 1 tháng đến 2 năm, ở các phòng ban, nhằm trợ giúp xác định và điều phối các nguồn lực của tổ chức, như lập kế hoạch yêu cầu về lao động, quảng cáo, bán sản phẩm",
+        "B":  "Trợ giúp lập kế hoạch chiến lược quản lý ở mức cao nhất, phạm vi rộng, thời gian dài như: phát triển các mục tiêu chung, phân tích môi trường, phát triển công nghệ, phần mềm",
+        "C":  "Trợ giúp những hoạt động thường xuyên của tổ chức như lập thời gian biểu sản xuất, thống kê, bán sản phẩm",
+        "D":  "Sử dụng cho phân tích dữ liệu, xác định các giá trị của các biến, các tham số trong mô hình,... như cơ chế sinh ra số ngẫu nhiên, phân tích hồi quy",
+        "correct":  "A"
+    },
+    {
+        "question":  "Mô hình tác nghiệp?",
+        "A":  "Cho mức quản lý trung gian, thời gian 1 tháng đến 2 năm, ở các phòng ban, nhằm trợ giúp xác định và điều phối các nguồn lực của tổ chức, như lập kế hoạch yêu cầu về lao động, quảng cáo, bán sản phẩm",
+        "B":  "Trợ giúp lập kế hoạch chiến lược quản lý ở mức cao nhất, phạm vi rộng, thời gian dài như: phát triển các mục tiêu chung, phân tích môi trường, phát triển công nghệ, phần mềm",
+        "C":  "Trợ giúp những hoạt động thường xuyên của tổ chức như lập thời gian biểu sản xuất, thống kê, bán sản phẩm",
+        "D":  "Sử dụng cho phân tích dữ liệu, xác định các giá trị của các biến, các tham số trong mô hình,... như cơ chế sinh ra số ngẫu nhiên, phân tích hồi quy",
+        "correct":  "C"
+    },
+    {
+        "question":  "Các khối tạo mô hình và các chương trình con?",
+        "A":  "Cho mức quản lý trung gian, thời gian 1 tháng đến 2 năm, ở các phòng ban, nhằm trợ giúp xác định và điều phối các nguồn lực của tổ chức, như lập kế hoạch yêu cầu về lao động, quảng cáo, bán sản phẩm",
+        "B":  "Trợ giúp lập kế hoạch chiến lược quản lý ở mức cao nhất, phạm vi rộng, thời gian dài như: phát triển các mục tiêu chung, phân tích môi trường, phát triển công nghệ, phần mềm",
+        "C":  "Trợ giúp những hoạt động thường xuyên của tổ chức như lập thời gian biểu sản xuất, thống kê, bán sản phẩm",
+        "D":  "Sử dụng cho phân tích dữ liệu, xác định các giá trị của các biến, các tham số trong mô hình,... như cơ chế sinh ra số ngẫu nhiên, phân tích hồi quy",
+        "correct":  "D"
+    },
+    {
+        "question":  "Có mấy lớp người sử dụng trong hệ hỗ trợ quyết định?",
+        "A":  "3",
+        "B":  "2",
+        "C":  "4",
+        "D":  "5",
+        "correct":  "B"
+    },
+    {
+        "question":  "Các nhà quản lý sử dụng hệ hỗ trợ quyết định mong muốn gì?",
+        "A":  "Hệ thân thiện",
+        "B":  "Muốn sử dụng những hệ thống phức tạp, hướng chủ đề, quan tâm đến những khả năng tính toán của hệ HTQĐ",
+        "C":  "Muốn hệ thân thiện, quan tâm nhiều đến sự trợ giúp phân tích của hệ",
+        "D":  "Muốn sử dụng những hệ thống phức tạp",
+        "correct":  "C"
+    },
+    {
+        "question":  "Các nhà chuyên môn sử dụng hệ hỗ trợ quyết định mong muốn gì?",
+        "A":  "Hệ thân thiện",
+        "B":  "Muốn sử dụng những hệ thống phức tạp, hướng chủ đề, quan tâm đến những khả năng tính toán của hệ HTQĐ",
+        "C":  "Muốn hệ thân thiện, quan tâm nhiều đến sự trợ giúp phân tích của hệ",
+        "D":  "Muốn sử dụng những hệ thống phức tạp",
+        "correct":  "B"
+    },
+    {
+        "question":  "Hãy trình bày khái niệm về mô hình?",
+        "A":  "Mô hình là một biểu diễn đơn giản hóa hoặc tóm lược hiện thực",
+        "B":  "Là bản sao vật lý của hệ thống, chỉ khác nhau về tỷ lệ so với nguyên bản",
+        "C":  "Không hoàn toàn giống thể giới thực, nhưng có dáng điệu giống như hệ thống thực và được xem là một biểu diễn tượng trưng cho thế giới thực",
+        "D":  "Không có đáp án đúng",
+        "correct":  "A"
+    },
+    {
+        "question":  "Một hộ ở Bát Tràng sản xuất 2 loại sản phẩm là bát và lọ hoa. Để sản xuất một chiếc bát cần 0,5 kg đất cao lanh và một giờ để làm, đem lại mức lãi 4000 đồng; Để sản xuất một lọ hoa cần 1kg đất cao lanh và 0,5 giờ để làm, đem lại mức lãi 3000 đồng. Với lượng nguyên liệu là 50kg và thời gian 70 giờ thì phải sản xuất bao nhiêu chiếc mỗi loại để thu được tổng số tiền lãi cao nhất?",
+        "A":  "Sản xuất 0 bát, 0 lọ hoa",
+        "B":  "Sản xuất 0 bát, 50 lọ hoa",
+        "C":  "Sản xuất 60 bát, 20 lọ hoa",
+        "D":  "Sản xuất 70 bát, 0 lọ hoa",
+        "correct":  "C"
+    },
+    {
+        "question":  "Xí nghiệp ABC ở Gia Lâm sản xuất hai loại sản phẩm bằng da là cặp sách và ba lô. Một chiếc cặp sách sản xuất mất 2 giờ và lãi 20000 đồng; Một chiếc ba lô sản xuất mất 1 giờ và lãi 15000 đồng. Biết xí nghiệp có 125 công nhân, mỗi công nhân làm việc 8 giờ/ngày. Nguyên liệu da đủ để sản xuất 800 sản phẩm mỗi ngày và trong mỗi ngày chỉ có 400 khóa cặp, 700 khóa ba lô. Tìm số sản phẩm mỗi loại phải sản xuất trong 1 ngày để có lãi nhiều nhất.",
+        "A":  "Xí nghiệp cần sản xuất 200 cặp sách và 600 ba lô trong 1 ngày",
+        "B":  "Xí nghiệp cần sản xuất 400 cặp sách và 0 ba lô trong 1 ngày",
+        "C":  "Xí nghiệp cần sản xuất 400 cặp sách và 200 ba lô trong 1 ngày",
+        "D":  "Xí nghiệp cần sản xuất 100 cặp sách và 700 ba lô trong 1 ngày",
+        "correct":  "A"
+    },
+    {
+        "question":  "Mô hình động?",
+        "A":  "Cần ra quyết định trong 1 tình huống tức thời của hệ thống, với giả định rằng hệ ổn định trong quá trình phân tích",
+        "B":  "Để đánh giá các kịch bản thay đổi theo thời gian, cho tương lai như giá cả, phí tổn, lợi nhuận trong năm tới",
+        "C":  "Trong việc ra quyết định với giả thiết chắc chắn, thông tin đầy đủ, có sẵn, người ra quyết định biết chính xác kết quả mỗi quá trình sẽ xảy ra và giả thiết rằng chỉ có 1 kết quả cho mỗi sự lựa chọn",
+        "D":  "Khi giả thiết không chắc chắn, thông tin không đầy đủ thì việc ra quyết định khó khăn. Do đó, cần phải cố gắng tránh sự không chắc chắn",
+        "correct":  "B"
+    },
+    {
+        "question":  "Mô hình chắc chắn?",
+        "A":  "Cần ra quyết định trong 1 tình huống tức thời của hệ thống, với giả định rằng hệ ổn định trong quá trình phân tích",
+        "B":  "Để đánh giá các kịch bản thay đổi theo thời gian, cho tương lai như giá cả, phí tổn, lợi nhuận trong năm tới",
+        "C":  "Trong việc ra quyết định với giả thiết chắc chắn, thông tin đầy đủ, có sẵn, người ra quyết định biết chính xác kết quả mỗi quá trình sẽ xảy ra và giả thiết rằng chỉ có 1 kết quả cho mỗi sự lựa chọn",
+        "D":  "Khi giả thiết không chắc chắn, thông tin không đầy đủ thì việc ra quyết định khó khăn. Do đó, cần phải cố gắng tránh sự không chắc chắn",
+        "correct":  "C"
+    },
+    {
+        "question":  "Mô hình không chắc chắn?",
+        "A":  "Cần ra quyết định trong 1 tình huống tức thời của hệ thống, với giả định rằng hệ ổn định trong quá trình phân tích",
+        "B":  "Để đánh giá các kịch bản thay đổi theo thời gian, cho tương lai như giá cả, phí tổn, lợi nhuận trong năm tới",
+        "C":  "Trong việc ra quyết định với giả thiết chắc chắn, thông tin đầy đủ, có sẵn, người ra quyết định biết chính xác kết quả mỗi quá trình sẽ xảy ra và giả thiết rằng chỉ có 1 kết quả cho mỗi sự lựa chọn",
+        "D":  "Khi giả thiết không chắc chắn, thông tin không đầy đủ thì việc ra quyết định khó khăn. Do đó, cần phải cố gắng tránh sự không chắc chắn",
+        "correct":  "D"
+    },
+    {
+        "question":  "Mô hình ra quyết định mạo hiểm?",
+        "A":  "Người ra quyết định phải sử dụng nhiều kỹ thuật để phân tích, đánh giá mức độ mạo hiểm cho mỗi giải pháp (ví dụ trong kinh doanh).",
+        "B":  "Để đánh giá các kịch bản thay đổi theo thời gian, cho tương lai như giá cả, phí tổn, lợi nhuận trong năm tới",
+        "C":  "Trong việc ra quyết định với giả thiết chắc chắn, thông tin đầy đủ, có sẵn, người ra quyết định biết chính xác kết quả mỗi quá trình sẽ xảy ra và giả thiết rằng chỉ có 1 kết quả cho mỗi sự lựa chọn",
+        "D":  "Khi giả thiết không chắc chắn, thông tin không đầy đủ thì việc ra quyết định khó khăn. Do đó, cần phải cố gắng tránh sự không chắc chắn",
+        "correct":  "A"
+    },
+    {
+        "question":  "Mô hình bảng quyết định, cây quyết định?",
+        "A":  "Tìm giải pháp tốt nhất trong một số ít các phương án chọn.",
+        "B":  "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.",
+        "C":  "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.",
+        "D":  "Tìm giải pháp \"đủ tốt\" hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.",
+        "correct":  "A"
+    },
+    {
+        "question":  "Mô hình quy hoạch toán học, quy hoạch tuyến tính, mô hình mạng?",
+        "A":  "Tìm giải pháp tốt nhất trong một số ít các phương án chọn.",
+        "B":  "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.",
+        "C":  "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.",
+        "D":  "Tìm giải pháp \"đủ tốt\" hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.",
+        "correct":  "B"
+    },
+    {
+        "question":  "Các mô hình thống kê?",
+        "A":  "Tìm giải pháp tốt nhất trong một số ít các phương án chọn.",
+        "B":  "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.",
+        "C":  "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.",
+        "D":  "Tìm giải pháp \"đủ tốt\" hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.",
+        "correct":  "C"
+    },
+    {
+        "question":  "Mô hình mô phỏng?",
+        "A":  "Tìm giải pháp tốt nhất trong một số ít các phương án chọn.",
+        "B":  "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.",
+        "C":  "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.",
+        "D":  "Tìm giải pháp \"đủ tốt\" hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.",
+        "correct":  "D"
+    },
+    {
+        "question":  "Các mô hình Heuristic và hệ chuyên gia?",
+        "A":  "Tìm giải pháp \"đủ tốt\" bằng cách sử dụng các luật.",
+        "B":  "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.",
+        "C":  "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.",
+        "D":  "Tìm giải pháp \"đủ tốt\" hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.",
+        "correct":  "A"
+    },
+    {
+        "question":  "Khi nào sử dụng tối ưu tuyến tính?",
+        "A":  "Khi số lượng các phương án chọn lớn (có thể vô hạn) thì không thể giải bằng bảng quyết định",
+        "B":  "Ở những Hệ hỗ trợ quyết định có các tình huống nửa cấu trúc, phi cấu trúc thì khó biểu diễn bằng mô hình tối ưu hoặc các mô hình toán học khác.",
+        "C":  "Khi gặp những vấn đề hết sức phức tạp, mà việc tìm ra giải pháp tối ưu là không thể với điều kiện thời gian và kinh phí cho phép, việc mô phỏng cũng kéo dài và phức tạp, có thể nghĩ đến heuristic để tìm ra giải pháp thỏa mãn \"đủ tốt\" (90-99%).",
+        "D":  "Khi chỉ có một số nhỏ các phương án chọn, có một đích thì có thể biểu diển bài toán dưới dạng bảng hoặc mạng.",
+        "correct":  "A"
+    },
+    {
+        "question":  "Khi nào sử dụng mô phỏng?",
+        "A":  "Khi số lượng các phương án chọn lớn (có thể vô hạn) thì không thể giải bằng bảng quyết định",
+        "B":  "Ở những Hệ hỗ trợ quyết định có các tình huống nửa cấu trúc, phi cấu trúc thì khó biểu diễn bằng mô hình tối ưu hoặc các mô hình toán học khác.",
+        "C":  "Khi gặp những vấn đề hết sức phức tạp, mà việc tìm ra giải pháp tối ưu là không thể với điều kiện thời gian và kinh phí cho phép, việc mô phỏng cũng kéo dài và phức tạp, có thể nghĩ đến heuristic để tìm ra giải pháp thỏa mãn \"đủ tốt\" (90-99%).",
+        "D":  "Khi chỉ có một số nhỏ các phương án chọn, có một đích thì có thể biểu diển bài toán dưới dạng bảng hoặc mạng.",
+        "correct":  "B"
+    },
+    {
+        "question":  "Khi nào sử dụng Heuristic?",
+        "A":  "Khi số lượng các phương án chọn lớn (có thể vô hạn) thì không thể giải bằng bảng quyết định",
+        "B":  "Ở những Hệ hỗ trợ quyết định có các tình huống nửa cấu trúc, phi cấu trúc thì khó biểu diễn bằng mô hình tối ưu hoặc các mô hình toán học khác.",
+        "C":  "Khi gặp những vấn đề hết sức phức tạp, mà việc tìm ra giải pháp tối ưu là không thể với điều kiện thời gian và kinh phí cho phép, việc mô phỏng cũng kéo dài và phức tạp, có thể nghĩ đến heuristic để tìm ra giải pháp thỏa mãn \"đủ tốt\" (90-99%).",
+        "D":  "Khi chỉ có một số nhỏ các phương án chọn, có một đích thì có thể biểu diển bài toán dưới dạng bảng hoặc mạng.",
+        "correct":  "C"
+    },
+    {
+        "question":  "Khi nào sử dụng cây quyết định?",
+        "A":  "Khi số lượng các phương án chọn lớn (có thể vô hạn) thì không thể giải bằng bảng quyết định",
+        "B":  "Ở những Hệ hỗ trợ quyết định có các tình huống nửa cấu trúc, phi cấu trúc thì khó biểu diễn bằng mô hình tối ưu hoặc các mô hình toán học khác.",
+        "C":  "Khi gặp những vấn đề hết sức phức tạp, mà việc tìm ra giải pháp tối ưu là không thể với điều kiện thời gian và kinh phí cho phép, việc mô phỏng cũng kéo dài và phức tạp, có thể nghĩ đến heuristic để tìm ra giải pháp thỏa mãn \"đủ tốt\" (90-99%).",
+        "D":  "Khi chỉ có một số nhỏ các phương án chọn, có một đích thì có thể biểu diển bài toán dưới dạng bảng hoặc mạng.",
+        "correct":  "D"
+    },
+    {
+        "question":  "Khi ra quyết định với độ chắc chắn chúng ta chọn mô hình nào?",
+        "A":  "Mô hình tối ưu tuyến tính",
+        "B":  "Mô hình mô phỏng, dự báo, Heuristic",
+        "C":  "Mô hình bảng quyết định (cây quyết định)",
+        "D":  "Tất cả các mô hình trên",
+        "correct":  "A"
+    },
+    {
+        "question":  "Khi ra quyết định với sự mạo hiểm chúng ta chọn mô hình nào?",
+        "A":  "Mô hình tối ưu tuyến tính",
+        "B":  "Mô hình mô phỏng, dự báo, Heuristic",
+        "C":  "Mô hình bảng quyết định (cây quyết định)",
+        "D":  "Tất cả các mô hình trên",
+        "correct":  "B"
+    },
+    {
+        "question":  "Phương pháp phán đoán là:",
+        "A":  "Dựa trên các ước tính mục tiêu và các ý kiến chuyên gia hơn là dữ liệu cứng, dùng cho dự báo dài hạn, đặc biệt là nơi các nhân tố ngoài giữ vai trò đáng kể.",
+        "B":  "Gồm một số thí nghiệm, khảo sát mẫu nhằm tổng quát hóa toàn bộ hệ thống. Phương pháp này chỉ dựa trên dữ liệu, chủ yếu là dữ liệu quá khứ",
+        "C":  "Dáng điệu hoạt động của hệ thống trong quá khứ giúp ta hiểu dáng điệu trong tương lai (dự báo giá cả, thị trường chứng khoán)",
+        "D":  "Phân tích dữ liệu, kết hợp dữ liệu để tìm ra các mối quan hệ tiềm năng (datamining). Phương pháp này phức tạp, có nhiều biến, phải dùng kỹ thuật thống kê.",
+        "correct":  "C"
+    },
+    {
+        "question":  "Phương pháp đếm là:",
+        "A":  "Dựa trên các ước tính mục tiêu và các ý kiến chuyên gia hơn là dữ liệu cứng, dùng cho dự báo dài hạn, đặc biệt là nơi các nhân tố ngoài giữ vai trò đáng kể.",
+        "B":  "Gồm một số thí nghiệm, khảo sát mẫu nhằm tổng quát hóa toàn bộ hệ thống. Phương pháp này chỉ dựa trên dữ liệu, chủ yếu là dữ liệu quá khứ",
+        "C":  "Dáng điệu hoạt động của hệ thống trong quá khứ giúp ta hiểu dáng điệu trong tương lai (dự báo giá cả, thị trường chứng khoán)",
+        "D":  "Phân tích dữ liệu, kết hợp dữ liệu để tìm ra các mối quan hệ tiềm năng (datamining). Phương pháp này phức tạp, có nhiều biến, phải dùng kỹ thuật thống kê.",
+        "correct":  "B"
+    },
+    {
+        "question":  "Phương pháp phân tích theo chuỗi thời gian là:",
+        "A":  "Dựa trên các ước tính mục tiêu và các ý kiến chuyên gia hơn là dữ liệu cứng, dùng cho dự báo dài hạn, đặc biệt là nơi các nhân tố ngoài giữ vai trò đáng kể.",
+        "B":  "Gồm một số thí nghiệm, khảo sát mẫu nhằm tổng quát hóa toàn bộ hệ thống. Phương pháp này chỉ dựa trên dữ liệu, chủ yếu là dữ liệu quá khứ",
+        "C":  "Dáng điệu hoạt động của hệ thống trong quá khứ giúp ta hiểu dáng điệu trong tương lai (dự báo giá cả, thị trường chứng khoán)",
+        "D":  "Phân tích dữ liệu, kết hợp dữ liệu để tìm ra các mối quan hệ tiềm năng (datamining). Phương pháp này phức tạp, có nhiều biến, phải dùng kỹ thuật thống kê.",
+        "correct":  "C"
+    },
+    {
+        "question":  "Phương pháp nhân quả là:",
+        "A":  "Dựa trên các ước tính mục tiêu và các ý kiến chuyên gia hơn là dữ liệu cứng, dùng cho dự báo dài hạn, đặc biệt là nơi các nhân tố ngoài giữ vai trò đáng kể.",
+        "B":  "Gồm một số thí nghiệm, khảo sát mẫu nhằm tổng quát hóa toàn bộ hệ thống. Phương pháp này chỉ dựa trên dữ liệu, chủ yếu là dữ liệu quá khứ",
+        "C":  "Dáng điệu hoạt động của hệ thống trong quá khứ giúp ta hiểu dáng điệu trong tương lai (dự báo giá cả, thị trường chứng khoán)",
+        "D":  "Phân tích dữ liệu, kết hợp dữ liệu để tìm ra các mối quan hệ tiềm năng (datamining). Phương pháp này phức tạp, có nhiều biến, phải dùng kỹ thuật thống kê.",
+        "correct":  "D"
+    },
+    {
+        "question":  "Ưu điểm của mô phỏng là:",
+        "A":  "Đơn giản, không phụ thuộc vào yếu tố thời gian, có những vấn đề liên quan đến 1 quãng thời gian dài, nhưng máy tính xử lý trong vài phút.",
+        "B":  "Cho phép quan sát 1 lớp các tình huống, cho phép thử nghiệm theo kiểu thử-sai.",
+        "C":  "Giúp cho nhà quản lý hiểu rõ hệ thống, vì được xây dựng theo cách nhìn của nhà quản lý và cấu trúc quyết định của họ, mô phỏng có thể thực hiện với mọi vấn đề, mọi tập giá trị của các biến,..",
+        "D":  "Tất cả các ý trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "Bất lợi của mô phỏng là:",
+        "A":  "Không đảm bảo giải pháp tối ưu.",
+        "B":  "Quá trình mô phỏng chậm, tốn kém.",
+        "C":  "Không thể dùng để giải các bài toán khác, khó tổng quát hóa.",
+        "D":  "Mô phỏng nhiều khi làm cho nhà quản lý mất trực quan, phương án tối ưu xuất hiện trước mắt nhưng không nhận ra.",
+        "E":  "Tất cả các ý trên.",
+        "correct":  "E"
+    },
+    {
+        "question":  "AHP là một phương pháp định lượng do ai đề xuất?",
+        "A":  "Được đề xuất bởi Thomas L. Saaty (1980).",
+        "B":  "Được đề xuất bởi M.W.Davis",
+        "C":  "Được đề xuất bởi E. Turban.",
+        "D":  "Được đề xuất bởi I.M. Makarov",
+        "correct":  "A"
+    },
+    {
+        "question":  "Ưu điểm của Heuristics là:",
+        "A":  "Đơn giản, dễ hiểu, dễ thực thi.",
+        "B":  "Làm cho con người sáng tạo hơn, để giải quyết các vấn đề heuristics khác.",
+        "C":  "Giảm thời gian tính toán, yêu cầu bộ nhớ.",
+        "D":  "Thường đưa ra lời giải chấp nhận được,..",
+        "E":  "Tất cả các ý trên.",
+        "correct":  "E"
+    },
+    {
+        "question":  "Phương pháp AHP gồm mấy bước chính",
+        "A":  "3",
+        "B":  "4",
+        "C":  "1",
+        "D":  "2",
+        "correct":  "A"
+    },
+    {
+        "question":  "Đặc điểm của AHP là gì",
+        "A":  "AHP sử dụng ý kiến chuyên gia",
+        "B":  "Không cần quá nhiều dữ liệu để phân tích",
+        "C":  "Cả hai ý trên",
+        "D":  "Tất cả đều sai",
+        "correct":  "C"
+    },
+    {
+        "question":  "AHP trả lời các câu hỏi:",
+        "A":  "Nên chọn phương án nào?",
+        "B":  "Phương án nào tốt nhất?",
+        "C":  "Cả hai đáp án trên",
+        "D":  "Tất cả đều sai",
+        "correct":  "C"
+    },
+    {
+        "question":  "AHP là phương pháp gì:",
+        "A":  "Định lượng",
+        "B":  "Toán học",
+        "C":  "Tối ưu",
+        "D":  "Cây quyết định",
+        "correct":  "A"
+    },
+    {
+        "question":  "Giai đoạn thực hiện trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
+        "A":  "5%",
+        "B":  "15%",
+        "C":  "25%",
+        "D":  "10%",
+        "correct":  "B"
+    },
+    {
+        "question":  "Ngôn ngữ hành động (thao tác) trong Giao diện người dùng nhìn từ 2 phía (người và máy) là:",
+        "A":  "Là các menu, trả lời một câu hỏi, chuyển đổi một cửa sổ màn hình hoặc soạn 1 câu lệnh. Một hay nhiều thiết bị vào được sử dụng để thực hiện hành động đó.",
+        "B":  "Là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.",
+        "C":  "Người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.",
+        "D":  "Thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu",
+        "correct":  "A"
+    },
+    {
+        "question":  "Tri thức trong Giao diện người dùng nhìn từ 2 phía (người và máy) là:",
+        "A":  "Có thể là các menu, trả lời một câu hỏi, chuyển đổi một cửa sổ màn hình hoặc soạn 1 câu lệnh. Một hay nhiều thiết bị vào được sử dụng để thực hiện hành động đó.",
+        "B":  "Là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.",
+        "C":  "Người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.",
+        "D":  "Thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu",
+        "correct":  "B"
+    },
+    {
+        "question":  "Phản ứng của người dùng trong Giao diện người dùng nhìn từ 2 phía (người và máy) là:",
+        "A":  "Có thể là các menu, trả lời một câu hỏi, chuyển đổi một cửa sổ màn hình hoặc soạn 1 câu lệnh. Một hay nhiều thiết bị vào được sử dụng để thực hiện hành động đó.",
+        "B":  "Là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.",
+        "C":  "Người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.",
+        "D":  "Thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu",
+        "correct":  "C"
+    },
+    {
+        "question":  "Máy tính trong Giao diện người dùng nhìn từ 2 phía (người và máy) là:",
+        "A":  "Máy tính diễn dịch đầu vào của người dùng, thực hiện xử lý rồi đưa ra kết quả bằng ngôn ngữ hiển thị (máy tính sinh ra phần hiển thị đầu ra).",
+        "B":  "Là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.",
+        "C":  "Người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.",
+        "D":  "Thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu",
+        "correct":  "A"
+    },
+    {
+        "question":  "Hội thoại trong Giao diện người dùng nhìn từ 2 phía (người và máy) là:",
+        "A":  "Như là 1 dãy các trao đổi hoặc tương tác giữa người và máy tính.",
+        "B":  "Là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.",
+        "C":  "Người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.",
+        "D":  "Thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu",
+        "correct":  "A"
+    },
+    {
+        "question":  "Chất lượng của giao diện trong một ứng dụng do ai quyết định",
+        "A":  "Do người dùng quyết định",
+        "B":  "Do hệ thống quyết định",
+        "C":  "Do người quản trị quyết định",
+        "D":  "Người lập trình quyết định",
+        "correct":  "A"
+    },
+    {
+        "question":  "Một số yêu cầu quan trọng của giao diện người dùng là:",
+        "A":  "Thiết kế màn hình giao diện người - máy",
+        "B":  "Sử dụng màu sắc, mật độ thông tin",
+        "C":  "Sử dụng các biểu tượng và ký hiệu, khuôn dạng hiển thị thông tin, lựa chọn các thiết bị vào, ra.",
+        "D":  "Tất cả các đáp án trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "Phương pháp tương tác menu là:",
+        "A":  "Người dùng chọn chức năng cần thực hiện từ danh sách các menu xuất hiện theo thứ tự logic, bắt đầu từ menu chính đến các menu con...",
+        "B":  "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.",
+        "C":  "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.",
+        "D":  "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.",
+        "correct":  "A"
+    },
+    {
+        "question":  "Phương pháp ngôn ngữ lệnh là:",
+        "A":  "Người dùng chọn chức năng cần thực hiện từ danh sách các menu xuất hiện theo thứ tự logic, bắt đầu từ menu chính đến các menu con...",
+        "B":  "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.",
+        "C":  "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.",
+        "D":  "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.",
+        "correct":  "B"
+    },
+    {
+        "question":  "Phương pháp hỏi và trả lời là:",
+        "A":  "Người dùng chọn chức năng cần thực hiện từ danh sách các menu xuất hiện theo thứ tự logic, bắt đầu từ menu chính đến các menu con...",
+        "B":  "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.",
+        "C":  "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.",
+        "D":  "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.",
+        "correct":  "C"
+    },
+    {
+        "question":  "Phương pháp tương tác bằng biểu mẫu là:",
+        "A":  "Người dùng chọn chức năng cần thực hiện từ danh sách các menu xuất hiện theo thứ tự logic, bắt đầu từ menu chính đến các menu con...",
+        "B":  "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.",
+        "C":  "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.",
+        "D":  "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.",
+        "correct":  "D"
+    },
+    {
+        "question":  "Phương pháp ngôn ngữ tự nhiên là:",
+        "A":  "Tương tác người-máy giống như hội thoại giữa con người với nhau. Ngày nay, công việc này được thực hiện chủ yếu bằng bàn phím, trong tương lai sẽ chuyển qua dạng hội thoại. Hạn chế cơ bản là máy tính không hiểu được ngôn ngữ tự nhiên. Tuy nhiên, khi các nghiên cứu trong trí tuệ nhân tạo được đẩy mạnh, thì sẽ nâng cao khả năng hội thoại bằng ngôn ngữ tự nhiên",
+        "B":  "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.",
+        "C":  "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.",
+        "D":  "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.",
+        "correct":  "A"
+    },
+    {
+        "question":  "Phương pháp thao tác đối tượng là:",
+        "A":  "Các đối tượng thường được biểu diễn qua các biểu tượng, và người dùng có thể thao tác trực tiếp, ví dụ: di chuyển, phóng to, thu nhỏ, chi tiết hóa chỉ thị...",
+        "B":  "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.",
+        "C":  "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.",
+        "D":  "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.",
+        "correct":  "A"
+    },
+    {
+        "question":  "Sử dụng đồ họa trong Hệ hỗ trợ quyết định gồm:",
+        "A":  "Các báo cáo: biểu đồ, đồ thị,...",
+        "B":  "Các thể hiện: đưa ra thông tin ngắn gọn trong cuộc họp, hội thảo",
+        "C":  "Quản lý vết trong khi thực hiện: các biểu đồ luồng thông tin, chức năng.",
+        "D":  "Phân tích, lập kế hoạch và lập lịch trình, câu lệnh, điều khiển và kết nối.",
+        "E":  "Tất cả các ý trên.",
+        "correct":  "E"
+    },
+    {
+        "question":  "Cửa sổ trong giao diện đồ họa người dùng (GUI - Graphical User Interface):",
+        "A":  "Mỗi cửa sổ là một vùng của màn hình máy tính chứa văn bản, đồ họa, hình ảnh, chuyển động, hoặc cửa sổ khác. Nó có thể gối lên nhau, cuộn lại hoặc di chuyển.",
+        "B":  "Là hình ảnh nhỏ đại diện cho 1 cửa sổ đang tạm thời bị đóng lại, hoặc cho một số đối tượng khác. Kích vào biểu tượng thì cửa sổ đó hoạt động.",
+        "C":  "Chứa các thông tin bổ sung cho 1 cửa sổ màn hình, về 1 đối tượng nào đó. Khi đưa con trỏ vào thì đối tượng đó sẽ hoạt động.",
+        "D":  "Trong môi trường này, người dùng làm việc với nhiều cửa sổ xếp chồng lên nhau và các thành phần GUI khác. Người dùng có thể chuyển văn bản, đồ họa giữa các ứng dụng khác nhau. Môi trường này là cơ sở của công cụ xử lý tài liệu.",
+        "correct":  "A"
+    },
+    {
+        "question":  "Biểu tượng trong giao diện đồ họa người dùng (GUI - Graphical User Interface):",
+        "A":  "Mỗi cửa sổ là một vùng của màn hình máy tính chứa văn bản, đồ họa, hình ảnh, chuyển động, hoặc cửa sổ khác. Nó có thể gối lên nhau, cuộn lại hoặc di chuyển.",
+        "B":  "Là hình ảnh nhỏ đại diện cho 1 cửa sổ đang tạm thời bị đóng lại, hoặc cho một số đối tượng khác. Kích vào biểu tượng thì cửa sổ đó hoạt động.",
+        "C":  "Chứa các thông tin bổ sung cho 1 cửa sổ màn hình, về 1 đối tượng nào đó. Khi đưa con trỏ vào thì đối tượng đó sẽ hoạt động.",
+        "D":  "Trong môi trường này, người dùng làm việc với nhiều cửa sổ xếp chồng lên nhau và các thành phần GUI khác.",
+        "correct":  "B"
+    },
+    {
+        "question":  "Điểm kích hoạt trong giao diện đồ họa người dùng (GUI - Graphical User Interface):",
+        "A":  "Mỗi cửa sổ là một vùng của màn hình máy tính chứa văn bản, đồ họa, hình ảnh, chuyển động, hoặc cửa sổ khác. Nó có thể gối lên nhau, cuộn lại hoặc di chuyển.",
+        "B":  "Là hình ảnh nhỏ đại diện cho 1 cửa sổ đang tạm thời bị đóng lại, hoặc cho một số đối tượng khác. Kích vào biểu tượng thì cửa sổ đó hoạt động.",
+        "C":  "Chứa các thông tin bổ sung cho 1 cửa sổ màn hình, về 1 đối tượng nào đó. Khi đưa con trỏ vào thì đối tượng đó sẽ hoạt động.",
+        "D":  "Trong môi trường này, người dùng làm việc với nhiều cửa sổ xếp chồng lên nhau và các thành phần GUI khác.",
+        "correct":  "C"
+    },
+    {
+        "question":  "Môi trường WYSIWYG trong giao diện đồ họa người dùng (GUI - Graphical User Interface):",
+        "A":  "Mỗi cửa sổ là một vùng của màn hình máy tính chứa văn bản, đồ họa, hình ảnh, chuyển động, hoặc cửa sổ khác. Nó có thể gối lên nhau, cuộn lại hoặc di chuyển.",
+        "B":  "Là hình ảnh nhỏ đại diện cho 1 cửa sổ đang tạm thời bị đóng lại, hoặc cho một số đối tượng khác. Kích vào biểu tượng thì cửa sổ đó hoạt động.",
+        "C":  "Chứa các thông tin bổ sung cho 1 cửa sổ màn hình, về 1 đối tượng nào đó. Khi đưa con trỏ vào thì đối tượng đó sẽ hoạt động.",
+        "D":  "Trong môi trường này, người dùng làm việc với nhiều cửa sổ xếp chồng lên nhau và các thành phần GUI khác. Người dùng có thể chuyển văn bản, đồ họa giữa các ứng dụng khác nhau. Môi trường này là cơ sở của công cụ xử lý tài liệu.",
+        "correct":  "C"
+    },
+    {
+        "question":  "Đa phương tiện:",
+        "A":  "Sử dụng nhiều phương tiện kết nối với máy tính tạo ra môi trường liên kết người-máy trong các ứng dụng. Ví dụ: CD-ROM, VideoDisc, Image Digitizing, Overhead, Scanner, TV, Microphone,...",
+        "B":  "Các tài liệu có thể chứa cùng lúc văn bản, đồ họa, audio, video; cho phép các thông tin liên kết với nhau.",
+        "C":  "Cách tiếp cận thông tin văn bản và đồ họa, cho phép người sử dụng đến thẳng chủ đề mà họ muốn xem. Việc đọc và xem thông tin được điều khiển trực tiếp bởi người sử dụng, người sử dụng có thể điều khiển các kiểu thông tin, các mức độ thông tin trên màn hình. Dễ dàng quay lui hoặc chuyển sang chủ đề khác.",
+        "D":  "Tất cả các ý trên",
+        "correct":  "A"
+    },
+    {
+        "question":  "Siêu phương tiện:",
+        "A":  "Sử dụng nhiều phương tiện kết nối với máy tính tạo ra môi trường liên kết người-máy trong các ứng dụng. Ví dụ: CD-ROM, VideoDisc, Image Digitizing, Overhead, Scanner, TV, Microphone,...",
+        "B":  "Các tài liệu có thể chứa cùng lúc văn bản, đồ họa, audio, video; cho phép các thông tin liên kết với nhau.",
+        "C":  "Cách tiếp cận thông tin văn bản và đồ họa, cho phép người sử dụng đến thẳng chủ đề mà họ muốn xem. Việc đọc và xem thông tin được điều khiển trực tiếp bởi người sử dụng, người sử dụng có thể điều khiển các kiểu thông tin, các mức độ thông tin trên màn hình. Dễ dàng quay lui hoặc chuyển sang chủ đề khác.",
+        "D":  "Tất cả các ý trên",
+        "correct":  "B"
+    },
+    {
+        "question":  "Siêu văn bản:",
+        "A":  "Sử dụng nhiều phương tiện kết nối với máy tính tạo ra môi trường liên kết người-máy trong các ứng dụng. Ví dụ: CD-ROM, VideoDisc, Image Digitizing, Overhead, Scanner, TV, Microphone,...",
+        "B":  "Các tài liệu có thể chứa cùng lúc văn bản, đồ họa, audio, video; cho phép các thông tin liên kết với nhau.",
+        "C":  "Cách tiếp cận thông tin văn bản và đồ họa, cho phép người sử dụng đến thẳng chủ đề mà họ muốn xem. Việc đọc và xem thông tin được điều khiển trực tiếp bởi người sử dụng, người sử dụng có thể điều khiển các kiểu thông tin, các mức độ thông tin trên màn hình. Dễ dàng quay lui hoặc chuyển sang chủ đề khác.",
+        "D":  "Tất cả các ý trên",
+        "correct":  "C"
+    },
+    {
+        "question":  "Mô hình tương tác trực quan (Visual Interactive Modelling):",
+        "A":  "Nhằm đưa ra kết quả (ảnh hưởng, hậu quả) của 1 quyết định quản lý. Do đó cần xây dựng các kỹ thuật mô phỏng: mô phỏng hiển thị.. mà cho phép xem xét kết quả nằm ngoài thời gian quan sát...",
+        "B":  "Biểu diễn không gian 3 chiều: cho phép sử dụng những kinh nghiệm tự nhiên về tri giác không gian. Thực chất, hiện trên màn hình là 2 chiều, đòi hỏi người sử dụng phải có suy luận hình học về quan hệ không gian.",
+        "C":  "Nhằm xây dựng giao diện thân thiện.",
+        "D":  "Tất cả các ý trên",
+        "correct":  "A"
+    },
+    {
+        "question":  "Hiện thực ảo:",
+        "A":  "Nhằm đưa ra kết quả (ảnh hưởng, hậu quả) của 1 quyết định quản lý. Do đó cần xây dựng các kỹ thuật mô phỏng: mô phỏng hiển thị.. mà cho phép xem xét kết quả nằm ngoài thời gian quan sát...",
+        "B":  "Biểu diễn không gian 3 chiều: cho phép sử dụng những kinh nghiệm tự nhiên về tri giác không gian. Thực chất, hiện trên màn hình là 2 chiều, đòi hỏi người sử dụng phải có suy luận hình học về quan hệ không gian.",
+        "C":  "Nhằm xây dựng giao diện thân thiện.",
+        "D":  "Tất cả các ý trên",
+        "correct":  "B"
+    },
+    {
+        "question":  "Người thiết kế Hệ hỗ trợ ra quyết định cần kiến thức gì?",
+        "A":  "Thấu đáo về bài toán và môi trường ra quyết định",
+        "B":  "Có kiến thức sâu về phân tích hệ thống.",
+        "C":  "Có nhiều kinh nghiệm thực tế (nhiều hơn so với các hệ thống thông tin khác), nắm vững các kiến thức thuộc nhiều lĩnh vực khác nhau như: toán học, khoa học quản lý, thống kê...",
+        "D":  "Tất cả các ý trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "Xây dựng Hệ hỗ trợ quyết định là quá trình phức tạp, chúng ta cần gì?",
+        "A":  "Lựa chọn cấu hình",
+        "B":  "Lựa chọn giao diện người - máy",
+        "C":  "Xác định các ảnh hưởng đến cá nhân và nhóm,...",
+        "D":  "Tất cả các ý trên",
+        "correct":  "D"
+    },
+    {
+        "question":  "Quá trình thiết kế Hệ hỗ trợ quyết định trải qua các giai đoạn:",
+        "A":  "Lập kế hoạch",
+        "B":  "Nghiên cứu khảo sát",
+        "C":  "Phân tích, thiết kế",
+        "D":  "Thử nghiệm, cài đặt, bảo hành và đưa vào sử dụng",
+        "correct":  "A"
+    },
+    {
+        "question":  "Giai đoạn lập kế hoạch trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
+        "A":  "5%",
+        "B":  "15%",
+        "C":  "25%",
+        "D":  "10%",
+        "correct":  "A"
+    },
+    {
+        "question":  "Giai đoạn nghiên cứu khảo sát trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
+        "A":  "5%",
+        "B":  "15%",
+        "C":  "25%",
+        "D":  "10%",
+        "correct":  "A"
+    },
+    {
+        "question":  "Giai đoạn Phân tích trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
+        "A":  "5%",
+        "B":  "15%",
+        "C":  "25%",
+        "D":  "10%",
+        "correct":  "B"
+    },
+    {
+        "question":  "Giai đoạn xây dựng trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
+        "A":  "5%",
+        "B":  "15%",
+        "C":  "25%",
+        "D":  "10%",
+        "correct":  "C"
+    }
+]

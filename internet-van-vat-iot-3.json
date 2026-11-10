@@ -1,0 +1,2075 @@
+{
+  "title": "INTERNET VẠN VẬT - IOT",
+  "source_file": "D:\\OneDrive\\Máy tính\\internet-van-vat-iot-3.pdf",
+  "total_questions": 188,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Giao thức MQTT là viết tắt của những chữ nào?",
+      "options": {
+        "A": "Message Query Telemetry Transport",
+        "B": "MetaQuery Telemetry Transport",
+        "C": "Multiple Query Telemetry Transport",
+        "D": "Multi-Queue Query Telemetry Transport"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Ai đặt ra thuật ngữ IoT?",
+      "options": {
+        "A": "Kevin Ashton",
+        "B": "IBM",
+        "C": "Ross Ihaka",
+        "D": "Guido van Rossum"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "Trong Cảm biến lực Loadcell, thành phần thân loadcell là gì?",
+      "options": {
+        "A": "Là một thanh kim loại chịu tải có tính đàn hồi, thường là hợp kim nhôm",
+        "B": "Là một loại điện trở đặc biệt. Được cấp nguồn điện và giá trị điện trở thay đổi khi bị tác động lực lên nó",
+        "C": "Là một hình thanh kim loại vòng tròn cố định trên thiết bị, có khả năng chịu tải tốt chuyên truyền điện và nhiệt",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Thiết bị nào không phải thiết bị mạng?",
+      "options": {
+        "A": "Traffic analyzer",
+        "B": "Bridge",
+        "C": "Switch",
+        "D": "Router"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "Công nghệ cảm biến hình ảnh nào cần ít điện năng hơn?",
+      "options": {
+        "A": "CMOS",
+        "B": "CCD",
+        "C": "ADC",
+        "D": "Nikon Coolpix"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "Chip xử lý hình ảnh CMOS viết tắt là gì?",
+      "options": {
+        "A": "Complementary Metal Oxide Semiconductor",
+        "B": "Complementary Metal Oxide Silicon",
+        "C": "Complementary Metal Oxide Substrate",
+        "D": "Cargo Movement Operating System"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Thông số kỹ thuật quan trọng của cảm biến hình ảnh?",
+      "options": {
+        "A": "Độ phân giải, kích thước điểm ảnh",
+        "B": "Độ nhạy sáng, tốc độ phản hồi",
+        "C": "Độ lệch màu",
+        "D": "Tất cả phương án"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "question": "Hệ thống nhúng được thiết kế để thực hiện nhiệm vụ chuyên dụng nào?",
+      "options": {
+        "A": "Đảm bảo tính an toàn và ứng dụng trong các lĩnh vực cụ thể",
+        "B": "Tối ưu hóa hiệu suất và giảm thiểu chi phí sản xuất",
+        "C": "Tăng cường tính linh hoạt và đa dạng của hệ thống",
+        "D": "Tất cả các phương án trên"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question": "DHCP sử dụng giao thức lớp vận chuyển nào?",
+      "options": {
+        "A": "UDP",
+        "B": "TCP",
+        "C": "RSVP",
+        "D": "DCCP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "Phát biểu đúng nhất về dữ liệu khi sử dụng IoT là gì?",
+      "options": {
+        "A": "Dữ liệu thu được theo thời gian thực",
+        "B": "Dữ liệu thu được hạn chế",
+        "C": "Dữ liệu thu được rất khó quan sát",
+        "D": "Dữ liệu thu được rất khó phân tích"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "Nền tảng Internet of Things?",
+      "options": {
+        "A": "Cho phép các thiết bị và ứng dụng giao tiếp với nhau",
+        "B": "Cung cấp các dịch vụ để truy cập, sử dụng hoặc tham gia vào Internet",
+        "C": "Cho phép các cá nhân và tổ chức làm cho trang web của họ có thể truy cập được",
+        "D": "Không có phát biểu đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Mô hình mạng sử dụng cho ZigBee Smart Energy?",
+      "options": {
+        "A": "Star Topology",
+        "B": "Bus Topology",
+        "C": "Ring Topology",
+        "D": "Không cần mô hình"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "question": "Giao thức nhẹ (lightweight protocol) là giao thức nào trong số các giao thức sau?",
+      "options": {
+        "A": "IP",
+        "B": "CoAP",
+        "C": "HTTP",
+        "D": "MQTT"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "question": "Giao nào là thức mạng dùng IPv6, cho phép quy định cơ chế đóng gói bản tin và nén header?",
+      "options": {
+        "A": "6LoWPAN",
+        "B": "Zigbee",
+        "C": "Bluetooth",
+        "D": "Z-wave"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Thuật ngữ IoT được đặt ra vào năm nào?",
+      "options": {
+        "A": "1999",
+        "B": "2000",
+        "C": "2001",
+        "D": "1998"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Hệ thống nhúng được hiểu như thế nào?",
+      "options": {
+        "A": "Là hệ thống tự trị các nhúng trong môi trường hoặc hệ thống mẹ",
+        "B": "Là hệ thống kết hợp phần mềm và phần cứng để giải quyết các bài toán chuyên dụng",
+        "C": "Là hệ thống có khả năng tự động hóa cao và hoạt động ổn định",
+        "D": "Tất cả các phương án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 17,
+      "question": "Lợi thế nào không chính xác đối với IoT?",
+      "options": {
+        "A": "Bảo mật",
+        "B": "Giảm thiểu lãng phí",
+        "C": "Thu thập dữ liệu nâng cao",
+        "D": "Cải thiện sự tham gia của khách hàng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "I2C là viết tắt của những chữ nào?",
+      "options": {
+        "A": "Inter-Integrated Communication",
+        "B": "Internet Integrated Communication",
+        "C": "Integrated Internet Communication",
+        "D": "Internet Instigate Communication"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "IoT tiến hóa từ sự hội tụ của các công nghệ nào?",
+      "options": {
+        "A": "Công nghệ không dây, hệ thống vi cơ điện tử và Internet",
+        "B": "Điện toán di động, dữ liệu lớn và internet",
+        "C": "Công nghệ không dây, trí tuệ nhân tạo và dữ liệu lớn",
+        "D": "Cảm biến, điện toán đám mây và công nghệ máy học"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "Một thiết bị nhận thông tin từ nhiều điểm trên mạng và truyền nó đến một mạng khác là gì?",
+      "options": {
+        "A": "Cảm biến",
+        "B": "Máy với Máy (M2M)",
+        "C": "Dữ liệu lớn",
+        "D": "Thiết bị đeo tay"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "Các công nghệ nào được sử dụng trong Iot",
+      "options": {
+        "A": "RFID",
+        "B": "Bluetooth",
+        "C": "Wifi",
+        "D": "Tất cả"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 22,
+      "question": "Thành phần nào tham gia vận hành phần tử cốt lõi của IoT?",
+      "options": {
+        "A": "SaaS",
+        "B": "PaaS",
+        "C": "IaaS",
+        "D": "Nhà cung cấp dịch vụ IoT"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 23,
+      "question": "Cơ chế nào giúp bảo đảm tính toàn vệ dữ liệu trong khi truyền IoT?",
+      "options": {
+        "A": "WEP",
+        "B": "AES",
+        "C": "FTP",
+        "D": "HTTP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "Tuyên bố nào phù hợp nhất với Internet of Things?",
+      "options": {
+        "A": "Internet of Things bao gồm hàng tỷ thiết bị trên khắp thế giới được kết nối với internet",
+        "B": "Internet of Things nhằm mục đích xây dựng phần mềm đáng tin cậy",
+        "C": "Internet of Things nhằm kết nối con người và vạn vật",
+        "D": "Không có tuyên bố nào phù hợp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "Công nghệ nào sau đây không phải là công nghệ ở lớp liên kết dữ liệu?",
+      "options": {
+        "A": "HTTP",
+        "B": "UART",
+        "C": "wifi",
+        "D": "Bluetooth"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "Giao thức CoAP sử dụng mô hình truyền thông nào?",
+      "options": {
+        "A": "Publish-subscribe",
+        "B": "Request-response",
+        "C": "Peer-to-peer",
+        "D": "Streaming"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Cảm biến hồng ngoại thụ động có đặc điểm gì?",
+      "options": {
+        "A": "Chỉ phát hiện ra được bức xạ từ các vật thể khác như người, động vật hay nguồn nhiệt, chứ sẽ không phát ra tia hồng ngoại",
+        "B": "Phát hiện mọi vật thể, với khoảng cách giới hạn",
+        "C": "Khi vật thể đến gần với cảm biến, thiết bị sẽ phát ra ánh sáng hồng ngoại từ đèn Led và sẽ phản xạ vào vật thể trở lại mà người nhận có thể nhận thấy được",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Thiết bị nào sau đây là actuator trong hệ thống IoT?",
+      "options": {
+        "A": "Nhiệt kế",
+        "B": "Servo motor",
+        "C": "Router",
+        "D": "Bridge"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Giao thông công cộng được hưởng lợi như thế nào từ internet vạn vật?",
+      "options": {
+        "A": "Thông tin từ các thiết bị được kết nối với nhau được sử dụng để cải thiện chất lượng và bảo mật",
+        "B": "Nếu tất cả ô tô cá nhân đều có IoT, thì phương tiện giao thông công cộng không còn cần thiết nữa",
+        "C": "IoT làm giảm nhu cầu giao thông công cộng trong giờ cao điểm",
+        "D": "Thông tin từ các thiết bị được kết nối với nhau được sử dụng để cung cấp dịch vụ được cá nhân hóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "Mạng IoT có phạm vi ngắn nhất là mạng nào trong các mạng sau?",
+      "options": {
+        "A": "SigFox",
+        "B": "LPWAN",
+        "C": "Short network",
+        "D": "Short-range wireless network"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 31,
+      "question": "NFC (Near-Field Communications) là công nghệ kết nối không dây trong phạm vi tầm ngắn trong khoảng cách",
+      "options": {
+        "A": "4 cm",
+        "B": "15 cm",
+        "C": "20 cm",
+        "D": "25 cm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 32,
+      "question": "Trong Cảm biến lực Loadcell, thành phần Strain gauge là gì?",
+      "options": {
+        "A": "Là một loại điện trở đặc biệt. Được cấp nguồn điện và giá trị điện trở thay đổi khi bị tác động lực lên nó",
+        "B": "Là một thanh kim loại chịu tải có tính đàn hồi, thường là hợp kim nhôm",
+        "C": "Là một hình thanh kim loại vòng tròn cố định trên thiết bị, có khả năng chịu tải tốt chuyên truyền điện và nhiệt",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "Lợi ích của việc sử dụng IPv6 trong IoT là gì?",
+      "options": {
+        "A": "Hỗ trợ được nhiều địa chỉ hơn",
+        "B": "Giảm tốc độ truyền",
+        "C": "Tăng độ trễ",
+        "D": "Chỉ sử dụng cho mạng nội bộ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Ngôn ngữ ưa thích cho phân tích IoT là ngôn ngữ nào?",
+      "options": {
+        "A": "Python",
+        "B": "HTML",
+        "C": "PHP",
+        "D": "C++"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "Công nghệ nhiều lớp cho phép cung cấp, quản lý và tự động hóa đơn giản các thiết bị được kết nối trong IoT?",
+      "options": {
+        "A": "IoT Platform",
+        "B": "Machine Learning (ML)",
+        "C": "Artificial Intelligence (AI)",
+        "D": "Robotic Process Automation (RPA)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "Tổ chức hay ai là người tham gia chính sáng tạo ra Adruino?",
+      "options": {
+        "A": "Sinh viên Hernando Barragan",
+        "B": "Eben Upton",
+        "C": "Bởi hãng Espressif Systems",
+        "D": "Google"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "Cổng bảo mật tiêu chuẩn của MQTT là cổng nào?",
+      "options": {
+        "A": "8000",
+        "B": "8888",
+        "C": "1883",
+        "D": "8883"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 38,
+      "question": "Thách thức nào giữa thiết bị IoT với các thiết bị thông minh hoặc thiết bị được kết nối?",
+      "options": {
+        "A": "Giá trị mà chúng mang lại",
+        "B": "Chi phí đầu tư",
+        "C": "Các cách chúng được sử dụng",
+        "D": "Tất cả các ý đều đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "question": "Raspberry Pi hỗ trợ trên nền tảng và phần mềm nào?",
+      "options": {
+        "A": "Raspbian",
+        "B": "Raspbmc",
+        "C": "OSMC",
+        "D": "Tất cả đáp án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "Thành phần của hệ thống IoT thực thi một chương trình là gì?",
+      "options": {
+        "A": "Cảm biến",
+        "B": "Bộ chuyển đổi kỹ thuật số sang tương tự",
+        "C": "Bộ truyền động",
+        "D": "Bộ vi điều khiển"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "Người được gọi là chả đẻ của IoT là ai?",
+      "options": {
+        "A": "Kevin Ashton",
+        "B": "Vinton Gray Cerf",
+        "C": "Satoshi Nakamoto",
+        "D": "Hal Finney"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "NFC có thể truyền dữ liệu ở tốc độ nào?",
+      "options": {
+        "A": "424 Kb/giây",
+        "B": "848 Kb/giây",
+        "C": "216 Kb/giây",
+        "D": "Tất cả các phương án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 43,
+      "question": "Thuật ngữ LPWAN là viết tắt của những chữ nào?",
+      "options": {
+        "A": "Low Power Wide Area Network",
+        "B": "Low Protocol Wide Area Network",
+        "C": "Long Power Wide Area Network",
+        "D": "Long Protocol Wide Area Network"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "Thiết bị IoT nào dùng để thu thập dữ liệu từ thế giới thực?",
+      "options": {
+        "A": "Sensors",
+        "B": "Actuators",
+        "C": "Microprocessors",
+        "D": "Microcontrollers"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "IoT được hiểu như thế nào so với hệ thống nhúng?",
+      "options": {
+        "A": "IoT là một công nghệ độc lập, trong khi hệ thống nhúng là một phần của IoT",
+        "B": "IoT là một hệ thống tổng hợp, trong khi hệ thống nhúng là một phần của hệ thống IoT",
+        "C": "IoT là một công nghệ chủ đạo, trong khi hệ thống nhúng chủ yếu tập trung vào việc điều khiển các thiết bị trong một hệ thống cụ thể",
+        "D": "IoT là một mạng lưới các thiết bị kết nối qua Internet, trong khi hệ thống nhúng là một tập hợp con của IoT"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 46,
+      "question": "Light Sensor/Photoelectric Sensor là tên gọi của cảm biến nào?",
+      "options": {
+        "A": "Cảm biến chuyển động",
+        "B": "Cảm biến hạt",
+        "C": "Cảm biến rò rỉ",
+        "D": "Cảm biến quang"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 47,
+      "question": "Arduino đã chính thức được giới thiệu năm?",
+      "options": {
+        "A": "2005",
+        "B": "2006",
+        "C": "2007",
+        "D": "2008"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 48,
+      "question": "Chip xử lý hình ảnh CCD viết tắt là gì?",
+      "options": {
+        "A": "Charge Coupled Device",
+        "B": "Computer Controlled Display",
+        "C": "Computer Crimes Divison",
+        "D": "Coarse Control Damper"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "Trong ý tưởng về thiết bị di động, điểm hấp dẫn chính của máy tính xách tay khiến nó trở thành thiết bị phổ biến là gì?",
+      "options": {
+        "A": "Máy tính xách tay có chức năng máy tính để bàn có thể mang đi mọi nơi",
+        "B": "Chi phí của máy tính xách tay thấp hơn máy tính để bàn",
+        "C": "Máy tính xách tay hiệu quả hơn máy tính để bàn",
+        "D": "Không câu trả lời nào trong số này đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Cảm biến khói nào sử dụng các chất đồng vị phóng xạ để hoạt động?",
+      "options": {
+        "A": "(a) Cảm biến khói Ion hóa",
+        "B": "(b) Cảm biến khói quang điện",
+        "C": "Cả (a) và (b) đều đúng",
+        "D": "Cả (a) và (b) đều sai"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "Cảm biến quang loại nào sử dụng trong công nghiệp sản xuất và tự động hóa có khả năng phát hiện vật thể khá xa?",
+      "options": {
+        "A": "Cảm biến quang khuếch tán",
+        "B": "Cảm biến quang hồng ngoại",
+        "C": "Cảm biến gương phản xạ",
+        "D": "Tầm xa đều như nhau"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 52,
+      "question": "Giao thức được sử dụng để liên kết tất cả các thiết bị trong IoT?",
+      "options": {
+        "A": "Mạng",
+        "B": "UDP",
+        "C": "HTTP",
+        "D": "TCP/IP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 53,
+      "question": "Phạm vi của z-wave có khoảng cách là bao nhiêu mét?",
+      "options": {
+        "A": "30-100m",
+        "B": "300-1000 m",
+        "C": "<10m",
+        "D": "100-1000m"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Các thiết bị IoT phải được cập nhật khi nào?",
+      "options": {
+        "A": "1 tuần cập nhật 1 lần",
+        "B": "1 ngày cập nhật 1 lần",
+        "C": "1 tháng cập nhật 1 lần",
+        "D": "Phải luôn được cập nhật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 55,
+      "question": "Phần cứng của Iot thu thập dữ liệu thông qua việc sử dụng?",
+      "options": {
+        "A": "Khúc xạ ánh sáng",
+        "B": "Thiết bị Giám sát",
+        "C": "Thiết bị truyền động",
+        "D": "Cảm biến"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 56,
+      "question": "Đâu là các hãng sản xuất hình ảnh?",
+      "options": {
+        "A": "AUTONICS",
+        "B": "MISUMI",
+        "C": "SUNX",
+        "D": "Tất cả các ý trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "5G là gì và vai trò của nó trong IoT là gì?",
+      "options": {
+        "A": "Một loại cảm biến tiên tiến được sử dụng trong IoT",
+        "B": "Một dạng phân tích dữ liệu trong IoT",
+        "C": "Một mô hình kinh doanh cho các ứng dụng IoT",
+        "D": "Tiêu chuẩn kết nối không dây mới với tốc độ nhanh và độ trễ thấp, hỗ trợ việc triển khai IoT"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 58,
+      "question": "Tần số của z-wave là bao nhiêu GHz?",
+      "options": {
+        "A": "708,49 GHz",
+        "B": "888,42 GHz",
+        "C": "928,49 GHz",
+        "D": "908,42GHz"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 59,
+      "question": "Zigbee hoạt động chủ yếu ở băng tần nào?",
+      "options": {
+        "A": "868 MHz",
+        "B": "900 MHz",
+        "C": "2.4 GHz",
+        "D": "5 GHz"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "Broker trong MQTT có vai trò gì?",
+      "options": {
+        "A": "Lưu trữ dữ liệu dài hạn",
+        "B": "Điều phối tin nhắn giữa các client",
+        "C": "Mạng chuyển tín hiệu không dây",
+        "D": "Chuẩn hóa định dạng dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "Arduino UNO là gì?",
+      "options": {
+        "A": "Protocol",
+        "B": "Network",
+        "C": "Software",
+        "D": "Hardware device"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 62,
+      "question": "Một cảm biến tốt tuân theo quy tắc nào?",
+      "options": {
+        "A": "Nó nhạy cảm với thuộc tính được đo lường",
+        "B": "Nó không nhạy cảm đến bất kỳ thuộc tính nào khác có thể gặp trong ứng dụng của nó",
+        "C": "Nó không ảnh hưởng đến thuộc tính được đo lường",
+        "D": "Tất cả phương án"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 63,
+      "question": "Arduino ra đời ở nước nào?",
+      "options": {
+        "A": "Ý",
+        "B": "Pháp",
+        "C": "Mỹ",
+        "D": "Nga"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "Giao thức nào không tồn tại trong tầng liên kết dữ liệu (data link)?",
+      "options": {
+        "A": "ZigBee Smart Energy",
+        "B": "LoRaWAN",
+        "C": "WirelessHART",
+        "D": "Secure MQTT"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 65,
+      "question": "Thành phần nào sau đây không phải là thành phần cơ bản của hệ thống IoT?",
+      "options": {
+        "A": "Máy biến áp",
+        "B": "Cảm biến",
+        "C": "Giao diện người dùng",
+        "D": "Kết nối và xử lý dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "Một trong những topology phổ biến của mạng LoRaWAN là gì?",
+      "options": {
+        "A": "Ring topology",
+        "B": "Mesh topology",
+        "C": "Star-of-stars topology",
+        "D": "Bus topology"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Raspberry Pi dùng ngôn ngữ lập trình nào chính thức?",
+      "options": {
+        "A": "Python",
+        "B": "Java",
+        "C": "C#",
+        "D": "Go"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "IoT phải có 2 thuộc tính nào sau đây?",
+      "options": {
+        "A": "Phải có là ứng dụng internet và lấy được thông tin vật chủ",
+        "B": "Phải có cảm biến và kết nối bluetooth",
+        "C": "Phải có trao đổi dữ liệu và phân tích hệ thống",
+        "D": "Không có câu trả lời nào đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "question": "Bước cuối cùng của việc truyền dữ liệu đáng tin cậy là gì?",
+      "options": {
+        "A": "Khởi tạo",
+        "B": "Chuyển tiếp tin nhắn",
+        "C": "Phát hiện tin nhắn bị mất",
+        "D": "Phục hồi có chọn lọc"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 70,
+      "question": "Mạng nào sau đây không phải là mạng không dây tầm ngắn?",
+      "options": {
+        "A": "VPN",
+        "B": "Wifi",
+        "C": "Bluetooth",
+        "D": "Điểm phát sóng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "question": "Khi làm việc với UPnP, một thiết bị tự gán cái gì của chính nó?",
+      "options": {
+        "A": "Địa chỉ IP",
+        "B": "Địa chỉ gửi thư",
+        "C": "Địa chỉ doanh nghiệp",
+        "D": "Địa chỉ UpnP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "Dịch vụ nào đã được sử dụng làm mẫu thử các mối đe dọa của trung tâm điều khiển?",
+      "options": {
+        "A": "Amazon Echo",
+        "B": "Apple Store",
+        "C": "Google Play",
+        "D": "Tất cả đáp án"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "question": "Trong các thành phần liên kết trong IoT, thành phần nào nằm ở giữa sơ đồ biểu diên IoT?",
+      "options": {
+        "A": "Định danh",
+        "B": "Cảm biến",
+        "C": "Kết nối",
+        "D": "Đối tượng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 74,
+      "question": "Phạm vi của Bluetooth 4.2?",
+      "options": {
+        "A": "50m-150m",
+        "B": "1m-20m",
+        "C": "20m-40m",
+        "D": "300m - 500m"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 75,
+      "question": "\"Digital Twin\" trong IoT có nghĩa là gì?",
+      "options": {
+        "A": "Bản sao sao chép dữ liệu",
+        "B": "Mô hình số hóa của thiết bị thực",
+        "C": "Thiết bị thay thế",
+        "D": "Công cụ phân tích mã nguồn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "question": "Mục đích chính của IoT là gì?",
+      "options": {
+        "A": "Kết nối các thiết bị và đối tượng để chia sẻ dữ liệu",
+        "B": "Tạo ra một Internet mới dành riêng cho các thiết bị di động",
+        "C": "Mở rộng sự phổ biến của trò chơi trực tuyến",
+        "D": "Tăng cường an ninh mạng cho doanh nghiệp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 77,
+      "question": "Gateway trong kiến trúc IoT có chức năng chính là gì?",
+      "options": {
+        "A": "Kết nối trực tiếp cảm biến với người dùng",
+        "B": "Chuẩn hóa dữ liệu, chuyển đổi giao thức và định tuyến",
+        "C": "Lưu trữ dữ liệu dài hạn",
+        "D": "Cung cấp điện năng cho cả hệ thống"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "question": "Phân loại cảm biến hình ảnh dựa trên tiêu chí nào?",
+      "options": {
+        "A": "Công nghệ sản xuất chip",
+        "B": "Kích thước và độ phân giải",
+        "C": "Ứng dụng",
+        "D": "Tất cả phương án"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 79,
+      "question": "Raspberry Pi 4 Model B dùng vi điều khiển gì?",
+      "options": {
+        "A": "Quad core Cortex-A72",
+        "B": "Atmega 328",
+        "C": "Intel® Atom T™ SOC",
+        "D": "Tensilica Diamond Standard 106Micro"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 80,
+      "question": "IOT là viết tắt?",
+      "options": {
+        "A": "Internet of Things",
+        "B": "Internet of Think",
+        "C": "Internet of Technology",
+        "D": "Intelligent of Technology"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 81,
+      "question": "Giao thức nào làm trung gian cho các gói tin trên lớp ứng dụng với mục đích thay thế các hệ thống truyền tin độc quyền và không tương thích trong IoT?",
+      "options": {
+        "A": "DDS",
+        "B": "MQTT",
+        "C": "COAP",
+        "D": "AMQP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 82,
+      "question": "Đâu là công nghệ không dây sử dụng các bóng đèn LED để truyền dữ liệu với tốc độ nhanh hơn Wifi tới 100 lần?",
+      "options": {
+        "A": "LIFI",
+        "B": "Sigfox",
+        "C": "Neul",
+        "D": "Thread"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 83,
+      "question": "Arduino Uno R3 dùng vi điều khiển gì?",
+      "options": {
+        "A": "Atmega 328",
+        "B": "Quad core Cortex-A72",
+        "C": "Intel® Atom T™ SOC",
+        "D": "Tensilica Diamond Standard 106Micro"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 84,
+      "question": "Đâu không phải là đặc điểm của hệ thống nhúng?",
+      "options": {
+        "A": "Tính tương tác và kết nối mạng lưới rộng lớn",
+        "B": "Tính hoạt động ổn định và tự động hóa cao",
+        "C": "Tính linh hoạt và đa dạng trong việc thực hiện các nhiệm vụ",
+        "D": "Tính chuyên dụng, không phải là hệ thống máy tính đa chức năng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 85,
+      "question": "Một số tính năng mà ô tô thông minh có thể cung cấp là gì?",
+      "options": {
+        "A": "Xác định vị trí các điểm đỗ xe có sẵn",
+        "B": "Gọi dịch vụ khẩn cấp trong trường hợp xảy ra tai nạn",
+        "C": "Tự lái xe",
+        "D": "Tất cả các tùy chọn đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 86,
+      "question": "Những thách thức lớn của IoT là gì?",
+      "options": {
+        "A": "An ninh và sự riêng tư",
+        "B": "Không có gì cả",
+        "C": "Chia sẻ thông tin",
+        "D": "Nó rất dễ tạo và thực hiện"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 87,
+      "question": "LoRaWAN là gì?",
+      "options": {
+        "A": "Giao thức truyền thông không dây cho IoT",
+        "B": "Ngôn ngữ lập trình cho IoT",
+        "C": "Công nghệ kết nối dữ liệu sản xuất",
+        "D": "Màn hình cảm ứng cho IoT"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 88,
+      "question": "Bốn lĩnh vực công nghệ chính luôn gắn liền với sự phát triển xu thế IoT, chọn phương án đúng nhất?",
+      "options": {
+        "A": "Phần cứng, truyền thông kết nối, phần mềm, ứng dụng",
+        "B": "Phần cứng, phần mềm, thương mại, năng lượng",
+        "C": "Phần cứng, phần mềm, dữ liệu lớn, internet",
+        "D": "Phần mềm, internet, mã hóa, dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 89,
+      "question": "MQTT dựa trên kiến trúc nào?",
+      "options": {
+        "A": "Publish-subscribe architecture",
+        "B": "Client-server architecture",
+        "C": "Peer-to-peer architecture",
+        "D": "Request-responde architecture"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 90,
+      "question": "Điều nào sau đây là nhược điểm của việc sử dụng IoT?",
+      "options": {
+        "A": "Chi phí quá đắt",
+        "B": "Lối sống xấu đi",
+        "C": "Năng suất không tăng",
+        "D": "Quá phụ thuộc vào công nghệ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 91,
+      "question": "Đâu là ưu điểm của cảm biến hồng ngoại?",
+      "options": {
+        "A": "Có độ nhạy cao trong việc xác định vật thể phát ra bức xạ hồng ngoại trong không gian",
+        "B": "Điều kiện nhiệt độ môi trường. Những môi trường có nhiệt độ cao thì cảm biến sẽ hoạt động hiệu quả",
+        "C": "Phạm vi quét cảm biến hồng ngoại không có góc bị chết",
+        "D": "Không bị nhầm lẫn khi phát hiện ra chuyển động"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 92,
+      "question": "Sóng WiFi truyền và phát tín hiệu ở tần số?",
+      "options": {
+        "A": "1.4 GHz hoặc 2.3 GHz",
+        "B": "6 GHz hoặc 10 GHz",
+        "C": "15 GHz hoặc 30 GHz",
+        "D": "2.4 GHz hoặc 5 GHz"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 93,
+      "question": "Thuật ngữ IIoT là viết tắt của những chữ nào?",
+      "options": {
+        "A": "Industrial Internet of Things",
+        "B": "Index Internet of Technology",
+        "C": "Intense Internet of Things",
+        "D": "Incorporate Internet of Technology"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 94,
+      "question": "Arduino IDE được viết bằng ngôn ngữ lập trình nào?",
+      "options": {
+        "A": "C/C++",
+        "B": "Java",
+        "C": "JavaScript",
+        "D": "Python"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 95,
+      "question": "Tổ chức hay ai là người sáng tạo ra Raspberry Pi?",
+      "options": {
+        "A": "Eben Upton",
+        "B": "Sinh viên Hernando Barragan",
+        "C": "Bởi hãng Espressif Systems",
+        "D": "Google"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 96,
+      "question": "Thiết bị nào sau đây không thể được coi là thiết bị IoT?",
+      "options": {
+        "A": "Đồng hồ thông minh",
+        "B": "Điện thoại Android",
+        "C": "Máy tính xách tay",
+        "D": "Đèn huỳnh quang"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 97,
+      "question": "Cách thức truyền dữ liệu trong IoT là gì?",
+      "options": {
+        "A": "Blutooth",
+        "B": "Zigbee",
+        "C": "Z-wave",
+        "D": "Tất cả đáp án"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 98,
+      "question": "Thiết bị nào không phải thiết bị truyền động (actuator) trong IoT?",
+      "options": {
+        "A": "Stepper motor",
+        "B": "Celling fan",
+        "C": "RGB LED",
+        "D": "Raspberry Pi"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 99,
+      "question": "Định nghĩa “edge computing\" trong IoT là gì?",
+      "options": {
+        "A": "Xử lý dữ liệu ngay tại thiết bị hoặc gân nguồn dữ liệu",
+        "B": "Lưu trữ tập trung trên địa ngục mây (cloud)",
+        "C": "Chuyển hệ thống lên máy chủ trung tâm",
+        "D": "Sử dụng mạng 5G để truyền dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 100,
+      "question": "Các thiết bị IoT trong nhà giúp ích trong việc nào sau đây?",
+      "options": {
+        "A": "Tự động hóa",
+        "B": "Tiết kiệm năng lượng",
+        "C": "An toàn và bảo mật",
+        "D": "Tất cả các câu trả lời là chính xác"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 101,
+      "question": "Các thiết bị trong hệ thống IoT thường tích hợp những gì?",
+      "options": {
+        "A": "Chỉ có cảm biến",
+        "B": "Chỉ có cơ cấu truyền động",
+        "C": "Cảm biến và cơ cấu truyền động",
+        "D": "Không cần tích hợp gì"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 102,
+      "question": "Kiến trúc IoT phổ biến nhất gồm bao nhiêu lớp?",
+      "options": {
+        "A": "3 lớp",
+        "B": "4 lớp",
+        "C": "5 lớp",
+        "D": "6 lớp"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "question": "Các lớp trong kiến trúc IoT phổ biến bao gồm:",
+      "options": {
+        "A": "Trí giác, mạng, ứng dụng, bảo mật",
+        "B": "Trí giác, mạng, hỗ trợ, ứng dụng",
+        "C": "Trí giác, ứng dụng, lưu trữ, bảo mật",
+        "D": "Mạng, hỗ trợ, lưu trữ, ứng dụng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "Giao thức MQTT được thiết kế để làm gì?",
+      "options": {
+        "A": "Truyền dữ liệu video",
+        "B": "Truyền thông tin giữa các thiết bị với năng lượng thấp",
+        "C": "Quản lý cơ sở dữ liệu",
+        "D": "Kết nối mạng WiFi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "CoAP được thiết kế cho loại thiết bị nào?",
+      "options": {
+        "A": "Thiết bị tốc độ cao",
+        "B": "Thiết bị ràng buộc về tài nguyên",
+        "C": "Thiết bị lưu trữ lớn",
+        "D": "Thiết bị không cần kết nối Internet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "AMQP là viết tắt của:",
+      "options": {
+        "A": "Advanced Messaging Queue Protocol",
+        "B": "Advanced Message Queue Protocol",
+        "C": "Application Messaging Queue Protocol",
+        "D": "Active Message Queue Protocol"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Giao thức AMQP thường sử dụng Message Broker nào?",
+      "options": {
+        "A": "Mosquitto",
+        "B": "RabbitMQ",
+        "C": "Apache Kafka",
+        "D": "ActiveMQ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "DDS (Data Distribution Service) phù hợp với ứng dụng nào?",
+      "options": {
+        "A": "Truyền dữ liệu video streaming",
+        "B": "Hệ thống thời gian thực",
+        "C": "Quản lý cơ sở dữ liệu",
+        "D": "Gửi email"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 109,
+      "question": "Công nghệ truyền dữ liệu nào có phạm vi 50-150m?",
+      "options": {
+        "A": "Zigbee",
+        "B": "Bluetooth",
+        "C": "Z-Wave",
+        "D": "LoRa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 110,
+      "question": "BLE (Bluetooth Low Energy) được thiết kế để:",
+      "options": {
+        "A": "Truyền file dung lượng lớn",
+        "B": "Tiêu thụ năng lượng thấp",
+        "C": "Truyền dữ liệu tốc độ cao",
+        "D": "Kết nối mạng di động"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "question": "Zigbee hoạt động ở tần số nào?",
+      "options": {
+        "A": "900 MHz",
+        "B": "2.4 GHz",
+        "C": "5 GHz",
+        "D": "868 MHz"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "Zigbee phù hợp với ứng dụng nào?",
+      "options": {
+        "A": "Truyền dữ liệu qua mạng di động",
+        "B": "Smarthome và khu vực đô thị",
+        "C": "Truyền video trực tuyến",
+        "D": "Kết nối vệ tinh"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "Z-Wave hoạt động ở dải tần nào?",
+      "options": {
+        "A": "900 MHz",
+        "B": "2.4 GHz",
+        "C": "5 GHz",
+        "D": "868 MHz"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "Z-Wave có tốc độ truyền dữ liệu tối đa bao nhiêu?",
+      "options": {
+        "A": "250 kbps",
+        "B": "100 kbps",
+        "C": "1 Mbps",
+        "D": "600 Mbps"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "6LoWPAN là giao thức thuộc lớp nào?",
+      "options": {
+        "A": "Ứng dụng",
+        "B": "Mạng",
+        "C": "Trí giác",
+        "D": "Hỗ trợ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "6LoWPAN sử dụng giao thức nào làm nền tảng?",
+      "options": {
+        "A": "Bluetooth",
+        "B": "IPv6",
+        "C": "Zigbee",
+        "D": "WiFi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "Thread là giao thức được thiết kế cho:",
+      "options": {
+        "A": "Truyền dữ liệu tốc độ cao",
+        "B": "Tự động hóa trong nhà và tòa nhà",
+        "C": "Kết nối mạng di động",
+        "D": "Truyền video"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "Tốc độ tối đa của WiFi chuẩn 802.11n là bao nhiêu?",
+      "options": {
+        "A": "150 Mbps",
+        "B": "600 Mbps",
+        "C": "1 Gbps",
+        "D": "300 Mbps"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "Mạng di động Cellular hỗ trợ chuẩn nào?",
+      "options": {
+        "A": "Zigbee",
+        "B": "GSM, UMTS, LTE",
+        "C": "Z-Wave",
+        "D": "Thread"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "question": "Sigfox phù hợp với ứng dụng nào?",
+      "options": {
+        "A": "Truyền video",
+        "B": "Ứng dụng IoT cần truyền dữ liệu nhỏ, khoảng cách xa",
+        "C": "Kết nối mạng nội bộ",
+        "D": "Truyền dữ liệu tốc độ cao"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "question": "LoRa có phạm vi truyền tối đa bao nhiêu?",
+      "options": {
+        "A": "1 km",
+        "B": "15 km",
+        "C": "50 km",
+        "D": "100 km"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "question": "LiFi sử dụng công nghệ gì để truyền dữ liệu?",
+      "options": {
+        "A": "Sóng vô tuyến",
+        "B": "Ánh sáng khả kiến",
+        "C": "Sóng siêu âm",
+        "D": "Từ trường"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "Neul là công nghệ truyền dữ liệu thuộc loại nào?",
+      "options": {
+        "A": "Mạng di động",
+        "B": "Mạng diện rộng công suất thấp",
+        "C": "Mạng nội bộ",
+        "D": "Mạng vệ tinh"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "Cảm biến được định nghĩa là gì?",
+      "options": {
+        "A": "Thiết bị lưu trữ dữ liệu",
+        "B": "Thiết bị thu nhận và chuyển đổi tín hiệu vật lý thành tín hiệu điện",
+        "C": "Thiết bị truyền dữ liệu qua Internet",
+        "D": "Thiết bị điều khiển động cơ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "Cảm biến được phân loại dựa trên lĩnh vực nào?",
+      "options": {
+        "A": "Vật lý, hóa học, sinh học",
+        "B": "Cơ khí, điện tử, quang học",
+        "C": "Tần số, công suất, năng lượng",
+        "D": "Kích thước, trọng lượng, độ bền"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 126,
+      "question": "Cảm biến chủ động khác cảm biến thụ động ở điểm nào?",
+      "options": {
+        "A": "Cảm biến chủ động không cần nguồn năng lượng",
+        "B": "Cảm biến chủ động cần nguồn năng lượng để hoạt động",
+        "C": "Cảm biến thụ động có độ chính xác cao hơn",
+        "D": "Cảm biến chủ động không thu nhận tín hiệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "question": "Cảm biến tiếp xúc là gì?",
+      "options": {
+        "A": "Cảm biến không cần tiếp xúc với vật thể",
+        "B": "Cảm biến cần tiếp xúc trực tiếp với vật thể",
+        "C": "Cảm biến sử dụng sóng vô tuyến",
+        "D": "Cảm biến hoạt động qua ánh sáng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "Độ lệch của cảm biến được hiểu là:",
+      "options": {
+        "A": "Độ phân giải tối đa của cảm biến",
+        "B": "Sai số giữa giá trị đo và giá trị thực",
+        "C": "Tốc độ phản hồi của cảm biến",
+        "D": "Phạm vi đo của cảm biến"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 129,
+      "question": "Độ phân giải của cảm biến là gì?",
+      "options": {
+        "A": "Đơn vị nhỏ nhất mà cảm biến có thể đo được",
+        "B": "Khoảng cách tối đa cảm biến có thể hoạt động",
+        "C": "Tốc độ truyền dữ liệu của cảm biến",
+        "D": "Độ bền của cảm biến"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "question": "Cảm biến hình ảnh được sử dụng để:",
+      "options": {
+        "A": "Đo nhiệt độ",
+        "B": "Chụp và xử lý hình ảnh",
+        "C": "Đo áp suất",
+        "D": "Phát hiện chuyển động"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 131,
+      "question": "Cảm biến nhiệt độ thường sử dụng nguyên lý nào?",
+      "options": {
+        "A": "Sự thay đổi điện trở hoặc điện áp theo nhiệt độ",
+        "B": "Sự thay đổi tần số sóng vô tuyến",
+        "C": "Sự thay đổi áp suất",
+        "D": "Sự thay đổi từ trường"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 132,
+      "question": "Cảm biến gia tốc được ứng dụng trong:",
+      "options": {
+        "A": "Đo độ ẩm",
+        "B": "Phát hiện chuyển động và gia tốc",
+        "C": "Đo áp suất",
+        "D": "Đo ánh sáng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "question": "Cảm biến bức xạ mặt trời được gọi là gì?",
+      "options": {
+        "A": "Thermometer",
+        "B": "Pyranometer",
+        "C": "Hygrometer",
+        "D": "Barometer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "question": "Cảm biến bức xạ mặt trời silicon-cell có đặc điểm gì?",
+      "options": {
+        "A": "Độ chính xác cao trong điều kiện nhiều mây",
+        "B": "Thời gian đáp ứng nhanh, giá thành thấp",
+        "C": "Hiệu suất tốt trong mọi điều kiện thời tiết",
+        "D": "Không cần bảo trì"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "question": "Cảm biến bức xạ được ứng dụng trong lĩnh vực nào?",
+      "options": {
+        "A": "Năng lượng tái tạo, nông nghiệp, khoa học",
+        "B": "Truyền thông không dây",
+        "C": "Giao thông vận tải",
+        "D": "Công nghệ phần mềm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 136,
+      "question": "Cảm biến tiệm cận có chức năng chính là gì?",
+      "options": {
+        "A": "Đo nhiệt độ",
+        "B": "Phát hiện vật thể gần mà không cần tiếp xúc",
+        "C": "Đo áp suất",
+        "D": "Đo độ ẩm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "question": "Cảm biến tiệm cận hoạt động dựa trên nguyên lý nào?",
+      "options": {
+        "A": "Từ trường, điện dung, hoặc quang học",
+        "B": "Nhiệt độ",
+        "C": "Áp suất",
+        "D": "Độ ẩm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 138,
+      "question": "Cảm biến áp suất thường được sử dụng để đo gì?",
+      "options": {
+        "A": "Nhiệt độ",
+        "B": "Áp suất khí hoặc chất lỏng",
+        "C": "Độ ẩm",
+        "D": "Ánh sáng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "question": "Cảm biến áp suất nước được sử dụng để:",
+      "options": {
+        "A": "Đo tốc độ gió",
+        "B": "Đo mực nước trong bể hoặc đường ống",
+        "C": "Đo độ ẩm",
+        "D": "Đo ánh sáng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "question": "Cảm biến áp suất khí nén thường được sử dụng trong:",
+      "options": {
+        "A": "Hệ thống chiếu sáng",
+        "B": "Hệ thống khí nén công nghiệp",
+        "C": "Hệ thống tưới tiêu",
+        "D": "Hệ thống âm thanh"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 141,
+      "question": "Cảm biến áp suất màng phù hợp với ngành nào?",
+      "options": {
+        "A": "Giao thông",
+        "B": "Thực phẩm",
+        "C": "Viễn thông",
+        "D": "Xây dựng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 142,
+      "question": "Cảm biến vị trí được sử dụng để:",
+      "options": {
+        "A": "Đo nhiệt độ",
+        "B": "Xác định vị trí hoặc khoảng cách của vật thể",
+        "C": "Đo áp suất",
+        "D": "Đo độ ẩm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 143,
+      "question": "Cảm biến vị trí quang hoạt động dựa trên:",
+      "options": {
+        "A": "Từ trường",
+        "B": "Ánh sáng phản xạ hoặc giao thoa",
+        "C": "Nhiệt độ",
+        "D": "Áp suất"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 144,
+      "question": "Cảm biến vị trí được ứng dụng trong:",
+      "options": {
+        "A": "Định vị GPS, điều khiển máy bay không người lái",
+        "B": "Đo độ ẩm",
+        "C": "Truyền dữ liệu qua mạng",
+        "D": "Đo ánh sáng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 145,
+      "question": "Cảm biến quang điện được sử dụng để:",
+      "options": {
+        "A": "Đo áp suất",
+        "B": "Phát hiện ánh sáng hoặc vật thể qua ánh sáng",
+        "C": "Đo nhiệt độ",
+        "D": "Đo độ ẩm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 146,
+      "question": "Cảm biến chuyển động thường được sử dụng trong:",
+      "options": {
+        "A": "Hệ thống tưới tiêu",
+        "B": "Hệ thống an ninh",
+        "C": "Hệ thống chiếu sáng công cộng",
+        "D": "Hệ thống âm thanh"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 147,
+      "question": "Cảm biến độ ẩm được sử dụng để:",
+      "options": {
+        "A": "Đo áp suất",
+        "B": "Đo độ ẩm trong môi trường",
+        "C": "Đo ánh sáng",
+        "D": "Đo gia tốc"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "question": "Cảm biến khuyết tật được ứng dụng trong:",
+      "options": {
+        "A": "Kiểm tra chất lượng sản phẩm công nghiệp",
+        "B": "Đo nhiệt độ",
+        "C": "Truyền dữ liệu",
+        "D": "Đo ánh sáng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 149,
+      "question": "Cảm biến ngọn lửa thường được sử dụng trong:",
+      "options": {
+        "A": "Hệ thống tưới tiêu",
+        "B": "Hệ thống phòng cháy chữa cháy",
+        "C": "Hệ thống chiếu sáng",
+        "D": "Hệ thống âm thanh"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 150,
+      "question": "Cảm biến điện được sử dụng để:",
+      "options": {
+        "A": "Đo độ ẩm",
+        "B": "Đo các thông số điện như điện áp, dòng điện",
+        "C": "Đo ánh sáng",
+        "D": "Đo áp suất"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 151,
+      "question": "Cảm biến không tiếp xúc có đặc điểm gì?",
+      "options": {
+        "A": "Cần tiếp xúc trực tiếp với vật thể",
+        "B": "Phát hiện vật thể mà không cần tiếp xúc",
+        "C": "Chỉ hoạt động trong môi trường nước",
+        "D": "Chỉ đo được nhiệt độ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 152,
+      "question": "Cảm biến bức xạ RK200-04 được sử dụng để đo gì?",
+      "options": {
+        "A": "Nhiệt độ",
+        "B": "Bức xạ mặt trời",
+        "C": "Áp suất",
+        "D": "Độ ẩm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 153,
+      "question": "Cảm biến áp suất lò hơi cần lưu ý điều gì khi chọn mua?",
+      "options": {
+        "A": "Nhiệt độ hoạt động của lò",
+        "B": "Độ ẩm môi trường",
+        "C": "Tần số sóng vô tuyến",
+        "D": "Phạm vi truyền dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 154,
+      "question": "Lớp vận chuyển trong IoT đảm nhiệm vai trò gì?",
+      "options": {
+        "A": "Lưu trữ dữ liệu",
+        "B": "Truyền dữ liệu giữa các thiết bị",
+        "C": "Xử lý dữ liệu",
+        "D": "Hiển thị dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 155,
+      "question": "Lớp mạng trong IoT sử dụng giao thức nào?",
+      "options": {
+        "A": "HTTP",
+        "B": "IPv4, IPv6",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 156,
+      "question": "Tường lửa trong IoT có vai trò gì?",
+      "options": {
+        "A": "Truyền dữ liệu",
+        "B": "Bảo vệ hệ thống khỏi các cuộc tấn công mạng",
+        "C": "Lưu trữ dữ liệu",
+        "D": "Xử lý dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 157,
+      "question": "Cisco Packet Tracer được sử dụng để làm gì?",
+      "options": {
+        "A": "Lập trình phần mềm",
+        "B": "Mô phỏng và xây dựng hệ thống mạng IoT",
+        "C": "Thiết kế phần cứng",
+        "D": "Quản lý cơ sở dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 158,
+      "question": "Arduino được sử dụng để làm gì trong IoT?",
+      "options": {
+        "A": "Lập trình và điều khiển thiết bị IoT",
+        "B": "Truyền dữ liệu qua mạng di động",
+        "C": "Lưu trữ dữ liệu",
+        "D": "Thiết kế giao diện người dùng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 159,
+      "question": "Ứng dụng IoT hàng đầu thuộc lĩnh vực nào?",
+      "options": {
+        "A": "Smarthome, y tế, nông nghiệp",
+        "B": "Truyền thông quảng cáo",
+        "C": "Phát triển phần mềm",
+        "D": "Giáo dục trực tuyến"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 160,
+      "question": "Mạng vệ tinh trong IoT được sử dụng khi nào?",
+      "options": {
+        "A": "Trong phạm vi nội bộ",
+        "B": "Khi cần kết nối ở khoảng cách xa và vùng sâu vùng xa",
+        "C": "Trong mạng LAN",
+        "D": "Trong mạng WiFi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 161,
+      "question": "Phần cứng trong IoT bao gồm những gì?",
+      "options": {
+        "A": "Chỉ có phần mềm",
+        "B": "Cảm biến, bộ vi điều khiển, thiết bị truyền thông",
+        "C": "Chỉ có giao diện người dùng",
+        "D": "Chỉ có cơ sở dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 162,
+      "question": "Giao thức liên kết trong IoT là gì?",
+      "options": {
+        "A": "Giao thức kết nối các thiết bị trong mạng",
+        "B": "Giao thức lưu trữ dữ liệu",
+        "C": "Giao thức hiển thị dữ liệu",
+        "D": "Giao thức xử lý dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 163,
+      "question": "Mạng di động trong IoT hỗ trợ chuẩn nào?",
+      "options": {
+        "A": "Zigbee",
+        "B": "3G, 4G, LTE",
+        "C": "Z-Wave",
+        "D": "Thread"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 164,
+      "question": "MQTT có ưu điểm gì so với các giao thức khác?",
+      "options": {
+        "A": "Truyền dữ liệu video tốt hơn",
+        "B": "Nhẹ nhàng, tiêu thụ năng lượng thấp",
+        "C": "Hỗ trợ lưu trữ dữ liệu",
+        "D": "Tốc độ truyền cao hơn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 165,
+      "question": "CoAP sử dụng DTLS để làm gì?",
+      "options": {
+        "A": "Truyền dữ liệu tốc độ cao",
+        "B": "Bảo mật dữ liệu",
+        "C": "Lưu trữ dữ liệu",
+        "D": "Xử lý dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "question": "AMQP có đặc điểm gì nổi bật?",
+      "options": {
+        "A": "Độ tin cậy và bảo mật cao",
+        "B": "Tốc độ truyền thấp",
+        "C": "Không hỗ trợ định dạng dữ liệu",
+        "D": "Chỉ dùng trong mạng nội bộ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 167,
+      "question": "Zigbee có ưu điểm gì so với Bluetooth?",
+      "options": {
+        "A": "Tốc độ truyền cao hơn",
+        "B": "Hỗ trợ số lượng node lớn hơn",
+        "C": "Phạm vi truyền xa hơn",
+        "D": "Tiêu thụ năng lượng cao hơn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "question": "Z-Wave có đặc điểm gì nổi bật?",
+      "options": {
+        "A": "Tốc độ truyền cao",
+        "B": "Tiêu thụ năng lượng cực thấp",
+        "C": "Không hỗ trợ smarthome",
+        "D": "Phạm vi truyền rất xa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 169,
+      "question": "6LoWPAN hỗ trợ giao thức nào?",
+      "options": {
+        "A": "TCP, UDP, HTTP, CoAP",
+        "B": "FTP, SMTP",
+        "C": "Zigbee, Z-Wave",
+        "D": "Bluetooth, WiFi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 170,
+      "question": "Thread có khả năng xử lý bao nhiêu nút?",
+      "options": {
+        "A": "50 nút",
+        "B": "250 nút",
+        "C": "100 nút",
+        "D": "500 nút"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "question": "WiFi có nhược điểm gì trong IoT?",
+      "options": {
+        "A": "Tiêu thụ năng lượng cao",
+        "B": "Tốc độ truyền thấp",
+        "C": "Không hỗ trợ mạng LAN",
+        "D": "Phạm vi truyền ngắn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 172,
+      "question": "Cellular phù hợp với ứng dụng nào?",
+      "options": {
+        "A": "Truyền dữ liệu khoảng cách xa",
+        "B": "Truyền dữ liệu trong mạng nội bộ",
+        "C": "Truyền video tốc độ cao",
+        "D": "Truyền dữ liệu năng lượng thấp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 173,
+      "question": "NFC thường được sử dụng trong:",
+      "options": {
+        "A": "Truyền dữ liệu khoảng cách xa",
+        "B": "Thanh toán không tiếp xúc",
+        "C": "Truyền video",
+        "D": "Kết nối mạng nội bộ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 174,
+      "question": "Cảm biến nhiệt độ có ứng dụng nào?",
+      "options": {
+        "A": "Giám sát môi trường, y tế",
+        "B": "Truyền dữ liệu qua mạng",
+        "C": "Đo khoảng cách",
+        "D": "Phát hiện chuyển động"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 175,
+      "question": "Cảm biến gia tốc có ứng dụng nào?",
+      "options": {
+        "A": "Đo độ ẩm",
+        "B": "Phát hiện chuyển động trong thiết bị di động",
+        "C": "Đo ánh sáng",
+        "D": "Đo áp suất"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 176,
+      "question": "Cảm biến áp suất màng có đặc điểm gì?",
+      "options": {
+        "A": "Không phù hợp với thực phẩm",
+        "B": "Chống bám bẩn, đạt tiêu chuẩn vệ sinh",
+        "C": "Chỉ đo được áp suất khí",
+        "D": "Không cần bảo trì"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 177,
+      "question": "Cảm biến vị trí GPS được sử dụng trong:",
+      "options": {
+        "A": "Đo nhiệt độ",
+        "B": "Xác định vị trí trên bản đồ",
+        "C": "Đo áp suất",
+        "D": "Đo độ ẩm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 178,
+      "question": "Cảm biến quang học có ưu điểm gì?",
+      "options": {
+        "A": "Không bị nhiễu điện từ",
+        "B": "Tiêu thụ năng lượng cao",
+        "C": "Chỉ hoạt động trong môi trường nước",
+        "D": "Phạm vi đo ngắn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 179,
+      "question": "Cảm biến MEMS là gì?",
+      "options": {
+        "A": "Cảm biến sử dụng sóng vô tuyến",
+        "B": "Cảm biến cơ điện vi mô",
+        "C": "Cảm biến sử dụng ánh sáng",
+        "D": "Cảm biến sử dụng nhiệt độ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 180,
+      "question": "Cảm biến áp suất điện trở hoạt động dựa trên:",
+      "options": {
+        "A": "Sự thay đổi điện trở của strain gauge",
+        "B": "Sự thay đổi tần số sóng",
+        "C": "Sự thay đổi từ trường",
+        "D": "Sự thay đổi ánh sáng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 181,
+      "question": "Cảm biến áp suất điện dung có đặc điểm gì?",
+      "options": {
+        "A": "Độ nhạy cao, đo áp suất thấp",
+        "B": "Không chịu được quá tải",
+        "C": "Chỉ đo áp suất khí",
+        "D": "Tiêu thụ năng lượng cao"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 182,
+      "question": "Cảm biến áp suất quang học phù hợp với môi trường nào?",
+      "options": {
+        "A": "Môi trường nhiễu điện từ cao",
+        "B": "Môi trường nước",
+        "C": "Môi trường nhiệt độ thấp",
+        "D": "Môi trường áp suất thấp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 183,
+      "question": "Cảm biến vị trí từ tính hoạt động dựa trên:",
+      "options": {
+        "A": "Ánh sáng",
+        "B": "Từ trường",
+        "C": "Nhiệt độ",
+        "D": "Áp suất"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 184,
+      "question": "Cảm biến vị trí quang hoạt động dựa trên cơ chế nào?",
+      "options": {
+        "A": "Từ trường",
+        "B": "Phản xạ hoặc giao thoa ánh sáng",
+        "C": "Nhiệt độ",
+        "D": "Điện dung"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "question": "Cảm biến bức xạ mặt trời có ứng dụng nào trong nông nghiệp?",
+      "options": {
+        "A": "Đo độ ẩm",
+        "B": "Tối ưu hóa môi trường trồng trọt",
+        "C": "Đo áp suất",
+        "D": "Đo gia tốc"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 186,
+      "question": "Cảm biến tiệm cận được ứng dụng trong:",
+      "options": {
+        "A": "Đo nhiệt độ",
+        "B": "Kiểm soát chất lượng sản phẩm",
+        "C": "Đo độ ẩm",
+        "D": "Đo ánh sáng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 187,
+      "question": "Cảm biến áp suất lò hơi thường được sử dụng để đo gì?",
+      "options": {
+        "A": "Độ ẩm",
+        "B": "Áp suất hơi hoặc quạt",
+        "C": "Nhiệt độ",
+        "D": "Ánh sáng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 188,
+      "question": "Cảm biến vị trí được ứng dụng trong y tế để làm gì?",
+      "options": {
+        "A": "Đo nhiệt độ",
+        "B": "Xác định vị trí bệnh nhân hoặc thiết bị y tế",
+        "C": "Đo áp suất",
+        "D": "Đo độ ẩm"
+      },
+      "answer": "B"
+    }
+  ]
+}

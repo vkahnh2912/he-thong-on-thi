@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xem đáp án chi tiết - Hệ thống ôn tập & thi trắc nghiệm EduK</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="centered-page">
+
+  <div class="card review-card">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+      <a href="result.html" style="color:var(--text-muted); text-decoration:none; font-weight:700; font-size:14px;">
+        <i class="fa-solid fa-arrow-left"></i> Quay lại kết quả
+      </a>
+      <button class="icon-btn" id="darkModeBtn" title="Chế độ tối/sáng">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+
+    <h2><i class="fa-solid fa-list-check"></i> Xem Đáp Án Chi Tiết</h2>
+
+    <p id="reviewSummary" class="note" style="margin-bottom:20px; font-weight:600; font-size:15px; color:var(--primary);"></p>
+
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all"><i class="fa-solid fa-layer-group"></i> Tất cả câu hỏi</button>
+      <button class="filter-btn" data-filter="wrong"><i class="fa-solid fa-circle-xmark" style="color:var(--danger);"></i> Câu sai</button>
+      <button class="filter-btn" data-filter="correct"><i class="fa-solid fa-circle-check" style="color:var(--success);"></i> Câu đúng</button>
+      <button class="filter-btn" data-filter="skipped"><i class="fa-solid fa-circle-question" style="color:var(--warning);"></i> Chưa trả lời</button>
+    </div>
+
+    <div id="reviewList"></div>
+
+    <div class="btn-row" style="margin-top:24px;">
+      <button class="btn secondary" id="backBtn">
+        <i class="fa-solid fa-arrow-left"></i> Quay lại kết quả
+      </button>
+      <button class="btn" id="homeBtn">
+        <i class="fa-solid fa-house"></i> Về trang chọn đề
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Dark mode
+    const darkModeBtn = document.getElementById('darkModeBtn');
+    function applyDarkMode(on) {
+      document.body.classList.toggle('dark', on);
+      if (darkModeBtn) darkModeBtn.innerHTML = on ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+      localStorage.setItem('quizDarkMode', on ? '1' : '0');
+    }
+    applyDarkMode(localStorage.getItem('quizDarkMode') === '1');
+    if (darkModeBtn) {
+      darkModeBtn.addEventListener('click', () => {
+        applyDarkMode(!document.body.classList.contains('dark'));
+      });
+    }
+
+    requireLogin();
+
+    const quizData = JSON.parse(localStorage.getItem('quizData') || 'null');
+    const userAnswers = JSON.parse(localStorage.getItem('quizAnswers') || 'null');
+    const result = JSON.parse(localStorage.getItem('quizResult') || 'null');
+
+    if (!quizData || !userAnswers || !result) {
+      window.location.href = 'select.html';
+    }
+
+    const examName = localStorage.getItem('quizExamName') || 'Đề thi';
+    document.getElementById('reviewSummary').textContent =
+      `${examName} — ${result.correct}/${result.total} câu đúng (${result.percent}%)`;
+
+    let currentFilter = 'all';
+    const reviewList = document.getElementById('reviewList');
+
+    function answerLabels(answer) {
+      if (answer === null || answer === undefined) return [];
+      return Array.isArray(answer) ? answer : [answer];
+    }
+    function correctLabels(q) {
+      return Array.isArray(q.correct) ? q.correct : [q.correct];
+    }
+    function answerText(q, labels) {
+      return labels.map(l => `<b>${l}.</b> ${q[l] || ''}`).join('<br>');
+    }
+    function sameAnswer(answer, q) {
+      const selected = answerLabels(answer).slice().sort().join('|');
+      const correct = correctLabels(q).slice().sort().join('|');
+      return selected !== '' && selected === correct;
+    }
+
+    function getItemStatus(index) {
+      const ans = userAnswers[index];
+      const q = quizData[index];
+      if (answerLabels(ans).length === 0) return 'skipped';
+      return sameAnswer(ans, q) ? 'correct' : 'wrong';
+    }
+
+    function renderReview() {
+      reviewList.innerHTML = '';
+
+      quizData.forEach((q, i) => {
+        const status = getItemStatus(i);
+        if (currentFilter !== 'all' && currentFilter !== status) return;
+
+        const userAns = userAnswers[i];
+        const div = document.createElement('div');
+        div.className = `review-item ${status}-item`;
+
+        let userLine = '';
+        if (userAns === null) {
+          userLine = `<div class="review-answer-line user-wrong">
+            <i class="fa-solid fa-triangle-exclamation"></i> <b>Bạn chưa chọn đáp án nào</b>
+          </div>`;
+        } else if (sameAnswer(userAns, q)) {
+          userLine = `<div class="review-answer-line user-correct">
+            <i class="fa-solid fa-check-double"></i> <b>Lựa chọn của bạn (Đúng):</b><br>${answerText(q, answerLabels(userAns))}
+          </div>`;
+        } else {
+          userLine = `<div class="review-answer-line user-wrong">
+            <i class="fa-solid fa-xmark"></i> <b>Lựa chọn của bạn (Sai):</b><br>${answerText(q, answerLabels(userAns))}
+          </div>`;
+        }
+
+        const correctLine = !sameAnswer(userAns, q)
+          ? `<div class="review-answer-line correct-key" style="margin-top:10px;">
+              <i class="fa-solid fa-lightbulb"></i> <b>Đáp án chính xác:</b><br>${answerText(q, correctLabels(q))}
+            </div>`
+          : '';
+
+        div.innerHTML = `
+          <div class="review-question-title" style="color:var(--text-main);">
+            <span style="color:var(--primary); font-weight:800; margin-right:6px;">Câu ${i + 1}:</span> ${q.question}
+          </div>
+          ${userLine}
+          ${correctLine}
+        `;
+        reviewList.appendChild(div);
+      });
+
+      if (reviewList.children.length === 0) {
+        reviewList.innerHTML = '<p class="note" style="padding:20px; text-align:center;">Không có câu hỏi nào thuộc bộ lọc này.</p>';
+      }
+    }
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentFilter = btn.dataset.filter;
+        document.querySelectorAll('.filter-btn').forEach(b =>
+          b.classList.toggle('active', b === btn)
+        );
+        renderReview();
+      });
+    });
+
+    document.getElementById('backBtn').addEventListener('click', () => {
+      window.location.href = 'result.html';
+    });
+
+    document.getElementById('homeBtn').addEventListener('click', () => {
+      window.location.href = 'select.html';
+    });
+
+    renderReview();
+  </script>
+</body>
+</html>

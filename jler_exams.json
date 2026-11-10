@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "lap_trinh_python",
+    "majorId": "cntt",
+    "title": "Lập trình Python",
+    "description": "Ôn tập Python: kiểu dữ liệu, cấu trúc điều khiển, thư viện NumPy/Pandas/Matplotlib, AI/ML và lập trình hướng đối tượng.",
+    "questions": [
+      {
+        "q": "Python có 5 kiểu dữ liệu chuẩn là:",
+        "o": [
+          "Number, String, List, Tuple, Dictionary",
+          "Long, Int, List, Tuple, Text",
+          "Long, Date, Time, Tuple, Text",
+          "Time, Int, List, Tuple, Text"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Kiểu String là:",
+        "o": [
+          "Dữ liệu kiểu số",
+          "Một trong các kiểu phổ biến nhất trong Python dùng lưu trữ chuỗi ký tự. Python coi các lệnh trích dẫn đơn và kép là như nhau",
+          "Lưu trữ dưới dạng danh sách",
+          "Một khối dữ liệu, được bao quanh bởi dấu ngoặc móc đơn { }"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Kiểu List là:",
+        "o": [
+          "Lưu trữ dữ liệu dạng danh sách. Một List trong Python được bao xung quanh bởi dấu ngoặc vuông []",
+          "Lưu trữ dữ liệu dạng danh sách. Một List trong Python được bao xung quanh bởi dấu ngoặc tròn ( )",
+          "Lưu trữ dữ liệu dạng danh sách. Một List trong Python được bao xung quanh bởi dấu ngoặc nhọn { }",
+          "Lưu trữ dữ liệu số"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Kiểu Tuple là:",
+        "o": [
+          "Lưu trữ dữ liệu dạng danh sách ( tương tự như List) nhưng tuple sử dụng ngoặc đơn. Các đối tượng trong tuple được phân biệt dấu phảy.",
+          "Lưu trữ dữ liệu dạng danh sách ( tương tự như List) nhưng tuple sử dụng ngoặc nhọn. Các đối tượng trong tuple được phân biệt dấu phảy.",
+          "Là tập hợp các cặp key và value không có thứ tự. Nó là 1 khối dữ liệu được bao quanh bởi các dấu ngoặc đơn",
+          "Lưu trữ dữ liệu kiểu số"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Python hỗ trợ 4 kiểu dữ liệu số là:",
+        "o": [
+          "int, long, foat, số phức",
+          "int, long, foat, text",
+          "string, long, foat, số phức",
+          "int, long, foat, date"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để ép kiểu dữ liệu số thực trong Python ta sử dụng cú pháp nào dưới đây?",
+        "o": [
+          "i = float(input(\"Nhập giá trị đầu vào: \"))",
+          "i = int(input(\"Nhập giá trị đầu vào: \"))",
+          "i = long(input(\"Nhập giá trị đầu vào: \"))",
+          "i = input(\"Nhập giá trị đầu vào: \")"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để xuất dữ liệu ra console ta thực hiện dòng lệnh nào dưới đây?",
+        "o": [
+          "print('Giá trị số thực :', _i)",
+          "printf('Giá trị số thực :', _i)",
+          "cin('Giá trị số thực :', _i)",
+          "input('Giá trị số thực :', _i)"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Cho code như sau, bạn hãy cho biết kết quả in ra màn hình\n_a = 14\n_b = 2\"_c =4\" & vbCrLf & _ print(_a %_c)",
+        "o": [
+          "1",
+          "2",
+          "3",
+          "18"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Khoa học dữ liệu có những nhiệm vụ nào?",
+        "o": [
+          "Phân tích.",
+          "Tổng hợp.",
+          "Tối ưu hóa dữ liệu.",
+          "Tất cả các đáp án trên."
+        ],
+        "a": 3
+      },
+      {
+        "q": "NumPy là viết tắt của từ gì?",
+        "o": [
+          "Number Python.",
+          "Numerical Python.",
+          "Number Py.",
+          "Không có đáp án đúng."
+        ],
+        "a": 1
+      },
+      {
+        "q": "NumPy, Pandas, Matplotlib, Seaborn, Scikit learning, .. là các thư viện trong Python để hỗ trợ?",
+        "o": [
+          "Khoa học dữ liệu.",
+          "Trí tuệ nhân tạo AI.",
+          "Internet kết nối vạn vật IoT.",
+          "Không có đáp án đúng."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Thư viện nào trong Python dùng sử dụng trong các tập lệnh, trình bao, máy chủ ứng dụng web và các bộ công cụ GUI khác hoặc vẽ đồ thị?",
+        "o": [
+          "NumPy.",
+          "Pandas.",
+          "Matplotlib.",
+          "Seaborn."
+        ],
+        "a": 2
+      },
+      {
+        "q": "Các hàm: around, floor, ceil, real, amin, amax, ... là hàm thuộc thư viện nào?",
+        "o": [
+          "NumPy.",
+          "Pandas.",
+          "Matplotlib.",
+          "Không có đáp án đúng."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Thư viện Pandas làm việc với kiểu cấu trúc dữ liệu nào?",
+        "o": [
+          "(1) Series.",
+          "(2) DataFrame.",
+          "(3) Panel.",
+          "(1) (2) (3) đều đúng."
+        ],
+        "a": 3
+      },
+      {
+        "q": "Artificial Narrow Intelligence chỉ áp dụng AI cho?",
+        "o": [
+          "Các nhiệm vụ cụ thể.",
+          "Thực hiện bất kỳ nhiệm vụ nào mà con người có thể thực hiện được.",
+          "Khả năng của máy tính sẽ vượt qua con người.",
+          "Không có đáp án đúng."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Bài toán nào sau đây có thể sử dụng Machine Learning?",
+        "o": [
+          "(1) Regression (Hồi quy).",
+          "(2) Classification (Phân loại).",
+          "(3) Clustering (Phân cụm).",
+          "Tất cả đều đúng."
+        ],
+        "a": 3
+      },
+      {
+        "q": "Đoạn code sau cú kết quả là gì?\nfor i in range(10):\n    print(i, end=\" \")",
+        "o": [
+          "In ra các số từ 1 đến 10 theo hàng",
+          "In ra các số tù 0 đến 9 theo hàng",
+          "In ra các số từ 1 đến 10 theo cột",
+          "In ra các số từ 0 đến 9 theo cột"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đoạn code sau sai ở dòng lệnh nào?\ns = 0\nfor i in range(10)\n    s += i\nprint(s)",
+        "o": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đoạn code sau thực hiện công việc gì?\ndef square(x):\n    return x ** 2\nprint(square(4))",
+        "o": [
+          "Tính giá trị bình phương của x",
+          "Tính giá trị bình phương của 4",
+          "Tình giá trị bình phương của 2",
+          "Không có đáp án đúng"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đoạn code sau cho kết quả là gì?\nfor i in range(10,0,-1):\n    print(i, end=\" \")",
+        "o": [
+          "1,2,3,4,5,6,7,8,9,10",
+          "0,1,2,3,4,5,6,7,8,9",
+          "10,9,8,7,6,5,4,3,2,1",
+          "9,8,7,6,5,4,3,2,1"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Hàm Dictionary get() dùng để làm gì?",
+        "o": [
+          "Lấy tất cả các phần tử trong Dictionary",
+          "Lấy một phần tử trong Dictionary",
+          "Lấy một số phần tử trong Dictionary",
+          "Không có đáp án đúng"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Hàm List append() dùng để làm gì?",
+        "o": [
+          "Thêm một phần tử vào vị trí cuối cùng của List hiện tại",
+          "Thêm một phần tử vào vị trí đầu tiên của List hiện tại",
+          "Thêm một phần tử vào vị trí giữa của List hiện tại",
+          "Thêm một phần tử vào vị trí bất kì của List hiện tại"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Tính chất cơ bản của OOP (Object-Oriented Programing)?",
+        "o": [
+          "Kế thừa, đóng gói, trừu tượng, đa hình.",
+          "Thuộc tính, phương thức, khởi tạo, hủy",
+          "Kế thừa, đóng gói, đa hình.",
+          "Đóng gói, đa kế thừa, đa hình, trừu tượng ."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Constructor được sử dụng để tạo ra?",
+        "o": [
+          "Một đối tượng.",
+          "Một class",
+          "Một Attribute.",
+          "Một method."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Một class có mấy phương thức khởi tạo?",
+        "o": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Nếu class không được định nghĩa constructor, Python mặc định hiểu constructor là?",
+        "o": [
+          "__init__(sel).",
+          "init()",
+          "init(self).",
+          "constructor()."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Biến __name thuộc phạm vi nào?",
+        "o": [
+          "Private",
+          "Public",
+          "Protected",
+          "Local."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Đâu là kết quả của đoạn code dưới đây?",
+        "image": "image/CNTT/python/hinh-01.jpg",
+        "imageAlt": "Mã Python lớp point có hàm khởi tạo __init__(self, x=0, y=0), tạo p1=point() rồi in p1.x, p1.y",
+        "o": [
+          "1 1.",
+          "0 0",
+          "None None",
+          "x y."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Kết quả của chương trình dưới đây là?",
+        "image": "image/CNTT/python/hinh-02.png",
+        "imageAlt": "Mã Python lớp point có __init__ và __sub__, tạo p1=point(3,4), p2=point(1,2), tính result=p1-p2 rồi in result.x, result.y",
+        "o": [
+          "7 9",
+          "4 6",
+          "1 1",
+          "0 0"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Khẳng định nào đúng về chương trình dưới đây?",
+        "image": "image/CNTT/python/hinh-03.jpg",
+        "imageAlt": "Mã Python lớp A có thuộc tính a và __b, tạo obj=A(), gán obj.a=45 rồi in obj.a",
+        "o": [
+          "Chương trình chạy bình thường và kết quả được in ra là 45",
+          "Chương trình có lỗi vì a là thuộc tính private, không thể truy cập từ bên ngoài lớp",
+          "Chương trình có lỗi vì __b là thuộc tính private, không thể truy cập từ bên ngoài lớp.",
+          "Chương trình chạy bình thường và kết quả được in ra là 1."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Khẳng định nào đúng về chương trình dưới đây?",
+        "image": "image/CNTT/python/hinh-04.jpg",
+        "imageAlt": "Mã Python lớp A có thuộc tính a và __b, tạo obj=A(), gán obj.b=45 rồi in obj.b",
+        "o": [
+          "Chương trình có lỗi vì ' __b' là thuộc tính private, không thể truy cập từ bên ngoài lớp",
+          "Chương trình có lỗi vì 'a' là thuộc tính private, không thể truy cập từ bên ngoài lớp",
+          "Chương trình chạy bình thường và kết quả được in ra là 45",
+          "Chương trình chạy bình thường và kết quả được in ra là 1."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Đoạn lệnh sau cho kết quả là gì?\nD = {1: \"one\", 2: \"two\"}\nD.clear()\nprint('D =', D)",
+        "o": [
+          "D = { }",
+          "D = { 1 }",
+          "D = { one}",
+          "D = 2"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Đoạn code sau cho kết quả là bao nhiêu?\nn = [5.5, 3, 4, -5]\nnSum = sum(n, 10)\nprint(nSum)",
+        "o": [
+          "5.5",
+          "7.5",
+          "10.5",
+          "17.5"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Đoạn code sau lỗi ở dòng nào?\n1. person = {'name': 'Phill', 'age': 32}\n2. print('Name: ', person.get('name'))\n3. print('Age: ', person.get('age'))\n4. print('Salary: ', person.get('salary', 10.000.000))",
+        "o": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Đoạn code sau cho kết quả là gì?\nL = ['freetuts', 'dot', 'net']\nL.append('Python admin')\nprint('Updated list: ', L)",
+        "o": [
+          "Updated list: [ 'Python admin','freetuts', 'dot', 'net']",
+          "Updated list: ['freetuts', 'dot', 'net', 'Python admin']",
+          "Updated list: ['freetuts'', 'net', 'Python admin', 'dot]",
+          "Updated list: ['net','freetuts', 'dot', 'Python admin']"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đoạn chương trình sau cho kết quả là gì?\nL = {'C++', 'PYTHON', 'PHP', 'JAVA'}\nL.add('PYTHON')\nprint('Ket qua:', L)",
+        "o": [
+          "Updated List : {'PYTHON', 'JAVA', 'PHP', 'PYTHON'}",
+          "Updated List : { 'JAVA', 'PHP', 'C++'}",
+          "Updated List : {'PYTHON', 'PYTHON,'JAVA', 'PHP', 'C++'}",
+          "Updated List : {'PYTHON', 'JAVA', 'PHP', 'C++'}"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Đoạn code sau thực hiện công việc gì?\ndef ChuanHoa(s):\n    a = s.strip()\n    b = \" \".join(a.split())\n    return b\ns = input(\"Nhap chuoi: \")\nprint(\"Chuoi sau khi chuan hoa:\", ChuanHoa(s))",
+        "o": [
+          "Xóa các kí tự trùng nhau",
+          "Xóa các kí tự trống thừa ở đầu và cuối của xâu văn bản",
+          "Xóa các kí tự trống thừa trong xâu văn bản",
+          "Không có đáp án đúng"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Với n = 20 thì đoạn chương trình sau cho kết quả là bao nhiêu\nn = int(input(\"Nhap vao so nguyen bat ky\"))\ns = 0\nfor i in range(2, n, 2):\n    s += i\nprint(s)",
+        "o": [
+          "80",
+          "90",
+          "100",
+          "120"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đoạn chương trình sau thực hiện công việc gì?\nprint(\"In bang so:\")\nfor i in range(0, 10):\n    for j in range(i+1, 101, 10):\n        print(\"{:<3}\".format(j), end=\" \")\n    print()",
+        "o": [
+          "In ra bảng số từ 1 đến 100",
+          "In ra bảng số từ 1 đến 101",
+          "In ra các số từ 0 đến 99",
+          "Không có đáp án đúng"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Trong các lệnh dưới đây lệnh nào là đúng khi thêm thư viện vào trong ứng dụng?",
+        "o": [
+          "import pandas as pd",
+          "import matsplotlib.pyplot as plt",
+          "import numspy",
+          "import pansda as pd."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để cài đặt thư viện ta dùng lệnh nào dưới đây?",
+        "o": [
+          "(1) pip install <tên thư viện>",
+          "( 2) pip install <tên thư viện 1> <tên thư viện 2>",
+          "(3) conda install < tên thư viện>",
+          "(1) (2) (3) đều đúng."
+        ],
+        "a": 3
+      },
+      {
+        "q": "Đoạn code sau thực hiện công việc gì?\ndef ChuanHoa(s):\n    a = s.strip()\n    b = \" \".join(a.split())\n    return b\ns = input(\"Nhap chuoi: )\nprint(\"Chuoi sau khi chuan hoa:\", ChuanHoa(s))",
+        "o": [
+          "Xóa các kí tự trùng nhau",
+          "Xóa các kí tự trống thừa ở đầu và cuối của xâu văn bản",
+          "Xóa các kí tự trống thừa trong xâu văn bản",
+          "Không có đáp án đúng"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Trong các lệnh dưới đây lệnh nào là sai khi thêm thư viện vào trong ứng dụng?",
+        "o": [
+          "import pandas as pd",
+          "import matplotlib.pyplot as plt",
+          "( 3) import numpy",
+          "(1) (2) (3) đều đúng."
+        ],
+        "a": 3
+      },
+      {
+        "q": "Lệnh nào cài đặt thư viện bị sai?",
+        "o": [
+          "(1) pip install <tên thư viện>",
+          "(2) pip install <tên thư viện 1> <tên thư viện 2>",
+          "(3) pip install <tên thư viện 1>,<tên thư viện 2>",
+          "(1) (2) (3) đều đúng."
+        ],
+        "a": 2
+      },
+      {
+        "q": "Để mở file testData.csv ta dùng lệnh nào?",
+        "o": [
+          "df = pd.read_csv(testData.csv)",
+          "df = pd.read_csv('testData.csv')",
+          "df = pd.read_csv['testData.csv']",
+          "df = pd.read_csv[testData.csv]"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Để lưu dữ liệu vào file abc.csv ta dùng lệnh nào?",
+        "o": [
+          "df.to_csv(abc.csv)",
+          "df.to_csv[\"abc.csv\"]",
+          "df.to_csv(\"abc.csv\")",
+          "df.to_csv[\"abc.csv\"]"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Khi sử dụng thư viện pandas muốn hiển thị dữ liệu của 5 dòng đầu tiên của đối tượng df ta có thể sử dụng câu lệnh",
+        "o": [
+          "TB(42, 1) = \"df.head(5)\"",
+          "TB(42, 2) = \" df.tail(5)\"",
+          "TB(42, 3) = \" df.shape(5)\"",
+          "TB(42, 4) = \" df.iloc(5)\""
+        ],
+        "a": 0
+      },
+      {
+        "q": "Khi sử dụng thư viện pandas muốn hiển thị dữ liệu từ dòng có index 5 đến dòng có index 10 của đối tượng df ta có thể sử dụng câu lệnh",
+        "o": [
+          "df.head(5:10)",
+          "df.tail(5:10)",
+          "df.shape(5:10)",
+          "df.iloc[5:10]"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Khi sử dụng thư viện pandas muốn hiển thị dữ liệu 2 cột Ngành và Điểm của đối tượng df ta có thể sử dụng câu lệnh",
+        "o": [
+          "df.('Nganh','Diem')",
+          "df.cols('Nganh','Diem')",
+          "df[['Nganh','Diem']]",
+          "df['Nganh']['Diem']"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Khi sử dụng thư viện pandas muốn sắp xếp dữ liệu theo 2 cột Ngành và Điểm của đối tượng df ta có thể sử dụng câu lệnh",
+        "o": [
+          "df['Nganh','Diem'].sort",
+          "df.sort_values(by=['Nganh','Diem']",
+          "df.sort['Nganh','Diem']",
+          "df.sort_by['Nganh','Diem']"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Khi sử dụng thư viện pandas muốn thêm một dòng dữ liệu vào đối tượng df ta có thể sử dụng câu lệnh",
+        "o": [
+          "df.add(ten='HUBT')",
+          "df.append({'Ten':'HUBT'})",
+          "df.insert(Ten) values('HUBT')",
+          "df.addrows('HUBT')"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Khi sử dụng thư viện pandas muốn xóa các dòng có giá trị bằng 17 của đối tượng df ta có thể sử dụng câu lệnh",
+        "o": [
+          "df.drop(index=17)",
+          "df.del(values=17)",
+          "df.del(17)",
+          "df.remove(17)"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Khi sử dụng thư viện matlotlib để vẽ biểu đồ histogram ta có thể khai báo bằng lệnh",
+        "o": [
+          "ptl.hist(dataset['Luong',20)",
+          "ptl.draw(hist(Luong))",
+          "ptl.shape(Luong)",
+          "ptl.show(hist(Luong))"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Thư viện nào trong Python dùng để thao tác và phân tích dữ liệu như mã nguồn mở, xử lý tập dữ liệu có định dạng khác nhau, import từ nhiều nguồn khác nhau, …vv?",
+        "o": [
+          "NumPy. (tính toán khoa học, chứa đối tượng mảng n-chiều, cc tích hợp)",
+          "Pandas.",
+          "Seaborn (biểu đồ thống kê",
+          "Scikit learning (học máy : hồi quy, logistic, thuật toán chuỗi thời gian)"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Thư viện nào trong Python dùng sử dụng trong các tập lệnh, trình bao, máy chủ ứng dụng web và các bộ công cụ GUI khác hoặc vẽ đồ thị?",
+        "o": [
+          "NumPy.",
+          "Pandas.",
+          "Matplotlib. (2D)",
+          "Không có đáp án đúng."
+        ],
+        "a": 2
+      },
+      {
+        "q": "Các hàm: around, floor, ceil, real, amin, amax, … là hàm thuộc thư viện nào?",
+        "o": [
+          "NumPy.",
+          "Pandas.",
+          "Matplotlib.",
+          "Không có đáp án đúng."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Hàm Pyplot là hàm thuộc thư viện nào?",
+        "o": [
+          "NumPy.",
+          "Pandas.",
+          "Matplotlib.(from matplotlib import pyplot as plt )",
+          "Không có đáp án đúng."
+        ],
+        "a": 2
+      },
+      {
+        "q": "Thư viện Pandas làm việc với kiểu cấu trúc dữ liệu nào?",
+        "o": [
+          "Series.",
+          "DataFrame.",
+          "Panel.",
+          "Tất cả các cấu trúc trên."
+        ],
+        "a": 3
+      },
+      {
+        "q": "Có mấy giai đoạn tiến hóa cho AI?",
+        "o": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Phân loại Machine Learning gồm?",
+        "o": [
+          "Supervised Learning.(học có giám sát)",
+          "UnSupervised Learning.(học không giám sát)",
+          "Reinforcement Learning.(học tăng cường)",
+          "Tất cả các loại trên."
+        ],
+        "a": 3
+      },
+      {
+        "q": "Artificial Narrow Intelligence chỉ áp dụng AI cho?",
+        "o": [
+          "Các nhiệm vụ cụ thể.",
+          "Thực hiện bất kỳ nhiệm vụ nào mà con người có thể thực hiện được.(A General I)",
+          "Khả năng của máy tính sẽ vượt qua con người.(Artificial Super Intelligence)",
+          "Không có đáp án đúng."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Bài toán nào sau đây có thể sử dụng Machine Learning?",
+        "o": [
+          "Regression (Hồi quy).",
+          "Classification (Phân loại).",
+          "Clustering (Phân cụm).",
+          "Tất cả các đáp án trên."
+        ],
+        "a": 3
+      },
+      {
+        "q": "Để viết chú thích trong Python người ta dùng ký tự nào sau đây:",
+        "o": [
+          "Ký tự //",
+          "Ký tự /* */",
+          "Ký tự *",
+          "Ký tự #"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Giả sử có đoạn chương trình sau:\n>>> a = 5\n>>> b = 7\n>>> a,b = b,a",
+        "o": [
+          "(a = 5, b = 5)",
+          "(a = 5, b = 7)",
+          "(a = 7, b = 7)",
+          "(a = 7, b = 5)"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Giả sử thực hiện các lệnh sau từ cửa sổ tương tác của Python, sau đó nhập dữ liệu tại chỗ:\n>>> x = int(input(\"nhập x: \")\nNhập x: 5.0\nKết quả sau các lệnh trên x nhận giá trị nào?",
+        "o": [
+          "5",
+          "5.0",
+          "'5'",
+          "Python thông báo lỗi"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Giả sử thực hiện các lệnh sau từ cửa sổ tương tác của Python, sau đó nhập dữ liệu tại chỗ:\n>>> x = float(input(\"nhập x: \")\nNhập x: 4\nKết quả sau các lệnh trên x nhận giá trị nào?",
+        "o": [
+          "4",
+          "4.0",
+          "'4.0'",
+          "Python thông báo lỗi"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Biểu thức print(-4 % 6) có kết quả như thế nào?",
+        "o": [
+          "-4 % 6",
+          "-4",
+          "2",
+          "Python thông báo lỗi"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Kết quả của lệnh sau là gì?\n>>>S = \"Việt Nam\"\n>>>S[ : : -1]",
+        "o": [
+          "\" Việt Nam\"",
+          "\"teejiV maN\"",
+          "\"maN tệiV\"",
+          "Chương trình báo lỗi"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Kết quả các lệnh sau là gì?\n>>>s= \"abcdefg\"\n>>>s[-1: 0: -1] (-1: lấy vị trí cách nhau; 0: lấy từ vị trí thứ 1; -1: lấy từ vị trí cuối )",
+        "o": [
+          "\"\" (xâu rỗng)",
+          "\"gfedcba\"",
+          "\"abcdefg\"",
+          "\"gfedcb\""
+        ],
+        "a": 3
+      },
+      {
+        "q": "Kết quả các lệnh sau là gì?\n>>>s = \"abcdefg\"\n>>>s[-1 : : -1]",
+        "o": [
+          "\"\" (xâu rỗng)",
+          "\"gfedcba\"",
+          "\"abcdefg\"",
+          "\"gfedcb\""
+        ],
+        "a": 1
+      },
+      {
+        "q": "Lệnh sau cho kết quả như thế nào?\n>>> ord(\"ABC\")=> trả về mã unicode, 1 ký tự ord(x)",
+        "o": [
+          "65",
+          "h41",
+          "1000001",
+          "Chương trình báo lỗi"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Giả sử từ điển d được định nghĩa như sau:\nd = {1: 'Bình', 3: 'Thuận', 2: 'Quang'}\nKhi đó lệnh:\nlist(d) trả lại kết quả gì?",
+        "o": [
+          "Dãy (list) các cặp key - value của từ điển. (print(d))",
+          "Dãy (list) các key của từ điển",
+          "Dãy (list) các value của từ điển",
+          "Chương trình báo lỗi"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Giả sử từ điển d được định nghĩa như sau:\nd = {1: 'Bình', 3: 'Thuận', 2: 'Quang'}\nKhi đó lệnh:\nprint(d[\"Quang\"]) trả lại kết quả gì?",
+        "o": [
+          "2",
+          "\"Quang\" (print(d[2]))",
+          "[2 : \"Quang\"]",
+          "Chương trình báo lỗi"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Giả sử từ điển d được định nghĩa như sau:\nd = {1: 'Bình', 3: 'Thuận', 2: 'Quang'}\nKhi đó lệnh:\nd.get(0) trả lại kết quả gì?",
+        "o": [
+          "Chương trình báo lỗi",
+          "None",
+          "Trả lại kết quả khác",
+          "\"Bình\" (d.get(1))"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đoạn chương trình sau in ra kết quả nào ?\nXlist = [1, [1, 2], [1, 2, 3], [1, 2, 3, 4]]\nprint(Xlist[2] + [1])",
+        "o": [
+          "4",
+          "[1,2,3,1]",
+          "[[1, 2], 1]",
+          "[[1, 2, 3], [1, 2, 3, 1]]"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Lệnh list(range(-3,3)) trả lại giá trị nào ?",
+        "o": [
+          "[-3, -2, -1, 0, 1, 2, 3]",
+          "[-3, -2, -1, 0, 1, 2]",
+          "[-2, -1, 0, 1, 2]",
+          "[-3, 3]"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Lệnh sau list(range(-3,3,3)) trả lại giá trị nào?",
+        "o": [
+          "[-3, 3]",
+          "[-3, 0, 3]",
+          "[-3, 0]",
+          "[-1, 2]"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Lệnh sau list(range(-3)) trả lại giá trị nào?",
+        "o": [
+          "[-3, 3]",
+          "[-3, 0, 3]",
+          "[-3, 0]",
+          "[]"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Giá trị x sau khi thực hiện lệnh sau sẽ là gì?\nx = 4 ** 2 – 4 * 4 == 0",
+        "o": [
+          "True",
+          "False",
+          "Không là false và cũng không là True",
+          "Chương trình báo lỗi"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Giả sử d là một biến kiểu từ điển cho trước.\nKhi đó lệnh :\nd[1] = \"Hà\" sẽ thực hiện công việc gì ?",
+        "o": [
+          "Tạo thêm một bản ghi (cặp key – value) mới <1 : \"Hà\"> và đưa vào phần tử đầu tiên của từ điển.",
+          "Tạo thêm một bản ghi (cặp key – value) mới <1 : \"Hà\"> và đưa vào phần tử cuối cùng của từ điển.",
+          "Nếu trong từ điển đã có key (khóa) = 1 rồi thì cập nhật giá trị mới <1 : \"Hà\"> và đưa vào phần tử cuối cùng của từ điển",
+          "Lệnh báo lỗi"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Cho đoạn chương trình sau:\n>>> A = {0, 2, 3, 6, 9, 10, 11}\n>>> B = {0, 1, 4, 6, 7, 8, 9, 12}\n>>> C = A & B\nTập hợp C bằng bao nhiêu?",
+        "o": [
+          "{0, 1, 3, 6, 8, 9}",
+          "{0, 9, 6}",
+          "{0, 1, 6, 9, 10}",
+          "{0}"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Cho đoạn chương trình sau:\n>>> A = {0, 2, 3, 6, 9, 10, 11}\n>>> B = {0, 1, 4, 6, 7, 8, 9, 12}\n>>> C = A - B\nTập hợp C bằng bao nhiêu?",
+        "o": [
+          "{0, 1, 3, 6, 8, 9, 10}",
+          "{0, 10, 6, 9}",
+          "{10, 11, 2, 3}",
+          "{0, 1, 2, 3}"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Cho đoạn chương trình sau:\n>>> A = {0, 2, 3, 6, 9, 10, 11}\n>>> B = {0, 1, 4, 6, 7, 8, 9, 12}\n>>> C = A ^ B\nTập hợp C bằng bao nhiêu?",
+        "o": [
+          "{1, 2, 3, 4, 7, 8, 10, 11, 12}",
+          "{0, 1, 2, 3, 4, 6, 7, 8, 9}",
+          "{1, 2, 3, 4, 10, 11, 12, 3}",
+          "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Trong các lệnh dưới đây lệnh nào là sai khi thêm thư viện vào trong ứng dụng?",
+        "o": [
+          "import pandas as pd",
+          "import matplotlib.pyplot as plt",
+          "import numpy",
+          "Tất cả đều đúng"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Để cài đặt thư viện ta dùng lệnh nào dưới đây?",
+        "o": [
+          "pip install <tên thư viện>",
+          "pip install <tên thư viện 1> <tên thư viện 2>",
+          "conda install < tên thư viện>",
+          "Tất cả đều đúng."
+        ],
+        "a": 3
+      },
+      {
+        "q": "Lệnh nào cài đặt thư viện bị sai?",
+        "o": [
+          "pip install <tên thư viện>",
+          "pip install <tên thư viện 1> <tên thư viện 2>",
+          "pip install <tên thư viện 1>,<tên thư viện 2>",
+          "Tất cả phương án đều đúng."
+        ],
+        "a": 2
+      },
+      {
+        "q": "Để mở file testData.csv ta dùng lệnh nào?",
+        "o": [
+          "df = pd.read_csv(testData.csv)",
+          "df = pd.read_csv('testData.csv')",
+          "df = pd.read_csv['testData.csv']",
+          "df = pd.read_csv[testData.csv]"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Để lưu dữ liệu vào file abc.csv ta dùng lệnh nào?",
+        "o": [
+          "df.to_csv(abc.csv)",
+          "df.to_csv[\"abc.csv\"]",
+          "df.to_csv(\"abc.csv\")",
+          "df.to_csv[\"abc.csv\"]"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Để xem thông tin của file .csv ta dùng lệnh nào?",
+        "o": [
+          "df.info()",
+          "df.info",
+          "df.info[]",
+          "df.info(\"\")"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để xem thông tin của cột Lương ta dùng lệnh nào? (ảnh 21)",
+        "o": [
+          "df['Luong']",
+          "df(Luong)",
+          "df[Luong]",
+          "df('Luong')"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để hiển thị dữ liệu của ảnh theo điều kiện Lương = 10 triệu và Ngành nghề = kế toán ta thực hiện theo mẫu nào ?",
+        "o": [
+          "df[(df[\"Luong\"] == 10.0) & (df[\"NganhNghe\"] == \"KeToan\" )]",
+          "df[(df['Luong'] == 10.0) || (df['NganhNghe'] == \"KeToan\" )]",
+          "df[(df('Luong'])== 10.0) & (df('NganhNghe') == \"KeToan\" )]",
+          "df[(df[Luong] == 10.0) || (df[NganhNghe] == KeToan )]"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Để thêm cột \"Thêm\" ta thực hiện theo mẫu nào ?",
+        "o": [
+          "df['them']=df['Luong']+10",
+          "df('them')=df('Luong')+10",
+          "df(them)=df(Luong)+10",
+          "df(\"them\")=df(\"Luong\")+10"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để cắt được tháng trong cột Order Date ta làm theo mẫu nào? (ảnh 24)",
+        "o": [
+          "df['Month']=df['Order Date'].str.slice(start=0, stop=2, step=1)",
+          "df['Month']=df['Order Date'].str.slice(0,2,1)",
+          "df['Month']=df['Order Date'].str.slice(0,2)",
+          "Cả 3 cách đều đúng"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Lệnh df.head(10) dùng để làm gì?",
+        "o": [
+          "Hiển thị 10 dòng dữ liệu",
+          "Hiển thị 9 dòng dữ liệu",
+          "Hiển thị 10 dòng dữ liệu tính cả tiêu đề cột",
+          "Hiển thị 10 dòng dữ liệu không tính tiêu đề cột"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Để tạo thêm cột \"dieukien\" như hình vẽ với điều kiện Lương = 26 thì hiển thị \"khá\", ngược lại là \"không\" ta dùng câu lệnh nào? ( ảnh 26)",
+        "o": [
+          "df['dieukien']=np.where(df['Luong']==26,\"khá\",\"không\" )",
+          "df[dieukien]=np.where(df[Luong]==26,khá,không )",
+          "df(dieukien)=np.where(df(Luong==26,\"khá\",\"không\" )",
+          "df('dieukien')=np.where(df('Luong')==26,\"khá\",\"không\" )"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để xóa hoàn toàn cột thêm trong dataset ở ảnh 26 ta dùng lệnh nào?",
+        "o": [
+          "df.drop(columns=['them'], inplace=True)",
+          "df.drop(columns=['them'])",
+          "df.drop(columns=['them']",
+          "tất cả đều sai"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để xóa hoàn toàn hàng 2, 3 và 4 trong dataset ta dùng lệnh nào?",
+        "o": [
+          "df.drop(index=(2,3,4))",
+          "df.drop(index=[2,4])",
+          "df.drop(index=[2,3,4])",
+          "df= df.drop(index=[2,3,4])"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Để sắp xếp cột Lương theo chiều tăng dần ta dùng lệnh nào?",
+        "o": [
+          "df.sort_values(by=('Luong'),ascending=True)",
+          "df.sort_values(by=['Luong'],ascending=True)",
+          "df.sort_values(by=['Luong'],ascending=False)",
+          "df.sort_values(by=Luong,ascending=True)"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Để nhóm cột Ngành nghề và hiển thị số lượng bản ghi ta dùng lệnh nào ( ảnh 26)?",
+        "o": [
+          "df=df.groupby('NganhNghe')",
+          "df=df.groupby['NganhNghe'].size()",
+          "df=df.groupby('NganhNghe').size()",
+          "df=df.groupby('NganhNghe').size"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Anh chị hãy cho biết phương thức dưới đây thuộc loại phương thức nào?",
+        "image": "image/CNTT/python/hinh-05.png",
+        "imageAlt": "Mã Python hàm __init__(self, name, age, weight) gán ba thuộc tính name, age, weight",
+        "o": [
+          "Phương thức khởi tạo.",
+          "Phương thức hủy",
+          "Phương thức thành viên.",
+          "Phương thức main ."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Tính chất cơ bản của OOP (Object-Oriented Programing)?",
+        "o": [
+          "Kế thừa, đóng gói, trừu tượng, đa hình.",
+          "Thuộc tính, phương thức, khởi tạo, hủy",
+          "Kế thừa, đóng gói, đa hình.",
+          "Đóng gói, đa kế thừa, đa hình, trừu tượng ."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Constructor được sử dụng để tạo ra?",
+        "o": [
+          "Một đối tượng.",
+          "Một class",
+          "Một Attribute.",
+          "Một method."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Một class có mấy phương thức khởi tạo?",
+        "o": [
+          "1.",
+          "2",
+          "3.",
+          "4."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Nếu class không được định nghĩa constructor, Python mặc định hiểu constructor là?",
+        "o": [
+          "__init__(self).",
+          "init()",
+          "init(self).",
+          "constructor()."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Chọn đáp án đúng?",
+        "o": [
+          "Constructor gán giá trị từ tham số vào thuộc tính của đối tượng.",
+          "Constructor gán giá trị từ tham số vào tham số của đối tượng",
+          "Constructor gán giá trị từ thuộc vào thuộc tính của đối tượng",
+          "Constructor gán giá trị từ thuộc tính vào tham của đối tượng."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Biến __name thuộc phạm vi nào?",
+        "o": [
+          "Private.",
+          "Public",
+          "Protected",
+          "Local."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Biến name thuộc phạm vi nào?",
+        "o": [
+          "Public.",
+          "Protected",
+          "Private",
+          "Local."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Đâu là kết quả của đoạn code dưới đây?",
+        "image": "image/CNTT/python/hinh-06.jpg",
+        "imageAlt": "Mã Python lớp point có hàm khởi tạo __init__(self, x=0, y=0), tạo p1=point() rồi in p1.x, p1.y",
+        "o": [
+          "1 1",
+          "0 0",
+          "None None",
+          "x y"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Một lớp được thừa hưởng thuộc tính từ 2 lớp khác nhau được gọi là?",
+        "o": [
+          "Đa kế thừa(Multilple inheritance) _kế thừa nhiều lớp",
+          "Kế thừa (Multilple inheritance)",
+          "Kế thừa phân cấp (Hierarchical Inheritance)",
+          "Kế thừa đa cấp (Multilevel inheritance)."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Kết quả của chương trình dưới đây là?",
+        "image": "image/CNTT/python/hinh-02.png",
+        "imageAlt": "Mã Python lớp point có __init__ và __sub__, tạo p1=point(3,4), p2=point(1,2), tính result=p1-p2 rồi in result.x, result.y",
+        "o": [
+          "7 9",
+          "4 6",
+          "1 1",
+          "0 0"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Khẳng định nào đúng về chương trình dưới đây?",
+        "image": "image/CNTT/python/hinh-07.png",
+        "imageAlt": "Mã Python lớp A có thuộc tính a và __b, tạo obj=A(), gán obj.a=45 rồi in obj.a",
+        "o": [
+          "Chương trình chạy bình thường và kết quả được in ra là 45",
+          "Chương trình có lỗi vì a là thuộc tính private, không thể truy cập từ bên ngoài lớp",
+          "Chương trình có lỗi vì __b là thuộc tính private, không thể truy cập từ bên ngoài lớp.",
+          "Chương trình chạy bình thường và kết quả được in ra là 1."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Khẳng định nào đúng về chương trình dưới đây?",
+        "image": "image/CNTT/python/hinh-08.png",
+        "imageAlt": "Mã Python lớp A có thuộc tính a và __b, tạo obj=A(), gán obj.b=45 rồi in obj.b",
+        "o": [
+          "Chương trình có lỗi vì ' __b' là thuộc tính private, không thể truy cập từ bên ngoài lớp",
+          "Chương trình có lỗi vì 'a' là thuộc tính private, không thể truy cập từ bên ngoài lớp",
+          "Chương trình chạy bình thường và kết quả được in ra là 45",
+          "Chương trình chạy bình thường và kết quả được in ra là 1."
+        ],
+        "a": 0
+      },
+      {
+        "q": "Đâu là kết quả cho đoạn code dưới đây?",
+        "image": "image/CNTT/python/hinh-09.png",
+        "imageAlt": "Mã Python lớp Foo có phương thức printLine với tham số line mặc định, tạo o1=Foo() rồi gọi o1.printLine('Java')",
+        "o": [
+          "Python.",
+          "line.",
+          "Java.",
+          "Java"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Ý nghĩa của hàm init() trong Python là gì?",
+        "o": [
+          "Khởi tạo một lớp để sử dụng.",
+          "Được gọi khi một đối tượng mới được khởi tạo.",
+          "Khởi tạo và đưa tất cả các thuộc tính dữ liệu về 0 khi được gọi.",
+          "Không có đáp án đúng"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Đâu là kết quả cho đoạn code dưới đây?",
+        "image": "image/CNTT/python/hinh-10.jpg",
+        "imageAlt": "Mã Python hàm outerFunction chứa innerFunction, cùng dùng biến global a; sau đó gán a = 10, gọi outerFunction() và in a",
+        "o": [
+          "=10 a=30.",
+          "a=10.",
+          "a=20.",
+          "a=30 ."
+        ],
+        "a": 1
+      },
+      {
+        "q": "Khẳng định nào là đúng khi nói về đoạn code sau?",
+        "image": "image/CNTT/python/hinh-11.jpg",
+        "imageAlt": "Mã Python định nghĩa hàm printHello() rồi gán a = printHello()",
+        "o": [
+          "printHello() là một hàm và a là một biến. Cả hai đều không phải đối tượng.",
+          "Cả printHello() và a đều thể hiện chung một đối tượng.",
+          "printHello() và a là hai đối tượng khác nhau.",
+          "Lỗi cú pháp. Không thể gán hàm cho một biến trong Python."
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đoạn code nào sau đây sử dụng tính năng kế thừa của Python?",
+        "image": "image/CNTT/python/hinh-12.jpg",
+        "imageAlt": "Bốn phương án A, B, C, D là các đoạn khai báo lớp Foo và Hoo trong Python",
+        "o": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đâu là yếu tố được gọi ra khi hàm được khai báo trong một lớp class?",
+        "o": [
+          "Mudule.",
+          "Class.",
+          "Method.(phương thức)",
+          "Một hàm khác."
+        ],
+        "a": 2
+      },
+      {
+        "q": "Đâu là phương thức thành viên trong Python?",
+        "o": [
+          "def init(self) :",
+          "def del(self) :",
+          "def print(self) :",
+          "Không có đáp án đúng"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Để khởi tạo đối tượng teacher1 trong lớp Teacher ta dùng cú pháp lệnh nào?",
+        "o": [
+          "teacher1.Teacher().",
+          "teacher1=Teacher().",
+          "teacher1==Teacher().",
+          "Không có đáp án đúng ."
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đâu là phương thức hủy trong Python?",
+        "o": [
+          "def init(self) :",
+          "def __del__(self) :",
+          "def print(self) :",
+          "Không có đáp án đúng"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đâu là kết quả cho đoạn code dưới đây?",
+        "image": "image/CNTT/python/hinh-13.png",
+        "imageAlt": "Mã Python lớp Teacher có __init__ và myfunc, tạo t1, xóa t1 bằng del rồi in t1",
+        "o": [
+          "Hello, my name is Nguyen Van A.",
+          "Nguyen Van A, 40",
+          "Lỗi, vì không tồn tại đối tượng t1.",
+          "Không có đáp án đúng."
+        ],
+        "a": 2
+      },
+      {
+        "q": "Đâu là kết quả cho đoạn code dưới đây?",
+        "image": "image/CNTT/python/hinh-14.png",
+        "imageAlt": "Mã Python lớp Xe và lớp con XeDap cùng có hàm __init__, tạo d=XeDap()",
+        "o": [
+          "Ham khoi tao lop cha.",
+          "Ham khoi tao lop con.",
+          "Cả 2 đáp án đều đúng.",
+          "Cả 2 đáp án đều sai ."
+        ],
+        "a": 1
+      },
+      {
+        "q": "Đâu là kết quả cho đoạn code dưới đây?",
+        "image": "image/CNTT/python/hinh-15.png",
+        "imageAlt": "Mã Python các lớp Calculation1, Calculation2, Derived (kế thừa hai lớp), gọi d.Divide(100,20) và in issubclass(Calculation2, Calculation1)",
+        "o": [
+          "5.",
+          "True.",
+          "False.",
+          "Tất cả đều sai."
+        ],
+        "a": 2
+      }
+    ]
+  }
+]

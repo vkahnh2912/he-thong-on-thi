@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chọn đề thi - Hệ thống ôn tập & thi trắc nghiệm EduK</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Thư viện đọc PDF & Word (.docx) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+  <style>
+    .select-page-container {
+      max-width: 960px;
+      margin: 30px auto;
+      padding: 0 20px 60px;
+    }
+    
+    .hero-banner {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    
+    .hero-banner .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      border-radius: var(--radius-full);
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+    
+    .history-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 18px;
+      background: var(--card-solid);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      margin-bottom: 10px;
+      transition: all 0.2s ease;
+    }
+    
+    .history-item:hover {
+      border-color: var(--primary);
+      transform: translateX(4px);
+    }
+    
+    .history-item .exam-badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: var(--radius-full);
+      background: var(--primary-light);
+      color: var(--primary);
+      margin-left: 8px;
+    }
+    
+    .history-item .meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+    
+    .history-item .score-tag {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--primary);
+      background: var(--primary-light);
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+    }
+
+    .upload-box-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .upload-box-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="topbar">
+    <a href="#" class="brand">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <span>EduK Quiz</span>
+    </a>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="darkModeBtn" title="Chế độ tối/sáng">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <div class="avatar-badge">
+        <div class="avatar">
+          <i class="fa-solid fa-user-graduate"></i>
+        </div>
+        <span id="userName">Học viên</span>
+        <a href="#" id="logoutBtn" title="Đăng xuất"><i class="fa-solid fa-right-from-bracket"></i> Đăng xuất</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="select-page-container">
+    
+    <!-- Hero Header -->
+    <div class="hero-banner">
+      <div class="badge">
+        <i class="fa-solid fa-bolt"></i> Nền tảng Ôn tập & Thi trắc nghiệm Thông minh
+      </div>
+      <h2>Chọn Đề Thi Để Bắt Đầu</h2>
+      <p class="note" style="margin-top:0;">Chọn ngân hàng câu hỏi có sẵn hoặc tải đề thi của bạn lên bên dưới.</p>
+    </div>
+
+    <div class="card wide" style="margin: 0 auto;">
+      
+      <!-- Danh sách đề có sẵn -->
+      <div style="margin-bottom: 28px;">
+        <h3 style="font-size:16px; font-weight:800; margin-bottom:14px; color:var(--text-main);">
+          <i class="fa-solid fa-folder-open" style="color:var(--primary); margin-right:8px;"></i> Đề Thi Có Sẵn
+        </h3>
+        <div id="builtinList" style="display:flex; flex-direction:column; gap:12px;">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+
+      <!-- Upload Zone -->
+      <div class="file-input-wrapper">
+        <h3 style="font-size:15px; font-weight:700; color:var(--text-main); margin-bottom:6px;">
+          <i class="fa-solid fa-cloud-arrow-up" style="color:var(--primary);"></i> Hoặc Tải Đề Thi Của Bạn
+        </h3>
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">Hỗ trợ tất cả định dạng: <b>JSON, Word (.docx), PDF, TXT</b></p>
+        
+        <div class="upload-box-grid">
+          <label for="fileInput" class="btn secondary">
+            <i class="fa-solid fa-file-code" style="color:var(--primary);"></i> Tải File JSON / TXT
+          </label>
+          <input type="file" id="fileInput" accept=".json,.txt,application/json,text/plain">
+
+          <label for="docInput" class="btn secondary">
+            <i class="fa-solid fa-file-word" style="color:#2563eb;"></i> Tải PDF / Word (.docx)
+          </label>
+          <input type="file" id="docInput" accept=".pdf,.docx,.doc,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+        </div>
+
+        <div class="upload-status" id="uploadStatus" style="margin-top:12px; font-weight:600; font-size:14px;"></div>
+      </div>
+
+      <!-- Cấu hình bài làm (Hiện khi đã chọn đề) -->
+      <div id="quizInfo" style="display:none; margin-top:28px;">
+        <div class="result-item score" style="margin-bottom:20px; background:var(--primary-light); border-color:rgba(99,102,241,0.2);">
+          <i class="fa-solid fa-list-check"></i>
+          <div class="value" id="totalQuestions">0</div>
+          <div class="label" style="font-weight:700; color:var(--primary);">Câu hỏi khả dụng trong đề thi này</div>
+        </div>
+
+        <div class="settings-group">
+          <h4><i class="fa-solid fa-sliders" style="color:var(--primary);"></i> Cài Đặt Chế Độ Bài Làm</h4>
+
+          <div class="mode-toggle">
+            <button type="button" class="mode-btn active" id="modePractice" data-mode="practice">
+              <i class="fa-solid fa-book-open"></i> Ôn Tập
+            </button>
+            <button type="button" class="mode-btn" id="modeExam" data-mode="exam">
+              <i class="fa-solid fa-file-pen"></i> Thi Thật
+            </button>
+          </div>
+          <p class="note" style="margin-top:0; margin-bottom:16px; text-align:left; font-size:13px;">
+            <i class="fa-solid fa-circle-info"></i> <b>Ôn tập</b>: Hiển thị ngay đúng/sai khi chọn. <b>Thi thật</b>: Ẩn kết quả đến khi nộp bài.
+          </p>
+
+          <div class="time-select" id="questionCountWrap" style="display:none;">
+            <label for="questionCount"><i class="fa-solid fa-list-ol"></i> Số câu muốn làm:</label>
+            <input type="number" id="questionCount" min="1" step="1" style="width:100px;">
+            <span class="note" id="questionCountMax" style="margin:0;">/ 0 câu</span>
+          </div>
+
+          <div class="time-select">
+            <label for="timeLimit"><i class="fa-regular fa-clock"></i> Thời gian làm bài:</label>
+            <select id="timeLimit">
+              <option value="0">Không giới hạn</option>
+              <option value="15">15 phút</option>
+              <option value="30">30 phút</option>
+              <option value="45">45 phút</option>
+              <option value="60">60 phút</option>
+              <option value="90">90 phút</option>
+            </select>
+          </div>
+
+          <div style="display:flex; gap:20px; margin-top:16px; flex-wrap:wrap;">
+            <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:14px; font-weight:600;">
+              <input type="checkbox" id="shuffleQuestions" style="accent-color:var(--primary); width:18px; height:18px;">
+              <i class="fa-solid fa-shuffle"></i> Đảo thứ tự câu hỏi
+            </label>
+            <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:14px; font-weight:600;">
+              <input type="checkbox" id="shuffleAnswers" style="accent-color:var(--primary); width:18px; height:18px;">
+              <i class="fa-solid fa-shuffle"></i> Đảo thứ tự đáp án (A/B/C/D)
+            </label>
+          </div>
+        </div>
+
+        <button class="btn success" id="startBtn" style="margin-top:24px; padding:16px; font-size:17px;">
+          <i class="fa-solid fa-play"></i> BẮT ĐẦU LÀM BÀI NGAY
+        </button>
+      </div>
+
+      <!-- Lịch sử làm bài gần đây -->
+      <div class="history-section" id="historySection" style="display:none; margin-top:32px;">
+        <h3 style="font-size:16px; font-weight:800; margin-bottom:16px; color:var(--text-main);">
+          <i class="fa-solid fa-clock-rotate-left" style="color:var(--primary); margin-right:8px;"></i> Lịch Sử Làm Bài Gần Đây
+        </h3>
+        <div class="history-list" id="historyList"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // ===== Dark mode toggle =====
+    const darkModeBtn = document.getElementById('darkModeBtn');
+    function applyDarkMode(on) {
+      document.body.classList.toggle('dark', on);
+      if (darkModeBtn) darkModeBtn.innerHTML = on ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+      localStorage.setItem('quizDarkMode', on ? '1' : '0');
+    }
+    applyDarkMode(localStorage.getItem('quizDarkMode') === '1');
+    if (darkModeBtn) {
+      darkModeBtn.addEventListener('click', () => {
+        applyDarkMode(!document.body.classList.contains('dark'));
+      });
+    }
+
+    // ===== Quản lý Đăng nhập =====
+    function getQuizUser() {
+      return localStorage.getItem('quizUser') || '';
+    }
+
+    function getQuizHistory() {
+      return JSON.parse(localStorage.getItem('quizHistory') || '[]');
+    }
+
+    let user = getQuizUser();
+    if (!user) {
+      user = prompt('Nhập tên của bạn để bắt đầu ôn tập:', 'Học viên') || 'Học viên';
+      localStorage.setItem('quizUser', user);
+    }
+    document.getElementById('userName').textContent = user;
+
+    document.getElementById('logoutBtn').addEventListener('click', function (e) {
+      e.preventDefault();
+      localStorage.removeItem('quizUser');
+      location.reload();
+    });
+
+    // ===== Khởi tạo Đề thi có sẵn =====
+    const builtinFiles = [
+      { filename: 'lap-trinh-c-nang-cao-hubt-2tc-full-2026-143092.json', name: 'Lập trình C++ nâng cao HUBT (2TC) - Full 2026', icon: 'fa-code' },
+      { filename: 'lap-trinh-nang-cao-99188.json', name: 'Lập trình nâng cao (C# / .NET) - 99188', icon: 'fa-laptop-code' },
+      { filename: 'he-ho-tro-quyet-dinh-quiz.json', name: 'Hệ hỗ trợ quyết định (DSS)', icon: 'fa-brain' },
+      { filename: 'internet-van-vat-iot-3.json', name: 'Internet vạn vật (IoT)', icon: 'fa-network-wired' },
+      { filename: 'questions.json', name: 'Đề mẫu Công nghệ thông tin', icon: 'fa-graduation-cap' }
+    ];
+
+    const builtinList = document.getElementById('builtinList');
+    const quizInfo = document.getElementById('quizInfo');
+    const totalQuestionsEl = document.getElementById('totalQuestions');
+    const startBtn = document.getElementById('startBtn');
+    const uploadStatus = document.getElementById('uploadStatus');
+
+    let loadedQuestions = [];
+
+    builtinFiles.forEach(item => {
+      const btn = document.createElement('button');
+      btn.className = 'builtin-btn';
+      btn.type = 'button';
+      btn.innerHTML = `
+        <div style="display:flex; align-items:center;">
+          <div class="quiz-icon"><i class="fa-solid ${item.icon}"></i></div>
+          <div class="quiz-meta">
+            <div class="quiz-meta-title">${item.name}</div>
+            <div class="quiz-meta-sub">Ngân hàng câu hỏi chuẩn EduK</div>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
+      `;
+      btn.addEventListener('click', () => loadBuiltinExam(item.filename, item.name));
+      builtinList.appendChild(btn);
+    });
+
+    async function loadBuiltinExam(filename, name) {
+      uploadStatus.textContent = '';
+      try {
+        let data;
+        if (typeof EMBEDDED_EXAMS !== 'undefined' && EMBEDDED_EXAMS[filename]) {
+          data = EMBEDDED_EXAMS[filename];
+        } else {
+          const res = await fetch(filename);
+          if (!res.ok) throw new Error('Không thể tải file đề thi từ server');
+          data = await res.json();
+        }
+        processQuestions(data, name);
+      } catch (err) {
+        alert('Lỗi: ' + err.message);
+      }
+    }
+
+    // ===== Chuẩn hóa dữ liệu câu hỏi =====
+    function extractQuestionsFromJSON(raw) {
+      let data = raw;
+      if (typeof data === 'string') {
+        try { data = JSON.parse(data); } catch (e) { return null; }
+      }
+      if (Array.isArray(data)) return data;
+      if (data && typeof data === 'object') {
+        if (Array.isArray(data.questions)) return data.questions;
+        if (Array.isArray(data.data)) return data.data;
+        if (Array.isArray(data.quiz)) return data.quiz;
+        if (Array.isArray(data.items)) return data.items;
+        if (Array.isArray(data.list)) return data.list;
+        const values = Object.values(data);
+        if (values.length > 0 && typeof values[0] === 'object' && (values[0].question || values[0].q)) {
+          return values;
+        }
+      }
+      return null;
+    }
+
+    function processQuestions(rawData, examName) {
+      const data = extractQuestionsFromJSON(rawData);
+      if (!data || !Array.isArray(data) || data.length === 0) {
+        throw new Error('Dữ liệu đề thi rỗng hoặc sai cấu trúc JSON');
+      }
+
+      const validQuestions = data.map((q, idx) => {
+        const questionText = q.question || q.q || q.title || `Câu hỏi ${idx + 1}`;
+        const optionA = q.A || q.a || (q.options ? q.options.A || q.options.a : '') || '';
+        const optionB = q.B || q.b || (q.options ? q.options.B || q.options.b : '') || '';
+        const optionC = q.C || q.c || (q.options ? q.options.C || q.options.c : '') || '';
+        const optionD = q.D || q.d || (q.options ? q.options.D || q.options.d : '') || '';
+        const optionE = q.E || q.e || (q.options ? q.options.E || q.options.e : '') || '';
+
+        let correct = q.correct || q.answer || q.key || 'A';
+        if (typeof correct === 'string') correct = correct.toUpperCase().trim();
+        if (Array.isArray(correct)) correct = correct.map(c => String(c).toUpperCase().trim());
+
+        return {
+          question: questionText,
+          A: optionA,
+          B: optionB,
+          C: optionC,
+          D: optionD,
+          E: optionE,
+          correct: correct,
+          image: q.image || q.img || null
+        };
+      }).filter(q => q.question && (q.A || q.B));
+
+      if (validQuestions.length === 0) {
+        throw new Error('Không nhận diện được câu hỏi hợp lệ từ file.');
+      }
+
+      loadedQuestions = validQuestions;
+      localStorage.setItem('quizData', JSON.stringify(validQuestions));
+      localStorage.setItem('quizExamName', examName);
+
+      totalQuestionsEl.textContent = validQuestions.length;
+      quizInfo.style.display = 'block';
+      quizInfo.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+      questionCountInput.max = validQuestions.length;
+      questionCountInput.value = validQuestions.length;
+      questionCountMax.textContent = `/ ${validQuestions.length} câu`;
+
+      uploadStatus.style.color = 'var(--success)';
+      uploadStatus.innerHTML = `<i class="fa-solid fa-circle-check"></i> Đã chọn đề thi: <b>${examName}</b> (${validQuestions.length} câu hỏi)`;
+    }
+
+    // ===== Chuyển đổi chế độ Ôn tập / Thi thật =====
+    let selectedMode = 'practice';
+    const modePracticeBtn = document.getElementById('modePractice');
+    const modeExamBtn = document.getElementById('modeExam');
+    const questionCountWrap = document.getElementById('questionCountWrap');
+    const questionCountInput = document.getElementById('questionCount');
+    const questionCountMax = document.getElementById('questionCountMax');
+
+    function setMode(mode) {
+      selectedMode = mode;
+      if (mode === 'practice') {
+        modePracticeBtn.classList.add('active');
+        modeExamBtn.classList.remove('active');
+        questionCountWrap.style.display = 'none';
+      } else {
+        modeExamBtn.classList.add('active');
+        modePracticeBtn.classList.remove('active');
+        questionCountWrap.style.display = 'flex';
+      }
+    }
+
+    modePracticeBtn.addEventListener('click', () => setMode('practice'));
+    modeExamBtn.addEventListener('click', () => setMode('exam'));
+
+    // ===== Parser đọc Text/Word/PDF =====
+    function parseQuestionsFromText(text) {
+      if (!text || typeof text !== 'string') return [];
+      
+      const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l !== '');
+      const questions = [];
+      let currentQ = null;
+
+      const qNumberRegex = /^(?:câu|question)?\s*\d+[\s.:\)]+/i;
+      const optRegex = /^\s*[\(\[]?([A-E])[\)\]\s.:\-]\s*(.+)$/i;
+      const ansRegex = /^(?:đáp án|đáp án đúng|correct|key|hdg|chọn|=>|đ\/a)[\s.:]*([A-E,\s]+)/i;
+
+      lines.forEach(line => {
+        const isQuestionStart = qNumberRegex.test(line) && !optRegex.test(line) && !ansRegex.test(line);
+
+        if (isQuestionStart) {
+          if (currentQ && currentQ.question && (currentQ.A || currentQ.B)) {
+            questions.push(currentQ);
+          }
+          const cleanQuestion = line.replace(/^(?:câu|question)?\s*\d+[\s.:\)]*/i, '').trim();
+          currentQ = { question: cleanQuestion };
+        } else if (currentQ) {
+          const ansMatch = line.match(ansRegex);
+          const optMatch = line.match(optRegex);
+
+          if (ansMatch) {
+            const keys = ansMatch[1].toUpperCase().split(/[\s,]+/).filter(k => ['A','B','C','D','E'].includes(k));
+            if (keys.length > 0) {
+              currentQ.correct = keys.length > 1 ? keys : keys[0];
+            }
+          } else if (optMatch) {
+            const letter = optMatch[1].toUpperCase();
+            currentQ[letter] = optMatch[2].trim();
+          } else if (!currentQ.A) {
+            currentQ.question += ' ' + line;
+          }
+        }
+      });
+
+      if (currentQ && currentQ.question && (currentQ.A || currentQ.B)) {
+        questions.push(currentQ);
+      }
+
+      questions.forEach(q => {
+        if (!q.correct) {
+          ['A', 'B', 'C', 'D', 'E'].forEach(l => {
+            if (q[l] && q[l].startsWith('*')) {
+              q[l] = q[l].substring(1).trim();
+              q.correct = l;
+            }
+          });
+          if (!q.correct) q.correct = 'A';
+        }
+      });
+
+      return questions;
+    }
+
+    // ===== Upload File (JSON / TXT / DOCX / PDF) =====
+    async function handleFileUpload(file) {
+      if (!file) return;
+
+      uploadStatus.style.color = 'var(--text-muted)';
+      uploadStatus.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Đang đọc và trích xuất file ${file.name}...`;
+
+      const ext = file.name.split('.').pop().toLowerCase();
+      const examName = file.name.replace(/\.[^/.]+$/, '');
+
+      try {
+        if (ext === 'json') {
+          const text = await file.text();
+          let data;
+          try {
+            data = JSON.parse(text);
+          } catch (e) {
+            // Text fallback
+            data = parseQuestionsFromText(text);
+          }
+          processQuestions(data, examName);
+        } else if (ext === 'pdf') {
+          if (typeof pdfjsLib !== 'undefined') {
+            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+            const arrayBuffer = await file.arrayBuffer();
+            const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+            let fullText = '';
+            for (let i = 1; i <= pdf.numPages; i++) {
+              const page = await pdf.getPage(i);
+              const content = await page.getTextContent();
+              fullText += content.items.map(item => item.str).join(' ') + '\n';
+            }
+            const data = parseQuestionsFromText(fullText);
+            processQuestions(data, examName);
+          } else {
+            throw new Error('Thư viện đọc PDF chưa sẵn sàng');
+          }
+        } else if (ext === 'docx' || ext === 'doc') {
+          if (typeof mammoth !== 'undefined') {
+            const arrayBuffer = await file.arrayBuffer();
+            const result = await mammoth.extractRawText({ arrayBuffer: arrayBuffer });
+            const data = parseQuestionsFromText(result.value);
+            processQuestions(data, examName);
+          } else {
+            throw new Error('Thư viện đọc file Word chưa sẵn sàng');
+          }
+        } else {
+          // Plain Text / TXT
+          const text = await file.text();
+          let data = extractQuestionsFromJSON(text);
+          if (!data) data = parseQuestionsFromText(text);
+          processQuestions(data, examName);
+        }
+      } catch (err) {
+        uploadStatus.style.color = 'var(--danger)';
+        uploadStatus.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Lỗi tải đề: ${err.message}`;
+        quizInfo.style.display = 'none';
+      }
+    }
+
+    document.getElementById('fileInput').addEventListener('change', (e) => handleFileUpload(e.target.files[0]));
+    document.getElementById('docInput').addEventListener('change', (e) => handleFileUpload(e.target.files[0]));
+
+    // ===== Bắt đầu làm bài =====
+    startBtn.addEventListener('click', function () {
+      localStorage.removeItem('quizAnswers');
+      localStorage.removeItem('quizResult');
+      localStorage.removeItem('quizStartTime');
+
+      localStorage.setItem('quizMode', selectedMode);
+      const timeLimit = document.getElementById('timeLimit').value;
+      localStorage.setItem('quizTimeLimit', timeLimit);
+
+      let data = JSON.parse(localStorage.getItem('quizData'));
+
+      if (selectedMode === 'exam') {
+        let count = parseInt(questionCountInput.value, 10);
+        if (!count || count < 1) count = data.length;
+        if (count > data.length) count = data.length;
+        if (count < data.length) {
+          data = shuffleArray(data).slice(0, count);
+        }
+      }
+
+      if (document.getElementById('shuffleQuestions').checked) {
+        data = shuffleArray(data);
+      }
+      if (document.getElementById('shuffleAnswers').checked) {
+        data = data.map(q => shuffleQuestionOptions(q));
+      }
+
+      localStorage.setItem('quizData', JSON.stringify(data));
+      localStorage.setItem('quizStartTime', Date.now().toString());
+
+      window.location.href = 'quiz.html';
+    });
+
+    // ===== Render Lịch sử =====
+    function renderHistory() {
+      const history = getQuizHistory().filter(h => h.user === user);
+      const section = document.getElementById('historySection');
+      const list = document.getElementById('historyList');
+
+      if (history.length === 0) {
+        section.style.display = 'none';
+        return;
+      }
+
+      section.style.display = 'block';
+      list.innerHTML = '';
+
+      history.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'history-item';
+        const date = new Date(item.date);
+        const dateStr = date.toLocaleDateString('vi-VN') + ' ' +
+          date.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' });
+        const modeLabel = item.mode === 'exam' ? 'Thi' : 'Ôn tập';
+        div.innerHTML = `
+          <div>
+            <div style="font-weight:700; font-size:15px; color:var(--text-main);">
+              ${item.examName} <span class="exam-badge">${modeLabel}</span>
+            </div>
+            <div class="meta"><i class="fa-regular fa-clock"></i> ${dateStr} · <b>${item.correct}/${item.total}</b> câu đúng</div>
+          </div>
+          <div class="score-tag">${item.score}/10</div>
+        `;
+        list.appendChild(div);
+      });
+    }
+
+    renderHistory();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1532 @@
+[
+  {
+    "number": 1,
+    "question": "Để đóng Form hiện tại, bạn sử dụng câu lệnh…",
+    "A": "me.Hide()",
+    "B": "this.Hide()",
+    "C": "this.Close()",
+    "D": "me.Close()",
+    "correct": "C"
+  },
+  {
+    "number": 2,
+    "question": "Thuộc tính AcceptButton của Form dùng để?",
+    "A": "Tạo ra nút nhấn có nhãn là Accept",
+    "B": "Nút được click khi nhấn phím Enter",
+    "C": "Không có đáp án đúng",
+    "D": "Tạo một nút nhấn trên Form",
+    "correct": "B"
+  },
+  {
+    "number": 3,
+    "question": "Để không cho phép người dùng sửa dữ liệu trong Textbox, chúng ta dùng thuộc tính?",
+    "A": "Locked",
+    "B": "Text",
+    "C": "Enable",
+    "D": "ReadOnly",
+    "correct": "D"
+  },
+  {
+    "number": 4,
+    "question": "Để khai báo biến trong C#, bạn sử dụng câu lệnh?",
+    "A": "string hoten;",
+    "B": "dim hoten",
+    "C": "hoten string;",
+    "D": "dim hoten as string",
+    "correct": "A"
+  },
+  {
+    "number": 5,
+    "question": "Thuộc tính Visible dùng để?",
+    "A": "Hiển thị hình ảnh",
+    "B": "Không cho phép di chuyển điều khiển",
+    "C": "Ẩn hoặc hiện điều khiển",
+    "D": "Cho phép nhập văn bản",
+    "correct": "C"
+  },
+  {
+    "number": 6,
+    "question": "Để cho phép kích thước ảnh phù hợp với PictureBox, bạn dùng thuộc tính?",
+    "A": "MaximumSize",
+    "B": "SizeMode",
+    "C": "Image",
+    "D": "Size",
+    "correct": "B"
+  },
+  {
+    "number": 7,
+    "question": "Thuộc tính nào dùng để đổi màu chữ của Form và các đối tượng khác trên Form?",
+    "A": "BackColor",
+    "B": "Color",
+    "C": "FontColor",
+    "D": "ForeColor",
+    "correct": "D"
+  },
+  {
+    "number": 8,
+    "question": "Để Form có kích thước to nhất khi chạy, bạn dùng thuộc tính?",
+    "A": "WindowState",
+    "B": "StartPosition",
+    "C": "Không có đáp án đúng",
+    "D": "SizeMode",
+    "correct": "A"
+  },
+  {
+    "number": 9,
+    "question": "Câu lệnh nào dùng để đóng tất cả các ứng dụng trong C#?",
+    "A": "this.Close();",
+    "B": "return;",
+    "C": "Application.Exit();",
+    "D": "Exit Sub;",
+    "correct": "C"
+  },
+  {
+    "number": 10,
+    "question": "Phương thức nào dùng để đóng Form và giải phóng tài nguyên?",
+    "A": "Show",
+    "B": "Close",
+    "C": "Exit",
+    "D": "Hide",
+    "correct": "B"
+  },
+  {
+    "number": 11,
+    "question": "Để thao tác với cơ sở dữ liệu trong C#, bạn cần những đối tượng nào?",
+    "A": "SqlConnection, DataTable, SqlDataReader",
+    "B": "SqlConnection, SqlCommand, DataTable",
+    "C": "SqlConnection, SqlCommand, SqlDataAdapter",
+    "D": "SqlConnection, DataTable, SqlDataAdapter",
+    "correct": "C"
+  },
+  {
+    "number": 12,
+    "question": "SqlConnection là đối tượng dùng để?",
+    "A": "Thực thi một câu truy vấn",
+    "B": "Tạo một kết nối đến cơ sở dữ liệu trên server",
+    "C": "Không có đáp án đúng",
+    "D": "Là một đối tượng dùng để đọc dữ liệu được trả về",
+    "correct": "B"
+  },
+  {
+    "number": 13,
+    "question": "Để điền dữ liệu vào cho điều khiển DataGridView, bạn khai báo câu lệnh?",
+    "A": "dataGridView1.RowSource = nguồn dữ liệu",
+    "B": "Không có đáp án đúng",
+    "C": "dataGridView1.DataMember = nguồn dữ liệu",
+    "D": "dataGridView1.DataSource = nguồn dữ liệu",
+    "correct": "D"
+  },
+  {
+    "number": 14,
+    "question": "Chúng ta cần những tham số nào cho lớp SqlConnection?",
+    "A": "server; database; integrated security",
+    "B": "server; password; database",
+    "C": "server; database; username",
+    "D": "database; integrated security; password",
+    "correct": "A"
+  },
+  {
+    "number": 15,
+    "question": "Để mở hộp thoại mở File, bạn sử dụng câu lệnh nào?",
+    "A": "openFileDialog1.OpenFile();",
+    "B": "openFileDialog1.Show();",
+    "C": "openFileDialog1.ShowDialog();",
+    "D": "openFileDialog1.Open();",
+    "correct": "C"
+  },
+  {
+    "number": 16,
+    "question": "Điều khiển nào cho phép người dùng xem thông tin mà không cho phép sửa khi chương trình đang chạy?",
+    "A": "RichTextBox",
+    "B": "Label",
+    "C": "TextBox",
+    "D": "ListBox",
+    "correct": "B"
+  },
+  {
+    "number": 17,
+    "question": "Để thực hiện các câu lệnh Insert, bạn sử dụng phương thức nào trong C#?",
+    "A": "cmd.ExecuteScalar();",
+    "B": "cmd.ExecuteReader();",
+    "C": "cmd.EndExecuteNonQuery();",
+    "D": "cmd.ExecuteNonQuery();",
+    "correct": "D"
+  },
+  {
+    "number": 18,
+    "question": "Phương thức Focus() trong điều khiển TextBox dùng để làm gì?",
+    "A": "Đặt con trỏ vào trong điều khiển TextBox",
+    "B": "Đổi màu chữ trong ô TextBox",
+    "C": "Không có đáp án đúng",
+    "D": "Làm cho chữ trong điều khiển TextBox đậm lên",
+    "correct": "A"
+  },
+  {
+    "number": 19,
+    "question": "Để xóa dữ liệu trong TextBox, bạn dùng câu lệnh nào?",
+    "A": "TextBox1.Text = \"\";",
+    "B": "TextBox1.Clear();",
+    "C": "Cả hai đáp án trên đều đúng",
+    "D": "Không có đáp án nào đúng",
+    "correct": "C"
+  },
+  {
+    "number": 20,
+    "question": "Điều khiển nào dùng để nhóm các thông tin có liên quan lại với nhau?",
+    "A": "ComboBox",
+    "B": "Panel",
+    "C": "GroupBox",
+    "D": "Form",
+    "correct": "C"
+  },
+  {
+    "number": 21,
+    "question": "Để thực thi câu lệnh truy vấn Select, bạn sử dụng câu lệnh nào?",
+    "A": "cmd.ExecuteScalar()",
+    "B": "cmd.EndExecuteReader();",
+    "C": "cmd.ExecuteReader()",
+    "D": "cmd.ExecuteNonQuery()",
+    "correct": "C"
+  },
+  {
+    "number": 22,
+    "question": "Để thực thi câu truy vấn Update, bạn sử dụng câu lệnh nào sau đây?",
+    "A": "cmd.ExecuteReader()",
+    "B": "cmd.ExecuteNonQuery()",
+    "C": "cmd.ExecuteScalar()",
+    "D": "cmd.EndExecuteNonQuery()",
+    "correct": "B"
+  },
+  {
+    "number": 23,
+    "question": "Để thực thi câu lệnh truy vấn Delete, bạn sử dụng câu lệnh nào sau đây?",
+    "A": "cmd.ExecuteScalar()",
+    "B": "cmd.EndExecuteNonQuery()",
+    "C": "cmd.ExecuteReader()",
+    "D": "cmd.ExecuteNonQuery()",
+    "correct": "D"
+  },
+  {
+    "number": 24,
+    "question": "Trong đối tượng MessageBox, câu lệnh MessageBoxIcon dùng để?",
+    "A": "Hiển thị biểu tượng cho đối tượng MessageBox",
+    "B": "Hiển thị các nút nhấn cho đối tượng MessageBox",
+    "C": "Không có đáp án đúng",
+    "D": "Hiển thị tiêu đề cho đối tượng MessageBox",
+    "correct": "A"
+  },
+  {
+    "number": 25,
+    "question": "Delegate dùng để làm gì?",
+    "A": "Không có đáp án nào đúng",
+    "B": "Cập nhật lại trạng thái dữ liệu",
+    "C": "Cả hai đáp án A và D đều đúng",
+    "D": "Truyền dữ liệu từ Form sau về Form trước",
+    "correct": "C"
+  },
+  {
+    "number": 26,
+    "question": "Để khai báo Delegate, bạn sử dụng câu lệnh nào sau đây?",
+    "A": "delegate truyenDL();",
+    "B": "Không có đáp án nào đúng",
+    "C": "public void delegate truyenDL();",
+    "D": "public delegate void truyenDL();",
+    "correct": "D"
+  },
+  {
+    "number": 27,
+    "question": "Để xóa ảnh hiện tại trong đối tượng PictureBox, bạn dùng câu lệnh nào sau đây?",
+    "A": "PictureBox1.Image = \"\"",
+    "B": "PictureBox1.Image = null",
+    "C": "Không có đáp án nào đúng",
+    "D": "PictureBox1.FromFile = null",
+    "correct": "B"
+  },
+  {
+    "number": 28,
+    "question": "Câu lệnh sau sai ở dòng nào? 1.SqlConnection ketnoi = new SqlConnection( @\"server=(local);database=Quanlysinhvien; integrated security=true;\"); 2.string truyvan = \"select * from sinhvien\"; 3.SqlCommand cmd = new SqlCommand(ketnoi); 4.SqlDataAdapter da = new SqlDataAdapter(cmd);",
+    "A": "4",
+    "B": "3",
+    "C": "1",
+    "D": "2",
+    "correct": "B"
+  },
+  {
+    "number": 29,
+    "question": "Câu lệnh sau sai ở dòng nào? 1.SqlConnection ketnoi = new SqlConnection( @\"server=(local);database=Quanlysinhvien; integrated security=true;\"); 2.string truyvan = \"select * from sinhvien\"; 3.SqlCommand cmd = new SqlCommand(truyvan, ketnoi); 4.cmd.ExecuteNonQuery();",
+    "A": "2",
+    "B": "1",
+    "C": "4",
+    "D": "3",
+    "correct": "C"
+  },
+  {
+    "number": 30,
+    "question": "Câu lệnh sau sai ở dòng nào? 1.SqlConnection ketnoi = new SqlConnection( @\"server=(local);database=Quanlysinhvien; integrated security=true;\"); 2.string truyvan = \"delete from sinhvien\"; 3.SqlCommand cmd = new SqlCommand(truyvan, ketnoi); 4.cmd.ExecuteReader();",
+    "A": "4",
+    "B": "2",
+    "C": "1",
+    "D": "3",
+    "correct": "A"
+  },
+  {
+    "number": 31,
+    "question": "Để sử dụng được các đối tượng SqlConnection, SqlCommand bạn phải khai báo sử dụng thêm câu lệnh nào?",
+    "A": "using System.Data;",
+    "B": "using System.Data.SqlClient;",
+    "C": "using System.Data.OLEDB;",
+    "D": "using System.SqlClient.Data;",
+    "correct": "B"
+  },
+  {
+    "number": 32,
+    "question": "Để mở kết nối đến Server bạn sử dụng phương thức?",
+    "A": "ketnoi.OpenDatabase();",
+    "B": "Không có đáp án nào đúng",
+    "C": "ketnoi.OpenConnection();",
+    "D": "ketnoi.Open();",
+    "correct": "D"
+  },
+  {
+    "number": 33,
+    "question": "Để lấy ra vị trí dòng hiện thời trong DataGridView bạn sử dụng câu lệnh nào?",
+    "A": "dataGridView1.CurrentRow.Count;",
+    "B": "dataGridView1.CurrentRow.Index;",
+    "C": "Không có đáp án đúng",
+    "D": "dataGridView1.CurrentCell.Index;",
+    "correct": "B"
+  },
+  {
+    "number": 34,
+    "question": "Để lấy ra đường dẫn hiện tại của Project?",
+    "A": "Application.Path;",
+    "B": "App.Path;",
+    "C": "Application.StartupPath;",
+    "D": "App.StartupPath;",
+    "correct": "C"
+  },
+  {
+    "number": 35,
+    "question": "Để lấy ra giá trị của ô đang chọn hiện thời (dòng hiện thời đang là dòng đầu tiên), trong DataGridView bạn chọn?",
+    "A": "dataGridView1.CurrentRow.Cells[0].Value;",
+    "B": "dataGridView1.CurrentCell.Row[0].Value",
+    "C": "dataGridView1.CurrentRow.Cells[0].Text;",
+    "D": "dataGridView1.CurrentRow.Row[0].Value",
+    "correct": "A"
+  },
+  {
+    "number": 36,
+    "question": "Muốn lấy giá trị của cột thứ 2, ở dòng thứ 3 trong DataGridView bạn chọn?",
+    "A": "dataGridView1.Cells[2].Rows[1].Value;",
+    "B": "Không có đáp án đúng",
+    "C": "dataGridView1.CurrentRow[2].Cells[1].Value;",
+    "D": "dataGridView1.Rows[2].Cells[1].Value",
+    "correct": "D"
+  },
+  {
+    "number": 37,
+    "question": "Để hiển thị dữ liệu dạng dòng và cột bạn sử dụng điều khiển nào?",
+    "A": "ListBox",
+    "B": "ComboBox",
+    "C": "DataGridView",
+    "D": "TextBox",
+    "correct": "C"
+  },
+  {
+    "number": 38,
+    "question": "Để cho phép điều khiển TextBox nhập dữ liệu được trên nhiều dòng, bạn sử dụng?",
+    "A": "MultiRow",
+    "B": "Multiline",
+    "C": "MultiText",
+    "D": "MultiColumn",
+    "correct": "B"
+  },
+  {
+    "number": 39,
+    "question": "Để đóng Form nhưng không giải phóng tài nguyên?",
+    "A": "me.Hide();",
+    "B": "this.Close();",
+    "C": "me.Close();",
+    "D": "this.Hide();",
+    "correct": "D"
+  },
+  {
+    "number": 40,
+    "question": "Để tạo ra các menu cho chương trình (VD: menu bar) bạn dùng điều khiển nào?",
+    "A": "StatusStrip",
+    "B": "MenuStrip",
+    "C": "ContextMenuStrip",
+    "D": "ToolStrip",
+    "correct": "B"
+  },
+  {
+    "number": 41,
+    "question": "Để lấy ra các phần tử của điều khiển ListBox bạn dùng?",
+    "A": "Column",
+    "B": "Items",
+    "C": "Text",
+    "D": "ListItem",
+    "correct": "B"
+  },
+  {
+    "number": 42,
+    "question": "Để cho phép chia ListBox thành nhiều cột, chúng ta dùng?",
+    "A": "Column",
+    "B": "Multimedia",
+    "C": "MultiColumn",
+    "D": "Item",
+    "correct": "C"
+  },
+  {
+    "number": 43,
+    "question": "Thuộc tính nào dùng để lấy ra chỉ mục của dòng hiện thời trong ListBox?",
+    "A": "SelectedValue",
+    "B": "SelectedText",
+    "C": "SelectedItem",
+    "D": "SelectedIndex",
+    "correct": "D"
+  },
+  {
+    "number": 44,
+    "question": "Thuộc tính nào dùng để lấy ra giá trị của dòng đang được chọn trong ListBox?",
+    "A": "SelectedValue",
+    "B": "SelectedItem",
+    "C": "Không có đáp án đúng",
+    "D": "SelectedText",
+    "correct": "B"
+  },
+  {
+    "number": 45,
+    "question": "Thuộc tính nào cho phép ListBox được chọn trên nhiều dòng?",
+    "A": "SelectionRow",
+    "B": "Không có đáp án đúng",
+    "C": "SelectionMode",
+    "D": "SelectionColumn",
+    "correct": "C"
+  },
+  {
+    "number": 46,
+    "question": "Để thêm một dòng mới vào ListBox bạn sử dụng câu lệnh?",
+    "A": "listBox1.AddNewItem(\"hello\")",
+    "B": "listBox1.Items.Add(\"hello\")",
+    "C": "Không có đáp án đúng",
+    "D": "listBox1.Items.AddNew(\"hello\")",
+    "correct": "B"
+  },
+  {
+    "number": 47,
+    "question": "Để xóa tất cả các dòng, bạn dùng phương thức?",
+    "A": "Remove()",
+    "B": "Add()",
+    "C": "Delete()",
+    "D": "Clear()",
+    "correct": "D"
+  },
+  {
+    "number": 48,
+    "question": "Muốn xóa phần tử ở một vị trí bất kỳ trên ListBox, bạn sử dụng phương thức?",
+    "A": "RemoveAt(vị trí dòng cần xóa)",
+    "B": "Clear(vị trí dòng cần xóa)",
+    "C": "Không có đáp án đúng",
+    "D": "Delete(vị trí dòng cần xóa)",
+    "correct": "A"
+  },
+  {
+    "number": 49,
+    "question": "Dòng không được chọn trong ListBox có giá trị chỉ mục là bao nhiêu?",
+    "A": "0",
+    "B": "-1",
+    "C": "Một giá trị bất kỳ",
+    "D": "1",
+    "correct": "B"
+  },
+  {
+    "number": 50,
+    "question": "ComboBox là gì?",
+    "A": "Là điều khiển giống ListBox",
+    "B": "Không có đáp án đúng",
+    "C": "Là điều khiển cho phép nhập dữ liệu và lựa chọn dữ liệu",
+    "D": "Là điều khiển cho phép xem thông tin",
+    "correct": "C"
+  },
+  {
+    "number": 51,
+    "question": "Đoạn chương trình sau thực hiện công việc gì? dataGridView1.Rows[current].Selected = false; current = 0; dataGridView1.Rows[current].Selected = true;",
+    "A": "Di chuyển đến bản ghi cuối cùng",
+    "B": "Di chuyển đến bản ghi đằng trước bản ghi hiện hành",
+    "C": "Di chuyển đến bản ghi đầu tiên",
+    "D": "Di chuyển đến bản ghi đằng sau bản ghi hiện hành",
+    "correct": "C"
+  },
+  {
+    "number": 52,
+    "question": "Đoạn chương trình sau thực hiện công việc gì? if (current >= dataGridView1.Rows.Count-2) { return; } dataGridView1.Rows[current].Selected = false; current = current + 1; dataGridView1.Rows[current].Selected = true;",
+    "A": "Di chuyển đến bản ghi cuối cùng",
+    "B": "Di chuyển đến bản ghi đằng sau bản ghi hiện hành",
+    "C": "Di chuyển đến bản ghi đầu tiên",
+    "D": "Di chuyển đến bản ghi đằng trước bản ghi hiện hành",
+    "correct": "B"
+  },
+  {
+    "number": 53,
+    "question": "Đoạn chương trình sau thực hiện công việc gì? if (current <= 0) { return; } dataGridView1.Rows[current].Selected = false; current = current - 1; dataGridView1.Rows[current].Selected = true;",
+    "A": "Di chuyển đến bản ghi đầu tiên",
+    "B": "Di chuyển đến bản ghi cuối cùng",
+    "C": "Di chuyển đến bản ghi đằng sau bản ghi hiện hành",
+    "D": "Di chuyển đến bản ghi đằng trước bản ghi hiện hành",
+    "correct": "D"
+  },
+  {
+    "number": 54,
+    "question": "Đoạn chương trình sau thực hiện công việc gì? dataGridView1.Rows[current].Selected = false; current = dataGridView1.Rows.Count-2; dataGridView1.Rows[current].Selected = true;",
+    "A": "Di chuyển đến bản ghi cuối cùng",
+    "B": "Di chuyển đến bản ghi đầu tiên",
+    "C": "Di chuyển đến bản ghi đằng trước bản ghi hiện hành",
+    "D": "Di chuyển đến bản ghi đằng sau bản ghi hiện hành",
+    "correct": "A"
+  },
+  {
+    "number": 55,
+    "question": "Đoạn chương trình sau thực hiện công việc gì? if (dataGridView1.Rows[current].IsNewRow) { return; }",
+    "A": "Chương trình bị lỗi vì điều khiển DataGridView không có thuộc tính IsNewRow",
+    "B": "Không có đáp án đúng",
+    "C": "Kiểm tra xem người dùng có nhấn vào dòng trắng trong điều khiển DataGridView hay không",
+    "D": "Kiểm tra xem điều khiển DataGridView có chứa dòng trắng hay không",
+    "correct": "C"
+  },
+  {
+    "number": 56,
+    "question": "Đoạn chương trình sau thực hiện công việc gì? if (current >= dataGridView1.Rows.Count-2) { return; }",
+    "A": "Chương trình bị lỗi vì viết sai cú pháp",
+    "B": "Kiểm tra xem đã đi đến bản ghi cuối cùng chưa, nếu đến bản ghi cuối cùng thì thoát khỏi chương trình",
+    "C": "Không có đáp án đúng",
+    "D": "Kiểm tra xem đã đi đến bản ghi cuối cùng chưa, nếu chưa đến bản ghi cuối cùng thì thoát khỏi chương trình",
+    "correct": "B"
+  },
+  {
+    "number": 57,
+    "question": "Để hiển thị hình ảnh cho điều khiển MenuStrip bạn sử dụng thuộc tính nào?",
+    "A": "Picture",
+    "B": "Image Source",
+    "C": "Image",
+    "D": "Source",
+    "correct": "C"
+  },
+  {
+    "number": 58,
+    "question": "Thế nào là ứng dụng MDI?",
+    "A": "Là ứng dụng cho phép người dùng thao tác với một cửa sổ duy nhất ở mọi thời điểm",
+    "B": "Là ứng dụng cho phép người dùng thao tác với nhiều cửa sổ ở một thời điểm",
+    "C": "Không có đáp án đúng",
+    "D": "Là ứng dụng không cho phép người dùng thao tác với nhiều cửa sổ ở một thời điểm",
+    "correct": "B"
+  },
+  {
+    "number": 59,
+    "question": "Câu lệnh nào cho biết đâu là Form cha của một Form con trong ứng dụng MDI?",
+    "A": "frmChildForm.MdiChildren = this;",
+    "B": "Không có đáp án nào đúng",
+    "C": "frmChildForm.Parent = this;",
+    "D": "frmChildForm.MdiParent = this;",
+    "correct": "D"
+  },
+  {
+    "number": 60,
+    "question": "Để điền dữ liệu từ database vào điều khiển ComboBox, bạn sử dụng câu lệnh?",
+    "A": "ComboBox1.DataSource = tập dữ liệu",
+    "B": "ComboBox1.Source = tập dữ liệu",
+    "C": "Không có đáp án nào đúng",
+    "D": "ComboBox1.LoadDataSource = tập dữ liệu",
+    "correct": "A"
+  },
+  {
+    "number": 61,
+    "question": "Để đóng Form hiện tại, bạn sử dụng câu lệnh…",
+    "A": "me.Hide()",
+    "B": "this.Close()",
+    "C": "this.Hide()",
+    "D": "me.Close()",
+    "correct": "B"
+  },
+  {
+    "number": 62,
+    "question": "Thuộc tính AcceptButton của Form dùng để?",
+    "A": "Tạo ra nút nhấn có nhãn là Accept",
+    "B": "Không có đáp án đúng",
+    "C": "Nút được click khi nhấn phím Enter",
+    "D": "Tạo một nút nhấn trên Form",
+    "correct": "C"
+  },
+  {
+    "number": 63,
+    "question": "Để không cho phép người dùng sửa dữ liệu trong Textbox, chúng ta dùng thuộc tính?",
+    "A": "Locked",
+    "B": "Enable",
+    "C": "Text",
+    "D": "ReadOnly",
+    "correct": "D"
+  },
+  {
+    "number": 64,
+    "question": "Để khai báo biến trong C#, bạn sử dụng câu lệnh?",
+    "A": "string hoten;",
+    "B": "hoten string;",
+    "C": "dim hoten",
+    "D": "dim hoten as string",
+    "correct": "A"
+  },
+  {
+    "number": 65,
+    "question": "Thuộc tính Visible dùng để?",
+    "A": "Cho phép nhập văn bản",
+    "B": "Hiển thị hình ảnh",
+    "C": "Ẩn hoặc hiện điều khiển",
+    "D": "Không cho phép di chuyển điều khiển",
+    "correct": "C"
+  },
+  {
+    "number": 66,
+    "question": "Để cho phép kích thước ảnh phù hợp với PictureBox, bạn dùng thuộc tính?",
+    "A": "MaximumSize",
+    "B": "SizeMode",
+    "C": "Size",
+    "D": "Image",
+    "correct": "B"
+  },
+  {
+    "number": 67,
+    "question": "Thuộc tính nào dùng để đổi màu chữ của Form và các đối tượng khác trên Form?",
+    "A": "Color",
+    "B": "FontColor",
+    "C": "BackColor",
+    "D": "ForeColor",
+    "correct": "D"
+  },
+  {
+    "number": 68,
+    "question": "Để Form có kích thước to nhất khi chạy, bạn dùng thuộc tính?",
+    "A": "WindowState",
+    "B": "Không có đáp án đúng",
+    "C": "StartPosition",
+    "D": "SizeMode",
+    "correct": "A"
+  },
+  {
+    "number": 69,
+    "question": "Câu lệnh nào dùng để đóng tất cả các ứng dụng trong C#?",
+    "A": "return;",
+    "B": "Exit Sub;",
+    "C": "Application.Exit();",
+    "D": "this.Close();",
+    "correct": "C"
+  },
+  {
+    "number": 70,
+    "question": "Phương thức nào dùng để đóng Form và giải phóng tài nguyên?",
+    "A": "Show",
+    "B": "Close",
+    "C": "Exit",
+    "D": "Hide",
+    "correct": "B"
+  },
+  {
+    "number": 71,
+    "question": "Để mở hộp thoại mở File bạn sử dụng câu lệnh nào?",
+    "A": "openFileDialog1.OpenFile();",
+    "B": "openFileDialog1.ShowDialog();",
+    "C": "openFileDialog1.Open();",
+    "D": "openFileDialog1.Show();",
+    "correct": "B"
+  },
+  {
+    "number": 72,
+    "question": "Điều khiển nào cho phép người dùng xem thông tin mà không cho phép sửa khi chương trình đang chạy?",
+    "A": "RichTextBox",
+    "B": "TextBox",
+    "C": "Label",
+    "D": "ListBox",
+    "correct": "C"
+  },
+  {
+    "number": 73,
+    "question": "Phương thức Focus() trong điều khiển TextBox dùng để làm gì?",
+    "A": "Đổi màu chữ trong ô TextBox",
+    "B": "Đặt con trỏ vào trong điều khiển TextBox",
+    "C": "Không có đáp án đúng",
+    "D": "Làm cho chữ trong điều khiển TextBox đậm lên",
+    "correct": "B"
+  },
+  {
+    "number": 74,
+    "question": "Để xóa dữ liệu trong TextBox bạn dùng câu lệnh nào?",
+    "A": "Không có đáp án nào đúng",
+    "B": "TextBox1.Clear();",
+    "C": "Cả hai đáp án B và D đều đúng",
+    "D": "TextBox1.Text = \"\";",
+    "correct": "C"
+  },
+  {
+    "number": 75,
+    "question": "Điều khiển nào dùng để nhóm các thông tin có liên quan lại với nhau?",
+    "A": "ComboBox",
+    "B": "GroupBox",
+    "C": "Panel",
+    "D": "Form",
+    "correct": "B"
+  },
+  {
+    "number": 76,
+    "question": "Trong đối tượng MessageBox, câu lệnh MessageBoxIcon dùng để?",
+    "A": "Hiển thị tiêu đề cho đối tượng MessageBox",
+    "B": "Không có đáp án đúng",
+    "C": "Hiển thị các nút nhấn cho đối tượng MessageBox",
+    "D": "Hiển thị biểu tượng cho đối tượng MessageBox",
+    "correct": "D"
+  },
+  {
+    "number": 77,
+    "question": "Delegate dùng để làm gì?",
+    "A": "Truyền dữ liệu từ Form sau về Form trước",
+    "B": "Không có đáp án nào đúng",
+    "C": "Cả hai đáp án A và D đều đúng",
+    "D": "Cập nhật lại trạng thái dữ liệu",
+    "correct": "C"
+  },
+  {
+    "number": 78,
+    "question": "Để khai báo Delegate, bạn sử dụng câu lệnh nào sau đây?",
+    "A": "public delegate void truyenDL();",
+    "B": "delegate truyenDL();",
+    "C": "Không có đáp án nào đúng",
+    "D": "public void delegate truyenDL();",
+    "correct": "A"
+  },
+  {
+    "number": 79,
+    "question": "Để xóa ảnh hiện tại trong đối tượng PictureBox bạn dùng câu lệnh nào sau đây?",
+    "A": "PictureBox1.Image = \"\"",
+    "B": "Không có đáp án nào đúng",
+    "C": "PictureBox1.Image = null",
+    "D": "PictureBox1.FromFile = null",
+    "correct": "C"
+  },
+  {
+    "number": 80,
+    "question": "Để cho phép điều khiển TextBox nhập dữ liệu được trên nhiều dòng, bạn sử dụng?",
+    "A": "MultiRow",
+    "B": "MultiColumn",
+    "C": "MultiText",
+    "D": "Multiline",
+    "correct": "D"
+  },
+  {
+    "number": 81,
+    "question": "Để đóng Form nhưng không giải phóng tài nguyên?",
+    "A": "me.Close();",
+    "B": "this.Close();",
+    "C": "this.Hide();",
+    "D": "me.Hide();",
+    "correct": "C"
+  },
+  {
+    "number": 82,
+    "question": "Để tạo ra các menu cho chương trình (VD: menu bar) bạn dùng điều khiển nào?",
+    "A": "ContextMenuStrip",
+    "B": "MenuStrip",
+    "C": "ToolStrip",
+    "D": "StatusStrip",
+    "correct": "B"
+  },
+  {
+    "number": 83,
+    "question": "Để lấy ra các phần tử của điều khiển ListBox bạn dùng?",
+    "A": "ListItem",
+    "B": "Column",
+    "C": "Items",
+    "D": "Text",
+    "correct": "C"
+  },
+  {
+    "number": 84,
+    "question": "Để cho phép chia ListBox thành nhiều cột, chúng ta dùng?",
+    "A": "Multimedia",
+    "B": "Item",
+    "C": "Column",
+    "D": "MultiColumn",
+    "correct": "D"
+  },
+  {
+    "number": 85,
+    "question": "Thuộc tính nào dùng để lấy ra chỉ mục của dòng hiện thời trong ListBox?",
+    "A": "SelectedIndex",
+    "B": "SelectedValue",
+    "C": "SelectedText",
+    "D": "SelectedItem",
+    "correct": "A"
+  },
+  {
+    "number": 86,
+    "question": "Thuộc tính nào dùng để lấy ra giá trị của dòng đang được chọn trong ListBox?",
+    "A": "SelectedText",
+    "B": "SelectedItem",
+    "C": "Không có đáp án đúng",
+    "D": "SelectedValue",
+    "correct": "B"
+  },
+  {
+    "number": 87,
+    "question": "Để thêm một dòng mới vào ListBox bạn sử dụng câu lệnh?",
+    "A": "listBox1.AddNewItem(\"hello\")",
+    "B": "Không có đáp án đúng",
+    "C": "listBox1.Items.Add(\"hello\")",
+    "D": "listBox1.Items.AddNew(\"hello\")",
+    "correct": "C"
+  },
+  {
+    "number": 88,
+    "question": "ComboBox là gì?",
+    "A": "Là điều khiển giống ListBox",
+    "B": "Không có đáp án đúng",
+    "C": "Là điều khiển cho phép xem thông tin",
+    "D": "Là điều khiển cho phép nhập dữ liệu và lựa chọn dữ liệu",
+    "correct": "D"
+  },
+  {
+    "number": 89,
+    "question": "Để hiển thị hình ảnh cho điều khiển MenuStrip bạn sử dụng thuộc tính nào?",
+    "A": "Image",
+    "B": "Picture",
+    "C": "Image Source",
+    "D": "Source",
+    "correct": "A"
+  },
+  {
+    "number": 90,
+    "question": "Thế nào là ứng dụng MDI?",
+    "A": "Là ứng dụng cho phép người dùng thao tác với một cửa sổ duy nhất ở mọi thời điểm",
+    "B": "Không có đáp án đúng",
+    "C": "Là ứng dụng cho phép người dùng thao tác với nhiều cửa sổ ở một thời điểm",
+    "D": "Là ứng dụng không cho phép người dùng thao tác với nhiều cửa sổ ở một thời điểm",
+    "correct": "C"
+  },
+  {
+    "number": 91,
+    "question": "Câu lệnh nào cho biết đâu là Form cha của một Form con trong ứng dụng MDI?",
+    "A": "frmChildForm.MdiChildren = this;",
+    "B": "frmChildForm.Parent = this;",
+    "C": "frmChildForm.MdiParent = this;",
+    "D": "Không có đáp án nào đúng",
+    "correct": "C"
+  },
+  {
+    "number": 92,
+    "question": "Để điền dữ liệu từ database vào điều khiển ComboBox, bạn sử dụng câu lệnh?",
+    "A": "ComboBox1.LoadDataSource = tập dữ liệu",
+    "B": "ComboBox1.DataSource = tập dữ liệu",
+    "C": "Không có đáp án nào đúng",
+    "D": "ComboBox1.Source = tập dữ liệu",
+    "correct": "B"
+  },
+  {
+    "number": 93,
+    "question": "Để chú thích trong C# ta dùng?",
+    "A": "",
+    "B": "/* */",
+    "C": "//",
+    "D": "Cả hai đáp án B và C đều đúng",
+    "correct": "D"
+  },
+  {
+    "number": 94,
+    "question": "Chương trình sau sai ở dòng nào? 1.short x; 2.int y = 100; 3.x = (short)y;",
+    "A": "3",
+    "B": "1",
+    "C": "Không sai dòng nào",
+    "D": "2",
+    "correct": "C"
+  },
+  {
+    "number": 95,
+    "question": "Chương trình sau sai ở dòng nào? 1.short x; 2.int y = 100; 3.x = y;",
+    "A": "Không sai dòng nào",
+    "B": "3",
+    "C": "2",
+    "D": "1",
+    "correct": "B"
+  },
+  {
+    "number": 96,
+    "question": "Chương trình sau cho kết quả là gì? static void Main(string[] args) { int[] intArray = {1,2,3,4,5,6,7,8,9,10}; foreach (int item in intArray) { Console.Write(\"{0}\", item); } Console.ReadLine(); }",
+    "A": "In ra: 10 9 8 7 6 5 4 3 2 1",
+    "B": "Chương trình báo lỗi",
+    "C": "In ra: 1 2 3 4 5 6 7 8 9 10",
+    "D": "In ra: 0",
+    "correct": "C"
+  },
+  {
+    "number": 97,
+    "question": "Chương trình sau cho kết quả là gì? static void Main(string[] args) { int a = 30; int b = ++a; Console.Write(a); Console.ReadLine(); }",
+    "A": "31",
+    "B": "29",
+    "C": "32",
+    "D": "30",
+    "correct": "A"
+  },
+  {
+    "number": 98,
+    "question": "Kết quả của chương trình sau là gì? static void Main(string[] args) { int a = 30; int b = a++; Console.Write(a); Console.ReadLine(); }",
+    "A": "29",
+    "B": "32",
+    "C": "31",
+    "D": "30",
+    "correct": "C"
+  },
+  {
+    "number": 99,
+    "question": "Kết quả của chương trình sau là gì? static void Main(string[] args) { int a = 30; ++a; Console.Write(a); Console.ReadLine(); }",
+    "A": "30",
+    "B": "31",
+    "C": "29",
+    "D": "32",
+    "correct": "B"
+  },
+  {
+    "number": 100,
+    "question": "Khi nhập chuỗi: Đại Học Kinh Doanh & Công Nghệ Hà Nội Kết quả của chương trình sau là gì? static void Main(string[] args) { string hoten; Console.Write(\"\\nNhap Chuoi:\"); hoten = Console.ReadLine(); string HT = hoten.ToLower(); Console.Write(\"{0}\", HT); Console.ReadLine(); }",
+    "A": "Đại Học Kinh Doanh & Công Nghệ Hà Nội",
+    "B": "đại học kinh doanh & công nghệ hà nội",
+    "C": "ĐạI HọC KINH DOANH & CÔNG NGHệ Hà NộI",
+    "D": "",
+    "correct": "B"
+  },
+  {
+    "number": 101,
+    "question": "Anh chị hãy cho biết chương trình sau để làm gì? private void textBox1_KeyPress(object sender, KeyPressEventArgs e) { e.Handled = !((e.KeyChar > 65 && e.KeyChar < 122) || (e.KeyChar == 8)); }",
+    "A": "Nhập được cả chữ và số",
+    "B": "Không nhập được chữ và số",
+    "C": "Chỉ cho phép nhập chữ vào TextBox",
+    "D": "Chỉ cho phép nhập số vào TextBox",
+    "correct": "C"
+  },
+  {
+    "number": 102,
+    "question": "Anh chị hãy cho biết chương trình sau để làm gì? private void textBox2_KeyPress(object sender, KeyPressEventArgs e) { if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar)) { e.Handled = true; } }",
+    "A": "Không nhập được chữ và số",
+    "B": "Chỉ cho phép nhập số vào TextBox",
+    "C": "Chỉ cho phép nhập chữ vào TextBox",
+    "D": "Nhập được cả chữ và số",
+    "correct": "B"
+  },
+  {
+    "number": 103,
+    "question": "Anh chị hãy cho biết khi muốn tạo chú thích cho một đoạn chương trình ta nhấn?",
+    "A": "Ctrl + Space",
+    "B": "Ctrl + K, Ctrl + F",
+    "C": "Ctrl + K, Ctrl + U",
+    "D": "Ctrl + K, Ctrl + C",
+    "correct": "D"
+  },
+  {
+    "number": 104,
+    "question": "Anh chị hãy cho biết khi muốn bỏ chú thích cho một đoạn chương trình ta nhấn?",
+    "A": "Ctrl + K, Ctrl + U",
+    "B": "Ctrl + Space",
+    "C": "Ctrl + K, Ctrl + C",
+    "D": "Ctrl + K, Ctrl + F",
+    "correct": "A"
+  },
+  {
+    "number": 105,
+    "question": "Anh chị hãy cho biết khi muốn định dạng một đoạn chương trình cho ngay hàng thẳng lối ta nhấn?",
+    "A": "Ctrl + K, Ctrl + C",
+    "B": "Ctrl + Space",
+    "C": "Ctrl + K, Ctrl + F",
+    "D": "Ctrl + K, Ctrl + U",
+    "correct": "C"
+  },
+  {
+    "number": 106,
+    "question": "Anh chị hãy cho biết khi muốn hiển thị gợi ý cú pháp ta nhấn?",
+    "A": "Ctrl + K, Ctrl + F",
+    "B": "Ctrl + Space",
+    "C": "Ctrl + K, Ctrl + U",
+    "D": "Ctrl + K, Ctrl + C",
+    "correct": "B"
+  },
+  {
+    "number": 107,
+    "question": "Anh chị hãy cho biết ngôn ngữ C# không hỗ trợ?",
+    "A": "Implement nhiều Interface",
+    "B": "Đơn kế thừa",
+    "C": "Implement một Interface",
+    "D": "Đa kế thừa",
+    "correct": "D"
+  },
+  {
+    "number": 108,
+    "question": "Hãy lựa chọn phát biểu đúng. Trong C#:",
+    "A": "Một lớp chỉ có thể được kế thừa tối đa một lớp cha.",
+    "B": "Có thể tạo một thể hiện của một Interface.",
+    "C": "Một lớp có thể có nhiều lớp cha.",
+    "D": "Có thể tạo thể hiện của một lớp abstract.",
+    "correct": "A"
+  },
+  {
+    "number": 109,
+    "question": "Đoạn chương trình sau cho kết quả là bao nhiêu? int tich, i; tich = 0; for (i = 1; i <= 5; i++) { tich = tich * i; } Console.WriteLine(tich);",
+    "A": "120",
+    "B": "5",
+    "C": "0",
+    "D": "1",
+    "correct": "C"
+  },
+  {
+    "number": 110,
+    "question": "Đoạn chương trình sau cho kết quả là bao nhiêu? int tich, i; tich = 1; for (i = 1; i <= 5; i = i + 2) { tich = tich * i; } Console.WriteLine(tich);",
+    "A": "18",
+    "B": "15",
+    "C": "17",
+    "D": "16",
+    "correct": "B"
+  },
+  {
+    "number": 111,
+    "question": "Đoạn chương trình sau cho kết quả là bao nhiêu? int tich, i; tich = 1; for (i = 1; i <= 3; i++) { tich = tich * 1; } Console.WriteLine(tich);",
+    "A": "6",
+    "B": "3",
+    "C": "8",
+    "D": "1",
+    "correct": "D"
+  },
+  {
+    "number": 112,
+    "question": "Đoạn chương trình sau cho kết quả là bao nhiêu? int tong, i; tong = 1; for (i = 1; i <= 7; i = i + 2) { tong = tong + i; } Console.WriteLine(tong);",
+    "A": "17",
+    "B": "15",
+    "C": "18",
+    "D": "16",
+    "correct": "A"
+  },
+  {
+    "number": 113,
+    "question": "Câu lệnh nào dùng để khai báo thủ tục khởi tạo cho class diem?",
+    "A": "public string diem(){}",
+    "B": "public diem(){}",
+    "C": "Không có đáp án đúng",
+    "D": "public diem{}",
+    "correct": "B"
+  },
+  {
+    "number": 114,
+    "question": "Cách khai báo và khởi tạo đối tượng trong C#?",
+    "A": "tên_lớp tên_đối_tượng()",
+    "B": "tên_đối_tượng tên_lớp()",
+    "C": "tên_lớp tên_đối_tượng = new tên_lớp()",
+    "D": "tên_lớp tên_đối_tượng = tên_lớp()",
+    "correct": "C"
+  },
+  {
+    "number": 115,
+    "question": "Trong C# có tối đa là bao nhiêu phương thức Main()?",
+    "A": "3",
+    "B": "2",
+    "C": "1",
+    "D": "Không giới hạn",
+    "correct": "D"
+  },
+  {
+    "number": 116,
+    "question": "Lớp nhanvien kế thừa được những gì ở lớp nguoi? class nhanvien : nguoi { } class nguoi { private string hoten; public string getName { get { return hoten; } } public void hienthi() { } }",
+    "A": "hoten, hienthi",
+    "B": "getName, hienthi",
+    "C": "hoten, getName",
+    "D": "hoten, getName, hienthi",
+    "correct": "B"
+  },
+  {
+    "number": 117,
+    "question": "Chương trình sau sẽ gọi thủ tục khởi tạo nào? class Program { static void Main(string[] args) { nguoi obj = new nhanvien(); } } class nguoi { private string hoten; 1. public nguoi() { } 2. public nguoi(string name, int age) { } 3. public nguoi(string name) { } }",
+    "A": "3",
+    "B": "2",
+    "C": "Chương trình bị lỗi",
+    "D": "1",
+    "correct": "D"
+  },
+  {
+    "number": 118,
+    "question": "Chương trình sau sẽ gọi thủ tục khởi tạo nào? class Program { static void Main(string[] args) { nguoi obj = new nhanvien(23); } } class nguoi { private string hoten; 1. public nguoi() { } 2. public nguoi(string name, int age) { } 3. public nguoi(string name) { } }",
+    "A": "1",
+    "B": "Chương trình bị lỗi",
+    "C": "3",
+    "D": "2",
+    "correct": "B"
+  },
+  {
+    "number": 119,
+    "question": "Chương trình sau sẽ gọi thủ tục khởi tạo nào? class Program { static void Main(string[] args) { nguoi obj = new nhanvien(\"nguyen thi lan\"); } } class nguoi { private string hoten; 1. public nguoi() { } 2. public nguoi(string name, int age) { } 3. public nguoi(string name) { } }",
+    "A": "2",
+    "B": "1",
+    "C": "3",
+    "D": "Chương trình bị lỗi",
+    "correct": "C"
+  },
+  {
+    "number": 120,
+    "question": "Trong C#, để khai báo một phương thức của lớp là phương thức tĩnh ta dùng từ khóa?",
+    "A": "static",
+    "B": "public",
+    "C": "internal",
+    "D": "void",
+    "correct": "A"
+  },
+  {
+    "number": 121,
+    "question": "Từ khóa nào sau đây được dùng khi lớp con muốn cài đặt lại phương thức được thừa kế từ lớp cha?",
+    "A": "abstract",
+    "B": "override",
+    "C": "new",
+    "D": "virtual",
+    "correct": "B"
+  },
+  {
+    "number": 122,
+    "question": "Trong C#, cấu trúc nào sau đây được dùng để bắt và xử lý các ngoại lệ?",
+    "A": "do/loop",
+    "B": "if/else",
+    "C": "Catch/Finally",
+    "D": "Try/Catch",
+    "correct": "D"
+  },
+  {
+    "number": 123,
+    "question": "Mỗi khối try/catch có tối đa bao nhiêu finally?",
+    "A": "1",
+    "B": "Vô số",
+    "C": "3",
+    "D": "2",
+    "correct": "A"
+  },
+  {
+    "number": 124,
+    "question": "Kết quả đoạn chương trình sau là gì? int giatri = 1; int i; for (i = 1; i <= 7; i += 2) { giatri = giatri * i; } Console.WriteLine(giatri);",
+    "A": "35",
+    "B": "7",
+    "C": "105",
+    "D": "110",
+    "correct": "C"
+  },
+  {
+    "number": 125,
+    "question": "Kết quả đoạn chương trình sau là gì? int giatri = 1; int i = 1; while (i <= 5) { giatri = giatri * i; } Console.WriteLine(giatri);",
+    "A": "120",
+    "B": "Vòng lặp vô hạn",
+    "C": "100",
+    "D": "20",
+    "correct": "B"
+  },
+  {
+    "number": 126,
+    "question": "Kết quả đoạn chương trình sau là gì? int giatri = 1; int i = 1; while (i <= 5) { giatri = giatri * i; i = i + 2; } Console.WriteLine(giatri);",
+    "A": "120",
+    "B": "25",
+    "C": "5",
+    "D": "15",
+    "correct": "D"
+  },
+  {
+    "number": 127,
+    "question": "Kết quả đoạn chương trình sau là gì? int giatri = 0; int i = 1; while (i <= 5) { giatri = giatri * i; i = i + 2; } Console.WriteLine(giatri);",
+    "A": "0",
+    "B": "25",
+    "C": "120",
+    "D": "15",
+    "correct": "A"
+  },
+  {
+    "number": 128,
+    "question": "Kết quả đoạn chương trình sau là gì? int so; so = 7; if (so > 9) { Console.Write(\"hello\"); } else if (so > 5) { Console.Write(\"good day!\"); } else { Console.Write(\"good luck!\"); }",
+    "A": "good luck!",
+    "B": "Không có đáp án đúng",
+    "C": "good day!",
+    "D": "hello",
+    "correct": "C"
+  },
+  {
+    "number": 129,
+    "question": "Kết quả đoạn chương trình sau là gì? int tich, i; tich = 1; for (i = 1; i <= 6; i++) { tich = tich * i; } Console.Write(tich);",
+    "A": "Tính 6 giai thừa",
+    "B": "Tính tích các số từ 1 đến 6",
+    "C": "Cả hai đáp án trên đều đúng",
+    "D": "Không có đáp án đúng",
+    "correct": "C"
+  },
+  {
+    "number": 130,
+    "question": "Để lấy dữ liệu từ cơ sở dữ liệu, trước tiên bạn phải kết nối với cơ sở dữ liệu SQL Server bằng cách sử dụng _________.",
+    "A": "SqlDataReader",
+    "B": "SqlConnection",
+    "C": "SqlCommand",
+    "D": "OleDbDataReader",
+    "correct": "B"
+  },
+  {
+    "number": 131,
+    "question": "Một đối tượng ____ là một đại diện của các đối tượng cơ sở dữ liệu trong bộ nhớ cache.",
+    "A": "DataReader",
+    "B": "SqlCommand",
+    "C": "DataSet",
+    "D": "DataAdapter",
+    "correct": "C"
+  },
+  {
+    "number": 132,
+    "question": "Sử dụng _______ để lấy dữ liệu theo điều kiện nào đó một cách nhanh chóng.",
+    "A": "DataTable",
+    "B": "DataView",
+    "C": "DataAdapter",
+    "D": "DataSet",
+    "correct": "B"
+  },
+  {
+    "number": 133,
+    "question": "Lớp _______ để tạo gắn kết giữa phần giao diện (UI) và dữ liệu.",
+    "A": "SqlConnection",
+    "B": "Control",
+    "C": "BindingSource",
+    "D": "Binding",
+    "correct": "D"
+  },
+  {
+    "number": 134,
+    "question": "__________ dùng để thực thi các câu truy vấn như INSERT, DELETE, UPDATE.",
+    "A": "Cmd.ExecuteNonQuery()",
+    "B": "Cmd.ExecuteReader()",
+    "C": "Cmd.ExecuteUpdate()",
+    "D": "Cmd.ExecuteScalar()",
+    "correct": "A"
+  },
+  {
+    "number": 135,
+    "question": "Để thao tác với cơ sở dữ liệu trong C#, bạn cần những đối tượng nào?",
+    "A": "SqlConnection, DataTable, SqlDataReader",
+    "B": "SqlConnection, SqlCommand, DataTable",
+    "C": "SqlConnection, SqlCommand, SqlDataAdapter",
+    "D": "SqlConnection, DataTable, SqlDataAdapter",
+    "correct": "C"
+  },
+  {
+    "number": 136,
+    "question": "SqlConnection là đối tượng dùng để?",
+    "A": "Là một đối tượng dùng để đọc dữ liệu được trả về",
+    "B": "Tạo một kết nối đến cơ sở dữ liệu trên server",
+    "C": "Không có đáp án đúng",
+    "D": "Thực thi một câu truy vấn",
+    "correct": "B"
+  },
+  {
+    "number": 137,
+    "question": "Để điền dữ liệu vào cho điều khiển DataGridView, bạn khai báo câu lệnh?",
+    "A": "dataGridView1.RowSource = nguồn dữ liệu",
+    "B": "Không có đáp án đúng",
+    "C": "dataGridView1.DataMember = nguồn dữ liệu",
+    "D": "dataGridView1.DataSource = nguồn dữ liệu",
+    "correct": "D"
+  },
+  {
+    "number": 138,
+    "question": "Chúng ta cần những tham số nào cho lớp SqlConnection?",
+    "A": "server; database; integrated security",
+    "B": "database; integrated security; password",
+    "C": "server; database; username",
+    "D": "server; password; database",
+    "correct": "A"
+  },
+  {
+    "number": 139,
+    "question": "Trước khi thực hiện kết nối tới Server ta phải chuẩn bị các tham số sau:",
+    "A": "Username; Password (nếu có) của Server cần kết nối đến.",
+    "B": "Địa chỉ IP của Server cần kết nối đến.",
+    "C": "Tên Server muốn kết nối; Username; Password (nếu có) của Server cần kết nối đến.",
+    "D": "Tên Server muốn kết nối đến.",
+    "correct": "C"
+  },
+  {
+    "number": 140,
+    "question": "Cơ sở dữ liệu trong SQL Server chia thành hai loại:",
+    "A": "CSDL quản trị và CSDL tương tự.",
+    "B": "CSDL hệ thống và CSDL người dùng.",
+    "C": "CSDL người dùng và CSDL tính toán.",
+    "D": "CSDL hệ thống và CSDL quản trị.",
+    "correct": "B"
+  },
+  {
+    "number": 141,
+    "question": "Trong CSDL SQL Server, cơ sở dữ liệu Master thuộc:",
+    "A": "CSDL người dùng.",
+    "B": "CSDL quản trị.",
+    "C": "CSDL hệ thống.",
+    "D": "CSDL tương tự.",
+    "correct": "C"
+  },
+  {
+    "number": 142,
+    "question": "Để thiết lập chế độ bảo mật (Security Mode) ta thực hiện:",
+    "A": "Vào Server và chọn Security.",
+    "B": "Vào Server/Database/Security.",
+    "C": "Vào Server/Database/Kích phải chuột chọn Security.",
+    "D": "Kích phải chuột lên vùng làm việc của Server; chọn Properties/Security.",
+    "correct": "D"
+  },
+  {
+    "number": 143,
+    "question": "Tạo CSDL. Khi cửa sổ New Database xuất hiện, để xác định kích thước khởi tạo cho CSDL là 10 MB ta sẽ thiết lập tại mục:",
+    "A": "Init Size",
+    "B": "Autogrowth",
+    "C": "Owner",
+    "D": "Filegroup",
+    "correct": "A"
+  },
+  {
+    "number": 144,
+    "question": "Tạo CSDL. Khi cửa sổ New Database xuất hiện, mục Autogrowth sử dụng để thiết lập:",
+    "A": "Tên CSDL.",
+    "B": "Kích thước tăng trưởng tự động của CSDL.",
+    "C": "Đường dẫn đặt file CSDL.",
+    "D": "Kích thước khởi tạo của file CSDL.",
+    "correct": "B"
+  },
+  {
+    "number": 145,
+    "question": "Không gian tên nào chứa các điều khiển trên Windows Form?",
+    "A": "System.Windows.Controls",
+    "B": "System.Windows.Forms.UI",
+    "C": "System.Windows.Forms",
+    "D": "System.Windows.Controls.UI",
+    "correct": "C"
+  },
+  {
+    "number": 146,
+    "question": "Tất cả các Windows Form đều thừa kế từ lớp?",
+    "A": "Page",
+    "B": "Window",
+    "C": "Tất cả đều sai.",
+    "D": "Form",
+    "correct": "D"
+  },
+  {
+    "number": 147,
+    "question": "Phương thức nào sau đây của lớp SqlCommand chắc chắn không làm thay đổi dữ liệu?",
+    "A": "ExecuteScalar",
+    "B": "ExecuteReader",
+    "C": "ExecuteReadOnly",
+    "D": "ExecuteNonQuery",
+    "correct": "B"
+  },
+  {
+    "number": 148,
+    "question": "Để tạo một User Control trong Windows Form, ta tạo một lớp thừa kế từ lớp?",
+    "A": "TextBox",
+    "B": "Control",
+    "C": "Tất cả đều đúng",
+    "D": "UserControl",
+    "correct": "D"
+  },
+  {
+    "number": 149,
+    "question": "Để một Form trở thành một MDI Form ta làm thế nào?",
+    "A": "Gán thuộc tính IsMdiContainer bằng true",
+    "B": "Gán thuộc tính IsMdiChild bằng false",
+    "C": "Gán thuộc tính IsMdiContainer bằng false",
+    "D": "Gán thuộc tính IsMdiChild bằng true",
+    "correct": "A"
+  },
+  {
+    "number": 150,
+    "question": "Sự kiện nào của TextBox chắc chắn xảy ra khi người dùng gõ một phím trên TextBox?",
+    "A": "TextChanged",
+    "B": "KeyPress",
+    "C": "Cả A và B đúng",
+    "D": "Cả A và B sai",
+    "correct": "B"
+  },
+  {
+    "number": 151,
+    "question": "Phương thức nào sau đây dùng để hiện một Form?",
+    "A": "ShowDialog",
+    "B": "Cả A và D sai",
+    "C": "Cả A và D đúng",
+    "D": "Show",
+    "correct": "C"
+  },
+  {
+    "number": 152,
+    "question": "Để cho TextBox txtPW không hiển thị nội dung khi gõ vào, cách nào sau đây là đúng?",
+    "A": "txtPW.Visible = false",
+    "B": "txtPW.PasswordChar = '*';",
+    "C": "Cả A, B và D đều đúng",
+    "D": "txtPW.TextMode = TextMode.Password",
+    "correct": "B"
+  },
+  {
+    "number": 153,
+    "question": "Thuộc tính nào cho biết chỉ số của phần tử được chọn trong ListBox?",
+    "A": "SelectedItem",
+    "B": "Cả A và D đúng",
+    "C": "Cả A và D sai",
+    "D": "SelectedIndex",
+    "correct": "D"
+  },
+  {
+    "number": 154,
+    "question": "Khi một ListBox không có phần tử nào được chọn thì:",
+    "A": "SelectedIndex bằng 0",
+    "B": "SelectedItem bằng null",
+    "C": "Cả A và B đúng",
+    "D": "Cả A và B sai",
+    "correct": "B"
+  },
+  {
+    "number": 155,
+    "question": "Cho lst là một ListBox. Khi gọi phương thức lst.FindString(\"abc\") thì kết quả trả về là gì?",
+    "A": "Chỉ số phần tử đầu tiên có chuỗi bắt đầu bằng \"abc\"",
+    "B": "True/False cho biết có phần tử \"abc\" trong ListBox không.",
+    "C": "Tất cả đều sai",
+    "D": "Chỉ số phần tử có nội dung là \"abc\"",
+    "correct": "A"
+  },
+  {
+    "number": 156,
+    "question": "Lớp SqlConnection nằm trong namespace nào?",
+    "A": "System.Data.Connection",
+    "B": "System.Data",
+    "C": "System.Data.SqlClient",
+    "D": "System.Data.Sql",
+    "correct": "C"
+  },
+  {
+    "number": 157,
+    "question": "Phương thức nào của SqlDataAdapter dùng để SELECT dữ liệu từ Server và lưu vào DataTable?",
+    "A": "Save",
+    "B": "Fill",
+    "C": "Select",
+    "D": "ExecuteReader",
+    "correct": "B"
+  },
+  {
+    "number": 158,
+    "question": "Phương thức nào của lớp SqlDataAdapter dùng để lưu những thay đổi dữ liệu từ một DataTable lên Server?",
+    "A": "ExecuteNonQuery",
+    "B": "UpdateCommand",
+    "C": "Save",
+    "D": "Update",
+    "correct": "D"
+  },
+  {
+    "number": 159,
+    "question": "Đối tượng nào trong ADO.NET cho phép thực thi các câu lệnh SQL?",
+    "A": "SqlCommand",
+    "B": "SqlDataReader",
+    "C": "SqlExecuteCommand",
+    "D": "SqlConnection",
+    "correct": "A"
+  },
+  {
+    "number": 160,
+    "question": "Đối tượng SqlDataAdapter có thể đổ dữ liệu SELECT lên đối tượng nào sau đây?",
+    "A": "DataTable",
+    "B": "Cả A và D sai",
+    "C": "Cả A và D đúng",
+    "D": "DataSet",
+    "correct": "C"
+  },
+  {
+    "number": 161,
+    "question": "Phương thức ______ thực thi các phát biểu SQL, thủ tục nội tại và trả về số bản ghi được thực thi.",
+    "A": "ExecuteReader",
+    "B": "ExecuteNonQuery",
+    "C": "ExecuteXmlReader",
+    "D": "ExecuteScalar",
+    "correct": "B"
+  },
+  {
+    "number": 162,
+    "question": "Phương thức ______ thực thi phát biểu SQL Server, giá trị trả về là kiểu đối tượng (object).",
+    "A": "ExecuteNonQuery",
+    "B": "ExecuteReader",
+    "C": "ExecuteScalar",
+    "D": "ExecuteXmlReader",
+    "correct": "C"
+  },
+  {
+    "number": 163,
+    "question": "Phương thức ______ trả về tập các giá trị chỉ đọc một chiều và dùng đối tượng SqlDataReader để nắm giữ tập dữ liệu đó.",
+    "A": "ExecuteScalar",
+    "B": "ExecuteXmlReader",
+    "C": "ExecuteNonQuery",
+    "D": "ExecuteReader",
+    "correct": "D"
+  },
+  {
+    "number": 164,
+    "question": "Phương thức ______ trả về tập dữ liệu có định dạng XML và sử dụng đối tượng XmlReader để nắm giữ tập dữ liệu đó.",
+    "A": "ExecuteXmlReader",
+    "B": "ExecuteReader",
+    "C": "ExecuteScalar",
+    "D": "ExecuteNonQuery",
+    "correct": "A"
+  },
+  {
+    "number": 165,
+    "question": "Để khai báo và khởi tạo đối tượng SqlCommand ta chọn: a) sqlCommand = new SqlCommand(); b) sqlCommand = new SqlCommand(string CommandText); c) sqlCommand = new SqlCommand(string CommandText, SqlConnection sqlConnection); d) sqlCommand = new SqlCommand(string CommandText, SqlConnection sqlConnection, SqlTransaction sqlTransaction);",
+    "A": "a và c",
+    "B": "b",
+    "C": "Tất cả đều đúng",
+    "D": "a",
+    "correct": "C"
+  },
+  {
+    "number": 166,
+    "question": "Thuộc tính ______ cho phép khai báo một chuỗi phát biểu SQL Server.",
+    "A": "CommandTimeout",
+    "B": "CommandText",
+    "C": "Connection",
+    "D": "CommandType",
+    "correct": "B"
+  },
+  {
+    "number": 167,
+    "question": "Thuộc tính ______ cho phép ta chọn một trong 3 giá trị enum là: Text, TableDirect, StoredProcedure.",
+    "A": "Connection",
+    "B": "CommandText",
+    "C": "CommandTimeout",
+    "D": "CommandType",
+    "correct": "D"
+  },
+  {
+    "number": 168,
+    "question": "Thuộc tính ______ cho phép khai báo thời gian chờ thực thi phát biểu SQL được tính bằng giây.",
+    "A": "CommandTimeout",
+    "B": "CommandType",
+    "C": "Connection",
+    "D": "CommandText",
+    "correct": "A"
+  },
+  {
+    "number": 169,
+    "question": "Thuộc tính ______ cho phép ta khởi tạo đối tượng SqlConnection mà không cần phải thông báo qua Constructor.",
+    "A": "CommandText",
+    "B": "CommandTimeout",
+    "C": "Connection",
+    "D": "CommandType",
+    "correct": "C"
+  },
+  {
+    "number": 170,
+    "question": "Đối tượng SqlConnection [using System.Data.SqlClient;] Kết nối theo đặc quyền SQL Server với cú pháp: Server = Servername[\\InstanceName]; Database = Databasename; User ID = Username; Password = YourPassword; [Connection Timeout = second;] [port = portno;] [Persist Security Info = true;] Servername có thể là _____?",
+    "A": "(local) hoặc (.)",
+    "B": "(.) hoặc (địa chỉ IP)",
+    "C": "(local) hoặc (.) hoặc (địa chỉ IP)",
+    "D": "",
+    "correct": "C"
+  }
+]
